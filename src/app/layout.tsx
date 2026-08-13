@@ -9,6 +9,7 @@ import WaFab from "@/components/WaFab";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
+  generator: "Next.js",
   title: "Software House in Lahore | Custom Software Development",
   description:
     "CodeSumMix is a software house and development agency in Lahore building custom software, web and mobile apps, AI automation and EdTech platforms.",
