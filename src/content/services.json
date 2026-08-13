@@ -1,0 +1,1228 @@
+[
+ {
+  "slug": "custom-software",
+  "navTitle": "Custom Software",
+  "h1": "Software shaped around the way you already work",
+  "eyebrow": "Service · Custom Software",
+  "lede": "Most businesses outgrow their spreadsheets and shared inboxes long before they admit it. We build the platform that replaces them: designed around your actual process, owned by you, maintained by the people who wrote it. We do exactly the same for our own product.",
+  "metaTitle": "Custom Software Development Company | CodeSumMix",
+  "metaDescription": "Custom software development for education and logistics teams: Laravel, React and AWS platforms live in Kuwait, Pakistan and the USA. Founder-led delivery.",
+  "keywords": "custom software development, custom software development company, bespoke software development, software house in Lahore, Laravel development, enterprise software development, software development agency, custom application development, software development Pakistan, API development",
+  "stats": [
+   {
+    "value": "Cargonio",
+    "label": "our own freight ERP: we sell it and support it"
+   },
+   {
+    "value": "One API, 3 apps",
+    "label": "web, iOS and Android off a single backend"
+   },
+   {
+    "value": "Your repos",
+    "label": "source, servers and keys under your accounts"
+   },
+   {
+    "value": "Docker + CI/CD",
+    "label": "same deploy path from laptop to production"
+   }
+  ],
+  "overview": {
+   "heading": "When the off-the-shelf option nearly fits",
+   "paragraphs": [
+    "Every packaged product makes an assumption about how you work. When that assumption is close enough, buy it: we will tell you so, and we have. The projects worth building are the ones where the mismatch is quietly costing you hours: the reconciliation someone redoes every Friday, the WhatsApp group that has become a job queue, the three systems that disagree about the same invoice. Custom software is worth it when the process is the business, not when it is merely inconvenient.",
+    "We build those systems, and we run one of our own. Cargonio is our product: a multi-tenant freight-forwarding ERP covering air and sea import-export operations, invoicing, PRA and FBR e-IMS tax filing, double-entry accounting, HR, payroll and over a hundred reports. It is not a demo built for a portfolio. It has customers, a release cycle, migrations that have to run on live data and support tickets we answer ourselves. Everything that taught us goes straight into client work."
+   ],
+   "bullets": [
+    {
+     "title": "Founder-led",
+     "desc": "You deal directly with the people building it."
+    },
+    {
+     "title": "One team, whole stack",
+     "desc": "Backend, frontend, mobile and hosting in-house."
+    },
+    {
+     "title": "Tested before release",
+     "desc": "Two QA engineers on every build."
+    },
+    {
+     "title": "Yours from day one",
+     "desc": "Code, repos and accounts in your name."
+    }
+   ]
+  },
+  "capabilities": [
+   {
+    "title": "Internal tools that replace the spreadsheet",
+    "desc": "Job files, approvals, scheduling, stock, commissions: the work your team currently tracks in Excel and chat threads, moved into one system with roles, permissions and an audit trail of who changed what. Most of our builds start here, because this is where the pain is measurable."
+   },
+   {
+    "title": "Multi-tenant SaaS products",
+    "desc": "Cargonio gave us the awkward parts in production: data separation between tenants, per-tenant settings and branding, subscription billing, and shipping a change to everyone at once without breaking the customer who configured things differently. If you are selling software into your own industry, that is the same problem set."
+   },
+   {
+    "title": "Compliance and government integrations",
+    "desc": "PRA and FBR e-IMS fiscal invoicing in Pakistan, MyFatoorah in Kuwait, Stripe for card payments elsewhere. The interesting work is not the happy path: it is retries, reconciliation, idempotency, and deciding what the user sees when a government endpoint is down for the afternoon."
+   },
+   {
+    "title": "Accounting, invoicing and reporting",
+    "desc": "Double-entry ledgers that actually balance, PDF invoices and statements generated with dompdf, and reports written after watching someone export to Excel and pivot it by hand. Finance teams are the harshest users you will have; build for them early."
+   },
+   {
+    "title": "Mobile apps on the same platform",
+    "desc": "React Native for iOS and Android against the same API as the web app, so a change to a rule does not have to be implemented three times. We ship and maintain both stores for Bright Future's e-learning platform in Kuwait, including video delivery over Bunny CDN."
+   },
+   {
+    "title": "Rebuilds and inherited codebases",
+    "desc": "If you already have something that half works, we read it before proposing to throw it away. The usual answer is to replace it module by module while the old system keeps running, rather than a big-bang rewrite that leaves you with nothing usable for a year."
+   }
+  ],
+  "process": [
+   {
+    "title": "Sit with the workflow",
+    "desc": "Before we estimate anything, we spend time with the people who do the job today: what they type twice, where the process really breaks, which report the boss actually opens. Most of the requirements that matter are never in the brief."
+   },
+   {
+    "title": "Scope in phases, price per phase",
+    "desc": "We split the build into phases that each end in something you can put into real use, and quote them one at a time. You see working software early, and you are never committed to a year of unknowns on the strength of one document."
+   },
+   {
+    "title": "Build in the open, test properly",
+    "desc": "Weekly builds on a staging environment you can log into and poke at. Our two QA engineers test each release against the workflow we mapped rather than the wording of the ticket, which is how the gaps between the two get found."
+   },
+   {
+    "title": "Launch, then keep going",
+    "desc": "We migrate the real data, run old and new side by side where the risk warrants it, and stay on afterwards. Nearly every platform we have launched is still being changed: that is normal for software built around a business, and we price for it rather than pretending it ends."
+   }
+  ],
+  "stack": [
+   "Laravel",
+   "PHP",
+   "MySQL",
+   "React",
+   "TypeScript",
+   "Next.js",
+   "Node.js",
+   "React Native",
+   "Tailwind CSS",
+   "Spatie packages",
+   "dompdf",
+   "Docker",
+   "AWS",
+   "DigitalOcean"
+  ],
+  "faqs": [
+   {
+    "q": "How do you price a bespoke build?",
+    "a": "We quote in phases, each at a fixed price, after a short paid discovery where we sit with the people who do the job today. A single number for a whole platform off a one-page brief is a guess, and you end up paying for the guess in change requests. Worth knowing: a fixed price carries a margin for the unknowns, so if your spec is genuinely settled you may do better asking us for a day rate. Discovery is chargeable whether or not you go ahead."
+   },
+   {
+    "q": "How soon will we have something we can actually use?",
+    "a": "The first phase is deliberately built around one workflow you can run live: real data, a handful of your own people, and that usually takes six to ten weeks from kickoff. It will feel narrower than you pictured: reporting, the awkward permission cases and the mobile app land in later phases. A full platform arrives over several months in stages, each one useful on its own. We would rather give you a date we hit than one that sounds better."
+   },
+   {
+    "q": "Who owns the code and the repositories?",
+    "a": "The work is yours, and we do it in repositories on your GitHub or GitLab from the first week rather than in ours with a transfer promised later. Servers, domains and third-party keys go on accounts you control, with us added as collaborators you can remove. Two honest exceptions: Cargonio stays our product: you can licence it, not buy its source, and where we reuse our own internal packages you get a perpetual licence to them rather than a pretence that we wrote them for you. Nothing in the setup needs us present for it to keep running."
+   },
+   {
+    "q": "What happens when our requirements change mid-build?",
+    "a": "Expect that to happen. The requirements that matter usually surface once people are clicking something real, not in a workshop. The phase in flight keeps its agreed scope and new thinking goes into the next one with its own estimate, which does mean a good idea in week three can sit waiting for a month. Anything that shifts a price or a date is written up and agreed before we start it, and we will say plainly when a change is not worth what it costs."
+   },
+   {
+    "q": "Who looks after it once it is live?",
+    "a": "The engineers who wrote it; with nine of us there is no support desk to be passed to. A monthly retainer covers fixes, dependency and framework upgrades, monitoring, and an agreed allowance of small changes, while hosting sits on your own AWS or DigitalOcean account so leaving us is a credentials handover, not a migration. What we do not run is a 24/7 rota: urgent problems get same-day attention on Pakistan hours, and if you need overnight cover we will help you arrange it instead of claiming it is included."
+   }
+  ],
+  "ctaTitle": "Show us the spreadsheet everything runs on",
+  "ctaSub": "Send the process that keeps breaking: the file, the chat thread, the report someone rebuilds every Friday. We will come back with a straight view of what is worth building, what you should buy instead, and what a sensible first phase costs."
+ },
+ {
+  "slug": "ai-solutions",
+  "navTitle": "AI & Automation",
+  "h1": "Put AI where the manual work actually is.",
+  "eyebrow": "Service · AI Solutions & Automation",
+  "lede": "Most of the real value in AI today is unglamorous: reading documents, drafting the first version, answering the same question for the hundredth time. We build those features into products that already exist and already have users, then measure whether anyone actually saved time.",
+  "metaTitle": "AI Development Company | Automation Services | CodeSumMix",
+  "metaDescription": "An AI development company applying automation, document processing and LLM integrations to real business workflows: built on the stack we already run.",
+  "keywords": "AI development company, AI solutions, AI automation services, workflow automation, LLM integration, machine learning development, AI chatbot development, intelligent document processing, AI consultancy Pakistan, business process automation",
+  "stats": [
+   {
+    "value": "Inside your app",
+    "label": "features ship into the product you already run"
+   },
+   {
+    "value": "Training opt-out",
+    "label": "set on every provider account we configure"
+   },
+   {
+    "value": "Human approves",
+    "label": "nothing writes or sends without a person confirming"
+   },
+   {
+    "value": "Your own keys",
+    "label": "model spend billed direct, capped, never marked up"
+   }
+  ],
+  "overview": {
+   "heading": "AI that earns its place in the product",
+   "paragraphs": [
+    "We are a product studio first, and nearly all of our AI work sits inside something we already build and maintain: a Laravel API, a Next.js dashboard, a React Native app. That matters. The value is not in the model; it is in the data, the permissions and the workflow already sitting in your database, and in putting the output on a screen someone opens every morning anyway.",
+    "So we start narrow. One workflow, your real records, and a small set of test cases that says plainly whether the output is good enough. If a database query, a rules engine or a better-designed form beats a model, we will tell you: it is cheaper to run, easier to explain to your auditors, and it does not quietly change behaviour when a provider ships a new version."
+   ],
+   "bullets": [
+    {
+     "title": "Embedded, not bolted on",
+     "desc": "Ships inside the product you already run"
+    },
+    {
+     "title": "Grounded answers",
+     "desc": "Cited back to your own documents"
+    },
+    {
+     "title": "Human in the loop",
+     "desc": "People approve anything that writes or pays"
+    },
+    {
+     "title": "Costs visible from day one",
+     "desc": "Usage metered, capped and reported"
+    }
+   ]
+  },
+  "capabilities": [
+   {
+    "title": "LLM features inside your existing product",
+    "desc": "Summaries, drafts, classification, tagging and natural-language search added to the screens your users already know. We put them behind feature flags, so a feature can be switched off for one customer or everyone without waiting on a release."
+   },
+   {
+    "title": "Chatbots that stay on topic",
+    "desc": "Support, onboarding and internal help assistants grounded in your own content rather than the open internet, with a clear escalation path to a human and a full transcript you can audit afterwards."
+   },
+   {
+    "title": "RAG and document search",
+    "desc": "Ingestion, chunking, embeddings and retrieval across your PDFs, course notes, policies and contracts, so staff can ask a question in plain English and get an answer with a link to the exact source page."
+   },
+   {
+    "title": "Document and data extraction",
+    "desc": "Invoices, bills of lading, purchase orders and scanned forms turned into structured records with a review step before anything posts. This is where our freight work benefits most: far fewer keystrokes per shipment file."
+   },
+   {
+    "title": "Workflow automation",
+    "desc": "Queued jobs, scheduled tasks, routing rules, approvals and integrations that move work between systems without anyone re-typing it. Often the biggest single win on a project, and often no model is needed at all."
+   },
+   {
+    "title": "Evaluation, guardrails and cost control",
+    "desc": "A test set built from your real cases, versioned prompts, rate limits, spend caps, fallbacks for when a provider is slow, and logging of every call. You can see what it costs and whether quality moved."
+   }
+  ],
+  "process": [
+   {
+    "title": "Find the expensive step",
+    "desc": "We sit with the people doing the work and map the workflow as it really runs, not as the SOP describes it. You get a written scope naming the one or two steps worth automating, and a rough monthly running cost before anyone writes code."
+   },
+   {
+    "title": "Prototype on your data",
+    "desc": "A short spike against your real records, with a set of cases you would call right or wrong. It answers one question: is this good enough to show a user?, and gives you a genuine stop point before the build budget is committed."
+   },
+   {
+    "title": "Build it into the product",
+    "desc": "Our engineers build the feature into the existing codebase with the same review and release process as everything else, and both our QA engineers test it. Permissions, edge cases, retries and a sensible fallback when the model is unavailable all get handled here."
+   },
+   {
+    "title": "Measure, tune, hand over",
+    "desc": "Usage and cost dashboards, logs you can inspect, and prompts and configuration kept in your repository so your own team can change them. Then a walkthrough with whoever will own it, and written notes on what to watch."
+   }
+  ],
+  "stack": [
+   "Laravel",
+   "PHP 8",
+   "Node.js",
+   "TypeScript",
+   "React",
+   "Next.js",
+   "React Native",
+   "MySQL",
+   "Docker",
+   "AWS",
+   "DigitalOcean",
+   "spatie packages"
+  ],
+  "faqs": [
+   {
+    "q": "Where does our data actually go, and could it end up training a public model?",
+    "a": "Requests go to the provider you approve, through an API account in your organisation's own name with training and retention switched off. Business API tiers are contractually excluded from training in a way consumer chat apps are not, which is exactly why we stop staff pasting records into a browser tab instead. We redact or tokenise names, ID numbers and payment details before the call whenever the task does not need them, and log every request so an audit is possible later. If your rules say nothing may leave your infrastructure at all, that is doable with a self-hosted open-weight model: it will be slower and less capable, and we would rather tell you that now than after you have paid for it."
+   },
+   {
+    "q": "What happens when the model gets something wrong?",
+    "a": "It will get things wrong, so we design as though it already has. Anything that writes to your database, sends a message or moves money is proposed by the model and confirmed by a person or a rule: one click to approve, never a re-type. Retrieval answers are cited back to the source document, so a wrong answer is visible in seconds rather than trusted for a month. We also keep a set of your real cases with known-correct answers, which means accuracy drifting after a provider updates a model shows up as a failing test rather than a customer complaint."
+   },
+   {
+    "q": "What will this cost us to run each month once it is live?",
+    "a": "Cheaper than most people expect for text, dearer than most expect for images and long scanned documents. A support assistant handling a few thousand messages a month usually sits in the tens of dollars of model spend; extracting data from hundreds of scanned pages a day is where the bill becomes a real line item, and we model that during the prototype so you see the figure before committing. Usage runs on your own provider account with per-feature metering and a hard spend cap, so a runaway loop stops instead of quietly billing you. Hosting and any support retainer are quoted separately: we do not bundle them into a single vague AI fee."
+   },
+   {
+    "q": "Do we need to train our own model?",
+    "a": "Almost certainly not. Nearly every business problem we are asked to solve is a retrieval and prompting problem: the answer already exists in your documents and your database, and the work is getting the right context in front of a general model. Fine-tuning earns its place in narrow, high-volume tasks with a fixed output format, and even then we try prompting and retrieval first, because a fine-tune has to be redone every time the base model moves on. Training a model from scratch is a research budget, not a software budget: if someone is selling you one for a business workflow, ask what it does that a well-built prompt cannot."
+   },
+   {
+    "q": "How does AI fit into software we already have?",
+    "a": "That is the usual case for us: a Laravel job, an API endpoint, a panel on a screen your team already opens every morning, rather than a separate AI tool nobody remembers to log into. The model call sits behind one small interface in your repository, so changing provider or model later is a config change and a re-run of the test set. The hard part is rarely the model; it is permissions, making certain the assistant cannot surface a record the person asking is not allowed to see, which we enforce with the same access rules as the rest of the application. Where your existing code is old or undocumented, expect a week or two of reading it before we touch anything."
+   }
+  ],
+  "ctaTitle": "Got a pile of documents someone reads by hand?",
+  "ctaSub": "Describe the task and roughly how often it happens. You'll get a straight answer on whether a model genuinely helps, what it would cost to run each month, and which parts a plain rule would handle for nothing."
+ },
+ {
+  "slug": "web-applications",
+  "navTitle": "Web Applications",
+  "h1": "Web apps that load fast and stay easy to run",
+  "eyebrow": "Service · Web Applications",
+  "lede": "We build the web side of a product properly: public pages that get found and load quickly, customer portals people sign into every day, and the admin dashboard your team actually runs the business from. Laravel and React underneath, Next.js or hand-written HTML where weight matters.",
+  "metaTitle": "Web Development Company in Lahore | CodeSumMix",
+  "metaDescription": "A web development company building fast, secure web applications in Laravel, React and Next.js: seven client platforms live across three countries.",
+  "keywords": "web development company, web application development, web development Lahore, Laravel web development, React development, Next.js development, custom web applications, full stack development, progressive web apps, web development agency Pakistan",
+  "stats": [
+   {
+    "value": "Server-rendered",
+    "label": "First paint is HTML, not a loading spinner"
+   },
+   {
+    "value": "Crawlable day 1",
+    "label": "Metadata, sitemaps and structured data written during the build"
+   },
+   {
+    "value": "Every build",
+    "label": "Ships with an admin dashboard your staff run themselves"
+   },
+   {
+    "value": "Keyboard-first",
+    "label": "Focus states, labels and contrast checked before release"
+   }
+  ],
+  "overview": {
+   "heading": "One team for the API, the dashboard and the public site",
+   "paragraphs": [
+    "A web app is rarely one thing. There is usually a public side that has to be found on Google and open on a poor connection, a logged-in side where customers do real work, and an internal dashboard where your staff keep the whole thing moving. We build all three, plus the API sitting underneath them, so the same people are responsible from the database to the button.",
+    "That matters because the awkward problems live between layers: a report that disagrees with the invoice, a filter that crawls once the table gets large, a page that renders fine on your laptop and blank for a user in another timezone. When one team owns the API and the screens, those get fixed rather than argued about. We have done this on Bright Future's admin panel in Kuwait, where staff manage enrolments, revenue and video content daily, and on Cargonio, the freight ERP we own and sell ourselves."
+   ],
+   "bullets": [
+    {
+     "title": "Fast by default",
+     "desc": "Server-rendered HTML, small payloads, honest Lighthouse scores"
+    },
+    {
+     "title": "Dashboards built for daily use",
+     "desc": "Filters, exports, permissions, audit trails"
+    },
+    {
+     "title": "SEO handled during the build",
+     "desc": "Clean URLs, metadata, sitemaps, structured data"
+    },
+    {
+     "title": "A codebase you own",
+     "desc": "Handed over with docs and deploy notes"
+    }
+   ]
+  },
+  "capabilities": [
+   {
+    "title": "Admin dashboards and back offices",
+    "desc": "The screen your team lives in: users, orders, invoices, revenue, roles and activity logs. We built the React admin panel behind Bright Future and the operations dashboard in Cargonio, both used every working day."
+   },
+   {
+    "title": "Customer portals and logged-in areas",
+    "desc": "Accounts, subscriptions, billing history, document downloads and support requests. Role and permission handling with spatie packages, JWT or session auth, and sensible rate limits on anything public."
+   },
+   {
+    "title": "Marketing sites that rank",
+    "desc": "Static or server-rendered pages with clean URLs, proper metadata, sitemaps and structured data. Next.js where the content is dynamic, hand-coded HTML with Tailwind and Alpine where a framework would only add weight."
+   },
+   {
+    "title": "Reporting, exports and documents",
+    "desc": "Filterable reports, CSV exports, and PDFs generated with dompdf: invoices, statements, certificates and statutory forms. Cargonio ships over a hundred reports built on this pattern."
+   },
+   {
+    "title": "Payments and integrations",
+    "desc": "Stripe for USD, MyFatoorah for Kuwait, Bunny CDN for protected HLS video, plus government tax APIs like PRA and FBR e-IMS. We deal with webhooks, retries and reconciliation, not just the checkout button."
+   },
+   {
+    "title": "Multi-tenant SaaS",
+    "desc": "Separate data per organisation, per-tenant branding, plans and user limits, with one deployment to maintain. We solved this on our own product before offering it as a service."
+   }
+  ],
+  "process": [
+   {
+    "title": "Scope and wireframes",
+    "desc": "We start with the screens, not the schema. A short discovery pass turns your requirements into wireframes and a written scope, so you can see what you are buying before anyone writes code."
+   },
+   {
+    "title": "Data model and API first",
+    "desc": "The database and API get built and reviewed early, because that is the part which is expensive to change later. A staging environment goes up as soon as there is something worth looking at."
+   },
+   {
+    "title": "Build in visible slices",
+    "desc": "We ship one module at a time, tested and on staging, rather than disappearing for three months. Our two QA engineers go through each slice on real browsers and devices before it reaches you."
+   },
+   {
+    "title": "Launch, hand over, support",
+    "desc": "Deployment to your own AWS or DigitalOcean account, Docker where it earns its place, then documentation, admin training and the repository transferred to you. We stay close while the first real users arrive."
+   }
+  ],
+  "stack": [
+   "Laravel",
+   "PHP",
+   "React",
+   "TypeScript",
+   "Next.js",
+   "Node.js",
+   "Tailwind CSS",
+   "Alpine.js",
+   "MySQL",
+   "AWS",
+   "DigitalOcean",
+   "Docker",
+   "Stripe",
+   "dompdf"
+  ],
+  "faqs": [
+   {
+    "q": "How fast will it actually be, and how do you prove it?",
+    "a": "We agree a performance budget at scoping and test against it on a throttled mid-range Android over 4G, because that is what most of your users hold, not a laptop on office fibre. Public pages are server-rendered, and once real traffic arrives we watch Largest Contentful Paint and Interaction to Next Paint in Search Console rather than relying on lab scores alone. A logged-in dashboard with a forty-column table will never measure like a marketing page, so each gets its own target and we say which is which. The usual thing that undoes it later is third-party scripts: every chat widget and ad pixel added after launch spends some of what we optimised for."
+   },
+   {
+    "q": "Can our team edit the content without calling you?",
+    "a": "Yes, and we plan for it from the start rather than bolting a CMS on afterwards. Marketing pages, pricing tables, FAQs and blog posts go behind an editor your staff can use, with the layout constrained so nobody can accidentally break the design. What we deliberately do not make editable is anything structural: page templates, checkout flows, permission rules, because those need testing before they change. If ranking well matters to you, our SEO work is a separate conversation and its own page."
+   },
+   {
+    "q": "Where does it get hosted, and who pays for that?",
+    "a": "On your own AWS or DigitalOcean account, billed directly to you, so nothing sits behind our card and you are never locked out of your own servers. A small Laravel or Next.js app usually runs to tens of dollars a month; what pushes the bill up is video, file storage and transactional email rather than the application itself. We set up the servers, SSL and backups and hand you the keys: if your procurement is slow we can host under ours temporarily and transfer it, though we would rather not leave it that way for long. Ongoing monitoring, patching and upgrades are optional and priced separately from the build."
+   },
+   {
+    "q": "Which browsers and devices will it work on?",
+    "a": "Current Chrome, Safari, Firefox and Edge on desktop, plus Safari on iOS and Chrome on Android, with layouts built up from the small screen rather than squeezed down to it. QA runs each release on real handsets, not a browser window dragged narrow: emulators hide keyboard behaviour, scroll quirks and how a dense table feels under a thumb. Anything older is a conversation, not an assumption: Internet Explorer, ageing Android WebViews and locked-down corporate browsers can be supported, but they change how the CSS and JavaScript are written, so tell us at scoping instead of during testing."
+   },
+   {
+    "q": "Should we redesign what we have or rebuild it?",
+    "a": "It depends on whether the problem is the surface or the foundation. If the content model still matches how you work and the code is maintainable, a redesign is the cheaper answer and it keeps the search history you have already earned. Rebuild when the platform is out of support, when the CMS fights every change you ask for, or when the performance problems are structural: a new stylesheet will not fix any of those. The middle path suits more clients than expect it: keep the current site running and replace it section by section, so you are never staking everything on one launch day."
+   }
+  ],
+  "ctaTitle": "Send us a link and a login",
+  "ctaSub": "Point us at the site or dashboard you run today, or a rough sketch, if it does not exist yet. You will get back an honest read on its speed and search setup, what we would keep, what we would rebuild, and a first phase small enough to customise and sign off inside a week."
+ },
+ {
+  "slug": "mobile-apps",
+  "navTitle": "Mobile Apps",
+  "h1": "Native-feeling iOS and Android apps, built once",
+  "eyebrow": "Service · Mobile Apps",
+  "lede": "We build iOS and Android apps from a single React Native codebase, so one team ships both stores instead of two teams slowly drifting apart. The Bright Future student apps are live in Kuwait: course catalogue, cart, payments and HD video lessons, on both platforms.",
+  "metaTitle": "Mobile App Development | iOS & Android | CodeSumMix",
+  "metaDescription": "React Native apps for iOS and Android, built alongside the Laravel APIs that power them: one team from backend to App Store release. See our work.",
+  "keywords": "mobile app development, mobile app development company, React Native development, iOS app development, Android app development, cross-platform app development, mobile app developers Lahore, e-learning mobile apps, app development Pakistan, custom mobile applications",
+  "stats": [
+   {
+    "value": "One codebase",
+    "label": "iOS and Android from a single React Native project"
+   },
+   {
+    "value": "Both stores",
+    "label": "We submit, answer review notes and resubmit"
+   },
+   {
+    "value": "Real devices",
+    "label": "Tested on physical handsets, not only simulators"
+   },
+   {
+    "value": "HLS video",
+    "label": "Bunny CDN streaming built in, not bolted on later"
+   }
+  ],
+  "overview": {
+   "heading": "One team, both stores.",
+   "paragraphs": [
+    "Two separate native teams means two backlogs, two sets of bugs, and a feature that reaches Android a month after iOS. We build in React Native and TypeScript so there is one codebase, one release plan, and one team answering for both platforms: dropping into native code where a feature genuinely needs it rather than on principle.",
+    "The Bright Future student apps run on iOS and Android in Kuwait: students browse a course catalogue, pay for enrolment, and watch HD video lessons that stay locked to the account that bought them. The Laravel API behind those apps is ours as well, which is why the app and the backend agree on what a course actually is."
+   ],
+   "bullets": [
+    {
+     "title": "One codebase",
+     "desc": "iOS and Android stay in step"
+    },
+    {
+     "title": "Backend included",
+     "desc": "We build and run the API too"
+    },
+    {
+     "title": "Real-device testing",
+     "desc": "Two QA engineers on every release"
+    },
+    {
+     "title": "Store submission",
+     "desc": "App Store and Play, handled by us"
+    }
+   ]
+  },
+  "capabilities": [
+   {
+    "title": "One codebase, two platforms",
+    "desc": "The app is written once in React Native and TypeScript, with native modules where a platform demands them: biometrics, camera, screen-recording blocks. Features land on iOS and Android in the same release, not weeks apart."
+   },
+   {
+    "title": "The API behind the app",
+    "desc": "Most of our apps sit on a Laravel or Node API we build and maintain ourselves. When something breaks there is nobody to point at: one team owns both sides of the contract and fixes whichever end is wrong."
+   },
+   {
+    "title": "Paid content and in-app checkout",
+    "desc": "Carts, coupons, instalment plans and invoices, wired to Stripe or to MyFatoorah for Gulf customers. The Bright Future apps take payment for course enrolment inside the app and unlock content the moment the payment clears."
+   },
+   {
+    "title": "Video that stays protected",
+    "desc": "HLS streaming through Bunny CDN with per-chapter access checks, resume-where-you-left-off progress, and device limits so one student login is not shared around a whole class."
+   },
+   {
+    "title": "Push, deep links and patchy networks",
+    "desc": "Notifications that open the correct screen, links that survive a cold start, and sensible behaviour when the connection drops mid-action. Apps get used on mobile data in lifts and car parks, so we test them that way."
+   },
+   {
+    "title": "Store releases and updates",
+    "desc": "We prepare listings, screenshots and privacy declarations, push builds through TestFlight and Play's testing tracks, and answer reviewer questions until approval comes through. Then we do it again for every update."
+   }
+  ],
+  "process": [
+   {
+    "title": "Scope the screens, not the wishlist",
+    "desc": "We start from what someone needs to do on a phone and work back to screens, states and API calls. You get a written scope and a build order before anyone opens an editor."
+   },
+   {
+    "title": "Build in two-week slices",
+    "desc": "Each slice ends with a build you can install and use: TestFlight on iOS, an internal track on Android. Your feedback goes into the next slice instead of arriving as a report at the end."
+   },
+   {
+    "title": "Test on real handsets",
+    "desc": "Our two QA engineers work through each release on physical iPhones and Android devices, including older models and small screens. Bugs get found before submission rather than in a one-star review."
+   },
+   {
+    "title": "Submit, then stay on",
+    "desc": "We handle both store submissions and the weeks after launch: crash reports, quick fixes, and the OS updates that arrive every autumn and quietly break things."
+   }
+  ],
+  "stack": [
+   "React Native",
+   "TypeScript",
+   "Laravel",
+   "PHP",
+   "Node",
+   "MySQL",
+   "Stripe",
+   "MyFatoorah",
+   "Bunny CDN (HLS)",
+   "AWS",
+   "DigitalOcean",
+   "Docker",
+   "Xcode & TestFlight",
+   "Google Play Console"
+  ],
+  "faqs": [
+   {
+    "q": "Why React Native rather than fully native Swift and Kotlin?",
+    "a": "Because it gets you two apps for close to the cost of one, and React Native handles the kind of product we build well: content, video, bookings, dashboards, payments. The honest limit: if you need heavy 3D, AR, frame-perfect custom gestures or serious background processing, native is the better buy and we will say so before you spend anything. When one screen needs native muscle, we write that piece in Swift or Kotlin and bridge it, instead of rebuilding the whole app around it."
+   },
+   {
+    "q": "Who handles App Store and Play Store submission, and what happens if the app gets rejected?",
+    "a": "We do: builds, signing, screenshots, privacy labels, Play's data safety form, the release notes. Submission runs through developer accounts registered to your company, so the listings, reviews and signing keys stay with you. First submissions do get bounced: missing in-app account deletion, a privacy label that does not match what the app actually collects, Sign in with Apple required alongside a social login. We write the reply, fix the cause and resubmit; Apple review usually turns around within a day or two."
+   },
+   {
+    "q": "Will the app work without an internet connection?",
+    "a": "Partly, by default: login sessions, cached lists and anything already downloaded stay usable, while fresh data and streamed video do not. Proper offline, meaning queued actions that sync on reconnect and lessons that play on a plane, is buildable but it is a real feature with real cost rather than a checkbox. Video is the awkward part: CDN-streamed content is online-only unless we add secured downloads, which brings storage and licensing decisions with it. Decide this early, because retrofitting offline into a finished app is the expensive route."
+   },
+   {
+    "q": "How do updates reach users after launch?",
+    "a": "Anything touching native code ships as a new store release: we submit, review clears, users update. JavaScript-only changes such as copy fixes, layout tweaks and most bug patches can go out over the air and land the next time someone opens the app, skipping the review queue entirely. We also put a version check in the API so you can prompt or force an update when a release actually matters. Worth knowing: over-the-air updates cannot add native libraries or change what the app fundamentally does: both stores draw a hard line there."
+   },
+   {
+    "q": "Does one codebase genuinely cover both platforms, or is that a sales line?",
+    "a": "Most of it genuinely is shared: screens, navigation, state, the API layer and your business rules get written once. The parts that split are predictable: push notification setup, permissions, in-app purchase and payment flows, file handling, the Android back button, and the small conventions that make each platform feel native rather than ported. So one codebase saves you building the app twice; it does not save you testing it twice, and Android fragmentation means more handsets on the desk. We build and test both platforms from the first sprint instead of shipping iOS and porting later, which is where most teams get caught out."
+   }
+  ],
+  "ctaTitle": "One build, both app stores",
+  "ctaSub": "Tell us the screens, who uses them, and what has to keep working with no signal. You will get back a build plan, the device list we will test on, and an honest read on how store review is likely to go."
+ },
+ {
+  "slug": "crm-solutions",
+  "navTitle": "CRM Solutions",
+  "h1": "One system your sales and ops both trust",
+  "eyebrow": "Service · CRM Solutions",
+  "lede": "Most CRM trouble isn't the CRM. It's sales working in one tool, finance in another, and support guessing. We set up Salesforce, Zoho or Bitrix24 to match how your team actually sells, then wire it into the systems you already run.",
+  "metaTitle": "CRM Solutions | Salesforce, Zoho & Bitrix24 | CodeSumMix",
+  "metaDescription": "CRM solutions that sales teams actually use: Salesforce, Zoho and Bitrix24 set up, customised and integrated with the systems you already run.",
+  "keywords": "CRM solutions, CRM development, CRM development company, Salesforce implementation, Zoho CRM development, Bitrix24 CRM, custom CRM software, CRM integration services, sales automation software, CRM consultancy Lahore",
+  "stats": [
+   {
+    "value": "Three platforms",
+    "label": "Salesforce, Zoho and Bitrix24"
+   },
+   {
+    "value": "Two-way sync",
+    "label": "Accounting, website and support desk connected"
+   },
+   {
+    "value": "Adoption first",
+    "label": "Judged on who logs in, not seats bought"
+   },
+   {
+    "value": "Licences direct",
+    "label": "Paid to the vendor, never resold through us"
+   }
+  ],
+  "overview": {
+   "heading": "A CRM shaped around your process, not the other way round",
+   "paragraphs": [
+    "A CRM only earns its licence fee when it reflects how the business actually works. So we start with the process rather than the platform: who owns a lead, what happens the moment it becomes a deal, where finance picks it up, and which of those steps is currently held together by a spreadsheet and somebody's memory. Only then do we configure Salesforce, Zoho or Bitrix24 around it.",
+    "The hard part is rarely the CRM itself: it's everything the CRM needs to talk to. We build and run production systems in Laravel, Node, React and React Native for clients in Kuwait, Pakistan and the USA, and we own a freight ERP, Cargonio, with its own invoicing and double-entry accounting. So when your CRM has to sync with a billing system, an ERP, a booking flow or your website forms, we can write both sides of that integration instead of pointing at a plugin and hoping."
+   ],
+   "bullets": [
+    {
+     "title": "Platform choice",
+     "desc": "Salesforce, Zoho or Bitrix24: chosen honestly"
+    },
+    {
+     "title": "Customisation",
+     "desc": "Fields, stages and permissions that fit you"
+    },
+    {
+     "title": "Integration",
+     "desc": "Your CRM talks to billing and ops"
+    },
+    {
+     "title": "Migration",
+     "desc": "Old records moved in clean, not dumped"
+    }
+   ]
+  },
+  "capabilities": [
+   {
+    "title": "Platform selection and setup",
+    "desc": "We help you choose between Salesforce, Zoho and Bitrix24 on seat cost, process complexity and how much admin time you can spare. Then we configure pipelines, stages, roles, permissions and record layouts so the first week in the system isn't a fight."
+   },
+   {
+    "title": "Customisation and workflow automation",
+    "desc": "Custom objects and fields, validation rules, lead assignment, escalation and approval steps, quote and invoice templates. Built with Salesforce Flow, Zoho Deluge or Bitrix24's own automation rather than bolt-on scripts nobody can maintain later."
+   },
+   {
+    "title": "Integration with the systems you already run",
+    "desc": "Two-way sync between the CRM and the tools that hold the money and the work: billing, ERP, support inbox, website forms, Stripe. Where an off-the-shelf connector won't do the job, we write and host the middleware ourselves."
+   },
+   {
+    "title": "Data migration and clean-up",
+    "desc": "Years of spreadsheets, old CRM exports and duplicate contacts turned into one clean structure. We map the fields, run a dry import for you to check, then run the real one with a rollback plan agreed in advance."
+   },
+   {
+    "title": "Reporting and dashboards",
+    "desc": "Pipeline by stage, per-rep activity, conversion, ageing deals and revenue against target. Native CRM dashboards where they're enough, and a separate reporting view when the numbers genuinely live in more than one system."
+   },
+   {
+    "title": "Custom portals and extensions",
+    "desc": "When the CRM's own screens are wrong for a customer, partner or field team, we build a focused React or Laravel front-end that reads and writes through the CRM API. One source of truth, a UI people will actually use."
+   }
+  ],
+  "process": [
+   {
+    "title": "Map the process before touching the CRM",
+    "desc": "A few working sessions with the people who actually sell and deliver. We write down the stages, the handoffs, the fields you truly need and the reports leadership asks for, then agree the scope in writing so there are no surprises later."
+   },
+   {
+    "title": "Configure in a sandbox",
+    "desc": "The configuration is built in a sandbox or trial account and demoed to you weekly with your own field names on screen. Changing your mind at this stage costs almost nothing, which is precisely why we show you early and often."
+   },
+   {
+    "title": "Integrate, migrate and test",
+    "desc": "Integrations go in, data is imported as a dry run for you to inspect, and our two QA engineers work through every flow from lead to deal to invoice before anyone depends on it. Problems are cheaper to find here than on day one."
+   },
+   {
+    "title": "Go live, train and hand over",
+    "desc": "Short recorded walkthroughs per role, written admin notes, and credentials plus repositories transferred into your name. We stay close during the first weeks while people settle in, then move to whatever support arrangement suits you."
+   }
+  ],
+  "stack": [
+   "Salesforce",
+   "Zoho",
+   "Bitrix24",
+   "HubSpot",
+   "Laravel",
+   "PHP",
+   "Node",
+   "React",
+   "TypeScript",
+   "Next.js",
+   "MySQL",
+   "AWS",
+   "DigitalOcean",
+   "Stripe"
+  ],
+  "faqs": [
+   {
+    "q": "Salesforce, Zoho or Bitrix24: how do we decide?",
+    "a": "Count the seats, count the genuine exceptions in your sales process, and be honest about whether anyone internally will own the admin work. Bitrix24 is the cheapest way to get deals, tasks, chat and telephony under one roof, and the interface is busier for it. Zoho gives you a lot of function per seat, but its modules are separate products underneath and joining them up properly takes effort. Salesforce only repays its cost past a certain complexity: real custom objects, real reporting demands, and it expects a named administrator; without one you have bought a very expensive contact list."
+   },
+   {
+    "q": "We've got years of leads sitting in spreadsheets. What happens to them?",
+    "a": "They get mapped, deduplicated and imported, but the tidying is a joint job and it is usually where the project's timeline actually goes. We take your files, propose a field mapping and a written rule for what counts as a duplicate, then run a dry import into a sandbox so you can inspect your own records before anything is committed. Expect a few columns to have no home: free-text notes that three people used for three different purposes, statuses that meant one thing in 2019 and something else now. The original files stay archived and untouched, so a judgement call we get wrong is recoverable."
+   },
+   {
+    "q": "What do the platform licences cost on top of your fees?",
+    "a": "You pay those directly to Salesforce, Zoho or Bitrix24. We don't resell licences and take no margin on them, so nothing in it for us if you go up a tier. Budget per user per month, billed annually for the better rate, and understand that the edition jump is where the real money hides: sandboxes, API call limits, storage and the more advanced automation are what typically force an upgrade, not headcount. The two habits worth avoiding are buying the top edition because a demo showed something you might use one day, and paying for seats belonging to people who will never sign in."
+   },
+   {
+    "q": "How do you get the sales team to actually use it?",
+    "a": "Mostly by removing the reasons not to: as few mandatory fields as we can get away with, their live deals imported before day one so the system isn't an empty room, activity captured automatically from email and calls where the platform allows it, and a mobile view that works from a car park. The rest is not a software problem. If the weekly pipeline review still runs off a manager's spreadsheet or a WhatsApp update, reps will keep the spreadsheet and the CRM will quietly rot. We say that at the start, because it predicts whether a rollout sticks better than anything we configure."
+   },
+   {
+    "q": "Can it talk to our accounting system, our website and our support inbox?",
+    "a": "Usually, and we try the native connector first: if something off the shelf does the job, paying us to write one is a waste of your money. Where it falls short we build and host middleware in Laravel or Node, the same work we do on our own products, so enquiries, quotes and invoices move across without anyone re-typing them. The decision that matters is which system owns which field: two-way sync sounds appealing until both sides change a customer's address on the same afternoon and something has to win. We normally make one system the master per field, log every sync, and give you a screen showing what failed instead of letting it fail quietly."
+   }
+  ],
+  "ctaTitle": "Tell us how a lead becomes an invoice today",
+  "ctaSub": "Send over the spreadsheets, the shared inbox rules, and whatever CRM someone already bought. We'll map what your pipeline actually looks like today and which platform fits it without a rebuild."
+ },
+ {
+  "slug": "cloud-devops",
+  "navTitle": "Cloud & DevOps",
+  "h1": "Deploy without drama, on infrastructure you own",
+  "eyebrow": "Service · Cloud & DevOps",
+  "lede": "Most production trouble we see isn't in the code. It's a server nobody has logged into for two years, a deploy that only one person knows how to run, and a backup that has never been restored. We fix that part: containers, pipelines, alerts, and a cloud bill you can explain.",
+  "metaTitle": "Cloud & DevOps Services | AWS & Docker | CodeSumMix",
+  "metaDescription": "Cloud and DevOps services on AWS and DigitalOcean: Dockerised deployments, CI/CD pipelines, monitoring and backups that keep live platforms online.",
+  "keywords": "cloud and DevOps services, AWS infrastructure setup, DigitalOcean deployment, Docker containerisation, CI/CD pipeline setup, Laravel deployment, server monitoring, database backups, zero-downtime releases, cloud migration, cloud cost optimisation, DevOps services Lahore",
+  "stats": [
+   {
+    "value": "One image",
+    "label": "the same container runs local, staging and live"
+   },
+   {
+    "value": "AWS and DO",
+    "label": "Both clouds in daily use: chosen per project, not by habit"
+   },
+   {
+    "value": "Push to deploy",
+    "label": "CI/CD pipelines build, test and ship; nobody edits the server"
+   },
+   {
+    "value": "Alerts, not logs",
+    "label": "Monitoring wired to reach a person, not sit in a dashboard"
+   }
+  ],
+  "overview": {
+   "heading": "Infrastructure a small team can actually run",
+   "paragraphs": [
+    "We keep seven platforms running in production across Kuwait, Pakistan and the USA: an e-learning system streaming HLS video to thousands of students, a two-sided veterinary marketplace taking card payments, freight software that files invoices with a government tax service. None of those have a dedicated operations department behind them. They have a handful of engineers, which is why our setups have to be simple enough that a busy team keeps using them under pressure.",
+    "That shapes the work. For DVM Central we containerised the Laravel back end and Next.js storefront and deploy them on DigitalOcean, so the thing running locally is the same thing running for customers. Elsewhere it is AWS: EC2 behind Apache, S3 for media, managed MySQL, certificates that renew themselves. We pick the boring option on purpose and write down how it works."
+   ],
+   "bullets": [
+    {
+     "title": "Containerised by default",
+     "desc": "One image, same behaviour everywhere"
+    },
+    {
+     "title": "One-command releases",
+     "desc": "No SSH-and-hope deploys"
+    },
+    {
+     "title": "Alerts that reach a person",
+     "desc": "Errors, uptime and certificate expiry"
+    },
+    {
+     "title": "Backups we have restored",
+     "desc": "Tested recovery, not just scheduled dumps"
+    }
+   ]
+  },
+  "capabilities": [
+   {
+    "title": "AWS and DigitalOcean infrastructure",
+    "desc": "We size and build the whole environment: compute, managed MySQL, object storage on S3 or Spaces, DNS, SSL and firewall rules. Small enough to be affordable at today's traffic, shaped so growth doesn't mean starting again."
+   },
+   {
+    "title": "Docker and matching environments",
+    "desc": "Applications are containerised so local, staging and production run the same image, and \"works on my machine\" stops being an argument. DVM Central's Laravel and Next.js stack runs this way on DigitalOcean, and a new engineer is productive in an afternoon rather than a week."
+   },
+   {
+    "title": "CI/CD pipelines",
+    "desc": "Push to a branch, tests run, the image builds, the release goes out with database migrations in the right order and a rollback path behind it. Releases become routine instead of an event people schedule around."
+   },
+   {
+    "title": "Monitoring, logging and error tracking",
+    "desc": "Sentry for application errors, uptime and SSL expiry checks, disk, queue and backup alerts routed to someone who can act. We have watched an expired certificate take down an API, an admin panel and a mobile app at the same moment: that check now goes on every setup we touch."
+   },
+   {
+    "title": "Backups, restores and database care",
+    "desc": "Automated backups are the easy half of the job. We test the restore, record how long a full recovery actually takes, and keep migrations reversible so a bad release is an inconvenience rather than a crisis."
+   },
+   {
+    "title": "Scaling, media delivery and cost control",
+    "desc": "Video and large files move to Bunny CDN or object storage instead of hammering your application servers, while queues and caching take pressure off MySQL. Then we right-size instances, because most cloud bills are paying for headroom nobody uses."
+   }
+  ],
+  "process": [
+   {
+    "title": "Audit what is running today",
+    "desc": "Read access to servers, DNS, database and repository, then a written description of how a release currently happens: including the manual steps nobody admits to. Most of the real risk surfaces in this first week."
+   },
+   {
+    "title": "Put the environment in code",
+    "desc": "Dockerfiles, compose or service definitions, environment variables in a proper secret store, provisioning steps committed to your repository. Nothing important should live only in one engineer's shell history."
+   },
+   {
+    "title": "Pipeline, staging and cutover",
+    "desc": "We build the pipeline and a staging environment that genuinely matches production, rehearse the release there, then move traffic in a planned window with a rollback ready. Cutovers happen during your quiet hours, not ours."
+   },
+   {
+    "title": "Monitoring and handover",
+    "desc": "Alerts wired to the people who can respond, a runbook covering deploy, rollback, logs and restore, and a working session with your team. After that you either run it yourselves or keep us on monthly cover."
+   }
+  ],
+  "stack": [
+   "Docker",
+   "Docker Compose",
+   "AWS EC2",
+   "AWS S3",
+   "DigitalOcean",
+   "DigitalOcean Spaces",
+   "Apache",
+   "MySQL",
+   "Certbot / Let's Encrypt",
+   "Sentry",
+   "Bunny CDN",
+   "Laravel",
+   "Node",
+   "Next.js"
+  ],
+  "faqs": [
+   {
+    "q": "How do we stop the cloud bill from running away?",
+    "a": "Most runaway bills come from three places: instances sized for a launch spike and never resized, storage and old snapshots nobody deleted, and bandwidth. We measure real usage for a couple of weeks before right-sizing anything, move heavy video and file delivery onto a CDN like Bunny where egress costs a fraction of a cloud provider's, and set billing alerts so the number reaches you mid-month instead of arriving as an invoice. One trade-off worth naming plainly: the cheapest shape is one region and one server, so every saving on redundancy is resilience you no longer have. We'll show you where that line sits and let you pick the side of it you want to be on."
+   },
+   {
+    "q": "What actually happens if something goes down at 2am?",
+    "a": "The infrastructure is built to recover on its own first: health checks and container restart policies bring failed services back, and load balancers stop routing to an instance that has stopped answering. Uptime monitoring and Sentry then fire to a phone rather than into a dashboard nobody is watching. Each project gets a written runbook: how to roll back the last deploy, how to restore a database, who to call at the hosting provider, so the fix does not depend on one person's memory. We will be straight about response times before you sign anything rather than after."
+   },
+   {
+    "q": "Can you move us off our current host without taking the site down?",
+    "a": "The pattern is to build the new environment alongside the old one, replicate the database into it, rehearse the cutover against a copy, then switch DNS with the TTL lowered days beforehand. For most applications that means a short read-only window rather than a real outage: typically minutes, scheduled at your quietest hour. Anyone promising literally zero downtime on a primary database swap is glossing over something. The old host stays paid for and running a week afterwards, because a rollback plan is only real if the thing you're rolling back to still exists."
+   },
+   {
+    "q": "How are backups handled, and how quickly could we actually be back up?",
+    "a": "Nightly database dumps plus provider-level snapshots, stored away from the machine they came from, so losing a server never means losing the backups with it. The number that matters isn't how often you back up: it's when you last restored one, so we run a test restore into a scratch environment and time it, which turns recovery from a guess into a figure you can plan around. For a typical single-server Laravel application that's an hour or two to be serving again, with up to a day of data at risk if you're on nightly dumps alone. If losing a day is unacceptable, point-in-time recovery closes that gap and costs more in both storage and setup; for anything touching payments it's usually money well spent."
+   },
+   {
+    "q": "Who can get into production, and how is that access controlled?",
+    "a": "Named accounts with SSH keys, password logins and direct root access switched off, and no shared credentials floating around in chat threads. Changes reach production through the pipeline rather than someone editing a file over SSH, which means there's a record of what shipped, when, and off which commit. Secrets live in environment configuration or the provider's parameter store, never in the repository. Access is granted per person and removed the day they leave the project: that applies to our engineers too, and you can revoke ours whenever you like without breaking a single deploy."
+   }
+  ],
+  "ctaTitle": "Show us your hosting bill and your deploy steps",
+  "ctaSub": "An hour on a call is usually enough to tell you what's oversized, what's fragile, and what we'd change first. You get that read whether or not you hire us."
+ },
+ {
+  "slug": "ui-ux-design",
+  "navTitle": "UI/UX & Product Design",
+  "h1": "Prove the interface works before the code gets written",
+  "eyebrow": "Service · UI/UX & Product Design",
+  "lede": "Most design problems are cheap to fix in a prototype and expensive to fix in production. We research the people who will actually use the thing, map the flows, build something clickable, and only then write code. What ships has already been argued about.",
+  "metaTitle": "UI UX Design Services for Web & Mobile | CodeSumMix",
+  "metaDescription": "Research-led UI and UX design services: user flows, wireframes, clickable prototypes and design systems, validated with real users before code begins.",
+  "keywords": "UI UX design services, product design agency, user research, wireframing, clickable prototypes, design systems, dashboard UX design, admin panel design, mobile app UI design, SaaS product design, Figma to React, UI UX design Lahore",
+  "stats": [
+   {
+    "value": "Prototype first",
+    "label": "Click through the real flows before a line of code is written"
+   },
+   {
+    "value": "Design system",
+    "label": "Components, tokens and states, not a folder of loose screens"
+   },
+   {
+    "value": "Research-led",
+    "label": "We watch the actual work happen before we draw anything"
+   },
+   {
+    "value": "Web + mobile",
+    "label": "One product language across browser, iOS and Android"
+   }
+  ],
+  "overview": {
+   "heading": "Design that survives contact with real users",
+   "paragraphs": [
+    "Design here is not a decorative layer applied at the end. It starts with the awkward questions: who opens this every morning, what are they doing either side of it, what happens when the data is messy or half-entered. We have designed for university administrators in Kuwait, school staff in Pakistan and American vets working between appointments, and a fair amount of our work is reshaping products that are already live and already have users to protect.",
+    "The output is a working prototype and a design system, not a folder of attractive screens. Because the same studio builds what it designs, nothing gets drawn that we cannot ship: every component maps to a set of Tailwind classes, a React component or a React Native screen. If a design would cost three weeks of engineering for a marginal gain, we say so during the design, not after you have signed off on it."
+   ],
+   "bullets": [
+    {
+     "title": "Research first",
+     "desc": "We talk to the people who use it"
+    },
+    {
+     "title": "Clickable before codeable",
+     "desc": "Prototypes tested with real users before engineering starts"
+    },
+    {
+     "title": "Systems, not screens",
+     "desc": "Reusable components, tokens and documented patterns"
+    },
+    {
+     "title": "Built by the same team",
+     "desc": "Designers and engineers in one small studio"
+    }
+   ]
+  },
+  "capabilities": [
+   {
+    "title": "Discovery and user research",
+    "desc": "We interview the people who will live in the product daily: admin staff, instructors, dispatchers, clinic owners, and watch how they work today, spreadsheets and workarounds included. That research becomes the brief, in writing, for you to correct."
+   },
+   {
+    "title": "User flows and information architecture",
+    "desc": "Before any visual design we map every screen, state and decision point. This is where scope surprises get caught early: the forgotten refund path, the approval step nobody mentioned, the role that only exists at month end."
+   },
+   {
+    "title": "Wireframes and interactive prototypes",
+    "desc": "Greyscale wireframes to settle structure and hierarchy, then a clickable prototype you can put in front of actual users. Changing a prototype takes an afternoon; changing a shipped release takes a sprint and a migration."
+   },
+   {
+    "title": "Design systems and component libraries",
+    "desc": "Type scale, colour, spacing, form patterns, empty states, error states and loading states: named, documented and consistent, so a new screen takes hours instead of days. Built to map directly onto Tailwind and React components."
+   },
+   {
+    "title": "Dashboards and data-heavy interfaces",
+    "desc": "Freight ERPs and learning platforms are mostly tables, filters and reports. We design for density and scanning: sensible defaults, sticky columns, filters that remember what you chose, and print and PDF layouts that hold up when finance sends them on."
+   },
+   {
+    "title": "Handover and front-end implementation",
+    "desc": "You get annotated files, design tokens and a component inventory. We can also build the front end ourselves in React, Next.js, Tailwind, Alpine or React Native, which is usually the cheapest way to make sure the built thing matches the designed thing."
+   }
+  ],
+  "process": [
+   {
+    "title": "Discovery and audit",
+    "desc": "A short block of interviews, a walk through your existing product or the spreadsheets it will replace, and a look at what competitors get right. We write down what we heard and send it back for you to correct before anything is designed."
+   },
+   {
+    "title": "Flows and wireframes",
+    "desc": "Structure before styling. We map the journeys end to end and lay out greyscale screens, so the early arguments are about logic, permissions and hierarchy rather than colour choices."
+   },
+   {
+    "title": "Prototype and validate",
+    "desc": "A clickable prototype goes in front of real users and your internal team. We fix what confuses them, drop what nobody uses, then agree the direction with you in writing before engineering starts."
+   },
+   {
+    "title": "Final UI, system and handover",
+    "desc": "Finished interface, a documented design system and a handover session with whoever builds it: often us. Design stays open through the build, because real data always reveals something the prototype could not."
+   }
+  ],
+  "stack": [
+   "Tailwind CSS",
+   "React",
+   "TypeScript",
+   "Next.js",
+   "React Native (iOS + Android)",
+   "Alpine.js",
+   "Laravel Blade",
+   "Node",
+   "HTML & CSS",
+   "Bunny CDN (HLS video players)",
+   "dompdf (print & invoice layouts)"
+  ],
+  "faqs": [
+   {
+    "q": "We already have developers. Is design worth paying for on top of them?",
+    "a": "Your developers will make design decisions whether or not a designer is involved: they'll just make them one screen at a time, under deadline, with no record of why. That's where the expensive rework comes from: three different ways to show a form error, a navigation nobody can extend, a mobile view bolted on at the end. Design earns its keep when a product has real users, several roles or a roadmap longer than a few months. If you're building a small internal tool for a handful of staff who'll be trained on it anyway, tell us: we'll say skip the design phase rather than sell you one."
+   },
+   {
+    "q": "What research do you actually do before designing anything?",
+    "a": "We start with the people who use the thing daily, not the people who commissioned it: a dispatcher entering consignments, a registrar opening a new semester, a clinic manager chasing records. We read your support tickets and watch someone complete the workflow in whatever they use today, including the spreadsheet they've quietly built on the side. We also go through your database and current screens, because the data model usually explains half of what confuses users. To be clear about scale: this is a few days of interviews and observation, not a lab study with recruited panels."
+   },
+   {
+    "q": "What do we receive at handover, and can our developers actually work from it?",
+    "a": "You get a Figma file organised as a component library, with type scale, spacing, colour tokens, and every component in its real states: empty, loading, error, too much text, long Arabic strings if your market needs them. Alongside it comes a short written spec for the awkward interactions, because a static frame can't explain what should happen when an upload fails halfway through. If your team uses Tailwind, we map the tokens straight into a config so values match rather than get eyeballed. What we won't hand over is code exported from a design tool: that output is never worth maintaining."
+   },
+   {
+    "q": "Can you redesign our existing product without confusing the people already using it?",
+    "a": "The rule we work to is: change the surface freely, change the vocabulary and the navigation slowly. Density, hierarchy, spacing and controls can all be reworked in one release and most users simply find the result easier. Moving where things live is the risky part, so we phase it: one section at a time, old labels kept as signposts, and a note to your users before anything shifts. Be realistic about the cost: staff who've used the old screens for years will be slower for a week or two, which is worth a short training message rather than pretending it won't happen."
+   },
+   {
+    "q": "Do we get a clickable prototype before the build starts?",
+    "a": "Yes: a linked prototype you can open on your own phone and click through with your own content in it, not placeholder text. We'd rather you argue with it at that stage than three sprints into development, so we run a walkthrough with two or three of your real users and revise off the back of what they struggle with. Two honest caveats: it covers the main paths and the states we already know matter, not every edge case, and it tells you nothing about how the screen behaves on a slow connection. Those get settled during the build."
+   }
+  ],
+  "ctaTitle": "Show us the screen your users complain about",
+  "ctaSub": "Send a screenshot, a test login or a pile of support tickets. The fastest way to find what is wrong with an interface is to watch where people already get stuck in it."
+ },
+ {
+  "slug": "qa-testing",
+  "navTitle": "QA & Testing",
+  "h1": "Ship releases without holding your breath",
+  "eyebrow": "Service · QA & Testing",
+  "lede": "Two of our nine people do nothing but test. They write the cases, run them by hand, automate the parts worth automating, and sign off every release before it reaches your users. Seven platforms across three countries have gone out that way.",
+  "metaTitle": "QA & Software Testing Services | Web & Apps | CodeSumMix",
+  "metaDescription": "Manual and automated QA and testing services: regression suites, API and payment-flow checks, plus release sign-off across web and mobile apps.",
+  "keywords": "QA and software testing services, software testing company, manual testing, test automation, regression testing, API testing, mobile app testing, payment gateway testing, release sign-off, Laravel testing, React Native QA, QA outsourcing Pakistan",
+  "stats": [
+   {
+    "value": "In-house QA",
+    "label": "Testers separate from the build team"
+   },
+   {
+    "value": "Manual + auto",
+    "label": "Exploratory passes and regression suites"
+   },
+   {
+    "value": "Sign-off gate",
+    "label": "Nothing ships without a QA pass"
+   },
+   {
+    "value": "Written plans",
+    "label": "what we test, and what we deliberately do not"
+   }
+  ],
+  "overview": {
+   "heading": "Testing is somebody's job here, not the last hour of a sprint",
+   "paragraphs": [
+    "In a team of nine, it is tempting to let developers test their own work and call it done. We decided early on not to do that. Two of our people are QA engineers and nothing else: they sit outside the feature work, they write the test cases from the spec rather than from the code, and a release does not go out until one of them has signed it off. It slows a few things down. It has also kept a lot of embarrassing Friday evenings off the calendar.",
+    "The systems we work on are not the kind you can check by eye. Bright Future takes real money through MyFatoorah and streams paid video from Bunny CDN to students in Kuwait. Cargonio files invoices into PRA and FBR tax systems, where a wrong figure is a compliance problem rather than a bug. DVM Central and VetPet Central serve US clinics on web and mobile at the same time. Each of those needs a written, repeatable regression pass before anyone clicks deploy, and that is what our QA team maintains."
+   ],
+   "bullets": [
+    {
+     "title": "Dedicated QA",
+     "desc": "Two engineers who only test"
+    },
+    {
+     "title": "Written test cases",
+     "desc": "Edge cases too, not just happy paths"
+    },
+    {
+     "title": "Release sign-off",
+     "desc": "Nothing ships without a QA pass"
+    },
+    {
+     "title": "Regression suites",
+     "desc": "Re-run before every release"
+    }
+   ]
+  },
+  "capabilities": [
+   {
+    "title": "Manual and exploratory testing",
+    "desc": "Test cases written from your requirements, run by hand against staging, with results recorded per build. Alongside that, deliberate exploratory sessions where QA goes looking for the awkward paths nobody wrote a ticket for: wrong order of steps, expired sessions, half-filled forms, back button abuse."
+   },
+   {
+    "title": "Regression suites that keep growing",
+    "desc": "Every confirmed bug becomes a permanent test case, so the same fault cannot come back quietly two releases later. The suite is versioned with the product and split by area: auth, checkout, content, reporting, so a small release only re-runs what it can plausibly have broken."
+   },
+   {
+    "title": "Mobile testing on real devices",
+    "desc": "React Native apps get tested on physical iOS and Android handsets, not just simulators, because that is where permissions, video playback and device-limit rules actually misbehave. Builds go out through TestFlight and Play internal tracks so you and your stakeholders can try the same build QA passed."
+   },
+   {
+    "title": "Automated tests where they pay for themselves",
+    "desc": "We automate the parts that are stable and expensive to check by hand: PHPUnit feature tests over Laravel API endpoints, business rules like coupon stacking, installment schedules and tax calculations, and data integrity checks. We do not automate screens that are still changing weekly: that is a maintenance bill, not a safety net."
+   },
+   {
+    "title": "Payments, integrations and money paths",
+    "desc": "Checkout is where bugs cost you directly, so it gets its own attention. We test Stripe and MyFatoorah flows in sandbox end to end: success, failure, timeout, duplicate callback, refund, and verify the order, invoice and accounting entries that follow, including PRA and FBR submissions on Cargonio."
+   },
+   {
+    "title": "Bug triage and release sign-off",
+    "desc": "Every defect gets steps to reproduce, environment, build number, severity and evidence, so a developer can start fixing rather than start guessing. Fixes are verified on staging, the affected regression set is re-run, and QA issues a written sign-off with any known issues listed rather than buried."
+   }
+  ],
+  "process": [
+   {
+    "title": "Understand the product first",
+    "desc": "Before writing a single case, QA goes through the requirements, the existing screens and the data model with the tech lead. Testing a fee calculation or a cargo manifest properly means understanding what the right answer looks like, not just that a page loads."
+   },
+   {
+    "title": "Write and agree the test plan",
+    "desc": "You get the test cases and the scope in writing: what will be covered, on which browsers and devices, and what is deliberately out of scope. If you disagree with the priorities, that is a cheap conversation to have at this stage rather than after a release."
+   },
+   {
+    "title": "Test, report, retest",
+    "desc": "QA runs the plan against staging and logs defects with reproduction steps and evidence. Developers fix, QA verifies, and anything not fixed stays visible on the list with a severity next to it. Nothing gets closed because it was hard to reproduce."
+   },
+   {
+    "title": "Sign off, then keep the suite alive",
+    "desc": "A release goes out with a written pass from QA and a short note of known issues. New bugs found in production are added to the regression suite so the next release is a little safer than the last one."
+   }
+  ],
+  "stack": [
+   "PHP",
+   "Laravel",
+   "PHPUnit",
+   "Laravel Pint",
+   "TypeScript",
+   "React",
+   "Next.js",
+   "React Native",
+   "MySQL",
+   "Docker",
+   "Sentry",
+   "TestFlight",
+   "Stripe & MyFatoorah sandboxes"
+  ],
+  "faqs": [
+   {
+    "q": "Do we need automated tests, or is manual testing enough?",
+    "a": "Most products need both, in different proportions. Automation earns its keep on the flows you run every release and cannot afford to break: login, checkout, payment callbacks, role permissions, because a machine re-runs them for free. Manual and exploratory testing catches what no script thinks to ask: the odd layout on a small screen, the confusing error message, the state nobody planned for. The honest trade-off is timing, since automating a screen that is still being redesigned weekly means paying for it twice, so we hold off until the flow settles."
+   },
+   {
+    "q": "When in the project should testing actually start?",
+    "a": "Before code, ideally. A tester reading the acceptance criteria will find contradictions and missing cases while they still cost nothing to fix: what happens if a coupon expires mid-checkout, what an instructor can see that a student must not. Bring us in at the end and we will still test properly, but expect some findings to be design decisions rather than defects, and those are the expensive kind to change late."
+   },
+   {
+    "q": "What does a test plan cover, and what does it leave out?",
+    "a": "It names what we are testing, on which browsers, devices and environments, with what data, and what has to pass before a release goes out. It also fixes severity levels up front, so \"critical\" means the same thing to your team and ours. What it deliberately leaves out is exhaustive coverage of every possible combination: that is not achievable at any budget: along with load and performance work unless you commission it separately. For third-party systems such as payment gateways or government tax endpoints, we test our integration and how it behaves when they fail, not their service itself."
+   },
+   {
+    "q": "What happens once you find a bug?",
+    "a": "It gets written up with reproducible steps, environment, build number, and a screen recording or log where that helps, then triaged for severity and passed to the engineer who owns that area. The fix goes on a branch and is retested by the person who raised it, on the environment where it failed: a bug closes on verification, never on a developer saying it is done. If we have seen that failure before, a regression check joins the suite so it cannot come back quietly. Cosmetic, low-severity items are often batched into a later release; that call is yours, and we will tell you which ones we think can wait."
+   },
+   {
+    "q": "Who keeps the automated tests working as the product keeps changing?",
+    "a": "We do, for as long as we are engaged. Test updates go into the same pull request as the change that broke them, rather than a backlog nobody clears, and flaky tests get fixed or deleted: a suite people have learned to ignore is worse than no suite. If you take the work in-house, we hand over the CI configuration, the Docker setup that runs everything, and a short runbook. Be realistic about what follows: without a named owner, an automated suite degrades within a couple of release cycles."
+   }
+  ],
+  "ctaTitle": "Tell us what broke in your last release",
+  "ctaSub": "Send us the one flow you hold your breath over: checkout, enrolment, payroll, invoice sync. We'll tell you where it is most likely to break and what a test plan around it would cover."
+ },
+ {
+  "slug": "seo-marketing",
+  "navTitle": "SEO & Digital Marketing",
+  "h1": "Get found by the people already looking for you",
+  "eyebrow": "Service · SEO & Digital Marketing",
+  "lede": "Search engines reward sites that are fast, well structured and genuinely useful, and most sites fail the first two before content ever matters. We fix that in the codebase, then help you build pages worth ranking. It is a longer game than paid ads, and we will say so upfront.",
+  "metaTitle": "SEO Services | Technical SEO & Content | CodeSumMix",
+  "metaDescription": "Engineer-led SEO services from Lahore: technical audits, schema markup, Core Web Vitals and content that make your product easier to find and click.",
+  "keywords": "SEO services, technical SEO, SEO audit, schema markup, Core Web Vitals, page speed optimisation, on-page SEO, Google Search Console setup, GA4 analytics, content strategy, Next.js SEO, digital marketing agency Lahore",
+  "stats": [
+   {
+    "value": "Fixed at source",
+    "label": "Technical SEO shipped as code, not advice"
+   },
+   {
+    "value": "JSON-LD schema",
+    "label": "Validated in Search Console, warnings cleared"
+   },
+   {
+    "value": "LCP · CLS · INP",
+    "label": "Core Web Vitals measured on real pages"
+   },
+   {
+    "value": "3–6 months",
+    "label": "Honest horizon for ranking movement"
+   }
+  ],
+  "overview": {
+   "heading": "SEO that starts in the codebase",
+   "paragraphs": [
+    "Most of the SEO problems we get asked to look at are engineering problems wearing a marketing hat. Pages that render entirely in JavaScript and never get indexed properly. A sitemap nobody has regenerated since launch. Product and course pages with no structured data at all. Hero images shipped at four times the size they are displayed at. We find those in an audit and then fix them in the repository, because we are the people who write the code anyway.",
+    "The rest of it is slower work: deciding which searches actually matter to your business, writing pages that answer them properly, and giving search engines enough time to notice. We will show you what moved and what did not each month. We will not pretend a three-month-old site can outrank an established competitor on its biggest keyword, and we would rather tell you that at the start than bill you for six months of finding out."
+   ],
+   "bullets": [
+    {
+     "title": "Technical audit",
+     "desc": "Crawl, index and render issues, prioritised"
+    },
+    {
+     "title": "Structured data",
+     "desc": "Schema markup search engines can actually read"
+    },
+    {
+     "title": "Core Web Vitals",
+     "desc": "LCP, CLS and INP fixed at source"
+    },
+    {
+     "title": "Content and reporting",
+     "desc": "Pages worth ranking, results you can verify"
+    }
+   ]
+  },
+  "capabilities": [
+   {
+    "title": "Technical SEO audits",
+    "desc": "We crawl the site the way a search engine does and check what genuinely gets indexed: render-blocking JavaScript, redirect chains, canonical conflicts, orphan pages, a robots.txt quietly blocking half the catalogue. You get a prioritised list with an effort estimate beside each item, not a sixty-page PDF."
+   },
+   {
+    "title": "Structured data and rich results",
+    "desc": "JSON-LD that describes what your pages actually are: courses, organisations, articles, FAQs, breadcrumbs, products, local business. We validate every type in Search Console and clear the warnings, rather than shipping markup and hoping it takes."
+   },
+   {
+    "title": "Performance and Core Web Vitals",
+    "desc": "LCP, CLS and INP are engineering problems, so we fix them at source: image formats and sizing, font loading, bundle splitting, cache headers, CDN configuration. On media-heavy sites we serve video through Bunny CDN so a hero video does not sink the page score."
+   },
+   {
+    "title": "Site architecture and on-page",
+    "desc": "URL structure, internal linking, heading hierarchy, and titles and descriptions handled per template where that makes more sense than per page. If you sell across countries or languages, we set up hreflang and localised routes properly: our work already spans Kuwait, Pakistan and the USA."
+   },
+   {
+    "title": "Content that earns rankings",
+    "desc": "We map the searches that lead to real enquiries, then brief and structure the pages that answer them. Your people know the domain better than any writer we could hire, so we usually interview them and do the drafting and editing around that."
+   },
+   {
+    "title": "Analytics, tracking and reporting",
+    "desc": "GA4 and Search Console set up under your own accounts, conversion and event tracking that matches how your business defines a lead, and a monthly report written in plain English. If you run Google or Meta campaigns, we make sure the landing pages and tracking hold up their end."
+   }
+  ],
+  "process": [
+   {
+    "title": "Audit and baseline",
+    "desc": "We crawl the site, pull whatever Search Console history exists, measure Core Web Vitals on real pages and write down exactly where you stand today. Everything that follows gets compared against that baseline."
+   },
+   {
+    "title": "Fix the technical debt",
+    "desc": "The findings go into the repository as ordinary development work: reviewed, checked by our QA testers and released the way any other change ships. Most of the quick wins go live in the first few weeks."
+   },
+   {
+    "title": "Structure and content",
+    "desc": "Keyword and intent mapping first, then information architecture, schema and a publishing plan you can realistically keep up with. Eight good pages a quarter beat forty thin ones, every time."
+   },
+   {
+    "title": "Measure and adjust",
+    "desc": "A monthly review of rankings, traffic, conversions and what changed technically. We tell you what moved, what did not, and what we would do next: including when the honest answer is to spend the budget somewhere else."
+   }
+  ],
+  "stack": [
+   "Next.js",
+   "React",
+   "TypeScript",
+   "Laravel",
+   "Tailwind CSS",
+   "Alpine.js",
+   "Schema.org JSON-LD",
+   "Google Search Console",
+   "Google Analytics 4",
+   "Lighthouse",
+   "Bunny CDN",
+   "AWS",
+   "DigitalOcean"
+  ],
+  "faqs": [
+   {
+    "q": "How long before we see any results?",
+    "a": "Technical work shows first. Indexation and crawl errors move within weeks of a release, and Core Web Vitals field data updates on a rolling 28-day window, so give it about a month before the numbers reflect a fix. Ranking and traffic movement is a three-to-six-month conversation, and longer on a new domain or in a crowded market. If your budget only stretches to three months, say so: SEO is a poor fit for a short runway, and we would rather point you at paid search than take the retainer."
+   },
+   {
+    "q": "Can you guarantee we'll rank first for our main keyword?",
+    "a": "No, and nobody honest can. The ranking systems are not ours to control and they change without notice. A guarantee usually means one of three things: the agency is quietly buying ads, it has picked a phrase almost nobody searches for, or it expects to be gone before the renewal. What we do commit to is the work itself: the technical state of the site, the pages published, the schema validated, and a monthly report showing what moved and what did not."
+   },
+   {
+    "q": "Do we start with technical SEO or with content?",
+    "a": "Technical, but only the parts blocking indexing and rendering: a page a crawler cannot see properly earns nothing however well it is written. Once the site is crawlable, quick enough and correctly marked up, technical work hits a ceiling fast; shaving another fraction of a second off a page that already passes rarely changes a position. After that it is content, internal linking and patience. And if the site is already sound, we will tell you, rather than sell an audit designed to find nothing."
+   },
+   {
+    "q": "If we invest in SEO, do we still need to run paid ads?",
+    "a": "Usually yes, at least while organic is still building. Ads buy traffic today and, more usefully, show within weeks which searches actually convert: the best brief a content plan can have. The trade-off is how the cost behaves: ads stop the moment you stop paying, organic pages keep working but take months to arrive. Know what we are, though: we build the landing pages, tracking and product feeds campaigns depend on; we are not a media-buying agency, and for serious ongoing ad spend you want a specialist."
+   },
+   {
+    "q": "How do you measure whether any of it worked?",
+    "a": "We record a baseline before touching anything: crawl results, whatever Search Console history exists, Core Web Vitals on real pages, and how many enquiries the site produces today. The monthly report then tracks a short list: pages indexed, impressions and clicks split into branded and non-branded queries, Vitals, and the conversions your business counts as a lead. Splitting branded from non-branded matters, because someone who heard your name at a conference and typed it into Google is not evidence that the SEO worked. Attribution is never clean, and where an algorithm update or a seasonal dip explains a number better than our work does, that is what the report will say."
+   }
+  ],
+  "ctaTitle": "Which search should be sending you work?",
+  "ctaSub": "Send us the URL and the one query you would most like to be found for. We will crawl the site, tell you what is stopping it being indexed properly, roughly how long that keyword would take, and whether it is worth chasing at all."
+ }
+]

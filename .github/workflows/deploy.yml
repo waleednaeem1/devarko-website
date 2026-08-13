@@ -11,11 +11,23 @@ concurrency:
 
 jobs:
   deploy:
-    name: Sync site to public_html
+    name: Build and sync to public_html
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build static export
+        run: npm run build
 
       - name: Deploy over FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
@@ -23,13 +35,8 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: out/
           server-dir: ./
           exclude: |
             **/.git*
             **/.git*/**
-            **/.github/**
-            **/_build/**
-            **/node_modules/**
-            brand.html
-            .gitignore
-            **/.DS_Store
