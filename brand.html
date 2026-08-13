@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CodeSumMix — Logo Concepts v2</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; }
+    body { background: #07080d; color: #eceef5; font-family: "Inter", sans-serif; padding: 48px clamp(20px,5vw,64px); }
+    h1 { font-family: "Space Grotesk"; font-weight: 700; font-size: 30px; letter-spacing: -0.02em; }
+    .sub { color: #9aa1b8; margin-top: 8px; max-width: 660px; }
+    .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 22px; margin-top: 36px; }
+    .card { position: relative; border: 1px solid rgba(255,255,255,0.1); border-radius: 20px; padding: 30px; background: rgba(255,255,255,0.03); }
+    .card.rec { border-color: rgba(124,92,255,0.6); box-shadow: 0 20px 60px -30px rgba(124,92,255,0.7); }
+    .tag { position: absolute; top: 20px; right: 20px; font-size: 11px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: #0a0a12; background: linear-gradient(120deg,#7C5CFF,#4EA8FF 52%,#36E0C8); padding: 5px 11px; border-radius: 999px; }
+    .label { font-family: "Space Grotesk"; font-size: 13px; color: #6b7290; letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 22px; }
+    .lockup { display: flex; align-items: center; gap: 14px; margin-bottom: 26px; }
+    .wm { font-family: "Space Grotesk"; font-weight: 600; font-size: 27px; letter-spacing: -0.02em; }
+    .wm b { font-weight: 700; }
+    .row { display: flex; align-items: center; gap: 20px; }
+    .chip { display: inline-flex; align-items: center; justify-content: center; background: #fff; border-radius: 12px; padding: 9px; }
+    .cap { color: #6b7290; font-size: 12px; margin-top: 14px; }
+  </style>
+</head>
+<body>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <linearGradient id="gMain" gradientUnits="userSpaceOnUse" x1="4" y1="4" x2="44" y2="44">
+        <stop stop-color="#7C5CFF"/><stop offset="0.5" stop-color="#4EA8FF"/><stop offset="1" stop-color="#36E0C8"/>
+      </linearGradient>
+
+      <!-- A: minimal C -->
+      <symbol id="n1" viewBox="0 0 48 48">
+        <path d="M34 16.5 A12.5 12.5 0 1 0 34 31.5" stroke="url(#gMain)" stroke-width="6.5" fill="none" stroke-linecap="round"/>
+      </symbol>
+      <!-- B: C in gradient tile -->
+      <symbol id="n2" viewBox="0 0 48 48">
+        <rect x="2" y="2" width="44" height="44" rx="13" fill="url(#gMain)"/>
+        <path d="M30 18 A8.5 8.5 0 1 0 30 30" stroke="#fff" stroke-width="4.2" fill="none" stroke-linecap="round"/>
+      </symbol>
+      <!-- C: layered stack -->
+      <symbol id="n3" viewBox="0 0 48 48">
+        <rect x="8"  y="10"   width="26" height="7.5" rx="3.75" fill="url(#gMain)" opacity="0.45"/>
+        <rect x="12" y="20.25" width="26" height="7.5" rx="3.75" fill="url(#gMain)" opacity="0.74"/>
+        <rect x="16" y="30.5"  width="26" height="7.5" rx="3.75" fill="url(#gMain)"/>
+      </symbol>
+      <!-- D: forward chevrons -->
+      <symbol id="n4" viewBox="0 0 48 48">
+        <path d="M13 14 L24 24 L13 34" stroke="url(#gMain)" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M24 14 L35 24 L24 34" stroke="url(#gMain)" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.5"/>
+      </symbol>
+    </defs>
+  </svg>
+
+  <h1>CodeSumMix — new logo concepts</h1>
+  <p class="sub">Cleaner, less busy directions than the first mark. Each shown as a lockup, small, and on a light background.</p>
+
+  <div class="grid">
+    <div class="card">
+      <div class="label">A · Minimal “C”</div>
+      <div class="lockup"><svg width="54" height="54"><use href="#n1"/></svg><span class="wm">Code<b>SumMix</b></span></div>
+      <div class="row"><svg width="24" height="24"><use href="#n1"/></svg><span class="chip"><svg width="30" height="30"><use href="#n1"/></svg></span></div>
+      <p class="cap">A single elegant gradient “C”. Light, modern, minimal.</p>
+    </div>
+
+    <div class="card">
+      <div class="label">B · “C” tile (app icon)</div>
+      <div class="lockup"><svg width="54" height="54"><use href="#n2"/></svg><span class="wm">Code<b>SumMix</b></span></div>
+      <div class="row"><svg width="24" height="24"><use href="#n2"/></svg><span class="chip"><svg width="30" height="30"><use href="#n2"/></svg></span></div>
+      <p class="cap">Bold white “C” on the gradient tile. Strong, recognisable, great as a favicon/app icon.</p>
+    </div>
+
+    <div class="card">
+      <div class="label">C · Layered stack</div>
+      <div class="lockup"><svg width="54" height="54"><use href="#n3"/></svg><span class="wm">Code<b>SumMix</b></span></div>
+      <div class="row"><svg width="24" height="24"><use href="#n3"/></svg><span class="chip"><svg width="30" height="30"><use href="#n3"/></svg></span></div>
+      <p class="cap">Stacked layers — “summing &amp; mixing” parts into one. Abstract and distinctive.</p>
+    </div>
+
+    <div class="card">
+      <div class="label">D · Forward</div>
+      <div class="lockup"><svg width="54" height="54"><use href="#n4"/></svg><span class="wm">Code<b>SumMix</b></span></div>
+      <div class="row"><svg width="24" height="24"><use href="#n4"/></svg><span class="chip"><svg width="30" height="30"><use href="#n4"/></svg></span></div>
+      <p class="cap">Two chevrons in motion — “moves your business forward”. Dynamic and techy.</p>
+    </div>
+  </div>
+</body>
+</html>
