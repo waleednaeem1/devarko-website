@@ -13,8 +13,8 @@ export const metadata: Metadata = {
   description: homeMeta.description,
   keywords: homeMeta.keywords,
   alternates: { canonical: `${SITE_URL}/` },
-  openGraph: { title: homeMeta.title, description: homeMeta.description, url: `${SITE_URL}/`, type: "website", siteName: "CodeSumMix", locale: "en_US", images: [{ url: "https://codesummix.com/assets/img/og-image.png", width: 1200, height: 630 }] },
-  twitter: { card: "summary_large_image", title: homeMeta.title, description: homeMeta.description, images: ["https://codesummix.com/assets/img/og-image.png"] },
+  openGraph: { title: homeMeta.title, description: homeMeta.description, url: `${SITE_URL}/`, type: "website", siteName: "CodeSumMix", locale: "en_US", images: [{ url: "https://codesummix.com/assets/og/home.jpg", width: 1200, height: 630 }] },
+  twitter: { card: "summary_large_image", title: homeMeta.title, description: homeMeta.description, images: ["https://codesummix.com/assets/og/home.jpg"] },
 };
 
 const SERVICE_CARDS = [

@@ -3,14 +3,14 @@ import Link from "next/link";
 import JsonLd from "@/components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Freight ERP with HR & Payroll | Kare Cargo | CodeSumMix",
+  title: "Freight ERP with HR and Payroll | Kare Cargo | CodeSumMix",
   description:
     "Kare Cargo International runs its whole freight business on one ERP: air and sea operations, e-invoicing, double-entry accounts, HR and payroll in one login.",
   keywords:
     "freight ERP with HR and payroll, freight ERP Pakistan, logistics ERP software, HR and payroll software, freight accounting software, double-entry accounting software, PRA FBR integration, e-invoicing Pakistan, ERP development, freight forwarding specialists, Kare Cargo case study, Cargonio, CodeSumMix",
   alternates: { canonical: "https://codesummix.com/work/kare-cargo/" },
-  openGraph: { title: "Freight ERP with HR & Payroll | Kare Cargo | CodeSumMix", description: "Kare Cargo International runs its whole freight business on one ERP: air and sea operations, e-invoicing, double-entry accounts, HR and payroll in one login.", url: "https://codesummix.com/work/kare-cargo/", type: "article", siteName: "CodeSumMix", locale: "en_US", images: [{ url: "https://codesummix.com/assets/img/og-image.png", width: 1200, height: 630 }] },
-  twitter: { card: "summary_large_image", title: "Freight ERP with HR & Payroll | Kare Cargo | CodeSumMix", description: "Kare Cargo International runs its whole freight business on one ERP: air and sea operations, e-invoicing, double-entry accounts, HR and payroll in one login.", images: ["https://codesummix.com/assets/img/og-image.png"] },
+  openGraph: { title: "Freight ERP with HR and Payroll | Kare Cargo | CodeSumMix", description: "Kare Cargo International runs its whole freight business on one ERP: air and sea operations, e-invoicing, double-entry accounts, HR and payroll in one login.", url: "https://codesummix.com/work/kare-cargo/", type: "article", siteName: "CodeSumMix", locale: "en_US", images: [{ url: "https://codesummix.com/assets/og/work-kare-cargo.jpg", width: 1200, height: 630 }] },
+  twitter: { card: "summary_large_image", title: "Freight ERP with HR and Payroll | Kare Cargo | CodeSumMix", description: "Kare Cargo International runs its whole freight business on one ERP: air and sea operations, e-invoicing, double-entry accounts, HR and payroll in one login.", images: ["https://codesummix.com/assets/og/work-kare-cargo.jpg"] },
 };
 
 export default function KareCargoPage() {
@@ -115,7 +115,7 @@ export default function KareCargoPage() {
                 Built around how forwarders actually work.
               </h2>
               <p style={{ marginTop: "1.1rem" }}>
-                Their team books sea and air jobs, imports and exports alike, straight from the dashboard: a new sea
+                Their team books <Link href="/freight-software/">sea and air jobs</Link>, imports and exports alike, straight from the dashboard: a new sea
                 export job, a MAWB job, an air import, a quotation, or a pull from AWB stock. Each job carries its
                 master and house documents, containers, parties and charges through to invoicing.
               </p>
@@ -331,8 +331,7 @@ export default function KareCargoPage() {
                 A product, not a rebuild.
               </h2>
               <p style={{ marginTop: "1.1rem" }}>
-                Kare Cargo didn&apos;t wait for a system to be written from scratch. Because Cargonio is a multi-tenant
-                product, they were given their own isolated workspace, with their data, their users, their invoice
+                Kare Cargo didn&apos;t wait for a system to be written from scratch. Because Cargonio is a <Link href="/services/custom-software/">multi-tenant product</Link>, they were given their own isolated workspace, with their data, their users, their invoice
                 numbering, their tax settings and their branding, switched on with exactly the modules they needed.
               </p>
               <p>

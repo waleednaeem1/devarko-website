@@ -9,8 +9,8 @@ export const metadata: Metadata = {
   keywords:
     "telehealth platform development, appointment booking system development, video consultation platform, healthcare app development, custom web application development, mobile app development, Stripe payment integration, scheduling software development, React Native development, software development agency",
   alternates: { canonical: "https://codesummix.com/work/vetpet-central/" },
-  openGraph: { title: "Telehealth Booking Platform Development | VetPet Central", description: "VetPet Central lets pet owners book vets and join video consultations. See how we built the scheduling, telehealth and payments behind the platform.", url: "https://codesummix.com/work/vetpet-central/", type: "article", siteName: "CodeSumMix", locale: "en_US", images: [{ url: "https://codesummix.com/assets/img/og-image.png", width: 1200, height: 630 }] },
-  twitter: { card: "summary_large_image", title: "Telehealth Booking Platform Development | VetPet Central", description: "VetPet Central lets pet owners book vets and join video consultations. See how we built the scheduling, telehealth and payments behind the platform.", images: ["https://codesummix.com/assets/img/og-image.png"] },
+  openGraph: { title: "Telehealth Booking Platform Development | VetPet Central", description: "VetPet Central lets pet owners book vets and join video consultations. See how we built the scheduling, telehealth and payments behind the platform.", url: "https://codesummix.com/work/vetpet-central/", type: "article", siteName: "CodeSumMix", locale: "en_US", images: [{ url: "https://codesummix.com/assets/og/work-vetpet-central.jpg", width: 1200, height: 630 }] },
+  twitter: { card: "summary_large_image", title: "Telehealth Booking Platform Development | VetPet Central", description: "VetPet Central lets pet owners book vets and join video consultations. See how we built the scheduling, telehealth and payments behind the platform.", images: ["https://codesummix.com/assets/og/work-vetpet-central.jpg"] },
 };
 
 export default function VetPetCentralPage() {
@@ -79,10 +79,10 @@ export default function VetPetCentralPage() {
               fontSize: "1.08rem",
             }}
           >
-            Also for our US client, VetPet Central is a nationwide platform that
+            Also for <Link href="/work/dvm-central/">our US client</Link>, VetPet Central is a nationwide platform that
             connects pet owners with licensed veterinarians. Pet parents can find
             clinics, book in-person or video visits, keep their pets&apos; records in
-            one place, and even get AI-assisted health insights, while vets and
+            one place, and even get <Link href="/services/ai-solutions/">AI-assisted health insights</Link>, while vets and
             clinics manage their listings and appointments.
           </p>
           <div className="feature-case__chips" style={{ marginTop: "1.4rem" }}>
@@ -146,7 +146,7 @@ export default function VetPetCentralPage() {
                 the experience. Vets and clinics get their own tools to manage
                 listings and appointments.
               </p>
-              <p>Delivered across web and native iOS &amp; Android apps.</p>
+              <p>Delivered across web and <Link href="/services/mobile-apps/">native iOS &amp; Android apps</Link>.</p>
             </div>
             <ul className="feature-list" data-reveal data-reveal-delay="1">
               <li>

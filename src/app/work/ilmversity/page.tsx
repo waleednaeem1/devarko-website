@@ -9,8 +9,8 @@ export const metadata: Metadata = {
   keywords:
     "school LMS development, school management system development, LMS development company, education technology Pakistan, custom LMS software, student information system, EdTech software house, school portal development, e-learning development, Laravel LMS",
   alternates: { canonical: "https://codesummix.com/work/ilmversity/" },
-  openGraph: { title: "School LMS Development: Ilmversity Case Study | CodeSumMix", description: "Ilmversity is a school LMS built for Pakistani institutions: classes, attendance, assessments and parent visibility in one platform. See the build.", url: "https://codesummix.com/work/ilmversity/", type: "article", siteName: "CodeSumMix", locale: "en_US", images: [{ url: "https://codesummix.com/assets/img/og-image.png", width: 1200, height: 630 }] },
-  twitter: { card: "summary_large_image", title: "School LMS Development: Ilmversity Case Study | CodeSumMix", description: "Ilmversity is a school LMS built for Pakistani institutions: classes, attendance, assessments and parent visibility in one platform. See the build.", images: ["https://codesummix.com/assets/img/og-image.png"] },
+  openGraph: { title: "School LMS Development: Ilmversity Case Study | CodeSumMix", description: "Ilmversity is a school LMS built for Pakistani institutions: classes, attendance, assessments and parent visibility in one platform. See the build.", url: "https://codesummix.com/work/ilmversity/", type: "article", siteName: "CodeSumMix", locale: "en_US", images: [{ url: "https://codesummix.com/assets/og/work-ilmversity.jpg", width: 1200, height: 630 }] },
+  twitter: { card: "summary_large_image", title: "School LMS Development: Ilmversity Case Study | CodeSumMix", description: "Ilmversity is a school LMS built for Pakistani institutions: classes, attendance, assessments and parent visibility in one platform. See the build.", images: ["https://codesummix.com/assets/og/work-ilmversity.jpg"] },
 };
 
 export default function IlmversityPage() {
@@ -115,7 +115,7 @@ export default function IlmversityPage() {
               <p style={{ marginTop: "1.1rem" }}>
                 Teachers deliver courses and content, set and grade assessments, and track progress.
                 Administrators manage students, classes, and the day-to-day from a single place.
-                Everything lives in one fast, modern web application built to handle many schools at
+                Everything lives in one <Link href="/services/web-applications/">fast, modern web application</Link> built to handle many schools at
                 once.
               </p>
             </div>
@@ -238,7 +238,7 @@ export default function IlmversityPage() {
           <div className="cta__inner" data-reveal>
             <h2 className="cta__title">Building for education?</h2>
             <p className="cta__sub">
-              LMS, e-learning, school or campus management: education technology is our specialty.
+              LMS, e-learning, school or campus management: <Link href="/edtech/">education technology</Link> is our specialty.
             </p>
             <div className="cta__actions">
               <Link className="btn btn--primary btn--lg" href="/contact/">

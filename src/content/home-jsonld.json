@@ -191,7 +191,10 @@
       "Urdu"
      ]
     }
-   ]
+   ],
+   "owns": {
+    "@id": "https://codesummix.com/cargonio/#app"
+   }
   },
   {
    "@type": "WebSite",
@@ -263,6 +266,18 @@
      "url": "https://codesummix.com/services/seo-marketing/"
     }
    ]
+  },
+  {
+   "@type": "SoftwareApplication",
+   "@id": "https://codesummix.com/cargonio/#app",
+   "name": "Cargonio",
+   "applicationCategory": "BusinessApplication",
+   "operatingSystem": "Web",
+   "url": "https://cargonio.com/",
+   "description": "Cargonio is CodeSumMix's own multi-tenant freight-forwarding ERP: air and sea operations, invoicing with PRA and FBR e-IMS tax integration, accounting, HR and payroll.",
+   "publisher": {
+    "@id": "https://codesummix.com/#org"
+   }
   }
  ]
 }

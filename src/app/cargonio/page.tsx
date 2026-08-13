@@ -10,8 +10,8 @@ export const metadata: Metadata = {
   keywords:
     "freight forwarding software, freight ERP, freight forwarding ERP, logistics software, air export software, sea import software, freight invoicing software, PRA e-IMS integration, FBR e-invoicing, e-invoicing Pakistan, multi-tenant ERP, ERP development, Cargonio, CodeSumMix",
   alternates: { canonical: "https://codesummix.com/cargonio/" },
-  openGraph: { title: "Freight Forwarding Software | Cargonio ERP | CodeSumMix", description: "Cargonio is our multi-tenant freight forwarding ERP: air and sea import-export jobs, invoicing with PRA and FBR e-IMS filing, accounts, HR and payroll.", url: "https://codesummix.com/cargonio/", type: "website", siteName: "CodeSumMix", locale: "en_US", images: [{ url: "https://codesummix.com/assets/img/og-image.png", width: 1200, height: 630 }] },
-  twitter: { card: "summary_large_image", title: "Freight Forwarding Software | Cargonio ERP | CodeSumMix", description: "Cargonio is our multi-tenant freight forwarding ERP: air and sea import-export jobs, invoicing with PRA and FBR e-IMS filing, accounts, HR and payroll.", images: ["https://codesummix.com/assets/img/og-image.png"] },
+  openGraph: { title: "Freight Forwarding Software | Cargonio ERP | CodeSumMix", description: "Cargonio is our multi-tenant freight forwarding ERP: air and sea import-export jobs, invoicing with PRA and FBR e-IMS filing, accounts, HR and payroll.", url: "https://codesummix.com/cargonio/", type: "website", siteName: "CodeSumMix", locale: "en_US", images: [{ url: "https://codesummix.com/assets/og/cargonio.jpg", width: 1200, height: 630 }] },
+  twitter: { card: "summary_large_image", title: "Freight Forwarding Software | Cargonio ERP | CodeSumMix", description: "Cargonio is our multi-tenant freight forwarding ERP: air and sea import-export jobs, invoicing with PRA and FBR e-IMS filing, accounts, HR and payroll.", images: ["https://codesummix.com/assets/og/cargonio.jpg"] },
 };
 
 export default function CargonioPage() {
@@ -35,6 +35,19 @@ export default function CargonioPage() {
                 name: "CodeSumMix",
                 url: "https://codesummix.com/",
               },
+              featureList: [
+                "Air and sea import/export job management",
+                "Freight invoicing with PRA and FBR e-IMS fiscalization",
+                "Double-entry accounting with period locks",
+                "HR, attendance and payroll",
+                "Multi-tenant branded workspaces",
+                "100+ operational and financial reports",
+              ],
+              screenshot: [
+                "https://codesummix.com/assets/img/cases/cargonio-demo-freight.jpg",
+                "https://codesummix.com/assets/img/cases/cargonio-demo-invoices.jpg",
+                "https://codesummix.com/assets/img/cases/cargonio-demo-hr.jpg",
+              ],
             },
             {
               "@type": "BreadcrumbList",

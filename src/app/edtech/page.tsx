@@ -9,8 +9,8 @@ export const metadata: Metadata = {
   keywords:
     "EdTech specialists, education technology company, e-learning development, LMS development, learning management system development, online course platform development, e-learning app development, EdTech development company, school management software, education software development Pakistan",
   alternates: { canonical: "https://codesummix.com/edtech/" },
-  openGraph: { title: "EdTech Specialists | E-learning & LMS Development | CodeSumMix", description: "EdTech specialists building e-learning platforms, school LMS and course apps: three education platforms live across Kuwait, Pakistan and the USA.", url: "https://codesummix.com/edtech/", type: "website", siteName: "CodeSumMix", locale: "en_US", images: [{ url: "https://codesummix.com/assets/img/og-image.png", width: 1200, height: 630 }] },
-  twitter: { card: "summary_large_image", title: "EdTech Specialists | E-learning & LMS Development | CodeSumMix", description: "EdTech specialists building e-learning platforms, school LMS and course apps: three education platforms live across Kuwait, Pakistan and the USA.", images: ["https://codesummix.com/assets/img/og-image.png"] },
+  openGraph: { title: "EdTech Specialists | E-learning & LMS Development | CodeSumMix", description: "EdTech specialists building e-learning platforms, school LMS and course apps: three education platforms live across Kuwait, Pakistan and the USA.", url: "https://codesummix.com/edtech/", type: "website", siteName: "CodeSumMix", locale: "en_US", images: [{ url: "https://codesummix.com/assets/og/edtech.jpg", width: 1200, height: 630 }] },
+  twitter: { card: "summary_large_image", title: "EdTech Specialists | E-learning & LMS Development | CodeSumMix", description: "EdTech specialists building e-learning platforms, school LMS and course apps: three education platforms live across Kuwait, Pakistan and the USA.", images: ["https://codesummix.com/assets/og/edtech.jpg"] },
 };
 
 export default function EdTechPage() {

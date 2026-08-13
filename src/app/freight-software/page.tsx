@@ -9,8 +9,8 @@ export const metadata: Metadata = {
   keywords:
     "freight forwarding specialists, freight forwarding software, logistics software development, freight ERP, freight software Pakistan, sea import export software, air freight software, MBL HBL software, PRA e-IMS integration, FBR e-invoicing, cargo software development, customs clearance software",
   alternates: { canonical: "https://codesummix.com/freight-software/" },
-  openGraph: { title: "Freight Forwarding Specialists | Logistics Software | CodeSumMix", description: "Freight forwarding specialists building logistics software: sea and air import-export operations, invoicing and PRA & FBR e-IMS tax integration in Pakistan.", url: "https://codesummix.com/freight-software/", type: "website", siteName: "CodeSumMix", locale: "en_US", images: [{ url: "https://codesummix.com/assets/img/og-image.png", width: 1200, height: 630 }] },
-  twitter: { card: "summary_large_image", title: "Freight Forwarding Specialists | Logistics Software | CodeSumMix", description: "Freight forwarding specialists building logistics software: sea and air import-export operations, invoicing and PRA & FBR e-IMS tax integration in Pakistan.", images: ["https://codesummix.com/assets/img/og-image.png"] },
+  openGraph: { title: "Freight Forwarding Specialists | Logistics Software | CodeSumMix", description: "Freight forwarding specialists building logistics software: sea and air import-export operations, invoicing and PRA & FBR e-IMS tax integration in Pakistan.", url: "https://codesummix.com/freight-software/", type: "website", siteName: "CodeSumMix", locale: "en_US", images: [{ url: "https://codesummix.com/assets/og/freight-software.jpg", width: 1200, height: 630 }] },
+  twitter: { card: "summary_large_image", title: "Freight Forwarding Specialists | Logistics Software | CodeSumMix", description: "Freight forwarding specialists building logistics software: sea and air import-export operations, invoicing and PRA & FBR e-IMS tax integration in Pakistan.", images: ["https://codesummix.com/assets/og/freight-software.jpg"] },
 };
 
 export default function FreightSoftwarePage() {

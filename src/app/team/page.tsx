@@ -1,16 +1,17 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import JsonLd from "@/components/JsonLd";
+import { SITE_URL } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Software Development Team in Lahore | CodeSumMix",
   description:
-    "Meet the senior team behind CodeSumMix: finance, engineering leadership, and full-stack engineers across web, mobile and cloud who ship and then support what they build.",
+    "Meet the senior team behind CodeSumMix: finance, engineering leadership, and full-stack engineers who ship real products and support them in production.",
   keywords:
     "software development team, Laravel developers Lahore, React developers Pakistan, React Native developers, UI/UX designers Pakistan, QA engineers Lahore, DevOps engineers, dedicated development team, software house team",
   alternates: { canonical: "https://codesummix.com/team/" },
-  openGraph: { title: "Software Development Team in Lahore | CodeSumMix", description: "Meet the senior team behind CodeSumMix: finance, engineering leadership, and full-stack engineers across web, mobile and cloud who ship and then support what they build.", url: "https://codesummix.com/team/", type: "website", siteName: "CodeSumMix", locale: "en_US", images: [{ url: "https://codesummix.com/assets/img/og-image.png", width: 1200, height: 630 }] },
-  twitter: { card: "summary_large_image", title: "Software Development Team in Lahore | CodeSumMix", description: "Meet the senior team behind CodeSumMix: finance, engineering leadership, and full-stack engineers across web, mobile and cloud who ship and then support what they build.", images: ["https://codesummix.com/assets/img/og-image.png"] },
+  openGraph: { title: "Software Development Team in Lahore | CodeSumMix", description: "Meet the senior team behind CodeSumMix: finance, engineering leadership, and full-stack engineers who ship real products and support them in production.", url: "https://codesummix.com/team/", type: "website", siteName: "CodeSumMix", locale: "en_US", images: [{ url: "https://codesummix.com/assets/og/team.jpg", width: 1200, height: 630 }] },
+  twitter: { card: "summary_large_image", title: "Software Development Team in Lahore | CodeSumMix", description: "Meet the senior team behind CodeSumMix: finance, engineering leadership, and full-stack engineers who ship real products and support them in production.", images: ["https://codesummix.com/assets/og/team.jpg"] },
 };
 
 export default function TeamPage() {
@@ -33,6 +34,23 @@ export default function TeamPage() {
               name: "Team",
               item: "https://codesummix.com/team/",
             },
+          ],
+        }}
+      />
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "@id": `${SITE_URL}/team/#waleed`,
+          name: "Waleed Naeem",
+          jobTitle: "Founder & CEO",
+          image: `${SITE_URL}/assets/img/founder.jpg`,
+          worksFor: { "@type": "Organization", name: "CodeSumMix", url: `${SITE_URL}/` },
+          knowsAbout: [
+            "Custom Software Development",
+            "Education Technology",
+            "Freight Forwarding Software",
+            "Web and Mobile Development",
           ],
         }}
       />
@@ -100,7 +118,7 @@ export default function TeamPage() {
             <div data-reveal>
               <span className="eyebrow">How we work</span>
               <h2 className="section__title" style={{ marginTop: "1rem" }}>A dedicated team, not a ticket queue.</h2>
-              <p style={{ marginTop: "1.1rem" }}>Every engagement gets a focused pod from this team: engineering, QA, and a clear point of contact, so work moves fast and quality stays high. You always know who&apos;s building your product.</p>
+              <p style={{ marginTop: "1.1rem" }}>Every engagement gets a focused pod from this team: engineering, QA, and a clear point of contact, so work moves fast and quality stays high. You always know who&apos;s building your product. Curious how the studio itself works? Read <Link href="/about/">about us</Link>.</p>
             </div>
             <ul className="feature-list" data-reveal data-reveal-delay="1">
               <li><span className="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span><span className="feature-list__copy"><b>Senior by default</b><em>Experienced engineers on every project</em></span></li>

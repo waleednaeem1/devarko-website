@@ -13,8 +13,8 @@ export const metadata: Metadata = {
   keywords:
     "hire software developers Pakistan, contact software house Lahore, hire Laravel developers, outsource software development Pakistan, hire React developers, dedicated developers Lahore, software project quote, software development company contact",
   alternates: { canonical: `${SITE_URL}/contact/` },
-  openGraph: { title: TITLE, description: DESCRIPTION, url: `${SITE_URL}/contact/`, type: "website", siteName: "CodeSumMix", locale: "en_US", images: [{ url: "https://codesummix.com/assets/img/og-image.png", width: 1200, height: 630 }] },
-  twitter: { card: "summary_large_image", title: TITLE, description: DESCRIPTION, images: ["https://codesummix.com/assets/img/og-image.png"] },
+  openGraph: { title: TITLE, description: DESCRIPTION, url: `${SITE_URL}/contact/`, type: "website", siteName: "CodeSumMix", locale: "en_US", images: [{ url: "https://codesummix.com/assets/og/contact.jpg", width: 1200, height: 630 }] },
+  twitter: { card: "summary_large_image", title: TITLE, description: DESCRIPTION, images: ["https://codesummix.com/assets/og/contact.jpg"] },
 };
 
 export default function ContactPage() {

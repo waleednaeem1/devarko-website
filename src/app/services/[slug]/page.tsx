@@ -26,9 +26,22 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: s.metaDescription,
     keywords: s.keywords,
     alternates: { canonical: url },
-    openGraph: { type: "website", siteName: "CodeSumMix", locale: "en_US", images: [{ url: "https://codesummix.com/assets/img/og-image.png", width: 1200, height: 630 }], title: s.metaTitle, description: s.metaDescription, url },
-    twitter: { card: "summary_large_image", images: ["https://codesummix.com/assets/img/og-image.png"], title: s.metaTitle, description: s.metaDescription },
+    openGraph: { type: "website", siteName: "CodeSumMix", locale: "en_US", images: [{ url: `https://codesummix.com/assets/og/service-${s.slug}.jpg`, width: 1200, height: 630 }], title: s.metaTitle, description: s.metaDescription, url },
+    twitter: { card: "summary_large_image", images: [`https://codesummix.com/assets/og/service-${s.slug}.jpg`], title: s.metaTitle, description: s.metaDescription },
   };
+}
+
+
+function rich(text: string): React.ReactNode[] {
+  return text.split(/(\[[^\]]+\]\([^)]+\))/g).map((part, i) => {
+    const m = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
+    if (!m) return part;
+    return (
+      <Link key={i} href={m[2]}>
+        {m[1]}
+      </Link>
+    );
+  });
 }
 
 export default async function ServicePage({ params }: Props) {
@@ -116,7 +129,7 @@ export default async function ServicePage({ params }: Props) {
               </h2>
               {s.overview.paragraphs.map((p, i) => (
                 <p key={i} style={i === 0 ? { marginTop: "1.1rem" } : undefined}>
-                  {p}
+                  {rich(p)}
                 </p>
               ))}
             </div>

@@ -13,8 +13,8 @@ export const metadata: Metadata = {
   keywords:
     "software jobs Lahore, software house jobs Pakistan, Laravel developer jobs, React developer jobs Lahore, PHP developer jobs Pakistan, QA engineer jobs Lahore, DevOps jobs Pakistan, software internships Lahore, careers at CodeSumMix",
   alternates: { canonical: `${SITE_URL}/careers/` },
-  openGraph: { title: TITLE, description: DESCRIPTION, url: `${SITE_URL}/careers/`, type: "website", siteName: "CodeSumMix", locale: "en_US", images: [{ url: "https://codesummix.com/assets/img/og-image.png", width: 1200, height: 630 }] },
-  twitter: { card: "summary_large_image", title: TITLE, description: DESCRIPTION, images: ["https://codesummix.com/assets/img/og-image.png"] },
+  openGraph: { title: TITLE, description: DESCRIPTION, url: `${SITE_URL}/careers/`, type: "website", siteName: "CodeSumMix", locale: "en_US", images: [{ url: "https://codesummix.com/assets/og/careers.jpg", width: 1200, height: 630 }] },
+  twitter: { card: "summary_large_image", title: TITLE, description: DESCRIPTION, images: ["https://codesummix.com/assets/og/careers.jpg"] },
 };
 
 export default function CareersPage() {

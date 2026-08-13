@@ -9,8 +9,8 @@ export const metadata: Metadata = {
   keywords:
     "online education platform development, e-learning development, continuing education platform, course platform development, LMS development, EdTech specialists, education technology company, video learning platform, membership platform development, custom web development",
   alternates: { canonical: "https://codesummix.com/work/vetandtech/" },
-  openGraph: { title: "Online Education Platform Development | VetandTech", description: "VetandTech delivers continuing education to vets worldwide. See how we built the course catalogue, video lessons, certificates and member payments.", url: "https://codesummix.com/work/vetandtech/", type: "article", siteName: "CodeSumMix", locale: "en_US", images: [{ url: "https://codesummix.com/assets/img/og-image.png", width: 1200, height: 630 }] },
-  twitter: { card: "summary_large_image", title: "Online Education Platform Development | VetandTech", description: "VetandTech delivers continuing education to vets worldwide. See how we built the course catalogue, video lessons, certificates and member payments.", images: ["https://codesummix.com/assets/img/og-image.png"] },
+  openGraph: { title: "Online Education Platform Development | VetandTech", description: "VetandTech delivers continuing education to vets worldwide. See how we built the course catalogue, video lessons, certificates and member payments.", url: "https://codesummix.com/work/vetandtech/", type: "article", siteName: "CodeSumMix", locale: "en_US", images: [{ url: "https://codesummix.com/assets/og/work-vetandtech.jpg", width: 1200, height: 630 }] },
+  twitter: { card: "summary_large_image", title: "Online Education Platform Development | VetandTech", description: "VetandTech delivers continuing education to vets worldwide. See how we built the course catalogue, video lessons, certificates and member payments.", images: ["https://codesummix.com/assets/og/work-vetandtech.jpg"] },
 };
 
 export default function VetandTechPage() {
@@ -79,11 +79,11 @@ export default function VetandTechPage() {
               fontSize: "1.08rem",
             }}
           >
-            For the same US client behind DVM Central and VetPet Central, we built VetandTech: an
+            For the same US client behind <Link href="/work/dvm-central/">DVM Central</Link> and VetPet Central, we built VetandTech: an
             online veterinary education platform where veterinary professionals learn through{" "}
             <strong style={{ color: "var(--text)" }}>free RACE-approved CE webinars</strong>,
             courses, surgical training resources, and events. It sits at the intersection of our two
-            deepest specialties: education technology and the veterinary industry.
+            deepest specialties: <Link href="/edtech/">education technology</Link> and the veterinary industry.
           </p>
           <div className="feature-case__chips" style={{ marginTop: "1.4rem" }}>
             <span>CE Webinars</span>
@@ -240,7 +240,7 @@ export default function VetandTechPage() {
                   </svg>
                 </span>
                 <span className="feature-list__copy">
-                  <b>Fast, modern web platform</b>
+                  <b>Fast, <Link href="/services/web-applications/">modern web platform</Link></b>
                   <em>SEO-ready and built to grow</em>
                 </span>
               </li>

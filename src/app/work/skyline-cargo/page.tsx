@@ -9,8 +9,8 @@ export const metadata: Metadata = {
   keywords:
     "freight forwarding software Pakistan, logistics software Pakistan, freight forwarding specialists, sea import export software, MBL HBL invoicing, PRA e-IMS integration, FBR e-invoicing, e-invoicing Pakistan, custom software development, software house in Lahore, Skyline Cargo case study, CodeSumMix",
   alternates: { canonical: "https://codesummix.com/work/skyline-cargo/" },
-  openGraph: { title: "Freight Forwarding Software Pakistan | Skyline Cargo", description: "See how we built freight forwarding software for a Pakistani forwarder: sea and air import-export, MBL/HBL invoicing and live PRA e-IMS tax filing.", url: "https://codesummix.com/work/skyline-cargo/", type: "article", siteName: "CodeSumMix", locale: "en_US", images: [{ url: "https://codesummix.com/assets/img/og-image.png", width: 1200, height: 630 }] },
-  twitter: { card: "summary_large_image", title: "Freight Forwarding Software Pakistan | Skyline Cargo", description: "See how we built freight forwarding software for a Pakistani forwarder: sea and air import-export, MBL/HBL invoicing and live PRA e-IMS tax filing.", images: ["https://codesummix.com/assets/img/og-image.png"] },
+  openGraph: { title: "Freight Forwarding Software Pakistan | Skyline Cargo", description: "See how we built freight forwarding software for a Pakistani forwarder: sea and air import-export, MBL/HBL invoicing and live PRA e-IMS tax filing.", url: "https://codesummix.com/work/skyline-cargo/", type: "article", siteName: "CodeSumMix", locale: "en_US", images: [{ url: "https://codesummix.com/assets/og/work-skyline-cargo.jpg", width: 1200, height: 630 }] },
+  twitter: { card: "summary_large_image", title: "Freight Forwarding Software Pakistan | Skyline Cargo", description: "See how we built freight forwarding software for a Pakistani forwarder: sea and air import-export, MBL/HBL invoicing and live PRA e-IMS tax filing.", images: ["https://codesummix.com/assets/og/work-skyline-cargo.jpg"] },
 };
 
 export default function SkylineCargoPage() {
@@ -80,11 +80,11 @@ export default function SkylineCargoPage() {
             }}
           >
             For Skyline Cargo Marketing, a freight-forwarding company in Lahore, we built a platform
-            that runs their sea and air import &amp; export operations end to end: job and shipment
+            that runs their <Link href="/freight-software/">sea and air import &amp; export operations</Link> end to end: job and shipment
             records with master &amp; house bills of lading, multi-currency invoicing, and direct
             integration with the government&apos;s{" "}
             <strong style={{ color: "var(--text)" }}>PRA &amp; FBR e-IMS</strong> systems for tax
-            fiscalization, plus freight-ERP modules for HR, payroll, and accounts.
+            fiscalization, plus <Link href="/work/kare-cargo/">freight-ERP modules for HR, payroll</Link>, and accounts.
           </p>
           <div className="feature-case__chips" style={{ marginTop: "1.4rem" }}>
             <span>Sea &amp; Air</span>
@@ -292,7 +292,7 @@ export default function SkylineCargoPage() {
           <div className="cta__inner" data-reveal="">
             <h2 className="cta__title">Run a logistics or freight business?</h2>
             <p className="cta__sub">
-              Operations, invoicing, tax compliance, and reporting: we build systems that run the
+              Operations, invoicing, tax compliance, and reporting: <Link href="/services/custom-software/">we build systems</Link> that run the
               whole business.
             </p>
             <div className="cta__actions">

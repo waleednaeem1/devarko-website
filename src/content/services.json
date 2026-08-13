@@ -30,7 +30,7 @@
    "heading": "When the off-the-shelf option nearly fits",
    "paragraphs": [
     "Every packaged product makes an assumption about how you work. When that assumption is close enough, buy it: we will tell you so, and we have. The projects worth building are the ones where the mismatch is quietly costing you hours: the reconciliation someone redoes every Friday, the WhatsApp group that has become a job queue, the three systems that disagree about the same invoice. Custom software is worth it when the process is the business, not when it is merely inconvenient.",
-    "We build those systems, and we run one of our own. Cargonio is our product: a multi-tenant freight-forwarding ERP covering air and sea import-export operations, invoicing, PRA and FBR e-IMS tax filing, double-entry accounting, HR, payroll and over a hundred reports. It is not a demo built for a portfolio. It has customers, a release cycle, migrations that have to run on live data and support tickets we answer ourselves. Everything that taught us goes straight into client work."
+    "We build those systems, and we run one of our own. [Cargonio](/cargonio/) is our product: a multi-tenant freight-forwarding ERP covering air and sea import-export operations, invoicing, PRA and FBR e-IMS tax filing, double-entry accounting, HR, payroll and over a hundred reports. It is not a demo built for a portfolio. It has customers, a release cycle, migrations that have to run on live data and support tickets we answer ourselves. Everything that taught us goes straight into client work."
    ],
    "bullets": [
     {
@@ -302,7 +302,7 @@
    "heading": "One team for the API, the dashboard and the public site",
    "paragraphs": [
     "A web app is rarely one thing. There is usually a public side that has to be found on Google and open on a poor connection, a logged-in side where customers do real work, and an internal dashboard where your staff keep the whole thing moving. We build all three, plus the API sitting underneath them, so the same people are responsible from the database to the button.",
-    "That matters because the awkward problems live between layers: a report that disagrees with the invoice, a filter that crawls once the table gets large, a page that renders fine on your laptop and blank for a user in another timezone. When one team owns the API and the screens, those get fixed rather than argued about. We have done this on Bright Future's admin panel in Kuwait, where staff manage enrolments, revenue and video content daily, and on Cargonio, the freight ERP we own and sell ourselves."
+    "That matters because the awkward problems live between layers: a report that disagrees with the invoice, a filter that crawls once the table gets large, a page that renders fine on your laptop and blank for a user in another timezone. When one team owns the API and the screens, those get fixed rather than argued about. We have done this on [Bright Future](/work/bright-future/)'s admin panel in Kuwait, where staff manage enrolments, revenue and video content daily, and on [Cargonio](/cargonio/), the freight ERP we own and sell ourselves."
    ],
    "bullets": [
     {
@@ -439,7 +439,7 @@
    "heading": "One team, both stores.",
    "paragraphs": [
     "Two separate native teams means two backlogs, two sets of bugs, and a feature that reaches Android a month after iOS. We build in React Native and TypeScript so there is one codebase, one release plan, and one team answering for both platforms: dropping into native code where a feature genuinely needs it rather than on principle.",
-    "The Bright Future student apps run on iOS and Android in Kuwait: students browse a course catalogue, pay for enrolment, and watch HD video lessons that stay locked to the account that bought them. The Laravel API behind those apps is ours as well, which is why the app and the backend agree on what a course actually is."
+    "The [Bright Future](/work/bright-future/) student apps run on iOS and Android in Kuwait: students browse a course catalogue, pay for enrolment, and watch HD video lessons that stay locked to the account that bought them. The Laravel API behind those apps is ours as well, which is why the app and the backend agree on what a course actually is."
    ],
    "bullets": [
     {
@@ -576,7 +576,7 @@
    "heading": "A CRM shaped around your process, not the other way round",
    "paragraphs": [
     "A CRM only earns its licence fee when it reflects how the business actually works. So we start with the process rather than the platform: who owns a lead, what happens the moment it becomes a deal, where finance picks it up, and which of those steps is currently held together by a spreadsheet and somebody's memory. Only then do we configure Salesforce, Zoho or Bitrix24 around it.",
-    "The hard part is rarely the CRM itself: it's everything the CRM needs to talk to. We build and run production systems in Laravel, Node, React and React Native for clients in Kuwait, Pakistan and the USA, and we own a freight ERP, Cargonio, with its own invoicing and double-entry accounting. So when your CRM has to sync with a billing system, an ERP, a booking flow or your website forms, we can write both sides of that integration instead of pointing at a plugin and hoping."
+    "The hard part is rarely the CRM itself: it's everything the CRM needs to talk to. We build and run production systems in Laravel, Node, React and React Native for clients in Kuwait, Pakistan and the USA, and we own a freight ERP, [Cargonio](/cargonio/), with its own invoicing and double-entry accounting. So when your CRM has to sync with a billing system, an ERP, a booking flow or your website forms, we can write both sides of that integration instead of pointing at a plugin and hoping."
    ],
    "bullets": [
     {
@@ -713,7 +713,7 @@
    "heading": "Infrastructure a small team can actually run",
    "paragraphs": [
     "We keep seven platforms running in production across Kuwait, Pakistan and the USA: an e-learning system streaming HLS video to thousands of students, a two-sided veterinary marketplace taking card payments, freight software that files invoices with a government tax service. None of those have a dedicated operations department behind them. They have a handful of engineers, which is why our setups have to be simple enough that a busy team keeps using them under pressure.",
-    "That shapes the work. For DVM Central we containerised the Laravel back end and Next.js storefront and deploy them on DigitalOcean, so the thing running locally is the same thing running for customers. Elsewhere it is AWS: EC2 behind Apache, S3 for media, managed MySQL, certificates that renew themselves. We pick the boring option on purpose and write down how it works."
+    "That shapes the work. For [DVM Central](/work/dvm-central/) we containerised the Laravel back end and Next.js storefront and deploy them on DigitalOcean, so the thing running locally is the same thing running for customers. Elsewhere it is AWS: EC2 behind Apache, S3 for media, managed MySQL, certificates that renew themselves. We pick the boring option on purpose and write down how it works."
    ],
    "bullets": [
     {
@@ -984,7 +984,7 @@
    "heading": "Testing is somebody's job here, not the last hour of a sprint",
    "paragraphs": [
     "In a team of nine, it is tempting to let developers test their own work and call it done. We decided early on not to do that. Two of our people are QA engineers and nothing else: they sit outside the feature work, they write the test cases from the spec rather than from the code, and a release does not go out until one of them has signed it off. It slows a few things down. It has also kept a lot of embarrassing Friday evenings off the calendar.",
-    "The systems we work on are not the kind you can check by eye. Bright Future takes real money through MyFatoorah and streams paid video from Bunny CDN to students in Kuwait. Cargonio files invoices into PRA and FBR tax systems, where a wrong figure is a compliance problem rather than a bug. DVM Central and VetPet Central serve US clinics on web and mobile at the same time. Each of those needs a written, repeatable regression pass before anyone clicks deploy, and that is what our QA team maintains."
+    "The systems we work on are not the kind you can check by eye. [Bright Future](/work/bright-future/) takes real money through MyFatoorah and streams paid video from Bunny CDN to students in Kuwait. [Cargonio](/cargonio/) files invoices into PRA and FBR tax systems, where a wrong figure is a compliance problem rather than a bug. [DVM Central](/work/dvm-central/) and VetPet Central serve US clinics on web and mobile at the same time. Each of those needs a written, repeatable regression pass before anyone clicks deploy, and that is what our QA team maintains."
    ],
    "bullets": [
     {

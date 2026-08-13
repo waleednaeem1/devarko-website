@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import JsonLd from "@/components/JsonLd";
+import { SITE_URL } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "About the Team Behind 7 Live Platforms | CodeSumMix",
@@ -9,8 +10,8 @@ export const metadata: Metadata = {
   keywords:
     "software house in Lahore, software company Pakistan, software house Pakistan, software agency Lahore, custom software development Pakistan, education technology company, freight forwarding specialists, Laravel development company, Waleed Naeem, about CodeSumMix",
   alternates: { canonical: "https://codesummix.com/about/" },
-  openGraph: { title: "About the Team Behind 7 Live Platforms | CodeSumMix", description: "CodeSumMix is a founder-led software studio in Lahore. Seven client platforms live across Kuwait, Pakistan, and the USA, plus our own freight ERP, Cargonio.", url: "https://codesummix.com/about/", type: "website", siteName: "CodeSumMix", locale: "en_US", images: [{ url: "https://codesummix.com/assets/img/og-image.png", width: 1200, height: 630 }] },
-  twitter: { card: "summary_large_image", title: "About the Team Behind 7 Live Platforms | CodeSumMix", description: "CodeSumMix is a founder-led software studio in Lahore. Seven client platforms live across Kuwait, Pakistan, and the USA, plus our own freight ERP, Cargonio.", images: ["https://codesummix.com/assets/img/og-image.png"] },
+  openGraph: { title: "About the Team Behind 7 Live Platforms | CodeSumMix", description: "CodeSumMix is a founder-led software studio in Lahore. Seven client platforms live across Kuwait, Pakistan, and the USA, plus our own freight ERP, Cargonio.", url: "https://codesummix.com/about/", type: "website", siteName: "CodeSumMix", locale: "en_US", images: [{ url: "https://codesummix.com/assets/og/about.jpg", width: 1200, height: 630 }] },
+  twitter: { card: "summary_large_image", title: "About the Team Behind 7 Live Platforms | CodeSumMix", description: "CodeSumMix is a founder-led software studio in Lahore. Seven client platforms live across Kuwait, Pakistan, and the USA, plus our own freight ERP, Cargonio.", images: ["https://codesummix.com/assets/og/about.jpg"] },
 };
 
 export default function AboutPage() {
@@ -36,6 +37,15 @@ export default function AboutPage() {
           ],
         }}
       />
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "AboutPage",
+          url: `${SITE_URL}/about/`,
+          name: "About CodeSumMix",
+          mainEntity: { "@id": `${SITE_URL}/#org` },
+        }}
+      />
       <section className="page-hero">
         <div className="page-hero__glow"></div>
         <div className="container">
@@ -53,7 +63,7 @@ export default function AboutPage() {
               <h2 className="section__title" style={{ marginTop: "1rem" }}>A small studio that runs what it ships.</h2>
               <p style={{ marginTop: "1.1rem" }}>CodeSumMix is a software studio in Lahore, Pakistan, founded and led by Waleed Naeem. We build software for clients and run a product of our own. Seven client platforms we built are in production across Kuwait, Pakistan, and the USA, and our own product runs two freight businesses every day.</p>
               <p>We go deep in two fields: education technology, and freight &amp; logistics. <strong style={{ color: "var(--text)" }}>Bright Future</strong> in Kuwait and <strong style={{ color: "var(--text)" }}>Ilmversity</strong> in Pakistan anchor the EdTech work. The freight work produced <strong style={{ color: "var(--text)" }}>Cargonio</strong>, our own multi-tenant ERP with air and sea operations, invoicing tied into the PRA &amp; FBR e-IMS tax systems, double-entry accounts, and HR and payroll. Both of our freight clients run their businesses on it.</p>
-              <p>Small and senior is a deliberate choice. There are no juniors learning on your project and no account managers between you and the people writing the code. That means faster decisions, and work you can inspect every week in a live demo.</p>
+              <p>Small and senior is a deliberate choice. There are no juniors learning on your project and no account managers between you and the people writing the code. That means faster decisions, and work you can inspect every week in a live demo. When we grow, we grow carefully: see our <Link href="/careers/">open roles</Link>.</p>
             </div>
             <div className="about-panel" data-reveal data-reveal-delay="1">
               <div className="s"><b>2</b><span>Specialties: EdTech &amp; freight software</span></div>

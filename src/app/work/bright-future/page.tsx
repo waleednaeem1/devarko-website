@@ -9,8 +9,8 @@ export const metadata: Metadata = {
   keywords:
     "e-learning platform development, e-learning development, education technology company, LMS development, EdTech specialists, custom e-learning software, online course platform development, video streaming platform, Laravel e-learning platform, mobile app development",
   alternates: { canonical: "https://codesummix.com/work/bright-future/" },
-  openGraph: { title: "E-Learning Platform Development | Bright Future Case Study", description: "How we built Bright Future, a B2B e-learning platform serving universities in Kuwait: video streaming, payments and multi-tenant course delivery.", url: "https://codesummix.com/work/bright-future/", type: "article", siteName: "CodeSumMix", locale: "en_US", images: [{ url: "https://codesummix.com/assets/img/og-image.png", width: 1200, height: 630 }] },
-  twitter: { card: "summary_large_image", title: "E-Learning Platform Development | Bright Future Case Study", description: "How we built Bright Future, a B2B e-learning platform serving universities in Kuwait: video streaming, payments and multi-tenant course delivery.", images: ["https://codesummix.com/assets/img/og-image.png"] },
+  openGraph: { title: "E-Learning Platform Development | Bright Future Case Study", description: "How we built Bright Future, a B2B e-learning platform serving universities in Kuwait: video streaming, payments and multi-tenant course delivery.", url: "https://codesummix.com/work/bright-future/", type: "article", siteName: "CodeSumMix", locale: "en_US", images: [{ url: "https://codesummix.com/assets/og/work-bright-future.jpg", width: 1200, height: 630 }] },
+  twitter: { card: "summary_large_image", title: "E-Learning Platform Development | Bright Future Case Study", description: "How we built Bright Future, a B2B e-learning platform serving universities in Kuwait: video streaming, payments and multi-tenant course delivery.", images: ["https://codesummix.com/assets/og/work-bright-future.jpg"] },
 };
 
 export default function BrightFutureCaseStudy() {
@@ -101,7 +101,7 @@ export default function BrightFutureCaseStudy() {
             <span className="eyebrow">The student app</span>
             <h2 className="section__title">Learning that fits in a pocket.</h2>
             <p className="section__sub">
-              Native iOS and Android apps where students browse the catalogue, subscribe, and watch
+              Native <Link href="/services/mobile-apps/">iOS and Android apps where students browse</Link> the catalogue, subscribe, and watch
               HD lessons, with cart, coupons, and secure checkout built in.
             </p>
           </div>
@@ -146,7 +146,7 @@ export default function BrightFutureCaseStudy() {
             <span className="eyebrow">The admin dashboard</span>
             <h2 className="section__title">Run the whole institute from one screen.</h2>
             <p className="section__sub">
-              A web dashboard for staff: enrolments, revenue, transactions, invoices, coupons, and
+              A <Link href="/services/web-applications/">web dashboard for staff</Link>: enrolments, revenue, transactions, invoices, coupons, and
               reports, all in real time.
             </p>
           </div>
@@ -328,7 +328,7 @@ export default function BrightFutureCaseStudy() {
           <div className="cta__inner" data-reveal="">
             <h2 className="cta__title">Building something like this?</h2>
             <p className="cta__sub">
-              Whether it&apos;s an e-learning platform, a marketplace, or a mobile app: we can take
+              Whether it&apos;s <Link href="/edtech/">an e-learning platform</Link>, a marketplace, or a mobile app: we can take
               it from idea to launch.
             </p>
             <div className="cta__actions">

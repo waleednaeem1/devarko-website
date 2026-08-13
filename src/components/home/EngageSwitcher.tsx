@@ -212,7 +212,7 @@ export default function EngageSwitcher() {
                 Scale up or down as the roadmap changes
               </li>
             </ul>
-            <Link className="card__link" href="/contact/">
+            <Link className="card__link" href="/team/">
               Meet the team <ArrowIcon />
             </Link>
           </div>

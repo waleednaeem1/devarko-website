@@ -9,8 +9,8 @@ export const metadata: Metadata = {
   keywords:
     "B2B marketplace development, multi-vendor marketplace development, custom marketplace software, supplier portal development, e-commerce platform development, web application development, Laravel marketplace development, veterinary marketplace platform, software development agency, custom software development",
   alternates: { canonical: "https://codesummix.com/work/dvm-central/" },
-  openGraph: { title: "B2B Marketplace Development | DVM Central Case Study", description: "DVM Central connects veterinary clinics with suppliers across the USA. See how we built a B2B marketplace with catalogues, quoting and order workflows.", url: "https://codesummix.com/work/dvm-central/", type: "article", siteName: "CodeSumMix", locale: "en_US", images: [{ url: "https://codesummix.com/assets/img/og-image.png", width: 1200, height: 630 }] },
-  twitter: { card: "summary_large_image", title: "B2B Marketplace Development | DVM Central Case Study", description: "DVM Central connects veterinary clinics with suppliers across the USA. See how we built a B2B marketplace with catalogues, quoting and order workflows.", images: ["https://codesummix.com/assets/img/og-image.png"] },
+  openGraph: { title: "B2B Marketplace Development | DVM Central Case Study", description: "DVM Central connects veterinary clinics with suppliers across the USA. See how we built a B2B marketplace with catalogues, quoting and order workflows.", url: "https://codesummix.com/work/dvm-central/", type: "article", siteName: "CodeSumMix", locale: "en_US", images: [{ url: "https://codesummix.com/assets/og/work-dvm-central.jpg", width: 1200, height: 630 }] },
+  twitter: { card: "summary_large_image", title: "B2B Marketplace Development | DVM Central Case Study", description: "DVM Central connects veterinary clinics with suppliers across the USA. See how we built a B2B marketplace with catalogues, quoting and order workflows.", images: ["https://codesummix.com/assets/og/work-dvm-central.jpg"] },
 };
 
 export default function DvmCentralPage() {
@@ -84,7 +84,7 @@ export default function DvmCentralPage() {
             practices. It brings the entire catalogue of veterinary products:
             surgical instruments, dental and diagnostic tools, imaging, and
             pharmaceuticals: into one fast, modern buying experience, with a
-            dedicated portal for sellers.
+            <Link href="/services/web-applications/">dedicated portal for sellers</Link>.
           </p>
           <div className="feature-case__chips" style={{ marginTop: "1.4rem" }}>
             <span>Laravel</span>
@@ -145,12 +145,11 @@ export default function DvmCentralPage() {
                 Buyers get a fast storefront with rich search and a smooth
                 checkout. Sellers get their own portal to list products and
                 manage orders, with no setup fees. Around it all, the platform
-                adds a vendor directory, deals, virtual expos, and on-demand
-                learning for the veterinary community.
+                adds a vendor directory, deals, virtual expos, and <Link href="/work/vetandtech/">on-demand learning</Link> for the veterinary community.
               </p>
               <p>
                 Engineered on a Laravel back end with a Next.js storefront,
-                Stripe payments, and a Dockerised deployment on DigitalOcean:
+                Stripe payments, and a <Link href="/services/cloud-devops/">Dockerised deployment on DigitalOcean</Link>:
                 built for speed, SEO, and easy growth.
               </p>
             </div>

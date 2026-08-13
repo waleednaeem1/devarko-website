@@ -5,7 +5,6 @@ Allow: /
 # Private / non-content areas
 Disallow: /admin/
 Disallow: /job/
-Disallow: /_build/
 
 # Common AI crawlers are welcome (brand visibility in AI answers)
 User-agent: GPTBot

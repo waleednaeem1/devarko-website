@@ -9,8 +9,8 @@ export const metadata: Metadata = {
   keywords:
     "software development portfolio, software case studies, software house in Lahore, custom software development, EdTech projects, freight forwarding software, web development company, Laravel development, React development, software agency Pakistan",
   alternates: { canonical: "https://codesummix.com/work/" },
-  openGraph: { title: "Software Development Portfolio & Case Studies | CodeSumMix", description: "See the platforms we have built: e-learning, veterinary marketplaces and freight systems live in Kuwait, Pakistan and the USA. Explore our case studies.", url: "https://codesummix.com/work/", type: "website", siteName: "CodeSumMix", locale: "en_US", images: [{ url: "https://codesummix.com/assets/img/og-image.png", width: 1200, height: 630 }] },
-  twitter: { card: "summary_large_image", title: "Software Development Portfolio & Case Studies | CodeSumMix", description: "See the platforms we have built: e-learning, veterinary marketplaces and freight systems live in Kuwait, Pakistan and the USA. Explore our case studies.", images: ["https://codesummix.com/assets/img/og-image.png"] },
+  openGraph: { title: "Software Development Portfolio & Case Studies | CodeSumMix", description: "See the platforms we have built: e-learning, veterinary marketplaces and freight systems live in Kuwait, Pakistan and the USA. Explore our case studies.", url: "https://codesummix.com/work/", type: "website", siteName: "CodeSumMix", locale: "en_US", images: [{ url: "https://codesummix.com/assets/og/work.jpg", width: 1200, height: 630 }] },
+  twitter: { card: "summary_large_image", title: "Software Development Portfolio & Case Studies | CodeSumMix", description: "See the platforms we have built: e-learning, veterinary marketplaces and freight systems live in Kuwait, Pakistan and the USA. Explore our case studies.", images: ["https://codesummix.com/assets/og/work.jpg"] },
 };
 
 export default function WorkPage() {
