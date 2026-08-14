@@ -27,7 +27,7 @@ const JOBS_KEY = "csm_jobs_v1";
 const APPS_KEY = "csm_apps_v1";
 export const AUTH_KEY = "csm_admin";
 export const DEMO_PASSWORD = "demo1234";
-export const WEB3FORMS_KEY = "ee6e6c96-518e-4547-ba64-def9c40193b6";
+export const WEB3FORMS_KEY = "475ac28f-251c-49f6-8d5d-be6a8468b9c5";
 
 export const SEED_JOBS: Job[] = [
   {
