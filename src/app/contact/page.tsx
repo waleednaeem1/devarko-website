@@ -97,7 +97,7 @@ export default function ContactPage() {
                 </span>
                 <div>
                   <b>LinkedIn</b>
-                  <a href="https://www.linkedin.com/" target="_blank" rel="noopener">
+                  <a href="https://www.linkedin.com/company/devarko" target="_blank" rel="noopener">
                     Connect with us
                   </a>
                 </div>

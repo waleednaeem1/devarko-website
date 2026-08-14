@@ -39,7 +39,7 @@ export default function Footer() {
             </p>
             <div className="footer__social">
               <a
-                href="https://www.linkedin.com/"
+                href="https://www.linkedin.com/company/devarko"
                 aria-label="LinkedIn"
                 target="_blank"
                 rel="noopener"
@@ -76,7 +76,7 @@ export default function Footer() {
             <h4>Get in touch</h4>
             <a href="mailto:info@devarko.com">info@devarko.com</a>
             <a href="tel:+923203271071">+92 320 3271071</a>
-            <a href="https://www.linkedin.com/" target="_blank" rel="noopener">
+            <a href="https://www.linkedin.com/company/devarko" target="_blank" rel="noopener">
               LinkedIn
             </a>
             <a

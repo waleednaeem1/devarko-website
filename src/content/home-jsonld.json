@@ -194,7 +194,10 @@
    ],
    "owns": {
     "@id": "https://devarko.com/cargonio/#app"
-   }
+   },
+   "sameAs": [
+    "https://www.linkedin.com/company/devarko"
+   ]
   },
   {
    "@type": "WebSite",
