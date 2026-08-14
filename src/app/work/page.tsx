@@ -3,14 +3,14 @@ import Link from "next/link";
 import JsonLd from "@/components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Software Development Portfolio & Case Studies | CodeSumMix",
+  title: "Software Development Portfolio & Case Studies | Devarko",
   description:
     "See the platforms we have built: e-learning, veterinary marketplaces and freight systems live in Kuwait, Pakistan and the USA. Explore our case studies.",
   keywords:
     "software development portfolio, software case studies, software house in Lahore, custom software development, EdTech projects, freight forwarding software, web development company, Laravel development, React development, software agency Pakistan",
-  alternates: { canonical: "https://codesummix.com/work/" },
-  openGraph: { title: "Software Development Portfolio & Case Studies | CodeSumMix", description: "See the platforms we have built: e-learning, veterinary marketplaces and freight systems live in Kuwait, Pakistan and the USA. Explore our case studies.", url: "https://codesummix.com/work/", type: "website", siteName: "CodeSumMix", locale: "en_US", images: [{ url: "https://codesummix.com/assets/og/work.jpg", width: 1200, height: 630 }] },
-  twitter: { card: "summary_large_image", title: "Software Development Portfolio & Case Studies | CodeSumMix", description: "See the platforms we have built: e-learning, veterinary marketplaces and freight systems live in Kuwait, Pakistan and the USA. Explore our case studies.", images: ["https://codesummix.com/assets/og/work.jpg"] },
+  alternates: { canonical: "https://devarko.com/work/" },
+  openGraph: { title: "Software Development Portfolio & Case Studies | Devarko", description: "See the platforms we have built: e-learning, veterinary marketplaces and freight systems live in Kuwait, Pakistan and the USA. Explore our case studies.", url: "https://devarko.com/work/", type: "website", siteName: "Devarko", locale: "en_US", images: [{ url: "https://devarko.com/assets/og/work.jpg", width: 1200, height: 630 }] },
+  twitter: { card: "summary_large_image", title: "Software Development Portfolio & Case Studies | Devarko", description: "See the platforms we have built: e-learning, veterinary marketplaces and freight systems live in Kuwait, Pakistan and the USA. Explore our case studies.", images: ["https://devarko.com/assets/og/work.jpg"] },
 };
 
 export default function WorkPage() {
@@ -25,13 +25,13 @@ export default function WorkPage() {
               "@type": "ListItem",
               position: 1,
               name: "Home",
-              item: "https://codesummix.com/",
+              item: "https://devarko.com/",
             },
             {
               "@type": "ListItem",
               position: 2,
               name: "Work",
-              item: "https://codesummix.com/work/",
+              item: "https://devarko.com/work/",
             },
           ],
         }}

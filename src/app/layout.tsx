@@ -12,17 +12,17 @@ export const metadata: Metadata = {
   generator: "Next.js",
   title: "Software House in Lahore | Custom Software Development",
   description:
-    "CodeSumMix is a software house and development agency in Lahore building custom software, web and mobile apps, AI automation and EdTech platforms.",
+    "Devarko is a software house and development agency in Lahore building custom software, web and mobile apps, AI automation and EdTech platforms.",
   authors: [{ name: SITE_NAME }],
   robots: { index: true, follow: true, "max-image-preview": "large" },
   verification: { google: GSC_TOKEN },
   icons: {
     icon: [
-      { url: "/assets/img/logo.svg?v=3", type: "image/svg+xml" },
-      { url: "/assets/img/favicon-32.png?v=1", sizes: "32x32", type: "image/png" },
-      { url: "/assets/img/favicon-16.png?v=1", sizes: "16x16", type: "image/png" },
+      { url: "/assets/img/logo.svg?v=4", type: "image/svg+xml" },
+      { url: "/assets/img/favicon-32.png?v=2", sizes: "32x32", type: "image/png" },
+      { url: "/assets/img/favicon-16.png?v=2", sizes: "16x16", type: "image/png" },
     ],
-    apple: [{ url: "/assets/img/apple-touch-icon.png?v=1" }],
+    apple: [{ url: "/assets/img/apple-touch-icon.png?v=2" }],
   },
   manifest: "/site.webmanifest",
   openGraph: {

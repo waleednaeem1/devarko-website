@@ -26,8 +26,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: s.metaDescription,
     keywords: s.keywords,
     alternates: { canonical: url },
-    openGraph: { type: "website", siteName: "CodeSumMix", locale: "en_US", images: [{ url: `https://codesummix.com/assets/og/service-${s.slug}.jpg`, width: 1200, height: 630 }], title: s.metaTitle, description: s.metaDescription, url },
-    twitter: { card: "summary_large_image", images: [`https://codesummix.com/assets/og/service-${s.slug}.jpg`], title: s.metaTitle, description: s.metaDescription },
+    openGraph: { type: "website", siteName: "Devarko", locale: "en_US", images: [{ url: `https://devarko.com/assets/og/service-${s.slug}.jpg`, width: 1200, height: 630 }], title: s.metaTitle, description: s.metaDescription, url },
+    twitter: { card: "summary_large_image", images: [`https://devarko.com/assets/og/service-${s.slug}.jpg`], title: s.metaTitle, description: s.metaDescription },
   };
 }
 
@@ -61,7 +61,7 @@ export default async function ServicePage({ params }: Props) {
           name: s.metaTitle,
           description: s.metaDescription,
           url,
-          provider: { "@type": "Organization", name: "CodeSumMix", url: `${SITE_URL}/` },
+          provider: { "@type": "Organization", name: "Devarko", url: `${SITE_URL}/` },
           areaServed: "Worldwide",
         }}
       />

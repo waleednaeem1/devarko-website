@@ -4,14 +4,14 @@ import JsonLd from "@/components/JsonLd";
 import { SITE_URL } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Software Development Team in Lahore | CodeSumMix",
+  title: "Software Development Team in Lahore | Devarko",
   description:
-    "Meet the senior team behind CodeSumMix: finance, engineering leadership, and full-stack engineers who ship real products and support them in production.",
+    "Meet the senior team behind Devarko: finance, engineering leadership, and full-stack engineers who ship real products and support them in production.",
   keywords:
     "software development team, Laravel developers Lahore, React developers Pakistan, React Native developers, UI/UX designers Pakistan, QA engineers Lahore, DevOps engineers, dedicated development team, software house team",
-  alternates: { canonical: "https://codesummix.com/team/" },
-  openGraph: { title: "Software Development Team in Lahore | CodeSumMix", description: "Meet the senior team behind CodeSumMix: finance, engineering leadership, and full-stack engineers who ship real products and support them in production.", url: "https://codesummix.com/team/", type: "website", siteName: "CodeSumMix", locale: "en_US", images: [{ url: "https://codesummix.com/assets/og/team.jpg", width: 1200, height: 630 }] },
-  twitter: { card: "summary_large_image", title: "Software Development Team in Lahore | CodeSumMix", description: "Meet the senior team behind CodeSumMix: finance, engineering leadership, and full-stack engineers who ship real products and support them in production.", images: ["https://codesummix.com/assets/og/team.jpg"] },
+  alternates: { canonical: "https://devarko.com/team/" },
+  openGraph: { title: "Software Development Team in Lahore | Devarko", description: "Meet the senior team behind Devarko: finance, engineering leadership, and full-stack engineers who ship real products and support them in production.", url: "https://devarko.com/team/", type: "website", siteName: "Devarko", locale: "en_US", images: [{ url: "https://devarko.com/assets/og/team.jpg", width: 1200, height: 630 }] },
+  twitter: { card: "summary_large_image", title: "Software Development Team in Lahore | Devarko", description: "Meet the senior team behind Devarko: finance, engineering leadership, and full-stack engineers who ship real products and support them in production.", images: ["https://devarko.com/assets/og/team.jpg"] },
 };
 
 export default function TeamPage() {
@@ -26,13 +26,13 @@ export default function TeamPage() {
               "@type": "ListItem",
               position: 1,
               name: "Home",
-              item: "https://codesummix.com/",
+              item: "https://devarko.com/",
             },
             {
               "@type": "ListItem",
               position: 2,
               name: "Team",
-              item: "https://codesummix.com/team/",
+              item: "https://devarko.com/team/",
             },
           ],
         }}
@@ -45,7 +45,7 @@ export default function TeamPage() {
           name: "Waleed Naeem",
           jobTitle: "Founder & CEO",
           image: `${SITE_URL}/assets/img/founder.jpg`,
-          worksFor: { "@type": "Organization", name: "CodeSumMix", url: `${SITE_URL}/` },
+          worksFor: { "@type": "Organization", name: "Devarko", url: `${SITE_URL}/` },
           knowsAbout: [
             "Custom Software Development",
             "Education Technology",
@@ -67,7 +67,7 @@ export default function TeamPage() {
         <div className="container">
           <div className="team-grid">
             <article className="member member--lead" data-reveal>
-              <div className="member__ico member__ico--photo"><span>WN</span><img src="/assets/img/founder.jpg?v=1" alt="Waleed Naeem, Founder and CEO of CodeSumMix" /></div>
+              <div className="member__ico member__ico--photo"><span>WN</span><img src="/assets/img/founder.jpg?v=1" alt="Waleed Naeem, Founder and CEO of Devarko" /></div>
               <h3 className="member__name">Waleed Naeem</h3>
               <span className="member__role">Founder &amp; CEO</span>
               <span className="member__focus">Product &amp; Delivery</span>

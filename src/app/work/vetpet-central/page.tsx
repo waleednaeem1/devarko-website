@@ -8,9 +8,9 @@ export const metadata: Metadata = {
     "VetPet Central lets pet owners book vets and join video consultations. See how we built the scheduling, telehealth and payments behind the platform.",
   keywords:
     "telehealth platform development, appointment booking system development, video consultation platform, healthcare app development, custom web application development, mobile app development, Stripe payment integration, scheduling software development, React Native development, software development agency",
-  alternates: { canonical: "https://codesummix.com/work/vetpet-central/" },
-  openGraph: { title: "Telehealth Booking Platform Development | VetPet Central", description: "VetPet Central lets pet owners book vets and join video consultations. See how we built the scheduling, telehealth and payments behind the platform.", url: "https://codesummix.com/work/vetpet-central/", type: "article", siteName: "CodeSumMix", locale: "en_US", images: [{ url: "https://codesummix.com/assets/og/work-vetpet-central.jpg", width: 1200, height: 630 }] },
-  twitter: { card: "summary_large_image", title: "Telehealth Booking Platform Development | VetPet Central", description: "VetPet Central lets pet owners book vets and join video consultations. See how we built the scheduling, telehealth and payments behind the platform.", images: ["https://codesummix.com/assets/og/work-vetpet-central.jpg"] },
+  alternates: { canonical: "https://devarko.com/work/vetpet-central/" },
+  openGraph: { title: "Telehealth Booking Platform Development | VetPet Central", description: "VetPet Central lets pet owners book vets and join video consultations. See how we built the scheduling, telehealth and payments behind the platform.", url: "https://devarko.com/work/vetpet-central/", type: "article", siteName: "Devarko", locale: "en_US", images: [{ url: "https://devarko.com/assets/og/work-vetpet-central.jpg", width: 1200, height: 630 }] },
+  twitter: { card: "summary_large_image", title: "Telehealth Booking Platform Development | VetPet Central", description: "VetPet Central lets pet owners book vets and join video consultations. See how we built the scheduling, telehealth and payments behind the platform.", images: ["https://devarko.com/assets/og/work-vetpet-central.jpg"] },
 };
 
 export default function VetPetCentralPage() {
@@ -25,19 +25,19 @@ export default function VetPetCentralPage() {
               "@type": "ListItem",
               position: 1,
               name: "Home",
-              item: "https://codesummix.com/",
+              item: "https://devarko.com/",
             },
             {
               "@type": "ListItem",
               position: 2,
               name: "Work",
-              item: "https://codesummix.com/work/",
+              item: "https://devarko.com/work/",
             },
             {
               "@type": "ListItem",
               position: 3,
               name: "VetPet Central",
-              item: "https://codesummix.com/work/vetpet-central/",
+              item: "https://devarko.com/work/vetpet-central/",
             },
           ],
         }}

@@ -22,7 +22,7 @@ export default function JobDetail() {
   useEffect(() => {
     const found = getJobs().find((j) => j.id === id) ?? null;
     setJob(found);
-    if (found) document.title = `${found.title} | Careers | CodeSumMix`;
+    if (found) document.title = `${found.title} | Careers | Devarko`;
   }, [id]);
 
   async function onSubmit(e: React.FormEvent<HTMLFormElement>) {
@@ -64,7 +64,7 @@ export default function JobDetail() {
     } catch {
       setSending(false);
       alert(
-        "Sorry, something went wrong submitting your application. Please email us directly at info@codesummix.com."
+        "Sorry, something went wrong submitting your application. Please email us directly at info@devarko.com."
       );
     }
   }
@@ -121,9 +121,9 @@ export default function JobDetail() {
                   <input
                     type="hidden"
                     name="subject"
-                    value={job ? `New application: ${job.title}` : "New job application: CodeSumMix"}
+                    value={job ? `New application: ${job.title}` : "New job application: Devarko"}
                   />
-                  <input type="hidden" name="from_name" value="CodeSumMix Careers" />
+                  <input type="hidden" name="from_name" value="Devarko Careers" />
                   <input type="hidden" name="position" value={job?.title ?? ""} />
                   <input
                     type="checkbox"

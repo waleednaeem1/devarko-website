@@ -28,9 +28,9 @@ export default function Footer() {
           <div className="footer__brand">
             <Link className="brand" href="/">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="/assets/img/logo.svg?v=3" alt="" />
+              <img src="/assets/img/logo.svg?v=4" alt="" />
               <span className="brand__name">
-                Code<b>SumMix</b>
+                Dev<b>arko</b>
               </span>
             </Link>
             <p>
@@ -48,7 +48,7 @@ export default function Footer() {
                   <path d="M4.98 3.5a2 2 0 1 1 0 4 2 2 0 0 1 0-4zM3 9h4v12H3zM10 9h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V21h-4v-5.4c0-1.3 0-2.95-1.8-2.95-1.8 0-2.08 1.4-2.08 2.85V21h-4z" />
                 </svg>
               </a>
-              <a href="mailto:info@codesummix.com" aria-label="Email">
+              <a href="mailto:info@devarko.com" aria-label="Email">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
                   <rect x="3" y="5" width="18" height="14" rx="2" />
                   <path d="M3 7l9 6 9-6" />
@@ -74,7 +74,7 @@ export default function Footer() {
           </div>
           <div className="footer__col">
             <h4>Get in touch</h4>
-            <a href="mailto:info@codesummix.com">info@codesummix.com</a>
+            <a href="mailto:info@devarko.com">info@devarko.com</a>
             <a href="tel:+923203271071">+92 320 3271071</a>
             <a href="https://www.linkedin.com/" target="_blank" rel="noopener">
               LinkedIn
@@ -84,14 +84,14 @@ export default function Footer() {
               href="https://www.google.com/maps/search/?api=1&query=Lahore%2C+Pakistan"
               target="_blank"
               rel="noopener"
-              aria-label="CodeSumMix in Lahore, Pakistan, on Google Maps"
+              aria-label="Devarko in Lahore, Pakistan, on Google Maps"
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/assets/img/map-lahore.jpg?v=1"
                 width={720}
                 height={440}
-                alt="Map of Lahore, Pakistan, where the CodeSumMix team is based"
+                alt="Map of Lahore, Pakistan, where the Devarko team is based"
                 loading="lazy"
               />
               <span className="footer__map-cap">
@@ -113,9 +113,9 @@ export default function Footer() {
         </div>
         <div className="footer__bottom">
           <span>
-            &copy; <Year /> CodeSumMix. All rights reserved.
+            &copy; <Year /> Devarko. All rights reserved.
           </span>
-          <span>Designed &amp; built by CodeSumMix.</span>
+          <span>Designed &amp; built by Devarko.</span>
         </div>
       </div>
     </footer>

@@ -31,7 +31,7 @@ export default function ContactForm() {
     } catch {
       setSending(false);
       alert(
-        "Sorry, something went wrong sending your message. Please email us directly at info@codesummix.com."
+        "Sorry, something went wrong sending your message. Please email us directly at info@devarko.com."
       );
     }
   }
@@ -40,8 +40,8 @@ export default function ContactForm() {
     <>
       <form className={`form${sent ? " hide" : ""}`} onSubmit={onSubmit} noValidate>
         <input type="hidden" name="access_key" value={WEB3FORMS_KEY} />
-        <input type="hidden" name="subject" value="New enquiry from codesummix.com" />
-        <input type="hidden" name="from_name" value="CodeSumMix Website" />
+        <input type="hidden" name="subject" value="New enquiry from devarko.com" />
+        <input type="hidden" name="from_name" value="Devarko Website" />
         <input
           type="checkbox"
           name="botcheck"
@@ -93,8 +93,8 @@ export default function ContactForm() {
           </button>
           <span className="form__note">
             Or email us directly at{" "}
-            <a href="mailto:info@codesummix.com" style={{ color: "var(--text)" }}>
-              info@codesummix.com
+            <a href="mailto:info@devarko.com" style={{ color: "var(--text)" }}>
+              info@devarko.com
             </a>
           </span>
         </div>
@@ -105,8 +105,8 @@ export default function ContactForm() {
         <p>
           We'll get back to you within one business day at the email you provided. In the meantime,
           feel free to reach us directly at{" "}
-          <a href="mailto:info@codesummix.com" style={{ color: "var(--text)" }}>
-            info@codesummix.com
+          <a href="mailto:info@devarko.com" style={{ color: "var(--text)" }}>
+            info@devarko.com
           </a>
           .
         </p>

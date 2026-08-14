@@ -8,9 +8,9 @@ export const metadata: Metadata = {
     "DVM Central connects veterinary clinics with suppliers across the USA. See how we built a B2B marketplace with catalogues, quoting and order workflows.",
   keywords:
     "B2B marketplace development, multi-vendor marketplace development, custom marketplace software, supplier portal development, e-commerce platform development, web application development, Laravel marketplace development, veterinary marketplace platform, software development agency, custom software development",
-  alternates: { canonical: "https://codesummix.com/work/dvm-central/" },
-  openGraph: { title: "B2B Marketplace Development | DVM Central Case Study", description: "DVM Central connects veterinary clinics with suppliers across the USA. See how we built a B2B marketplace with catalogues, quoting and order workflows.", url: "https://codesummix.com/work/dvm-central/", type: "article", siteName: "CodeSumMix", locale: "en_US", images: [{ url: "https://codesummix.com/assets/og/work-dvm-central.jpg", width: 1200, height: 630 }] },
-  twitter: { card: "summary_large_image", title: "B2B Marketplace Development | DVM Central Case Study", description: "DVM Central connects veterinary clinics with suppliers across the USA. See how we built a B2B marketplace with catalogues, quoting and order workflows.", images: ["https://codesummix.com/assets/og/work-dvm-central.jpg"] },
+  alternates: { canonical: "https://devarko.com/work/dvm-central/" },
+  openGraph: { title: "B2B Marketplace Development | DVM Central Case Study", description: "DVM Central connects veterinary clinics with suppliers across the USA. See how we built a B2B marketplace with catalogues, quoting and order workflows.", url: "https://devarko.com/work/dvm-central/", type: "article", siteName: "Devarko", locale: "en_US", images: [{ url: "https://devarko.com/assets/og/work-dvm-central.jpg", width: 1200, height: 630 }] },
+  twitter: { card: "summary_large_image", title: "B2B Marketplace Development | DVM Central Case Study", description: "DVM Central connects veterinary clinics with suppliers across the USA. See how we built a B2B marketplace with catalogues, quoting and order workflows.", images: ["https://devarko.com/assets/og/work-dvm-central.jpg"] },
 };
 
 export default function DvmCentralPage() {
@@ -25,19 +25,19 @@ export default function DvmCentralPage() {
               "@type": "ListItem",
               position: 1,
               name: "Home",
-              item: "https://codesummix.com/",
+              item: "https://devarko.com/",
             },
             {
               "@type": "ListItem",
               position: 2,
               name: "Work",
-              item: "https://codesummix.com/work/",
+              item: "https://devarko.com/work/",
             },
             {
               "@type": "ListItem",
               position: 3,
               name: "DVM Central",
-              item: "https://codesummix.com/work/dvm-central/",
+              item: "https://devarko.com/work/dvm-central/",
             },
           ],
         }}

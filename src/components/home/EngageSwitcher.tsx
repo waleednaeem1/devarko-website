@@ -102,7 +102,7 @@ export default function EngageSwitcher() {
 
   return (
     <div className="engage" data-reveal ref={wrapRef}>
-      <div className={`engage__tabs${held ? " is-held" : ""}`} role="tablist" aria-label="Ways of working with CodeSumMix">
+      <div className={`engage__tabs${held ? " is-held" : ""}`} role="tablist" aria-label="Ways of working with Devarko">
         {TABS.map((t, i) => (
           <button
             key={t.title}

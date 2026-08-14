@@ -1,6 +1,6 @@
-# codesummix.com
+# devarko.com
 
-The CodeSumMix marketing site: Next.js 16 (App Router, TypeScript), statically
+The Devarko marketing site: Next.js 16 (App Router, TypeScript), statically
 exported and deployed to Hostinger on every push to `main`.
 
 ## Stack

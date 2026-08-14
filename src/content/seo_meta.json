@@ -2,132 +2,132 @@
  {
   "url": "/",
   "title": "Software House in Lahore | Custom Software Development",
-  "description": "CodeSumMix is a software house and development agency in Lahore building custom software, web and mobile apps, AI automation and EdTech platforms.",
+  "description": "Devarko is a software house and development agency in Lahore building custom software, web and mobile apps, AI automation and EdTech platforms.",
   "keywords": "software house, software agency, software development company, custom software development, web development company, CRM solutions, EdTech specialists, freight forwarding software, mobile app development, AI development company, Laravel development, software house Pakistan",
   "primaryKeyword": "software house"
  },
  {
   "url": "/services/",
-  "title": "Software Development Services | Web, AI, CRM | CodeSumMix",
+  "title": "Software Development Services | Web, AI, CRM | Devarko",
   "description": "Custom software, web and mobile apps, AI automation, CRM builds, cloud DevOps, UI/UX and QA: delivered end to end by one Lahore-based engineering team.",
   "keywords": "software development services, custom software development, web development, mobile app development, CRM development, AI solutions and automation, cloud and DevOps services, UI/UX design services, QA and testing services, e-learning development, ERP development, SEO and digital marketing",
   "primaryKeyword": "software development services"
  },
  {
   "url": "/about/",
-  "title": "About the Team Behind 7 Live Platforms | CodeSumMix",
-  "description": "CodeSumMix is a founder-led software studio in Lahore. Seven client platforms live across Kuwait, Pakistan, and the USA, plus our own freight ERP, Cargonio.",
-  "keywords": "software house in Lahore, software company Pakistan, software house Pakistan, software agency Lahore, custom software development Pakistan, education technology company, freight forwarding specialists, Laravel development company, Waleed Naeem, about CodeSumMix",
+  "title": "About the Team Behind 7 Live Platforms | Devarko",
+  "description": "Devarko is a founder-led software studio in Lahore. Seven client platforms live across Kuwait, Pakistan, and the USA, plus our own freight ERP, Cargonio.",
+  "keywords": "software house in Lahore, software company Pakistan, software house Pakistan, software agency Lahore, custom software development Pakistan, education technology company, freight forwarding specialists, Laravel development company, Waleed Naeem, about Devarko",
   "primaryKeyword": "software house in Lahore"
  },
  {
   "url": "/team/",
-  "title": "Software Development Team in Lahore | CodeSumMix",
-  "description": "Meet the senior team behind CodeSumMix: finance, engineering leadership, and full-stack engineers across web, mobile and cloud who ship and then support what they build.",
+  "title": "Software Development Team in Lahore | Devarko",
+  "description": "Meet the senior team behind Devarko: finance, engineering leadership, and full-stack engineers across web, mobile and cloud who ship and then support what they build.",
   "keywords": "software development team, Laravel developers Lahore, React developers Pakistan, React Native developers, UI/UX designers Pakistan, QA engineers Lahore, DevOps engineers, dedicated development team, software house team",
   "primaryKeyword": "software development team"
  },
  {
   "url": "/contact/",
-  "title": "Hire Software Developers in Pakistan | CodeSumMix",
-  "description": "Talk to CodeSumMix about your build. Email info@codesummix.com or call +92 320 3271071 to scope a project with a Lahore team that answers to its founder.",
+  "title": "Hire Software Developers in Pakistan | Devarko",
+  "description": "Talk to Devarko about your build. Email info@devarko.com or call +92 320 3271071 to scope a project with a Lahore team that answers to its founder.",
   "keywords": "hire software developers Pakistan, contact software house Lahore, hire Laravel developers, outsource software development Pakistan, hire React developers, dedicated developers Lahore, software project quote, software development company contact",
   "primaryKeyword": "hire software developers Pakistan"
  },
  {
   "url": "/careers/",
-  "title": "Software Jobs in Lahore | Careers | CodeSumMix",
+  "title": "Software Jobs in Lahore | Careers | Devarko",
   "description": "Software jobs in Lahore at a nine-person studio: Laravel, React, React Native, QA and DevOps roles with real client products and no layers of management.",
-  "keywords": "software jobs Lahore, software house jobs Pakistan, Laravel developer jobs, React developer jobs Lahore, PHP developer jobs Pakistan, QA engineer jobs Lahore, DevOps jobs Pakistan, software internships Lahore, careers at CodeSumMix",
+  "keywords": "software jobs Lahore, software house jobs Pakistan, Laravel developer jobs, React developer jobs Lahore, PHP developer jobs Pakistan, QA engineer jobs Lahore, DevOps jobs Pakistan, software internships Lahore, careers at Devarko",
   "primaryKeyword": "software jobs Lahore"
  },
  {
   "url": "/services/custom-software/",
-  "title": "Custom Software Development Company | CodeSumMix",
+  "title": "Custom Software Development Company | Devarko",
   "description": "Custom software development for education and logistics teams: Laravel, React and AWS platforms live in Kuwait, Pakistan and the USA. Founder-led delivery.",
   "keywords": "custom software development, custom software development company, bespoke software development, software house in Lahore, Laravel development, enterprise software development, software development agency, custom application development, software development Pakistan, API development",
   "primaryKeyword": "custom software development"
  },
  {
   "url": "/services/web-applications/",
-  "title": "Web Development Company in Lahore | CodeSumMix",
+  "title": "Web Development Company in Lahore | Devarko",
   "description": "A web development company building fast, secure web applications in Laravel, React and Next.js: seven client platforms live across three countries.",
   "keywords": "web development company, web application development, web development Lahore, Laravel web development, React development, Next.js development, custom web applications, full stack development, progressive web apps, web development agency Pakistan",
   "primaryKeyword": "web development company"
  },
  {
   "url": "/services/mobile-apps/",
-  "title": "Mobile App Development | iOS & Android | CodeSumMix",
+  "title": "Mobile App Development | iOS & Android | Devarko",
   "description": "React Native apps for iOS and Android, built alongside the Laravel APIs that power them: one team from backend to App Store release. See our work.",
   "keywords": "mobile app development, mobile app development company, React Native development, iOS app development, Android app development, cross-platform app development, mobile app developers Lahore, e-learning mobile apps, app development Pakistan, custom mobile applications",
   "primaryKeyword": "mobile app development"
  },
  {
   "url": "/services/crm-solutions/",
-  "title": "CRM Solutions | Salesforce, Zoho & Bitrix24 | CodeSumMix",
+  "title": "CRM Solutions | Salesforce, Zoho & Bitrix24 | Devarko",
   "description": "CRM solutions that sales teams actually use: Salesforce, Zoho and Bitrix24 set up, customised and integrated with the systems you already run.",
   "keywords": "CRM solutions, CRM development, CRM development company, Salesforce implementation, Zoho CRM development, Bitrix24 CRM, custom CRM software, CRM integration services, sales automation software, CRM consultancy Lahore",
   "primaryKeyword": "CRM solutions"
  },
  {
   "url": "/services/ai-solutions/",
-  "title": "AI Development Company | Automation Services | CodeSumMix",
+  "title": "AI Development Company | Automation Services | Devarko",
   "description": "An AI development company applying automation, document processing and LLM integrations to real business workflows: built on the stack we already run.",
   "keywords": "AI development company, AI solutions, AI automation services, workflow automation, LLM integration, machine learning development, AI chatbot development, intelligent document processing, AI consultancy Pakistan, business process automation",
   "primaryKeyword": "AI development company"
  },
  {
   "url": "/services/cloud-devops/",
-  "title": "Cloud & DevOps Services | AWS & Docker | CodeSumMix",
+  "title": "Cloud & DevOps Services | AWS & Docker | Devarko",
   "description": "Cloud and DevOps services on AWS and DigitalOcean: Dockerised deployments, CI/CD pipelines, monitoring and backups that keep live platforms online.",
   "keywords": "cloud and DevOps services, AWS infrastructure setup, DigitalOcean deployment, Docker containerisation, CI/CD pipeline setup, Laravel deployment, server monitoring, database backups, zero-downtime releases, cloud migration, cloud cost optimisation, DevOps services Lahore",
   "primaryKeyword": "cloud and DevOps services"
  },
  {
   "url": "/services/ui-ux-design/",
-  "title": "UI UX Design Services for Web & Mobile | CodeSumMix",
+  "title": "UI UX Design Services for Web & Mobile | Devarko",
   "description": "Research-led UI and UX design services: user flows, wireframes, clickable prototypes and design systems, validated with real users before code begins.",
   "keywords": "UI UX design services, product design agency, user research, wireframing, clickable prototypes, design systems, dashboard UX design, admin panel design, mobile app UI design, SaaS product design, Figma to React, UI UX design Lahore",
   "primaryKeyword": "UI UX design services"
  },
  {
   "url": "/services/qa-testing/",
-  "title": "QA & Software Testing Services | Web & Apps | CodeSumMix",
+  "title": "QA & Software Testing Services | Web & Apps | Devarko",
   "description": "Manual and automated QA and testing services: regression suites, API and payment-flow checks, plus release sign-off across web and mobile apps.",
   "keywords": "QA and software testing services, software testing company, manual testing, test automation, regression testing, API testing, mobile app testing, payment gateway testing, release sign-off, Laravel testing, React Native QA, QA outsourcing Pakistan",
   "primaryKeyword": "QA and software testing services"
  },
  {
   "url": "/services/seo-marketing/",
-  "title": "SEO Services | Technical SEO & Content | CodeSumMix",
+  "title": "SEO Services | Technical SEO & Content | Devarko",
   "description": "Engineer-led SEO services from Lahore: technical audits, schema markup, Core Web Vitals and content that make your product easier to find and click.",
   "keywords": "SEO services, technical SEO, SEO audit, schema markup, Core Web Vitals, page speed optimisation, on-page SEO, Google Search Console setup, GA4 analytics, content strategy, Next.js SEO, digital marketing agency Lahore",
   "primaryKeyword": "SEO services"
  },
  {
   "url": "/cargonio/",
-  "title": "Freight Forwarding Software | Cargonio ERP | CodeSumMix",
+  "title": "Freight Forwarding Software | Cargonio ERP | Devarko",
   "description": "Cargonio is our multi-tenant freight forwarding ERP: air and sea import-export jobs, invoicing with PRA and FBR e-IMS filing, accounts, HR and payroll.",
-  "keywords": "freight forwarding software, freight ERP, freight forwarding ERP, logistics software, air export software, sea import software, freight invoicing software, PRA e-IMS integration, FBR e-invoicing, e-invoicing Pakistan, multi-tenant ERP, ERP development, Cargonio, CodeSumMix",
+  "keywords": "freight forwarding software, freight ERP, freight forwarding ERP, logistics software, air export software, sea import software, freight invoicing software, PRA e-IMS integration, FBR e-invoicing, e-invoicing Pakistan, multi-tenant ERP, ERP development, Cargonio, Devarko",
   "primaryKeyword": "freight forwarding software"
  },
  {
   "url": "/work/skyline-cargo/",
   "title": "Freight Forwarding Software Pakistan | Skyline Cargo",
   "description": "See how we built freight forwarding software for a Pakistani forwarder: sea and air import-export, MBL/HBL invoicing and live PRA e-IMS tax filing.",
-  "keywords": "freight forwarding software Pakistan, logistics software Pakistan, freight forwarding specialists, sea import export software, MBL HBL invoicing, PRA e-IMS integration, FBR e-invoicing, e-invoicing Pakistan, custom software development, software house in Lahore, Skyline Cargo case study, CodeSumMix",
+  "keywords": "freight forwarding software Pakistan, logistics software Pakistan, freight forwarding specialists, sea import export software, MBL HBL invoicing, PRA e-IMS integration, FBR e-invoicing, e-invoicing Pakistan, custom software development, software house in Lahore, Skyline Cargo case study, Devarko",
   "primaryKeyword": "freight forwarding software Pakistan"
  },
  {
   "url": "/work/kare-cargo/",
-  "title": "Freight ERP with HR & Payroll | Kare Cargo | CodeSumMix",
+  "title": "Freight ERP with HR & Payroll | Kare Cargo | Devarko",
   "description": "Kare Cargo International runs its whole freight business on one ERP: air and sea operations, e-invoicing, double-entry accounts, HR and payroll in one login.",
-  "keywords": "freight ERP with HR and payroll, freight ERP Pakistan, logistics ERP software, HR and payroll software, freight accounting software, double-entry accounting software, PRA FBR integration, e-invoicing Pakistan, ERP development, freight forwarding specialists, Kare Cargo case study, Cargonio, CodeSumMix",
+  "keywords": "freight ERP with HR and payroll, freight ERP Pakistan, logistics ERP software, HR and payroll software, freight accounting software, double-entry accounting software, PRA FBR integration, e-invoicing Pakistan, ERP development, freight forwarding specialists, Kare Cargo case study, Cargonio, Devarko",
   "primaryKeyword": "freight ERP with HR and payroll"
  },
  {
   "url": "/work/",
-  "title": "Software Development Portfolio & Case Studies | CodeSumMix",
+  "title": "Software Development Portfolio & Case Studies | Devarko",
   "description": "See the platforms we have built: e-learning, veterinary marketplaces and freight systems live in Kuwait, Pakistan and the USA. Explore our case studies.",
   "keywords": "software development portfolio, software case studies, software house in Lahore, custom software development, EdTech projects, freight forwarding software, web development company, Laravel development, React development, software agency Pakistan",
   "primaryKeyword": "software development portfolio"
@@ -141,7 +141,7 @@
  },
  {
   "url": "/work/ilmversity/",
-  "title": "School LMS Development: Ilmversity Case Study | CodeSumMix",
+  "title": "School LMS Development: Ilmversity Case Study | Devarko",
   "description": "Ilmversity is a school LMS built for Pakistani institutions: classes, attendance, assessments and parent visibility in one platform. See the build.",
   "keywords": "school LMS development, school management system development, LMS development company, education technology Pakistan, custom LMS software, student information system, EdTech software house, school portal development, e-learning development, Laravel LMS",
   "primaryKeyword": "school LMS development"

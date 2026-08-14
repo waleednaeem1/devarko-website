@@ -8,9 +8,9 @@ export const metadata: Metadata = {
     "How we built Bright Future, a B2B e-learning platform serving universities in Kuwait: video streaming, payments and multi-tenant course delivery.",
   keywords:
     "e-learning platform development, e-learning development, education technology company, LMS development, EdTech specialists, custom e-learning software, online course platform development, video streaming platform, Laravel e-learning platform, mobile app development",
-  alternates: { canonical: "https://codesummix.com/work/bright-future/" },
-  openGraph: { title: "E-Learning Platform Development | Bright Future Case Study", description: "How we built Bright Future, a B2B e-learning platform serving universities in Kuwait: video streaming, payments and multi-tenant course delivery.", url: "https://codesummix.com/work/bright-future/", type: "article", siteName: "CodeSumMix", locale: "en_US", images: [{ url: "https://codesummix.com/assets/og/work-bright-future.jpg", width: 1200, height: 630 }] },
-  twitter: { card: "summary_large_image", title: "E-Learning Platform Development | Bright Future Case Study", description: "How we built Bright Future, a B2B e-learning platform serving universities in Kuwait: video streaming, payments and multi-tenant course delivery.", images: ["https://codesummix.com/assets/og/work-bright-future.jpg"] },
+  alternates: { canonical: "https://devarko.com/work/bright-future/" },
+  openGraph: { title: "E-Learning Platform Development | Bright Future Case Study", description: "How we built Bright Future, a B2B e-learning platform serving universities in Kuwait: video streaming, payments and multi-tenant course delivery.", url: "https://devarko.com/work/bright-future/", type: "article", siteName: "Devarko", locale: "en_US", images: [{ url: "https://devarko.com/assets/og/work-bright-future.jpg", width: 1200, height: 630 }] },
+  twitter: { card: "summary_large_image", title: "E-Learning Platform Development | Bright Future Case Study", description: "How we built Bright Future, a B2B e-learning platform serving universities in Kuwait: video streaming, payments and multi-tenant course delivery.", images: ["https://devarko.com/assets/og/work-bright-future.jpg"] },
 };
 
 export default function BrightFutureCaseStudy() {
@@ -25,19 +25,19 @@ export default function BrightFutureCaseStudy() {
               "@type": "ListItem",
               position: 1,
               name: "Home",
-              item: "https://codesummix.com/",
+              item: "https://devarko.com/",
             },
             {
               "@type": "ListItem",
               position: 2,
               name: "Work",
-              item: "https://codesummix.com/work/",
+              item: "https://devarko.com/work/",
             },
             {
               "@type": "ListItem",
               position: 3,
               name: "Bright Future",
-              item: "https://codesummix.com/work/bright-future/",
+              item: "https://devarko.com/work/bright-future/",
             },
           ],
         }}

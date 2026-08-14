@@ -6,23 +6,23 @@
     "Organization",
     "ProfessionalService"
    ],
-   "@id": "https://codesummix.com/#org",
-   "name": "CodeSumMix",
+   "@id": "https://devarko.com/#org",
+   "name": "Devarko",
    "alternateName": [
-    "CodeSumMix Software House",
-    "CodeSumMix Software Agency"
+    "Devarko Software House",
+    "Devarko Software Agency"
    ],
-   "url": "https://codesummix.com/",
+   "url": "https://devarko.com/",
    "logo": {
     "@type": "ImageObject",
-    "url": "https://codesummix.com/assets/img/icon-512.png",
+    "url": "https://devarko.com/assets/img/icon-512.png",
     "width": 512,
     "height": 512
    },
-   "image": "https://codesummix.com/assets/img/og-image.png",
-   "description": "CodeSumMix is a software house and development agency in Lahore, Pakistan building custom web, mobile, AI and cloud products, with deep specialism in education technology and freight & logistics software.",
+   "image": "https://devarko.com/assets/img/og-image.png",
+   "description": "Devarko is a software house and development agency in Lahore, Pakistan building custom web, mobile, AI and cloud products, with deep specialism in education technology and freight & logistics software.",
    "slogan": "We design and build software that moves your business forward.",
-   "email": "info@codesummix.com",
+   "email": "info@devarko.com",
    "telephone": "+92-320-3271071",
    "priceRange": "$$",
    "address": {
@@ -41,7 +41,7 @@
     "name": "Waleed Naeem",
     "jobTitle": "Founder & CEO",
     "worksFor": {
-     "@id": "https://codesummix.com/#org"
+     "@id": "https://devarko.com/#org"
     }
    },
    "areaServed": [
@@ -93,7 +93,7 @@
      "itemOffered": {
       "@type": "Service",
       "name": "Custom Software Development",
-      "url": "https://codesummix.com/services/custom-software/"
+      "url": "https://devarko.com/services/custom-software/"
      }
     },
     {
@@ -101,7 +101,7 @@
      "itemOffered": {
       "@type": "Service",
       "name": "AI Solutions & Automation",
-      "url": "https://codesummix.com/services/ai-solutions/"
+      "url": "https://devarko.com/services/ai-solutions/"
      }
     },
     {
@@ -109,7 +109,7 @@
      "itemOffered": {
       "@type": "Service",
       "name": "Web Development",
-      "url": "https://codesummix.com/services/web-applications/"
+      "url": "https://devarko.com/services/web-applications/"
      }
     },
     {
@@ -117,7 +117,7 @@
      "itemOffered": {
       "@type": "Service",
       "name": "Mobile App Development",
-      "url": "https://codesummix.com/services/mobile-apps/"
+      "url": "https://devarko.com/services/mobile-apps/"
      }
     },
     {
@@ -125,7 +125,7 @@
      "itemOffered": {
       "@type": "Service",
       "name": "CRM Solutions",
-      "url": "https://codesummix.com/services/crm-solutions/"
+      "url": "https://devarko.com/services/crm-solutions/"
      }
     },
     {
@@ -133,7 +133,7 @@
      "itemOffered": {
       "@type": "Service",
       "name": "Cloud & DevOps",
-      "url": "https://codesummix.com/services/cloud-devops/"
+      "url": "https://devarko.com/services/cloud-devops/"
      }
     },
     {
@@ -141,7 +141,7 @@
      "itemOffered": {
       "@type": "Service",
       "name": "UI/UX & Product Design",
-      "url": "https://codesummix.com/services/ui-ux-design/"
+      "url": "https://devarko.com/services/ui-ux-design/"
      }
     },
     {
@@ -149,7 +149,7 @@
      "itemOffered": {
       "@type": "Service",
       "name": "QA & Testing",
-      "url": "https://codesummix.com/services/qa-testing/"
+      "url": "https://devarko.com/services/qa-testing/"
      }
     },
     {
@@ -157,7 +157,7 @@
      "itemOffered": {
       "@type": "Service",
       "name": "SEO & Digital Marketing",
-      "url": "https://codesummix.com/services/seo-marketing/"
+      "url": "https://devarko.com/services/seo-marketing/"
      }
     }
    ],
@@ -179,7 +179,7 @@
     {
      "@type": "ContactPoint",
      "telephone": "+92-320-3271071",
-     "email": "info@codesummix.com",
+     "email": "info@devarko.com",
      "contactType": "sales",
      "areaServed": [
       "PK",
@@ -193,90 +193,90 @@
     }
    ],
    "owns": {
-    "@id": "https://codesummix.com/cargonio/#app"
+    "@id": "https://devarko.com/cargonio/#app"
    }
   },
   {
    "@type": "WebSite",
-   "@id": "https://codesummix.com/#website",
-   "url": "https://codesummix.com/",
-   "name": "CodeSumMix",
+   "@id": "https://devarko.com/#website",
+   "url": "https://devarko.com/",
+   "name": "Devarko",
    "inLanguage": "en",
    "publisher": {
-    "@id": "https://codesummix.com/#org"
+    "@id": "https://devarko.com/#org"
    }
   },
   {
    "@type": "ItemList",
-   "@id": "https://codesummix.com/#services",
+   "@id": "https://devarko.com/#services",
    "name": "Software development services",
    "itemListElement": [
     {
      "@type": "ListItem",
      "position": 1,
      "name": "Custom Software Development",
-     "url": "https://codesummix.com/services/custom-software/"
+     "url": "https://devarko.com/services/custom-software/"
     },
     {
      "@type": "ListItem",
      "position": 2,
      "name": "AI Solutions & Automation",
-     "url": "https://codesummix.com/services/ai-solutions/"
+     "url": "https://devarko.com/services/ai-solutions/"
     },
     {
      "@type": "ListItem",
      "position": 3,
      "name": "Web Development",
-     "url": "https://codesummix.com/services/web-applications/"
+     "url": "https://devarko.com/services/web-applications/"
     },
     {
      "@type": "ListItem",
      "position": 4,
      "name": "Mobile App Development",
-     "url": "https://codesummix.com/services/mobile-apps/"
+     "url": "https://devarko.com/services/mobile-apps/"
     },
     {
      "@type": "ListItem",
      "position": 5,
      "name": "CRM Solutions",
-     "url": "https://codesummix.com/services/crm-solutions/"
+     "url": "https://devarko.com/services/crm-solutions/"
     },
     {
      "@type": "ListItem",
      "position": 6,
      "name": "Cloud & DevOps",
-     "url": "https://codesummix.com/services/cloud-devops/"
+     "url": "https://devarko.com/services/cloud-devops/"
     },
     {
      "@type": "ListItem",
      "position": 7,
      "name": "UI/UX & Product Design",
-     "url": "https://codesummix.com/services/ui-ux-design/"
+     "url": "https://devarko.com/services/ui-ux-design/"
     },
     {
      "@type": "ListItem",
      "position": 8,
      "name": "QA & Testing",
-     "url": "https://codesummix.com/services/qa-testing/"
+     "url": "https://devarko.com/services/qa-testing/"
     },
     {
      "@type": "ListItem",
      "position": 9,
      "name": "SEO & Digital Marketing",
-     "url": "https://codesummix.com/services/seo-marketing/"
+     "url": "https://devarko.com/services/seo-marketing/"
     }
    ]
   },
   {
    "@type": "SoftwareApplication",
-   "@id": "https://codesummix.com/cargonio/#app",
+   "@id": "https://devarko.com/cargonio/#app",
    "name": "Cargonio",
    "applicationCategory": "BusinessApplication",
    "operatingSystem": "Web",
    "url": "https://cargonio.com/",
-   "description": "Cargonio is CodeSumMix's own multi-tenant freight-forwarding ERP: air and sea operations, invoicing with PRA and FBR e-IMS tax integration, accounting, HR and payroll.",
+   "description": "Cargonio is Devarko's own multi-tenant freight-forwarding ERP: air and sea operations, invoicing with PRA and FBR e-IMS tax integration, accounting, HR and payroll.",
    "publisher": {
-    "@id": "https://codesummix.com/#org"
+    "@id": "https://devarko.com/#org"
    }
   }
  ]

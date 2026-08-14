@@ -3,9 +3,9 @@ import ContactForm from "@/components/ContactForm";
 import JsonLd from "@/components/JsonLd";
 import { SITE_URL } from "@/lib/site";
 
-const TITLE = "Hire Software Developers in Pakistan | CodeSumMix";
+const TITLE = "Hire Software Developers in Pakistan | Devarko";
 const DESCRIPTION =
-  "Talk to CodeSumMix about your build. Email info@codesummix.com or call +92 320 3271071 to scope a project with a Lahore team that answers to its founder.";
+  "Talk to Devarko about your build. Email info@devarko.com or call +92 320 3271071 to scope a project with a Lahore team that answers to its founder.";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -13,8 +13,8 @@ export const metadata: Metadata = {
   keywords:
     "hire software developers Pakistan, contact software house Lahore, hire Laravel developers, outsource software development Pakistan, hire React developers, dedicated developers Lahore, software project quote, software development company contact",
   alternates: { canonical: `${SITE_URL}/contact/` },
-  openGraph: { title: TITLE, description: DESCRIPTION, url: `${SITE_URL}/contact/`, type: "website", siteName: "CodeSumMix", locale: "en_US", images: [{ url: "https://codesummix.com/assets/og/contact.jpg", width: 1200, height: 630 }] },
-  twitter: { card: "summary_large_image", title: TITLE, description: DESCRIPTION, images: ["https://codesummix.com/assets/og/contact.jpg"] },
+  openGraph: { title: TITLE, description: DESCRIPTION, url: `${SITE_URL}/contact/`, type: "website", siteName: "Devarko", locale: "en_US", images: [{ url: "https://devarko.com/assets/og/contact.jpg", width: 1200, height: 630 }] },
+  twitter: { card: "summary_large_image", title: TITLE, description: DESCRIPTION, images: ["https://devarko.com/assets/og/contact.jpg"] },
 };
 
 export default function ContactPage() {
@@ -63,7 +63,7 @@ export default function ContactPage() {
                 </span>
                 <div>
                   <b>Email</b>
-                  <a href="mailto:info@codesummix.com">info@codesummix.com</a>
+                  <a href="mailto:info@devarko.com">info@devarko.com</a>
                 </div>
               </div>
               <div className="contact-info__item">

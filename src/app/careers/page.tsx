@@ -3,7 +3,7 @@ import CareersList from "@/components/careers/CareersList";
 import JsonLd from "@/components/JsonLd";
 import { SITE_URL } from "@/lib/site";
 
-const TITLE = "Software Jobs in Lahore | Careers | CodeSumMix";
+const TITLE = "Software Jobs in Lahore | Careers | Devarko";
 const DESCRIPTION =
   "Software jobs in Lahore at a nine-person studio: Laravel, React, React Native, QA and DevOps roles with real client products and no layers of management.";
 
@@ -11,10 +11,10 @@ export const metadata: Metadata = {
   title: TITLE,
   description: DESCRIPTION,
   keywords:
-    "software jobs Lahore, software house jobs Pakistan, Laravel developer jobs, React developer jobs Lahore, PHP developer jobs Pakistan, QA engineer jobs Lahore, DevOps jobs Pakistan, software internships Lahore, careers at CodeSumMix",
+    "software jobs Lahore, software house jobs Pakistan, Laravel developer jobs, React developer jobs Lahore, PHP developer jobs Pakistan, QA engineer jobs Lahore, DevOps jobs Pakistan, software internships Lahore, careers at Devarko",
   alternates: { canonical: `${SITE_URL}/careers/` },
-  openGraph: { title: TITLE, description: DESCRIPTION, url: `${SITE_URL}/careers/`, type: "website", siteName: "CodeSumMix", locale: "en_US", images: [{ url: "https://codesummix.com/assets/og/careers.jpg", width: 1200, height: 630 }] },
-  twitter: { card: "summary_large_image", title: TITLE, description: DESCRIPTION, images: ["https://codesummix.com/assets/og/careers.jpg"] },
+  openGraph: { title: TITLE, description: DESCRIPTION, url: `${SITE_URL}/careers/`, type: "website", siteName: "Devarko", locale: "en_US", images: [{ url: "https://devarko.com/assets/og/careers.jpg", width: 1200, height: 630 }] },
+  twitter: { card: "summary_large_image", title: TITLE, description: DESCRIPTION, images: ["https://devarko.com/assets/og/careers.jpg"] },
 };
 
 export default function CareersPage() {

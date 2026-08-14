@@ -1,11 +1,11 @@
-export const SITE_URL = "https://codesummix.com";
-export const SITE_NAME = "CodeSumMix";
+export const SITE_URL = "https://devarko.com";
+export const SITE_NAME = "Devarko";
 export const GSC_TOKEN = "fDKv5lr4SHsABkHuOuhuNKrJRsX0ZEbBDc4P1kvFKj0";
 export const GA4_ID = "G-V0SX4RYSTY";
 export const GTM_ID = "GTM-TDKV5XPW";
 export const WHATSAPP_URL =
   "https://wa.me/923203271071?text=" +
-  encodeURIComponent("Hi CodeSumMix, I'd like to discuss a project.");
+  encodeURIComponent("Hi Devarko, I'd like to discuss a project.");
 
 export const NAV_LINKS = [
   { href: "/services/", label: "Services" },

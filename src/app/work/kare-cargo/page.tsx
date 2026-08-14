@@ -3,14 +3,14 @@ import Link from "next/link";
 import JsonLd from "@/components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Freight ERP with HR and Payroll | Kare Cargo | CodeSumMix",
+  title: "Freight ERP with HR and Payroll | Kare Cargo | Devarko",
   description:
     "Kare Cargo International runs its whole freight business on one ERP: air and sea operations, e-invoicing, double-entry accounts, HR and payroll in one login.",
   keywords:
-    "freight ERP with HR and payroll, freight ERP Pakistan, logistics ERP software, HR and payroll software, freight accounting software, double-entry accounting software, PRA FBR integration, e-invoicing Pakistan, ERP development, freight forwarding specialists, Kare Cargo case study, Cargonio, CodeSumMix",
-  alternates: { canonical: "https://codesummix.com/work/kare-cargo/" },
-  openGraph: { title: "Freight ERP with HR and Payroll | Kare Cargo | CodeSumMix", description: "Kare Cargo International runs its whole freight business on one ERP: air and sea operations, e-invoicing, double-entry accounts, HR and payroll in one login.", url: "https://codesummix.com/work/kare-cargo/", type: "article", siteName: "CodeSumMix", locale: "en_US", images: [{ url: "https://codesummix.com/assets/og/work-kare-cargo.jpg", width: 1200, height: 630 }] },
-  twitter: { card: "summary_large_image", title: "Freight ERP with HR and Payroll | Kare Cargo | CodeSumMix", description: "Kare Cargo International runs its whole freight business on one ERP: air and sea operations, e-invoicing, double-entry accounts, HR and payroll in one login.", images: ["https://codesummix.com/assets/og/work-kare-cargo.jpg"] },
+    "freight ERP with HR and payroll, freight ERP Pakistan, logistics ERP software, HR and payroll software, freight accounting software, double-entry accounting software, PRA FBR integration, e-invoicing Pakistan, ERP development, freight forwarding specialists, Kare Cargo case study, Cargonio, Devarko",
+  alternates: { canonical: "https://devarko.com/work/kare-cargo/" },
+  openGraph: { title: "Freight ERP with HR and Payroll | Kare Cargo | Devarko", description: "Kare Cargo International runs its whole freight business on one ERP: air and sea operations, e-invoicing, double-entry accounts, HR and payroll in one login.", url: "https://devarko.com/work/kare-cargo/", type: "article", siteName: "Devarko", locale: "en_US", images: [{ url: "https://devarko.com/assets/og/work-kare-cargo.jpg", width: 1200, height: 630 }] },
+  twitter: { card: "summary_large_image", title: "Freight ERP with HR and Payroll | Kare Cargo | Devarko", description: "Kare Cargo International runs its whole freight business on one ERP: air and sea operations, e-invoicing, double-entry accounts, HR and payroll in one login.", images: ["https://devarko.com/assets/og/work-kare-cargo.jpg"] },
 };
 
 export default function KareCargoPage() {
@@ -21,13 +21,13 @@ export default function KareCargoPage() {
           "@context": "https://schema.org",
           "@type": "BreadcrumbList",
           itemListElement: [
-            { "@type": "ListItem", position: 1, name: "Home", item: "https://codesummix.com/" },
-            { "@type": "ListItem", position: 2, name: "Work", item: "https://codesummix.com/work/" },
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://devarko.com/" },
+            { "@type": "ListItem", position: 2, name: "Work", item: "https://devarko.com/work/" },
             {
               "@type": "ListItem",
               position: 3,
               name: "Kare Cargo International",
-              item: "https://codesummix.com/work/kare-cargo/",
+              item: "https://devarko.com/work/kare-cargo/",
             },
           ],
         }}

@@ -3,14 +3,14 @@ import Link from "next/link";
 import JsonLd from "@/components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "School LMS Development: Ilmversity Case Study | CodeSumMix",
+  title: "School LMS Development: Ilmversity Case Study | Devarko",
   description:
     "Ilmversity is a school LMS built for Pakistani institutions: classes, attendance, assessments and parent visibility in one platform. See the build.",
   keywords:
     "school LMS development, school management system development, LMS development company, education technology Pakistan, custom LMS software, student information system, EdTech software house, school portal development, e-learning development, Laravel LMS",
-  alternates: { canonical: "https://codesummix.com/work/ilmversity/" },
-  openGraph: { title: "School LMS Development: Ilmversity Case Study | CodeSumMix", description: "Ilmversity is a school LMS built for Pakistani institutions: classes, attendance, assessments and parent visibility in one platform. See the build.", url: "https://codesummix.com/work/ilmversity/", type: "article", siteName: "CodeSumMix", locale: "en_US", images: [{ url: "https://codesummix.com/assets/og/work-ilmversity.jpg", width: 1200, height: 630 }] },
-  twitter: { card: "summary_large_image", title: "School LMS Development: Ilmversity Case Study | CodeSumMix", description: "Ilmversity is a school LMS built for Pakistani institutions: classes, attendance, assessments and parent visibility in one platform. See the build.", images: ["https://codesummix.com/assets/og/work-ilmversity.jpg"] },
+  alternates: { canonical: "https://devarko.com/work/ilmversity/" },
+  openGraph: { title: "School LMS Development: Ilmversity Case Study | Devarko", description: "Ilmversity is a school LMS built for Pakistani institutions: classes, attendance, assessments and parent visibility in one platform. See the build.", url: "https://devarko.com/work/ilmversity/", type: "article", siteName: "Devarko", locale: "en_US", images: [{ url: "https://devarko.com/assets/og/work-ilmversity.jpg", width: 1200, height: 630 }] },
+  twitter: { card: "summary_large_image", title: "School LMS Development: Ilmversity Case Study | Devarko", description: "Ilmversity is a school LMS built for Pakistani institutions: classes, attendance, assessments and parent visibility in one platform. See the build.", images: ["https://devarko.com/assets/og/work-ilmversity.jpg"] },
 };
 
 export default function IlmversityPage() {
@@ -21,9 +21,9 @@ export default function IlmversityPage() {
           "@context": "https://schema.org",
           "@type": "BreadcrumbList",
           itemListElement: [
-            { "@type": "ListItem", position: 1, name: "Home", item: "https://codesummix.com/" },
-            { "@type": "ListItem", position: 2, name: "Work", item: "https://codesummix.com/work/" },
-            { "@type": "ListItem", position: 3, name: "Ilmversity", item: "https://codesummix.com/work/ilmversity/" },
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://devarko.com/" },
+            { "@type": "ListItem", position: 2, name: "Work", item: "https://devarko.com/work/" },
+            { "@type": "ListItem", position: 3, name: "Ilmversity", item: "https://devarko.com/work/ilmversity/" },
           ],
         }}
       />

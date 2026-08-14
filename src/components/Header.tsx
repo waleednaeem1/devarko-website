@@ -36,11 +36,11 @@ export default function Header() {
     <header className={`site-header${scrolled ? " scrolled" : ""}`}>
       <div className="container">
         <nav className={`nav${open ? " open" : ""}`} aria-label="Primary" ref={navRef}>
-          <Link className="brand" href="/" aria-label="CodeSumMix home">
+          <Link className="brand" href="/" aria-label="Devarko home">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/assets/img/logo.svg?v=3" alt="" />
+            <img src="/assets/img/logo.svg?v=4" alt="" />
             <span className="brand__name">
-              Code<b>SumMix</b>
+              Dev<b>arko</b>
             </span>
           </Link>
           <ul className="nav__links" id="nav-links">

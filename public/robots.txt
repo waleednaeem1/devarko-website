@@ -1,4 +1,4 @@
-# https://codesummix.com/robots.txt
+# https://devarko.com/robots.txt
 User-agent: *
 Allow: /
 
@@ -14,4 +14,4 @@ Allow: /
 User-agent: ClaudeBot
 Allow: /
 
-Sitemap: https://codesummix.com/sitemap.xml
+Sitemap: https://devarko.com/sitemap.xml

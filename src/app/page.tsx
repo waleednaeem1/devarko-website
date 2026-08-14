@@ -13,8 +13,8 @@ export const metadata: Metadata = {
   description: homeMeta.description,
   keywords: homeMeta.keywords,
   alternates: { canonical: `${SITE_URL}/` },
-  openGraph: { title: homeMeta.title, description: homeMeta.description, url: `${SITE_URL}/`, type: "website", siteName: "CodeSumMix", locale: "en_US", images: [{ url: "https://codesummix.com/assets/og/home.jpg", width: 1200, height: 630 }] },
-  twitter: { card: "summary_large_image", title: homeMeta.title, description: homeMeta.description, images: ["https://codesummix.com/assets/og/home.jpg"] },
+  openGraph: { title: homeMeta.title, description: homeMeta.description, url: `${SITE_URL}/`, type: "website", siteName: "Devarko", locale: "en_US", images: [{ url: "https://devarko.com/assets/og/home.jpg", width: 1200, height: 630 }] },
+  twitter: { card: "summary_large_image", title: homeMeta.title, description: homeMeta.description, images: ["https://devarko.com/assets/og/home.jpg"] },
 };
 
 const SERVICE_CARDS = [
@@ -358,7 +358,7 @@ export default function HomePage() {
                 forward.
               </h1>
               <p className="hero__sub" data-reveal data-reveal-delay="2">
-                CodeSumMix is a software house and development agency that partners with founders
+                Devarko is a software house and development agency that partners with founders
                 and teams to ship custom web, mobile, cloud, and <strong>AI</strong> products, with
                 deep expertise in <strong>education technology</strong> and{" "}
                 <strong>freight &amp; logistics</strong>.
@@ -408,7 +408,7 @@ export default function HomePage() {
                   src="/assets/img/cases/bf-app-480.webp"
                   width={480}
                   height={1043}
-                  alt="Bright Future e-learning mobile app built by CodeSumMix"
+                  alt="Bright Future e-learning mobile app built by Devarko"
                   loading="eager"
                 />
               </div>
@@ -875,7 +875,7 @@ export default function HomePage() {
               </Link>
               <a
                 className="btn btn--ghost btn--lg"
-                href="https://wa.me/923203271071?text=Hi%20CodeSumMix%2C%20I%27d%20like%20to%20discuss%20a%20project."
+                href="https://wa.me/923203271071?text=Hi%20Devarko%2C%20I%27d%20like%20to%20discuss%20a%20project."
                 target="_blank"
                 rel="noopener"
               >

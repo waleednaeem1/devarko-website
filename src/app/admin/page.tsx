@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import AdminApp from "@/components/careers/AdminApp";
 
 export const metadata: Metadata = {
-  title: "Careers Admin | CodeSumMix",
-  description: "CodeSumMix careers admin.",
+  title: "Careers Admin | Devarko",
+  description: "Devarko careers admin.",
   robots: { index: false, follow: false },
 };
 

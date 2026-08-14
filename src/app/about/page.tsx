@@ -4,14 +4,14 @@ import JsonLd from "@/components/JsonLd";
 import { SITE_URL } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "About the Team Behind 7 Live Platforms | CodeSumMix",
+  title: "About the Team Behind 7 Live Platforms | Devarko",
   description:
-    "CodeSumMix is a founder-led software studio in Lahore. Seven client platforms live across Kuwait, Pakistan, and the USA, plus our own freight ERP, Cargonio.",
+    "Devarko is a founder-led software studio in Lahore. Seven client platforms live across Kuwait, Pakistan, and the USA, plus our own freight ERP, Cargonio.",
   keywords:
-    "software house in Lahore, software company Pakistan, software house Pakistan, software agency Lahore, custom software development Pakistan, education technology company, freight forwarding specialists, Laravel development company, Waleed Naeem, about CodeSumMix",
-  alternates: { canonical: "https://codesummix.com/about/" },
-  openGraph: { title: "About the Team Behind 7 Live Platforms | CodeSumMix", description: "CodeSumMix is a founder-led software studio in Lahore. Seven client platforms live across Kuwait, Pakistan, and the USA, plus our own freight ERP, Cargonio.", url: "https://codesummix.com/about/", type: "website", siteName: "CodeSumMix", locale: "en_US", images: [{ url: "https://codesummix.com/assets/og/about.jpg", width: 1200, height: 630 }] },
-  twitter: { card: "summary_large_image", title: "About the Team Behind 7 Live Platforms | CodeSumMix", description: "CodeSumMix is a founder-led software studio in Lahore. Seven client platforms live across Kuwait, Pakistan, and the USA, plus our own freight ERP, Cargonio.", images: ["https://codesummix.com/assets/og/about.jpg"] },
+    "software house in Lahore, software company Pakistan, software house Pakistan, software agency Lahore, custom software development Pakistan, education technology company, freight forwarding specialists, Laravel development company, Waleed Naeem, about Devarko",
+  alternates: { canonical: "https://devarko.com/about/" },
+  openGraph: { title: "About the Team Behind 7 Live Platforms | Devarko", description: "Devarko is a founder-led software studio in Lahore. Seven client platforms live across Kuwait, Pakistan, and the USA, plus our own freight ERP, Cargonio.", url: "https://devarko.com/about/", type: "website", siteName: "Devarko", locale: "en_US", images: [{ url: "https://devarko.com/assets/og/about.jpg", width: 1200, height: 630 }] },
+  twitter: { card: "summary_large_image", title: "About the Team Behind 7 Live Platforms | Devarko", description: "Devarko is a founder-led software studio in Lahore. Seven client platforms live across Kuwait, Pakistan, and the USA, plus our own freight ERP, Cargonio.", images: ["https://devarko.com/assets/og/about.jpg"] },
 };
 
 export default function AboutPage() {
@@ -26,13 +26,13 @@ export default function AboutPage() {
               "@type": "ListItem",
               position: 1,
               name: "Home",
-              item: "https://codesummix.com/",
+              item: "https://devarko.com/",
             },
             {
               "@type": "ListItem",
               position: 2,
               name: "About",
-              item: "https://codesummix.com/about/",
+              item: "https://devarko.com/about/",
             },
           ],
         }}
@@ -42,7 +42,7 @@ export default function AboutPage() {
           "@context": "https://schema.org",
           "@type": "AboutPage",
           url: `${SITE_URL}/about/`,
-          name: "About CodeSumMix",
+          name: "About Devarko",
           mainEntity: { "@id": `${SITE_URL}/#org` },
         }}
       />
@@ -61,7 +61,7 @@ export default function AboutPage() {
             <div data-reveal>
               <span className="eyebrow">Who we are</span>
               <h2 className="section__title" style={{ marginTop: "1rem" }}>A small studio that runs what it ships.</h2>
-              <p style={{ marginTop: "1.1rem" }}>CodeSumMix is a software studio in Lahore, Pakistan, founded and led by Waleed Naeem. We build software for clients and run a product of our own. Seven client platforms we built are in production across Kuwait, Pakistan, and the USA, and our own product runs two freight businesses every day.</p>
+              <p style={{ marginTop: "1.1rem" }}>Devarko is a software studio in Lahore, Pakistan, founded and led by Waleed Naeem. We build software for clients and run a product of our own. Seven client platforms we built are in production across Kuwait, Pakistan, and the USA, and our own product runs two freight businesses every day.</p>
               <p>We go deep in two fields: education technology, and freight &amp; logistics. <strong style={{ color: "var(--text)" }}>Bright Future</strong> in Kuwait and <strong style={{ color: "var(--text)" }}>Ilmversity</strong> in Pakistan anchor the EdTech work. The freight work produced <strong style={{ color: "var(--text)" }}>Cargonio</strong>, our own multi-tenant ERP with air and sea operations, invoicing tied into the PRA &amp; FBR e-IMS tax systems, double-entry accounts, and HR and payroll. Both of our freight clients run their businesses on it.</p>
               <p>Small and senior is a deliberate choice. There are no juniors learning on your project and no account managers between you and the people writing the code. That means faster decisions, and work you can inspect every week in a live demo. When we grow, we grow carefully: see our <Link href="/careers/">open roles</Link>.</p>
             </div>

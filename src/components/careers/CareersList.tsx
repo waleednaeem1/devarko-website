@@ -87,8 +87,8 @@ export default function CareersList() {
       {jobs !== null && rows.length === 0 && (
         <div className="careers-empty">
           No open roles match your search right now. Email your CV to{" "}
-          <a href="mailto:info@codesummix.com" style={{ color: "var(--accent-2)" }}>
-            info@codesummix.com
+          <a href="mailto:info@devarko.com" style={{ color: "var(--accent-2)" }}>
+            info@devarko.com
           </a>{" "}
           and we'll keep you in mind.
         </div>

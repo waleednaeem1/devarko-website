@@ -3,14 +3,14 @@ import Link from "next/link";
 import JsonLd from "@/components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Software Development Services | Web, AI, CRM | CodeSumMix",
+  title: "Software Development Services | Web, AI, CRM | Devarko",
   description:
     "Custom software, web and mobile apps, AI automation, CRM builds, cloud DevOps, UI/UX and QA: delivered end to end by one Lahore-based engineering team.",
   keywords:
     "software development services, custom software development, web development, mobile app development, CRM development, AI solutions and automation, cloud and DevOps services, UI/UX design services, QA and testing services, e-learning development, ERP development, SEO and digital marketing",
-  alternates: { canonical: "https://codesummix.com/services/" },
-  openGraph: { title: "Software Development Services | Web, AI, CRM | CodeSumMix", description: "Custom software, web and mobile apps, AI automation, CRM builds, cloud DevOps, UI/UX and QA: delivered end to end by one Lahore-based engineering team.", url: "https://codesummix.com/services/", type: "website", siteName: "CodeSumMix", locale: "en_US", images: [{ url: "https://codesummix.com/assets/og/services.jpg", width: 1200, height: 630 }] },
-  twitter: { card: "summary_large_image", title: "Software Development Services | Web, AI, CRM | CodeSumMix", description: "Custom software, web and mobile apps, AI automation, CRM builds, cloud DevOps, UI/UX and QA: delivered end to end by one Lahore-based engineering team.", images: ["https://codesummix.com/assets/og/services.jpg"] },
+  alternates: { canonical: "https://devarko.com/services/" },
+  openGraph: { title: "Software Development Services | Web, AI, CRM | Devarko", description: "Custom software, web and mobile apps, AI automation, CRM builds, cloud DevOps, UI/UX and QA: delivered end to end by one Lahore-based engineering team.", url: "https://devarko.com/services/", type: "website", siteName: "Devarko", locale: "en_US", images: [{ url: "https://devarko.com/assets/og/services.jpg", width: 1200, height: 630 }] },
+  twitter: { card: "summary_large_image", title: "Software Development Services | Web, AI, CRM | Devarko", description: "Custom software, web and mobile apps, AI automation, CRM builds, cloud DevOps, UI/UX and QA: delivered end to end by one Lahore-based engineering team.", images: ["https://devarko.com/assets/og/services.jpg"] },
 };
 
 export default function ServicesPage() {
@@ -21,8 +21,8 @@ export default function ServicesPage() {
           "@context": "https://schema.org",
           "@type": "BreadcrumbList",
           itemListElement: [
-            { "@type": "ListItem", position: 1, name: "Home", item: "https://codesummix.com/" },
-            { "@type": "ListItem", position: 2, name: "Services", item: "https://codesummix.com/services/" },
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://devarko.com/" },
+            { "@type": "ListItem", position: 2, name: "Services", item: "https://devarko.com/services/" },
           ],
         }}
       />

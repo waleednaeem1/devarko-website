@@ -7,10 +7,10 @@ export const metadata: Metadata = {
   description:
     "See how we built freight forwarding software for a Pakistani forwarder: sea and air import-export, MBL/HBL invoicing and live PRA e-IMS tax filing.",
   keywords:
-    "freight forwarding software Pakistan, logistics software Pakistan, freight forwarding specialists, sea import export software, MBL HBL invoicing, PRA e-IMS integration, FBR e-invoicing, e-invoicing Pakistan, custom software development, software house in Lahore, Skyline Cargo case study, CodeSumMix",
-  alternates: { canonical: "https://codesummix.com/work/skyline-cargo/" },
-  openGraph: { title: "Freight Forwarding Software Pakistan | Skyline Cargo", description: "See how we built freight forwarding software for a Pakistani forwarder: sea and air import-export, MBL/HBL invoicing and live PRA e-IMS tax filing.", url: "https://codesummix.com/work/skyline-cargo/", type: "article", siteName: "CodeSumMix", locale: "en_US", images: [{ url: "https://codesummix.com/assets/og/work-skyline-cargo.jpg", width: 1200, height: 630 }] },
-  twitter: { card: "summary_large_image", title: "Freight Forwarding Software Pakistan | Skyline Cargo", description: "See how we built freight forwarding software for a Pakistani forwarder: sea and air import-export, MBL/HBL invoicing and live PRA e-IMS tax filing.", images: ["https://codesummix.com/assets/og/work-skyline-cargo.jpg"] },
+    "freight forwarding software Pakistan, logistics software Pakistan, freight forwarding specialists, sea import export software, MBL HBL invoicing, PRA e-IMS integration, FBR e-invoicing, e-invoicing Pakistan, custom software development, software house in Lahore, Skyline Cargo case study, Devarko",
+  alternates: { canonical: "https://devarko.com/work/skyline-cargo/" },
+  openGraph: { title: "Freight Forwarding Software Pakistan | Skyline Cargo", description: "See how we built freight forwarding software for a Pakistani forwarder: sea and air import-export, MBL/HBL invoicing and live PRA e-IMS tax filing.", url: "https://devarko.com/work/skyline-cargo/", type: "article", siteName: "Devarko", locale: "en_US", images: [{ url: "https://devarko.com/assets/og/work-skyline-cargo.jpg", width: 1200, height: 630 }] },
+  twitter: { card: "summary_large_image", title: "Freight Forwarding Software Pakistan | Skyline Cargo", description: "See how we built freight forwarding software for a Pakistani forwarder: sea and air import-export, MBL/HBL invoicing and live PRA e-IMS tax filing.", images: ["https://devarko.com/assets/og/work-skyline-cargo.jpg"] },
 };
 
 export default function SkylineCargoPage() {
@@ -25,19 +25,19 @@ export default function SkylineCargoPage() {
               "@type": "ListItem",
               position: 1,
               name: "Home",
-              item: "https://codesummix.com/",
+              item: "https://devarko.com/",
             },
             {
               "@type": "ListItem",
               position: 2,
               name: "Work",
-              item: "https://codesummix.com/work/",
+              item: "https://devarko.com/work/",
             },
             {
               "@type": "ListItem",
               position: 3,
               name: "Skyline Cargo Marketing",
-              item: "https://codesummix.com/work/skyline-cargo/",
+              item: "https://devarko.com/work/skyline-cargo/",
             },
           ],
         }}

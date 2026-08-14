@@ -8,9 +8,9 @@ export const metadata: Metadata = {
     "VetandTech delivers continuing education to vets worldwide. See how we built the course catalogue, video lessons, certificates and member payments.",
   keywords:
     "online education platform development, e-learning development, continuing education platform, course platform development, LMS development, EdTech specialists, education technology company, video learning platform, membership platform development, custom web development",
-  alternates: { canonical: "https://codesummix.com/work/vetandtech/" },
-  openGraph: { title: "Online Education Platform Development | VetandTech", description: "VetandTech delivers continuing education to vets worldwide. See how we built the course catalogue, video lessons, certificates and member payments.", url: "https://codesummix.com/work/vetandtech/", type: "article", siteName: "CodeSumMix", locale: "en_US", images: [{ url: "https://codesummix.com/assets/og/work-vetandtech.jpg", width: 1200, height: 630 }] },
-  twitter: { card: "summary_large_image", title: "Online Education Platform Development | VetandTech", description: "VetandTech delivers continuing education to vets worldwide. See how we built the course catalogue, video lessons, certificates and member payments.", images: ["https://codesummix.com/assets/og/work-vetandtech.jpg"] },
+  alternates: { canonical: "https://devarko.com/work/vetandtech/" },
+  openGraph: { title: "Online Education Platform Development | VetandTech", description: "VetandTech delivers continuing education to vets worldwide. See how we built the course catalogue, video lessons, certificates and member payments.", url: "https://devarko.com/work/vetandtech/", type: "article", siteName: "Devarko", locale: "en_US", images: [{ url: "https://devarko.com/assets/og/work-vetandtech.jpg", width: 1200, height: 630 }] },
+  twitter: { card: "summary_large_image", title: "Online Education Platform Development | VetandTech", description: "VetandTech delivers continuing education to vets worldwide. See how we built the course catalogue, video lessons, certificates and member payments.", images: ["https://devarko.com/assets/og/work-vetandtech.jpg"] },
 };
 
 export default function VetandTechPage() {
@@ -25,19 +25,19 @@ export default function VetandTechPage() {
               "@type": "ListItem",
               position: 1,
               name: "Home",
-              item: "https://codesummix.com/",
+              item: "https://devarko.com/",
             },
             {
               "@type": "ListItem",
               position: 2,
               name: "Work",
-              item: "https://codesummix.com/work/",
+              item: "https://devarko.com/work/",
             },
             {
               "@type": "ListItem",
               position: 3,
               name: "VetandTech",
-              item: "https://codesummix.com/work/vetandtech/",
+              item: "https://devarko.com/work/vetandtech/",
             },
           ],
         }}

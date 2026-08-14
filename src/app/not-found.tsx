@@ -3,7 +3,7 @@ import Link from "next/link";
 import { ArrowIcon } from "@/components/icons";
 
 export const metadata: Metadata = {
-  title: "Page Not Found | CodeSumMix",
+  title: "Page Not Found | Devarko",
   robots: { index: false, follow: true },
 };
 

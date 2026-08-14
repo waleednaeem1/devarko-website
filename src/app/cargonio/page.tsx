@@ -4,14 +4,14 @@ import Link from "next/link";
 import JsonLd from "@/components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Freight Forwarding Software | Cargonio ERP | CodeSumMix",
+  title: "Freight Forwarding Software | Cargonio ERP | Devarko",
   description:
     "Cargonio is our multi-tenant freight forwarding ERP: air and sea import-export jobs, invoicing with PRA and FBR e-IMS filing, accounts, HR and payroll.",
   keywords:
-    "freight forwarding software, freight ERP, freight forwarding ERP, logistics software, air export software, sea import software, freight invoicing software, PRA e-IMS integration, FBR e-invoicing, e-invoicing Pakistan, multi-tenant ERP, ERP development, Cargonio, CodeSumMix",
-  alternates: { canonical: "https://codesummix.com/cargonio/" },
-  openGraph: { title: "Freight Forwarding Software | Cargonio ERP | CodeSumMix", description: "Cargonio is our multi-tenant freight forwarding ERP: air and sea import-export jobs, invoicing with PRA and FBR e-IMS filing, accounts, HR and payroll.", url: "https://codesummix.com/cargonio/", type: "website", siteName: "CodeSumMix", locale: "en_US", images: [{ url: "https://codesummix.com/assets/og/cargonio.jpg", width: 1200, height: 630 }] },
-  twitter: { card: "summary_large_image", title: "Freight Forwarding Software | Cargonio ERP | CodeSumMix", description: "Cargonio is our multi-tenant freight forwarding ERP: air and sea import-export jobs, invoicing with PRA and FBR e-IMS filing, accounts, HR and payroll.", images: ["https://codesummix.com/assets/og/cargonio.jpg"] },
+    "freight forwarding software, freight ERP, freight forwarding ERP, logistics software, air export software, sea import software, freight invoicing software, PRA e-IMS integration, FBR e-invoicing, e-invoicing Pakistan, multi-tenant ERP, ERP development, Cargonio, Devarko",
+  alternates: { canonical: "https://devarko.com/cargonio/" },
+  openGraph: { title: "Freight Forwarding Software | Cargonio ERP | Devarko", description: "Cargonio is our multi-tenant freight forwarding ERP: air and sea import-export jobs, invoicing with PRA and FBR e-IMS filing, accounts, HR and payroll.", url: "https://devarko.com/cargonio/", type: "website", siteName: "Devarko", locale: "en_US", images: [{ url: "https://devarko.com/assets/og/cargonio.jpg", width: 1200, height: 630 }] },
+  twitter: { card: "summary_large_image", title: "Freight Forwarding Software | Cargonio ERP | Devarko", description: "Cargonio is our multi-tenant freight forwarding ERP: air and sea import-export jobs, invoicing with PRA and FBR e-IMS filing, accounts, HR and payroll.", images: ["https://devarko.com/assets/og/cargonio.jpg"] },
 };
 
 export default function CargonioPage() {
@@ -32,8 +32,8 @@ export default function CargonioPage() {
                 "A multi-tenant freight-forwarding ERP covering air and sea import/export operations, shipping documents, billing with PRA and FBR e-IMS tax fiscalization, double-entry accounting, HR, payroll and reporting.",
               author: {
                 "@type": "Organization",
-                name: "CodeSumMix",
-                url: "https://codesummix.com/",
+                name: "Devarko",
+                url: "https://devarko.com/",
               },
               featureList: [
                 "Air and sea import/export job management",
@@ -44,9 +44,9 @@ export default function CargonioPage() {
                 "100+ operational and financial reports",
               ],
               screenshot: [
-                "https://codesummix.com/assets/img/cases/cargonio-demo-freight.jpg",
-                "https://codesummix.com/assets/img/cases/cargonio-demo-invoices.jpg",
-                "https://codesummix.com/assets/img/cases/cargonio-demo-hr.jpg",
+                "https://devarko.com/assets/img/cases/cargonio-demo-freight.jpg",
+                "https://devarko.com/assets/img/cases/cargonio-demo-invoices.jpg",
+                "https://devarko.com/assets/img/cases/cargonio-demo-hr.jpg",
               ],
             },
             {
@@ -56,13 +56,13 @@ export default function CargonioPage() {
                   "@type": "ListItem",
                   position: 1,
                   name: "Home",
-                  item: "https://codesummix.com/",
+                  item: "https://devarko.com/",
                 },
                 {
                   "@type": "ListItem",
                   position: 2,
                   name: "Cargonio",
-                  item: "https://codesummix.com/cargonio/",
+                  item: "https://devarko.com/cargonio/",
                 },
               ],
             },
@@ -77,7 +77,7 @@ export default function CargonioPage() {
               <span className="prod-badge"><span className="pill__dot"></span> <b>Our product</b> · live in production</span>
               <div className="prod-mark" style={{ marginTop: "1.6rem" }}>Cargonio<i></i></div>
               <h1 style={{ fontSize: "clamp(2rem,4.2vw,3rem)" }}>From booking to balance sheet.</h1>
-              <p className="prod-hero__lede">The complete freight-forwarding ERP. Air and sea, export and import: job entry, shipping documents, billing with built-in government tax compliance, general ledger and 100+ reports in one system. Built, owned, and sold by CodeSumMix.</p>
+              <p className="prod-hero__lede">The complete freight-forwarding ERP. Air and sea, export and import: job entry, shipping documents, billing with built-in government tax compliance, general ledger and 100+ reports in one system. Built, owned, and sold by Devarko.</p>
               <div className="cap-grid">
                 <div className="cap" style={{ "--cap-accent": "linear-gradient(135deg,#4C6FFF,#7C5CFF)" } as CSSProperties}>
                   <div className="cap__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M2 12h4l2-4 4 8 2-5 2 3h6"/></svg></div>
@@ -362,7 +362,7 @@ export default function CargonioPage() {
               <Link className="btn btn--primary btn--lg" href="/contact/">Request a demo{" "}
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
               </Link>
-              <a className="btn btn--ghost btn--lg" href="https://wa.me/923203271071?text=Hi%20CodeSumMix%20%E2%80%94%20I%27d%20like%20a%20Cargonio%20demo." target="_blank" rel="noopener">Chat on WhatsApp</a>
+              <a className="btn btn--ghost btn--lg" href="https://wa.me/923203271071?text=Hi%20Devarko%20%E2%80%94%20I%27d%20like%20a%20Cargonio%20demo." target="_blank" rel="noopener">Chat on WhatsApp</a>
             </div>
           </div>
         </div>
