@@ -30,11 +30,29 @@ jobs:
         run: npm run build
 
       - name: Deploy over FTP
+        id: deploy
+        continue-on-error: true
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: "178.16.136.115"
           protocol: ftps
           timeout: 60000
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: out/
+          server-dir: ./
+          state-name: .ftp-deploy-sync-state-v3.json
+          exclude: |
+            **/.git*
+            **/.git*/**
+
+      - name: Retry deploy once on transient failure
+        if: steps.deploy.outcome == 'failure'
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: "178.16.136.115"
+          protocol: ftps
+          timeout: 90000
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: out/
