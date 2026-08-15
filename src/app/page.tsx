@@ -372,7 +372,7 @@ export default function HomePage() {
                 <span>AI-driven development</span>
                 <span className="dot"></span>
                 <span>
-                  Clients in <strong>Kuwait, Pakistan &amp; the USA</strong>
+                  Serving <strong>Australia, Kuwait, Pakistan &amp; the USA</strong>
                 </span>
               </div>
             </div>
@@ -729,7 +729,8 @@ export default function HomePage() {
             <h2 className="section__title">Trusted to build real products.</h2>
             <p className="section__sub">
               Education, e-commerce, healthcare, and freight &amp; logistics platforms: live for
-              clients in Kuwait, Pakistan, and the USA.
+              clients in Kuwait, Pakistan, and the USA, and now serving Australia from our
+              Tasmanian head office.
             </p>
           </div>
 

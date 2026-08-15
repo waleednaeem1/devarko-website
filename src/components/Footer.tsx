@@ -1,4 +1,5 @@
 import Link from "next/link";
+import NewsletterForm from "@/components/NewsletterForm";
 import Year from "@/components/Year";
 import { AU_ADDRESS, AU_MAPS_URL, AU_PHONE, AU_PHONE_TEL, PK_PHONE, PK_PHONE_TEL } from "@/lib/site";
 
@@ -22,10 +23,40 @@ const COMPANY_LINKS = [
   { href: "/contact/", label: "Contact" },
 ];
 
+const OFFICES = [
+  {
+    label: "Head office",
+    place: "Glenorchy, Tasmania",
+    addr: AU_ADDRESS,
+    phone: AU_PHONE,
+    tel: AU_PHONE_TEL,
+    mapsUrl: AU_MAPS_URL,
+    img: "/assets/img/map-glenorchy.jpg?v=1",
+    alt: "Map of Glenorchy, Tasmania, home of the Devarko head office",
+  },
+  {
+    label: "Regional office",
+    place: "Lahore, Pakistan",
+    addr: "Lahore, Punjab, Pakistan",
+    phone: PK_PHONE,
+    tel: PK_PHONE_TEL,
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Lahore%2C+Pakistan",
+    img: "/assets/img/map-lahore.jpg?v=1",
+    alt: "Map of Lahore, Pakistan, home of the Devarko engineering office",
+  },
+];
+
 export default function Footer() {
   return (
     <footer className="site-footer">
       <div className="container">
+        <div className="footer__news">
+          <div>
+            <h3>Get updates from the studio.</h3>
+            <p>New launches, case studies and practical product notes. No spam, and you can unsubscribe any time.</p>
+          </div>
+          <NewsletterForm />
+        </div>
         <div className="footer__grid">
           <div className="footer__brand">
             <Link className="brand" href="/">
@@ -36,8 +67,9 @@ export default function Footer() {
               </span>
             </Link>
             <p>
-              We design and build custom web, mobile, AI and cloud products. Education
-              technology and freight are where we go deepest.
+              We design and build custom web, mobile, AI and cloud products for clients in
+              Australia, Kuwait, Pakistan and the USA. Education technology and freight are where
+              we go deepest.
             </p>
             <div className="footer__social">
               <a
@@ -82,69 +114,35 @@ export default function Footer() {
             <a href="https://www.linkedin.com/company/devarko" target="_blank" rel="noopener">
               LinkedIn
             </a>
-            <a
-              className="footer__map"
-              href={AU_MAPS_URL}
-              target="_blank"
-              rel="noopener"
-              aria-label={`Devarko head office, ${AU_ADDRESS}, on Google Maps`}
-            >
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="/assets/img/map-glenorchy.jpg?v=1"
-                width={720}
-                height={440}
-                alt="Map of Glenorchy, Tasmania, home of the Devarko head office"
-                loading="lazy"
-              />
-              <span className="footer__map-cap">
-                <svg
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 1 1 16 0z" />
-                  <circle cx="12" cy="10" r="3" />
-                </svg>
-                Head office · Tasmania
-              </span>
-            </a>
-            <span className="footer__addr">{AU_ADDRESS}</span>
-            <a
-              className="footer__map"
-              href="https://www.google.com/maps/search/?api=1&query=Lahore%2C+Pakistan"
-              target="_blank"
-              rel="noopener"
-              aria-label="Devarko regional office in Lahore, Pakistan, on Google Maps"
-            >
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="/assets/img/map-lahore.jpg?v=1"
-                width={720}
-                height={440}
-                alt="Map of Lahore, Pakistan, home of the Devarko regional engineering office"
-                loading="lazy"
-              />
-              <span className="footer__map-cap">
-                <svg
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 1 1 16 0z" />
-                  <circle cx="12" cy="10" r="3" />
-                </svg>
-                Regional office · Lahore
-              </span>
-            </a>
-            <span className="footer__addr">Lahore, Punjab, Pakistan</span>
           </div>
+        </div>
+        <div className="footer__offices">
+          {OFFICES.map((o) => (
+            <div className="office-card" key={o.label}>
+              <a
+                className="office-card__map"
+                href={o.mapsUrl}
+                target="_blank"
+                rel="noopener"
+                aria-label={`Devarko ${o.label.toLowerCase()}, ${o.addr}, on Google Maps`}
+              >
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src={o.img} width={720} height={440} alt={o.alt} loading="lazy" />
+              </a>
+              <div className="office-card__body">
+                <span className="office-card__label">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 1 1 16 0z" />
+                    <circle cx="12" cy="10" r="3" />
+                  </svg>
+                  {o.label}
+                </span>
+                <b>{o.place}</b>
+                <span className="office-card__addr">{o.addr}</span>
+                <a href={`tel:${o.tel}`}>{o.phone}</a>
+              </div>
+            </div>
+          ))}
         </div>
         <div className="footer__bottom">
           <span>

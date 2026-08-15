@@ -68,7 +68,7 @@ export default function AboutPage() {
             <div className="about-panel" data-reveal data-reveal-delay="1">
               <div className="s"><b>2</b><span>Specialties: EdTech &amp; freight software</span></div>
               <div className="s"><b>7</b><span>Client platforms in production</span></div>
-              <div className="s"><b>3</b><span>Countries: Kuwait, Pakistan &amp; the USA</span></div>
+              <div className="s"><b>4</b><span>Countries served: Australia, Kuwait, Pakistan &amp; the USA</span></div>
               <div className="s"><b>1</b><span>Product of our own: Cargonio ERP</span></div>
             </div>
           </div>
