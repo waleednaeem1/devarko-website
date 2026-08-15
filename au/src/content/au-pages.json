@@ -1,0 +1,358 @@
+[
+ {
+  "slug": "contact",
+  "metaTitle": "Contact Us | Web Development & SEO Australia | Devarko",
+  "metaDescription": "Tell us about your project. We reply within one business day, book a short call, and follow up with a written proposal. Remote-friendly across Australia.",
+  "keywords": "contact Devarko, web development Australia, SEO services Australia, talk to a web developer, software agency contact, Devarko Australia",
+  "h1": "Tell us what you're working on",
+  "lede": "Whether you need a new website, better search visibility, or both, the quickest way to find out if we're a fit is a short conversation. Write to us and we'll take it from there.",
+  "sections": [
+   {
+    "h2": "What happens after you write",
+    "paragraphs": [
+     "Three things, in order: a reply, a call, then a proposal. You'll hear back within one business day, and it will be a considered response from someone who has read your message, not an automated acknowledgement. From there the process stays deliberately short, because nobody contacts an agency in order to sit in a pipeline.",
+     "If you'd rather read before you write, the [home page](/) has the short version of what we do, our [web development](/web-development/) and [SEO services](/seo-services/) pages explain what we build and how we price it, and the full portfolio at [devarko.com/work/](https://devarko.com/work/) shows the platforms we've shipped for clients in Pakistan, Kuwait and the USA. None of it is required homework; it's there if it helps."
+    ],
+    "bullets": [
+     {
+      "title": "A reply within one business day",
+      "desc": "A person reads your message and responds. If we're not the right fit for the job, we'll say so and point you in a better direction."
+     },
+     {
+      "title": "A short call",
+      "desc": "Twenty to thirty minutes on your business, your goals and your rough budget. Video or phone, at a time that works with your day. No slides, no pitch."
+     },
+     {
+      "title": "A written proposal",
+      "desc": "Scope, timeline and a cost range in plain language, usually within a few days of the call, so you can weigh it up in your own time."
+     }
+    ]
+   },
+   {
+    "h2": "Who you'll be talking to",
+    "paragraphs": [
+     "You'll deal with the founder from the first email onwards. Devarko doesn't run a sales layer, so the person who scopes your project is the same person responsible for delivering it. That makes the first conversation more useful: you get straight answers on what's feasible, what it costs and how long it will take, rather than a pitch that has to be checked with the technical team later.",
+     "We're an Australian software house with our engineering studio in Lahore. That structure keeps senior engineers on your project at sensible rates, and we can arrange overlap with Australian hours where day-to-day contact matters. The same team has shipped seven client platforms across Pakistan, Kuwait and the USA, and runs Cargonio, our own freight ERP, now live with two companies."
+    ]
+   }
+  ],
+  "faqs": [
+   {
+    "q": "Do you work with businesses outside the major cities?",
+    "a": "Yes. Everything we do is remote-friendly, so it makes no difference whether you're in Sydney, Townsville or Broken Hill. Calls happen over video at times that suit you, work is shared through links you can open anywhere, and progress never depends on anyone being in the same room."
+   },
+   {
+    "q": "Do we need to prepare anything before we get in touch?",
+    "a": "A rough idea of your goals is enough. You don't need a brief, a sitemap or a keyword list; helping you work out exactly what's needed is part of the job. If you have examples of sites you like or a sense of budget, bring them along, but neither is required."
+   }
+  ],
+  "ctaTitle": "Start the conversation",
+  "ctaSub": "Send a few lines about your business and what you're hoping to achieve. You'll have a reply from the founder within one business day."
+ },
+ {
+  "slug": "home",
+  "metaTitle": "Web Development & SEO Agency Australia | Devarko",
+  "metaDescription": "Devarko builds fast websites and runs honest SEO for Australian businesses. Senior engineers, sensible rates, and proof you can check on Lighthouse.",
+  "keywords": "web development and SEO agency Australia, web development agency Australia, SEO agency Australia, custom software development, Next.js developers, Laravel developers Australia",
+  "h1": "The web development and SEO partner for Australian businesses",
+  "lede": "Devarko is a software house headquartered in Australia with its engineering studio in Lahore. We build fast, well-made websites and run SEO you can hold us to. Our own site scores 97 to 99 for performance and 100 for SEO on Lighthouse, and seven client platforms are live across three countries. That is the standard we bring to Australian businesses.",
+  "sections": [
+   {
+    "h2": "What we do",
+    "paragraphs": [
+     "Devarko does two things for Australian businesses: we build websites and web applications, and we get them found through search. The work is delivered by senior engineers in our Lahore studio, working in Next.js, React, Laravel and React Native, and everything we ship is code you own. The same team has built mobile apps and full platforms, so a project that outgrows its website does not need a second agency."
+    ],
+    "bullets": [
+     {
+      "title": "Web development",
+      "desc": "Marketing sites, web applications and e-commerce built on Next.js, React and Laravel. Fast to load, simple to run, and yours outright. Details at [web development](/web-development/)."
+     },
+     {
+      "title": "SEO",
+      "desc": "Technical SEO, content and local search for Australian businesses, run by the team whose own site scores 100 for SEO on Lighthouse. Details at [SEO services](/seo-services/)."
+     }
+    ]
+   },
+   {
+    "h2": "Why Australian businesses pick Devarko",
+    "paragraphs": [
+     "Devarko is headquartered in Australia, and our engineering studio is in Lahore. We say that up front because it is where the advantage comes from. You get senior engineers who have shipped real platforms for real businesses, at sensible rates, with an Australian point of contact and working hours that can overlap with yours.",
+     "The proof is public. Seven client platforms are live for businesses in Pakistan, Kuwait and the USA. Our own product, Cargonio, is a freight ERP live with two companies. And devarko.com, built by this team, scores 97 to 99 for performance and 100 for SEO on Lighthouse. We build to the standard we sell."
+    ]
+   },
+   {
+    "h2": "How we work across Australian hours",
+    "paragraphs": [
+     "Projects run the same way whether you are in Sydney, Perth or Dubbo. We start with a scoping call, give you a fixed quote, then deliver in short cycles with something you can see and click at the end of each one. You deal with one person who knows your project, not a ticket queue, and you can reach us through [contact](/contact/) whenever a question comes up.",
+     "Lahore's morning lines up with the Australian afternoon, so reviews, stand-ups and urgent fixes can happen while you are still at your desk. For projects that need tighter overlap, we can organise the studio's day around your hours. Either way, you are not left waiting for another timezone to wake up before a problem gets looked at."
+    ]
+   },
+   {
+    "h2": "Real clients, on the record",
+    "paragraphs": [
+     "Two of the platforms in our portfolio belong to freight companies. Raheel, CEO of Skyline Cargo Marketing, and Adeel Ahmed, Managing Director of Kare Cargo International, run logistics businesses on software we built, and both have put their names to testimonials about the work.",
+     "We would rather show you two named clients with real businesses than a wall of logos you cannot verify. Freight is an unforgiving industry to build software for, because shipments keep moving whether your system is up or not. That both platforms are live and in use says more about how we work than anything we could write here."
+    ]
+   },
+   {
+    "h2": "Proof you can check",
+    "paragraphs": [
+     "Everything above is checkable. The full portfolio is at https://devarko.com/work/, with a case page for each platform, and you can run devarko.com through Lighthouse yourself to see the 97 to 99 performance and 100 SEO scores. The same people who built those platforms and that site would be building yours."
+    ],
+    "bullets": [
+     {
+      "title": "Bright Future",
+      "desc": "E-learning platform for institutes in Kuwait, with a web admin panel and iOS and Android apps."
+     },
+     {
+      "title": "Ilmversity",
+      "desc": "A learning management system built for schools."
+     },
+     {
+      "title": "DVM Central, VetPet Central and VetandTech",
+      "desc": "Three veterinary platforms serving the US market, including the DVM Central marketplace."
+     },
+     {
+      "title": "Skyline Cargo and Kare Cargo",
+      "desc": "Freight platforms built for logistics companies in Pakistan."
+     },
+     {
+      "title": "Cargonio",
+      "desc": "Our own freight ERP product, live with two companies."
+     }
+    ]
+   }
+  ],
+  "faqs": [
+   {
+    "q": "Is Devarko an Australian company?",
+    "a": "Yes. Devarko is headquartered in Australia, and the engineering is delivered from our studio in Lahore, Pakistan. You deal with an Australian point of contact, and the Lahore team builds the work. We are open about the model because it is exactly why our rates stay sensible without the quality dropping."
+   },
+   {
+    "q": "How much does a website or SEO engagement cost?",
+    "a": "It depends on scope, so we quote a fixed price after a short scoping call. As a rough guide, most websites we build land somewhere between the low thousands and the low tens of thousands of Australian dollars, and SEO runs as a monthly retainer sized to how competitive your market is. No lock-in contracts, and you own everything we build."
+   },
+   {
+    "q": "Can you take over a site another agency built?",
+    "a": "Usually, yes. We audit the existing build first and tell you plainly whether it is worth improving or replacing, and what each path costs. On the SEO side, starting on a site someone else built is normal work for us. The audit that starts every engagement is described at SEO services, and the build side at web development."
+   }
+  ],
+  "ctaTitle": "Tell us what you are building",
+  "ctaSub": "Send a brief or book a call through /contact/. You will get a reply from someone who can scope the work, and a straight answer on whether we are the right fit."
+ },
+ {
+  "slug": "web-development",
+  "metaTitle": "Web Development Company Australia | Devarko",
+  "metaDescription": "Devarko builds fast, accessible websites and web apps for Australian businesses. Next.js, React and Laravel, senior engineers and honest AUD pricing.",
+  "keywords": "web development company Australia, web developers for small business Australia, custom web application development, customer portal development, Next.js developers Australia, Laravel developers Australia",
+  "h1": "Web development for Australian small and mid-size businesses",
+  "lede": "Devarko builds marketing sites, web applications and customer portals in Next.js, React and Laravel. We are headquartered in Australia with a senior engineering studio in Lahore, and the platforms we build run real businesses in three countries. The rates make sense for yours.",
+  "sections": [
+   {
+    "h2": "What we build",
+    "paragraphs": [
+     "Devarko builds marketing sites, custom web applications and customer portals for small and mid-size businesses. We also build the systems that sit behind online selling: product catalogues, booking and quoting tools, member areas and dashboards that talk to your existing software. If it runs in a browser and needs to work reliably, it is the kind of project we take on.",
+     "Seven client platforms are live right now across Pakistan, Kuwait and the USA, including the Bright Future e-learning platform in Kuwait, the Ilmversity school LMS, and three veterinary platforms serving the US market. We also run Cargonio, our own freight ERP, live with two companies. You can browse the full portfolio at [devarko.com/work](https://devarko.com/work/)."
+    ],
+    "bullets": [
+     {
+      "title": "Marketing sites",
+      "desc": "Fast, search-ready sites that explain what you do and get found. They pair naturally with our SEO service."
+     },
+     {
+      "title": "Web applications",
+      "desc": "Custom tools for quoting, bookings, inventory, learning or logistics, built to fit how your business actually runs."
+     },
+     {
+      "title": "Customer portals",
+      "desc": "Secure logins where your clients track orders, download documents or manage their accounts without ringing you first."
+     },
+     {
+      "title": "Selling and e-commerce tools",
+      "desc": "Catalogues, carts and payment flows, either standalone or wired into the platforms you already use."
+     }
+    ]
+   },
+   {
+    "h2": "The stack: Next.js, React and Laravel",
+    "paragraphs": [
+     "We build front ends in Next.js and React, and back ends in Laravel. These are boring choices in the best way: widely used, well documented and easy for any competent developer to pick up later, so you are never locked into us. When a project needs a companion mobile app, we build it in React Native, and the web and mobile products share one API and one source of truth."
+    ]
+   },
+   {
+    "h2": "Fast and accessible by default",
+    "paragraphs": [
+     "Performance and accessibility are not paid extras. Every site we ship is built to load quickly on Australian mobile networks, work with screen readers and keyboards, and hold up under Google's Core Web Vitals. Our own site is the test bed: devarko.com scores 97 to 99 for performance and 100 for SEO on Lighthouse, and we hold client work to the same standard.",
+     "Speed matters commercially, not just technically. A slow site costs you rankings and enquiries before anyone reads a word. That is why our [SEO service](/seo-services/) and our development work share the same foundations: clean markup, fast loads and pages Google can read without guessing."
+    ]
+   },
+   {
+    "h2": "From brief to launch",
+    "paragraphs": [
+     "Every project starts with a conversation, not a form. We work out what the site or application actually needs to do, write it down in plain language, and quote against that scope. You deal directly with the people planning your build, and the engineering is delivered by our senior team in Lahore. That structure keeps rates sensible without the quality lottery of hiring anonymous freelancers.",
+     "Time zones help rather than hurt. Lahore mornings line up with Australian afternoons, so calls, demos and urgent fixes happen inside your business hours. You will not be emailing into the void and waiting a full day for every answer."
+    ],
+    "bullets": [
+     {
+      "title": "Brief and scoping",
+      "desc": "A working session to pin down goals, pages, features and integrations, followed by a written scope and quote."
+     },
+     {
+      "title": "Design and build",
+      "desc": "Weekly progress you can click on, staged at a private URL from the first fortnight."
+     },
+     {
+      "title": "Content and review",
+      "desc": "We load your content, test on real phones and tidy the details before anyone else sees it."
+     },
+     {
+      "title": "Launch and handover",
+      "desc": "DNS, hosting, analytics and a walkthrough of how to update things yourself."
+     }
+    ]
+   },
+   {
+    "h2": "What it costs",
+    "paragraphs": [
+     "Honest ranges, with the usual caveat that scope moves the number. A focused marketing site of five to ten pages typically lands between $6,000 and $15,000 AUD. A custom web application or customer portal usually starts around $20,000 and can pass $60,000 once integrations, user roles and payment flows stack up. Every figure we quote follows a written scope, so you know what the number includes before you commit.",
+     "The Lahore studio is why those numbers are lower than a capital-city agency quoting the same build. You get senior engineers who have shipped e-learning, marketplace and freight platforms now live in three countries, without paying Sydney office rents. The saving is structural, not a corner cut."
+    ]
+   },
+   {
+    "h2": "After launch",
+    "paragraphs": [
+     "Websites decay without care: dependencies age, integrations change and content goes stale. We offer monthly maintenance covering updates, backups, uptime monitoring and small content changes, usually between $150 and $500 AUD a month depending on the site. Application support is scoped separately. There is no lock-in; the code is yours and the documentation is written so another developer could take over.",
+     "The proof is in who keeps using the work. Raheel, CEO of Skyline Cargo Marketing, and Adeel Ahmed, Managing Director of Kare Cargo International, both run their freight operations on platforms we built. Their words are on our [work page](https://devarko.com/work/), alongside the rest of the portfolio."
+    ]
+   }
+  ],
+  "faqs": [
+   {
+    "q": "Who will actually build our website?",
+    "a": "Devarko is headquartered in Australia and the engineering is done by our own senior team in Lahore. They are our staff, not subcontractors, and they are the same engineers behind the seven client platforms live in Pakistan, Kuwait and the USA. You get one point of contact here, direct access to the engineers when it helps, and more on how the studio is set up on our home page."
+   },
+   {
+    "q": "How long does a build take?",
+    "a": "A marketing site usually takes four to eight weeks from signed scope to launch, mostly depending on how quickly content and feedback arrive from your side. Web applications typically run three to six months. We give a timeline with the quote and flag early if anything moves it."
+   },
+   {
+    "q": "Can you take over a site another developer built?",
+    "a": "Yes. We start with a paid audit of the code, hosting and performance, then give you a plain-language report on what is worth keeping. If the site runs on a common stack such as React, Next.js or Laravel we can usually work with it, and if a rebuild is genuinely cheaper than a rescue, we will say so."
+   },
+   {
+    "q": "Do you handle SEO as well?",
+    "a": "Yes. SEO is our other core service, and it works best when the site underneath is fast and technically clean, which is how we build in the first place. See SEO services for how the two fit together, or reach us through the contact page and tell us what you are trying to rank for."
+   }
+  ],
+  "ctaTitle": "Tell us what you need built",
+  "ctaSub": "Share a short brief through our [contact page](/contact/). You will get a considered reply, a realistic range in AUD and a straight answer on whether we are the right fit."
+ },
+ {
+  "slug": "seo-services",
+  "metaTitle": "SEO Services Australia | Technical SEO Agency | Devarko",
+  "metaDescription": "Engineer-led SEO for Australian businesses. Technical SEO, Core Web Vitals and content built for buyer searches. Honest reporting, no ranking guarantees.",
+  "keywords": "SEO services Australia, technical SEO agency, Core Web Vitals optimisation, structured data, small business SEO Australia, Search Console reporting",
+  "h1": "SEO services for Australian businesses, run by engineers",
+  "lede": "Devarko is a software house headquartered in Australia, and our SEO work starts where most agencies stop: in the code. We fix the engineering problems that hold sites back in search, then write content aimed at the searches your buyers actually make. No ranking guarantees, no padded reports, and every result measured against your own Search Console data.",
+  "sections": [
+   {
+    "h2": "Technical SEO done by the people who build websites",
+    "paragraphs": [
+     "Most SEO agencies write an audit, hand it to whoever looks after your website and hope for the best. Devarko is a software house first, so the people diagnosing your site are the same engineers who build platforms in Next.js, React and Laravel for a living. When we find a rendering issue or a crawl trap, we fix it in the code rather than writing a ticket someone else ignores.",
+     "That matters because Google rewards sites that load fast and behave predictably. Core Web Vitals, structured data and clean crawlability are engineering problems, and treating them as marketing problems is why so many audits go nowhere. If your current provider keeps sending PDF reports while nothing changes on the site, that is the gap we close."
+    ],
+    "bullets": [
+     {
+      "title": "Core Web Vitals",
+      "desc": "Load speed, interactivity and layout stability tuned in the code itself, not patched over with another plugin."
+     },
+     {
+      "title": "Structured data",
+      "desc": "Schema markup for your organisation, services, products and reviews, validated against Google's own testing tools."
+     },
+     {
+      "title": "Crawlability and indexing",
+      "desc": "Clean sitemaps, sensible robots rules, canonical tags and redirect hygiene so Google spends its crawl budget on pages that earn money."
+     },
+     {
+      "title": "Site architecture",
+      "desc": "URLs and internal links organised around how buyers search, so authority flows to the pages that convert."
+     }
+    ]
+   },
+   {
+    "h2": "Content aimed at buyer searches, not vanity keywords",
+    "paragraphs": [
+     "Rankings are worthless if the keywords never turn into enquiries. We prioritise buyer searches: the terms people use when they are ready to compare providers, request quotes or purchase. That usually means fewer articles than a content-mill agency would sell you, written more carefully, mapped to pages that can convert.",
+     "Every piece starts with search data for your market in Australia, not a template. We write service pages, comparison pages and guides that answer the questions your customers ask before they buy, and we structure them so search engines can parse them properly."
+    ]
+   },
+   {
+    "h2": "No ranking guarantees, on purpose",
+    "paragraphs": [
+     "Nobody controls Google, including the agencies that promise page one in 30 days. A guarantee either hides easy targets nobody searches for, or it relies on tactics that work briefly and then get your site penalised. When a provider guarantees rankings, they are telling you something about their honesty, not their skill.",
+     "What we commit to instead is the work and the evidence. You will see exactly what changed on your site, why it changed, and what happened in Search Console afterwards. Over six to twelve months that compounds into rankings that hold, because they are earned rather than gamed."
+    ]
+   },
+   {
+    "h2": "Your first 90 days with us",
+    "paragraphs": [
+     "SEO takes time to show in revenue, but the first three months should never be quiet, and you should never be wondering what you paid for. Here is the sequence we follow on every engagement, so you can hold us to it from day one."
+    ],
+    "bullets": [
+     {
+      "title": "Weeks 1 to 2",
+      "desc": "Access and baselines. We connect Search Console and analytics, record current rankings, traffic and indexing, and run a full technical crawl."
+     },
+     {
+      "title": "Weeks 3 to 6",
+      "desc": "Technical fixes ship. Core Web Vitals, indexing problems and structured data get corrected in the code, not parked in a recommendations deck."
+     },
+     {
+      "title": "Weeks 7 to 10",
+      "desc": "Keyword mapping against buyer intent, then the first round of new and rewritten pages goes live."
+     },
+     {
+      "title": "Weeks 11 to 13",
+      "desc": "First review against the baseline: what moved, what has not yet, and the plan for the next quarter, in writing."
+     }
+    ]
+   },
+   {
+    "h2": "Measured against a Search Console baseline",
+    "paragraphs": [
+     "Before we change anything, we record where you stand: impressions, clicks, average position for the queries that matter, and which pages Google has indexed. Every monthly report compares against that baseline, using your own Search Console data. You can verify every number yourself, which is exactly the point.",
+     "We report on enquiries and conversions where tracking allows, not just positions. A ranking that produces no phone calls is a decoration. If something we tried is not working, the report says so, along with what we are changing in response."
+    ]
+   },
+   {
+    "h2": "Our own site is the first case study",
+    "paragraphs": [
+     "Our own site at devarko.com scores 97 to 99 for performance and 100 for SEO on Google's Lighthouse audit. We built it ourselves with the same methods we sell, so you can run the audit and check before you ever talk to us.",
+     "Behind that sits the rest of [Devarko](/): our Lahore studio has seven client platforms live for clients in Pakistan, Kuwait and the USA, including the Bright Future e-learning platform in Kuwait and the DVM Central veterinary marketplace in the USA, plus Cargonio, our own freight ERP now live with two companies. The full portfolio, with case pages for each build, is at [devarko.com/work](https://devarko.com/work/).",
+     "If your site needs rebuilding before SEO is worth paying for, we will say so, and our [web development](/web-development/) team can quote that honestly. Being headquartered in Australia with senior engineers in Lahore means you get local accountability at sensible rates, and we can organise Australian working-hours overlap when you need to talk."
+    ]
+   }
+  ],
+  "faqs": [
+   {
+    "q": "How long until we see results from SEO?",
+    "a": "Technical improvements often show within weeks as Google recrawls the site and Core Web Vitals scores improve. Movement on competitive buyer keywords usually takes three to six months, and durable positions can take longer. We record a baseline in month one and report against it monthly, so you always know whether the trend justifies the spend."
+   },
+   {
+    "q": "Do you guarantee first-page rankings?",
+    "a": "No, and we explain why on this page: nobody controls Google. Guaranteed rankings usually mean keywords nobody searches for, or shortcuts that get sites penalised once Google catches up. We commit to specific work, ship it, and show you the results in your own Search Console account. If that evidence ever stops justifying the retainer, you should stop paying it."
+   },
+   {
+    "q": "Who actually does the work?",
+    "a": "Devarko's own team. The company is headquartered in Australia and engineering is delivered from our Lahore studio, which is how you get senior engineers on your account at sensible rates. We do not farm work out to link sellers or resell white-label reports. If you want calls during Australian business hours, we organise the overlap."
+   },
+   {
+    "q": "What do your SEO services cost?",
+    "a": "Scope drives the price: the size of your site, how competitive your market is, and how much technical work is needed up front. We quote a fixed monthly figure in AUD after reviewing your site and your Search Console data, and the quote itemises deliverables so you can compare it line by line against any other proposal."
+   }
+  ],
+  "ctaTitle": "Get a straight answer about your SEO",
+  "ctaSub": "Send your URL through our [contact page](/contact/) and we will reply with the first three things we would fix, in plain English, with no obligation to go further."
+ }
+]

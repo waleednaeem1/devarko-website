@@ -1,20 +1,24 @@
-name: Deploy to Hostinger
+name: Deploy AU site to Hostinger
 
 on:
   push:
     branches: [main]
-    paths-ignore:
+    paths:
       - "au/**"
+      - ".github/workflows/deploy-au.yml"
   workflow_dispatch:
 
 concurrency:
-  group: deploy-production
+  group: deploy-au-production
   cancel-in-progress: false
 
 jobs:
   deploy:
-    name: Build and sync to public_html
+    name: Build and sync devarko.com.au
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: au
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -24,6 +28,7 @@ jobs:
         with:
           node-version: 22
           cache: npm
+          cache-dependency-path: au/package-lock.json
 
       - name: Install dependencies
         run: npm ci
@@ -39,11 +44,11 @@ jobs:
           server: "178.16.136.115"
           protocol: ftps
           timeout: 60000
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: out/
+          username: ${{ secrets.AU_FTP_USERNAME }}
+          password: ${{ secrets.AU_FTP_PASSWORD }}
+          local-dir: au/out/
           server-dir: ./
-          state-name: .ftp-deploy-sync-state-v3.json
+          state-name: .ftp-deploy-sync-state-au.json
           exclude: |
             **/.git*
             **/.git*/**
@@ -55,11 +60,11 @@ jobs:
           server: "178.16.136.115"
           protocol: ftps
           timeout: 90000
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: out/
+          username: ${{ secrets.AU_FTP_USERNAME }}
+          password: ${{ secrets.AU_FTP_PASSWORD }}
+          local-dir: au/out/
           server-dir: ./
-          state-name: .ftp-deploy-sync-state-v3.json
+          state-name: .ftp-deploy-sync-state-au.json
           exclude: |
             **/.git*
             **/.git*/**

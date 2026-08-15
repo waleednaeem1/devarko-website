@@ -1,0 +1,155 @@
+import type { Metadata, Viewport } from "next";
+import Link from "next/link";
+import "./site.css";
+import { GSC_TOKEN, GTM_ID, MAIN_SITE, NAV_LINKS, SITE_URL } from "@/lib/site";
+import Analytics from "@/components/Analytics";
+import RevealObserver from "@/components/RevealObserver";
+import Year from "@/components/Year";
+
+export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
+  generator: "Next.js",
+  title: "Web Development & SEO for Australian Business | Devarko",
+  description:
+    "Devarko builds fast, search-ready websites and web apps for Australian businesses, backed by engineer-led SEO and a senior development studio.",
+  authors: [{ name: "Devarko" }],
+  robots: { index: true, follow: true, "max-image-preview": "large" },
+  verification: { google: GSC_TOKEN },
+  icons: {
+    icon: [
+      { url: "/assets/img/logo.svg?v=4", type: "image/svg+xml" },
+      { url: "/assets/img/favicon-32.png?v=2", sizes: "32x32", type: "image/png" },
+      { url: "/assets/img/favicon-16.png?v=2", sizes: "16x16", type: "image/png" },
+    ],
+    apple: [{ url: "/assets/img/apple-touch-icon.png?v=2" }],
+  },
+  openGraph: {
+    type: "website",
+    siteName: "Devarko",
+    locale: "en_AU",
+    images: [{ url: `${SITE_URL}/assets/img/og-image.png`, width: 1200, height: 630 }],
+  },
+  twitter: { card: "summary_large_image", images: [`${SITE_URL}/assets/img/og-image.png`] },
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  themeColor: "#ffffff",
+};
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  return (
+    <html lang="en-AU">
+      <head>
+        <link rel="preconnect" href="https://www.googletagmanager.com" />
+        <link rel="preload" href="/assets/fonts/Inter-400.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
+        <link rel="preload" href="/assets/fonts/SpaceGrotesk-700.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
+        <link rel="preload" href="/assets/fonts/Inter-600.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
+      </head>
+      <body>
+        <noscript>
+          <iframe
+            src={`https://www.googletagmanager.com/ns.html?id=${GTM_ID}`}
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          />
+        </noscript>
+        <header className="site-header">
+          <div className="container">
+            <nav className="nav" aria-label="Primary">
+              <Link className="brand" href="/" aria-label="Devarko Australia home">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src="/assets/img/logo.svg?v=4" alt="" />
+                <span className="brand__name">
+                  Dev<b>arko</b>
+                </span>
+              </Link>
+              <ul className="nav__links">
+                {NAV_LINKS.map((l) => (
+                  <li key={l.href}>
+                    <Link href={l.href}>{l.label}</Link>
+                  </li>
+                ))}
+                <li>
+                  <a href={MAIN_SITE} target="_blank" rel="noopener">
+                    Full portfolio
+                  </a>
+                </li>
+                <li>
+                  <Link className="btn btn--primary" href="/contact/">
+                    Let&apos;s talk
+                  </Link>
+                </li>
+              </ul>
+              <div className="nav__right">
+                <Link className="btn btn--primary" href="/contact/">
+                  Let&apos;s talk
+                </Link>
+              </div>
+            </nav>
+          </div>
+        </header>
+        {children}
+        <footer className="site-footer">
+          <div className="container">
+            <div className="footer__grid">
+              <div className="footer__brand">
+                <Link className="brand" href="/">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img src="/assets/img/logo.svg?v=4" alt="" />
+                  <span className="brand__name">
+                    Dev<b>arko</b>
+                  </span>
+                </Link>
+                <p>
+                  Web development and SEO for Australian businesses, delivered by the senior
+                  engineering studio behind seven production platforms.
+                </p>
+              </div>
+              <div className="footer__col">
+                <h4>Services</h4>
+                <Link href="/web-development/">Web Development</Link>
+                <Link href="/seo-services/">SEO Services</Link>
+                <a href={`${MAIN_SITE}/services/`} target="_blank" rel="noopener">
+                  All services
+                </a>
+              </div>
+              <div className="footer__col">
+                <h4>Devarko</h4>
+                <a href={`${MAIN_SITE}/work/`} target="_blank" rel="noopener">
+                  Our work
+                </a>
+                <a href={`${MAIN_SITE}/cargonio/`} target="_blank" rel="noopener">
+                  Cargonio ERP
+                </a>
+                <a href="https://www.linkedin.com/company/devarko" target="_blank" rel="noopener">
+                  LinkedIn
+                </a>
+              </div>
+              <div className="footer__col">
+                <h4>Get in touch</h4>
+                <a href="mailto:info@devarko.com">info@devarko.com</a>
+                <a href="tel:+923203271071">+92 320 3271071</a>
+                <Link href="/contact/">Contact form</Link>
+              </div>
+            </div>
+            <div className="footer__bottom">
+              <span>
+                &copy; <Year /> Devarko. All rights reserved.
+              </span>
+              <span>
+                <a href={MAIN_SITE} style={{ color: "var(--muted)" }}>
+                  devarko.com
+                </a>
+              </span>
+            </div>
+          </div>
+        </footer>
+        <Analytics />
+        <RevealObserver />
+      </body>
+    </html>
+  );
+}

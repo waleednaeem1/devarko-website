@@ -1,0 +1,32 @@
+"use client";
+
+import { usePathname } from "next/navigation";
+import { useEffect } from "react";
+
+/** Scroll-reveal for [data-reveal] and [data-stagger], re-armed on every route change. */
+export default function RevealObserver() {
+  const pathname = usePathname();
+
+  useEffect(() => {
+    const targets = document.querySelectorAll("[data-reveal], [data-stagger]");
+    if (!("IntersectionObserver" in window)) {
+      targets.forEach((el) => el.classList.add("is-visible"));
+      return;
+    }
+    const io = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("is-visible");
+            io.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.12, rootMargin: "0px 0px -8% 0px" }
+    );
+    targets.forEach((el) => io.observe(el));
+    return () => io.disconnect();
+  }, [pathname]);
+
+  return null;
+}
