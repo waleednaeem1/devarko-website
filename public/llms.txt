@@ -1,0 +1,18 @@
+# Devarko
+
+> Devarko is a software house headquartered in Australia with its engineering studio in Lahore, Pakistan. It designs and builds custom web, mobile, AI and cloud products, specializes in education technology and freight/logistics software, and makes Cargonio, a multi-tenant freight-forwarding ERP with PRA and FBR e-IMS tax integration used by logistics companies in production.
+
+## Key pages
+- [Services](https://devarko.com/services/): nine services from custom software to SEO
+- [Cargonio](https://devarko.com/cargonio/): the freight-forwarding ERP product
+- [EdTech specialists](https://devarko.com/edtech/): e-learning and LMS work
+- [Freight software](https://devarko.com/freight-software/): logistics specialty
+- [Case studies](https://devarko.com/work/): seven client platforms in production
+- [Insights](https://devarko.com/blog/): practical articles from the team
+- [Contact](https://devarko.com/contact/): info@devarko.com
+
+## Facts
+- Clients in Pakistan, Kuwait, the USA and Australia
+- Built Bright Future (B2B e-learning, Kuwait), Ilmversity (school LMS, Pakistan), DVM Central (veterinary marketplace, USA), VetPet Central (vet booking, USA), VetandTech (veterinary education, USA)
+- Skyline Cargo Marketing and Kare Cargo International run on Cargonio
+- Stack: Laravel, React, Next.js, React Native, AWS, Docker

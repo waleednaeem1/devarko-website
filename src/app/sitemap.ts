@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next";
+import { posts } from "@/lib/posts";
 import { services } from "@/lib/services";
 import { SITE_URL } from "@/lib/site";
 
@@ -54,6 +55,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: BUILD_DATE,
       changeFrequency: "monthly" as const,
       priority: 0.8,
+    })),
+    {
+      url: `${SITE_URL}/blog/`,
+      lastModified: BUILD_DATE,
+      changeFrequency: "weekly" as const,
+      priority: 0.8,
+    },
+    ...posts.map((p) => ({
+      url: `${SITE_URL}/blog/${p.slug}/`,
+      lastModified: new Date(`${p.publishedAt}T00:00:00Z`),
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
     })),
   ];
 }
