@@ -1,0 +1,148 @@
+{
+  "metaTitle": "Web Design Packages & SEO Plans Australia | Devarko",
+  "metaDescription": "Fixed-price website builds from AUD $3,900 and SEO plans from AUD $990/month with no lock-in. Custom-coded by engineers in Tasmania, never outsourced.",
+  "keywords": "web design packages Australia, SEO packages Tasmania, website packages Hobart, fixed price website Australia, monthly SEO plans no lock-in, custom coded website Tasmania",
+  "h1": "Fixed-price websites. Month-to-month SEO.",
+  "lede": "Every package on this page has its price printed next to it. Builds are custom-coded by our in-house engineers, never a page builder, and every SEO plan runs month to month with no lock-in contract. If a tier does not fit your project, we will say so and quote it straight.",
+  "webIntro": {
+    "eyebrow": "Website builds",
+    "title": "One team, one fixed price",
+    "sub": "Three tiers, all hand-coded in Next.js, React or Laravel, all built in-house by senior engineers. You get a fixed quote against a tier before any work starts."
+  },
+  "webTiers": [
+    {
+      "name": "Launch",
+      "price": "from AUD $3,900",
+      "tagline": "For businesses that need a credible site, done properly.",
+      "includes": [
+        "Custom-coded site of 5 to 7 pages",
+        "SEO foundations and structured data",
+        "Local SEO setup for your area",
+        "Analytics installed and goals configured",
+        "Training session and full handover",
+        "Hand-written code, no page builders"
+      ]
+    },
+    {
+      "name": "Business",
+      "price": "from AUD $6,900",
+      "tagline": "For businesses that want the site generating leads.",
+      "includes": [
+        "Everything in the Launch package",
+        "More pages and deeper content sections",
+        "Blog engine, ready for publishing",
+        "Lead capture forms and enquiry flows",
+        "Copywriting support on key pages",
+        "Priority slot in the build queue"
+      ]
+    },
+    {
+      "name": "Platform",
+      "price": "from AUD $14,500",
+      "tagline": "For custom web applications, not just websites.",
+      "includes": [
+        "Custom web application, scoped with you",
+        "Portals, bookings, dashboards and logins",
+        "Integrations with payment and business systems",
+        "Built by senior in-house engineers",
+        "Same stack behind our live platforms"
+      ],
+      "note": "Platform projects are scoped individually after a call. The from price covers a focused first release."
+    }
+  ],
+  "seoIntro": {
+    "eyebrow": "SEO plans",
+    "title": "Month to month, no lock-in",
+    "sub": "Every plan is itemised in a monthly report, and you can stop at the end of any month. The technical work is done by the engineers who build our sites, not resold to a third party."
+  },
+  "seoTiers": [
+    {
+      "name": "Local",
+      "price": "AUD $990/month",
+      "tagline": "For businesses that win work from local search.",
+      "includes": [
+        "Google Business Profile managed monthly",
+        "Local landing pages, built and optimised",
+        "Citations built and corrected",
+        "Practical reviews strategy and templates",
+        "A plain-English report every month"
+      ]
+    },
+    {
+      "name": "Growth",
+      "price": "AUD $1,690/month",
+      "tagline": "For businesses competing past their own postcode.",
+      "includes": [
+        "Everything in the Local plan",
+        "Content written and published monthly",
+        "Technical SEO sprints by engineers",
+        "Link earning through genuine outreach",
+        "Quarterly strategy session with you"
+      ]
+    },
+    {
+      "name": "Authority",
+      "price": "AUD $2,900/month",
+      "tagline": "For businesses out to own their category in search.",
+      "includes": [
+        "Everything in the Growth plan",
+        "Higher content volume each month",
+        "Digital PR and earned media coverage",
+        "Conversion optimisation on key pages",
+        "Priority engineering time reserved monthly"
+      ]
+    }
+  ],
+  "different": {
+    "title": "Built by engineers, not assembled by an agency",
+    "sub": "Plenty of agencies sell bundled marketing systems at one big price. We build software for a living, we itemise everything, and the difference shows up in the work.",
+    "bullets": [
+      {
+        "title": "Engineers build it",
+        "desc": "No page builders, no white-label outsourcing. Every site is hand-coded in Next.js, React or Laravel by the same in-house team that ships production platforms like Cargonio, Bright Future and DVM Central. See the work at [devarko.com](https://devarko.com)."
+      },
+      {
+        "title": "Performance you can measure",
+        "desc": "Custom code is faster than anything a page builder produces. Our own site scores in the high 90s on Google PageSpeed, and we build yours to the same standard. Run the test yourself, before and after."
+      },
+      {
+        "title": "No lock-in, ever",
+        "desc": "Your build is a fixed price agreed up front. Your SEO plan runs month to month and you can stop at the end of any month. If we are not earning the retainer, you should not be paying it."
+      },
+      {
+        "title": "One team from build to growth",
+        "desc": "Start with a website, add SEO when you are ready. When you outgrow the site, the same team builds the next thing: web applications, portals and mobile apps, seven client platforms and our own product already live in production."
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "What is included in the build price, and what costs extra?",
+      "a": "The build price covers design, development, SEO foundations, analytics setup and training, exactly as listed in each tier. Your domain name and hosting are billed at cost and registered in your name, so you always own them. Photography and videography are not included; we can work with your existing images, licensed stock, or a photographer you engage locally."
+    },
+    {
+      "q": "Why do you publish fixed prices when other agencies quote per project?",
+      "a": "Because after seven live client platforms and our own product, we know what a website costs to build properly. Publishing the price saves you a sales meeting and keeps us honest, since the scope of each tier is written down before you ever talk to us. If your project does not fit a tier, we say so and quote it individually."
+    },
+    {
+      "q": "Is there a contract or lock-in?",
+      "a": "No. Website builds are a fixed-price project with a deposit and a final payment at launch. SEO plans run month to month and you can stop at the end of any month. Everything we produce, including the code, the content and the accounts, belongs to you."
+    },
+    {
+      "q": "How long does a website build take?",
+      "a": "A Launch site typically takes three to four weeks from kick-off. Business builds usually run five to eight weeks depending on page count and copy. Platform projects are scoped individually, so the timeline is confirmed before work starts. The biggest variable is how quickly content and feedback come back from your side, and we flag that plainly in the project plan."
+    },
+    {
+      "q": "Can we start with an SEO plan on our existing website?",
+      "a": "Yes. All three SEO plans work on sites we did not build. We start with a technical audit in the first month, fix what is holding the site back, and tell you honestly if the site itself is the bottleneck. Some clients start with SEO and rebuild later; there is no requirement to do both with us."
+    },
+    {
+      "q": "Do your prices include GST?",
+      "a": "No, all prices on this page exclude GST. GST is added to invoices at the standard 10 per cent for Australian customers. Every invoice is itemised, and there are no charges beyond what you have agreed to in writing."
+    }
+  ],
+  "cta": {
+    "title": "Get a straight answer on price",
+    "sub": "Book a call or send an enquiry with a rough idea of what you need. We will tell you which package fits, what it costs and what we would do first. We reply within one business day. Call +61 475 720 769 or email info@devarko.com."
+  }
+}

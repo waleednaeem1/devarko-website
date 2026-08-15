@@ -4,7 +4,7 @@ import { ArrowIcon, Tick } from "@/components/icons";
 import type { AuPageContent } from "@/lib/pages";
 import { SITE_URL } from "@/lib/site";
 
-function rich(text: string): React.ReactNode[] {
+export function rich(text: string): React.ReactNode[] {
   return text.split(/(\[[^\]]+\]\([^)]+\))/g).map((part, i) => {
     const m = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
     if (!m) return part;

@@ -1,7 +1,17 @@
 import type { Metadata, Viewport } from "next";
 import Link from "next/link";
 import "./site.css";
-import { GSC_TOKEN, GTM_ID, MAIN_SITE, NAV_LINKS, SITE_URL } from "@/lib/site";
+import {
+  AU_ADDRESS,
+  AU_MAPS_URL,
+  AU_PHONE,
+  AU_PHONE_TEL,
+  GSC_TOKEN,
+  GTM_ID,
+  MAIN_SITE,
+  NAV_LINKS,
+  SITE_URL,
+} from "@/lib/site";
 import Analytics from "@/components/Analytics";
 import RevealObserver from "@/components/RevealObserver";
 import Year from "@/components/Year";
@@ -112,6 +122,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <h4>Services</h4>
                 <Link href="/web-development/">Web Development</Link>
                 <Link href="/seo-services/">SEO Services</Link>
+                <Link href="/packages/">Packages &amp; Pricing</Link>
                 <a href={`${MAIN_SITE}/services/`} target="_blank" rel="noopener">
                   All services
                 </a>
@@ -131,8 +142,39 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <div className="footer__col">
                 <h4>Get in touch</h4>
                 <a href="mailto:info@devarko.com">info@devarko.com</a>
-                <a href="tel:+923203271071">+92 320 3271071</a>
+                <a href={`tel:${AU_PHONE_TEL}`}>{AU_PHONE}</a>
                 <Link href="/contact/">Contact form</Link>
+                <a
+                  className="footer__map"
+                  href={AU_MAPS_URL}
+                  target="_blank"
+                  rel="noopener"
+                  aria-label={`Devarko at ${AU_ADDRESS}, on Google Maps`}
+                >
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src="/assets/img/map-glenorchy.jpg?v=1"
+                    width={720}
+                    height={440}
+                    alt="Map of Glenorchy, Tasmania, where Devarko is based"
+                    loading="lazy"
+                  />
+                  <span className="footer__map-cap">
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 1 1 16 0z" />
+                      <circle cx="12" cy="10" r="3" />
+                    </svg>
+                    Glenorchy, Tasmania
+                  </span>
+                </a>
+                <span className="footer__addr">{AU_ADDRESS}</span>
               </div>
             </div>
             <div className="footer__bottom">

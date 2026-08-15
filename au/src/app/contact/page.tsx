@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import ContactForm from "@/components/ContactForm";
 import AuPage from "@/components/AuPage";
 import { getPage } from "@/lib/pages";
-import { SITE_URL } from "@/lib/site";
+import { AU_ADDRESS, AU_MAPS_URL, AU_PHONE, AU_PHONE_TEL, SITE_URL } from "@/lib/site";
 
 const page = getPage("contact");
 
@@ -48,8 +48,17 @@ export default function Page() {
               <div className="contact-info__item">
                 <span className="ico">☎</span>
                 <div>
-                  <b>Phone / WhatsApp</b>
-                  <a href="tel:+923203271071">+92 320 3271071</a>
+                  <b>Phone</b>
+                  <a href={`tel:${AU_PHONE_TEL}`}>{AU_PHONE}</a>
+                </div>
+              </div>
+              <div className="contact-info__item">
+                <span className="ico">⌖</span>
+                <div>
+                  <b>Address</b>
+                  <a href={AU_MAPS_URL} target="_blank" rel="noopener">
+                    {AU_ADDRESS}
+                  </a>
                 </div>
               </div>
             </div>
