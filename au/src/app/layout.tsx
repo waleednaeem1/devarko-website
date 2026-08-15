@@ -13,6 +13,7 @@ import {
   SITE_URL,
 } from "@/lib/site";
 import Analytics from "@/components/Analytics";
+import NewsletterForm from "@/components/NewsletterForm";
 import RevealObserver from "@/components/RevealObserver";
 import Year from "@/components/Year";
 
@@ -104,6 +105,16 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {children}
         <footer className="site-footer">
           <div className="container">
+            <div className="footer__news">
+              <div>
+                <h3>Get updates from the studio.</h3>
+                <p>
+                  New launches, case studies and practical product notes. No spam, and you can
+                  unsubscribe any time.
+                </p>
+              </div>
+              <NewsletterForm />
+            </div>
             <div className="footer__grid">
               <div className="footer__brand">
                 <Link className="brand" href="/">
