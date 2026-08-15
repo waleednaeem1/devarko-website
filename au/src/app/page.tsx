@@ -183,7 +183,7 @@ export default function HomePage() {
           email: "info@devarko.com",
           address: {
             "@type": "PostalAddress",
-            streetAddress: "13 Pitcairn Street",
+            streetAddress: "Pitcairn Street",
             addressLocality: "Glenorchy",
             addressRegion: "TAS",
             postalCode: "7010",
