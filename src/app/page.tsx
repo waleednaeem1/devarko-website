@@ -308,24 +308,17 @@ const STATS = [
 const TESTIMONIALS = [
   {
     quote:
-      "They didn't just build what we asked for: they understood how students and instructors actually use the platform. Video, payments, and access control all just work, even as our numbers grow.",
-    initials: "FA",
-    name: "Fatima A.",
-    role: "Program Director · university e-learning partner (Kuwait)",
+      "Cargonio is an outstanding freight forwarding platform that has streamlined our operations and boosted productivity. An excellent product backed by a team that truly cares about its customers.",
+    initials: "R",
+    name: "Raheel",
+    role: "Chief Executive Officer · Skyline Cargo Marketing",
   },
   {
     quote:
-      "We replaced a tangle of spreadsheets and disconnected tools with one platform our teachers and admins genuinely enjoy using. The rollout across our campuses was smooth and well supported.",
-    initials: "IS",
-    name: "Imran S.",
-    role: "Head of IT · school network (Pakistan)",
-  },
-  {
-    quote:
-      "From design to launch, the team moved fast and communicated clearly the entire way. Our marketplace went live ahead of schedule and the checkout has been flawless ever since.",
-    initials: "DR",
-    name: "Daniel R.",
-    role: "Founder · B2B marketplace (USA)",
+      "Cargonio has transformed the way we manage our freight forwarding operations. It's reliable, user-friendly, and has significantly improved our team's efficiency. Their continuous support and commitment to innovation make them a trusted technology partner.",
+    initials: "AA",
+    name: "Adeel Ahmed",
+    role: "Managing Director · Kare Cargo International",
   },
 ];
 
@@ -827,7 +820,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Testimonials — PLACEHOLDER quotes for layout; replace with client-approved ones */}
       <section className="section" id="testimonials">
         <div className="container">
           <div className="section__head section__head--center" data-reveal>

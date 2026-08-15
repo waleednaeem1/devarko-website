@@ -647,7 +647,7 @@ body {
 @media (max-width:600px){ .wa-fab { width: 52px; height: 52px; } .wa-fab svg { width: 27px; height: 27px; } }
 
 /* ---- Testimonials ---- */
-.testimonials { grid-template-columns: repeat(3, 1fr); }
+.testimonials { grid-template-columns: repeat(2, 1fr); max-width: 900px; margin-inline: auto; }
 .testimonial { display: flex; flex-direction: column; gap: 0.95rem; padding: 1.8rem; border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface); box-shadow: var(--shadow-card); transition: transform .4s var(--ease), box-shadow .4s var(--ease); }
 .testimonial:hover { transform: translateY(-4px); }
 .testimonial__stars { color: #f5a623; letter-spacing: 3px; font-size: 0.95rem; }
