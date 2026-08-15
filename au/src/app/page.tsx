@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import JsonLd from "@/components/JsonLd";
 import { rich } from "@/components/AuPage";
+import { ProcessSteps, TechStack } from "@/components/sections";
 import { ArrowIcon } from "@/components/icons";
 import home from "@/content/au-home.json";
 import { getPage } from "@/lib/pages";
@@ -321,6 +322,8 @@ export default function HomePage() {
         </div>
       </section>
 
+      <TechStack />
+
       {/* Packages teaser */}
       <section className="section section--tight section--alt" id="packages">
         <div className="container">
@@ -445,6 +448,8 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      <ProcessSteps alt />
 
       {/* Testimonials */}
       <section className="section" id="testimonials">

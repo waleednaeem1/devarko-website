@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import JsonLd from "@/components/JsonLd";
 import { rich } from "@/components/AuPage";
+import { Testimonials } from "@/components/sections";
 import { ArrowIcon, Tick } from "@/components/icons";
 import pkg from "@/content/au-packages.json";
 import { AU_PHONE, AU_PHONE_TEL, SITE_URL } from "@/lib/site";
@@ -189,6 +190,8 @@ export default function PackagesPage() {
           </ul>
         </div>
       </section>
+
+      <Testimonials />
 
       <section className="section section--tight section--alt">
         <div className="container">

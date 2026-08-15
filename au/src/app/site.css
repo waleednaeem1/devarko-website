@@ -1331,3 +1331,9 @@ section:has(> .page-hero__glow) h1[data-reveal], section:has(> .page-hero__glow)
 .news-form__done svg { width: 20px; height: 20px; color: var(--accent-ink); flex: none; }
 @media (max-width: 880px) { .footer__news { grid-template-columns: 1fr; } }
 @media (max-width: 480px) { .news-form { flex-direction: column; } }
+
+/* ===================== AU — tech stack band ===================== */
+.stack-band { padding-block: clamp(1.6rem, 3vw, 2.6rem); border-block: 1px solid var(--border); background: var(--bg-2); }
+.stack-band .logos__label { margin-bottom: 1.1rem; }
+.stack-chips { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 0.6rem; }
+.stack-chips li { padding: 0.5rem 1.05rem; border-radius: 999px; border: 1px solid var(--border-strong); background: var(--surface); font-size: 0.88rem; font-weight: 600; color: var(--text); box-shadow: 0 1px 2px rgba(16, 24, 40, 0.05); }
