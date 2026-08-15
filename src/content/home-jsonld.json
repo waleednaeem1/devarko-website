@@ -20,22 +20,27 @@
     "height": 512
    },
    "image": "https://devarko.com/assets/img/og-image.png",
-   "description": "Devarko is a software house and development agency with engineering in Lahore and clients in Australia, the USA, Kuwait and Pakistan, building custom web, mobile, AI and cloud products with deep specialism in education technology and freight and logistics software.",
+   "description": "Devarko is a software house and development agency with its head office in Tasmania, Australia, engineering in Lahore, and clients in Australia, the USA, Kuwait and Pakistan, building custom web, mobile, AI and cloud products with deep specialism in education technology and freight and logistics software.",
    "slogan": "We design and build software that moves your business forward.",
    "email": "info@devarko.com",
-   "telephone": "+92-320-3271071",
+   "telephone": "+61-475-720-769",
    "priceRange": "$$",
-   "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Lahore",
-    "addressRegion": "Punjab",
-    "addressCountry": "PK"
-   },
-   "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": 31.5204,
-    "longitude": 74.3587
-   },
+   "address": [
+    {
+     "@type": "PostalAddress",
+     "streetAddress": "Pitcairn Street",
+     "addressLocality": "Glenorchy",
+     "addressRegion": "TAS",
+     "postalCode": "7010",
+     "addressCountry": "AU"
+    },
+    {
+     "@type": "PostalAddress",
+     "addressLocality": "Lahore",
+     "addressRegion": "Punjab",
+     "addressCountry": "PK"
+    }
+   ],
    "founder": {
     "@type": "Person",
     "name": "Waleed Naeem",
@@ -45,6 +50,10 @@
     }
    },
    "areaServed": [
+    {
+     "@type": "Country",
+     "name": "Australia"
+    },
     {
      "@type": "Country",
      "name": "Pakistan"

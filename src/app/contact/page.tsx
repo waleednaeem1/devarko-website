@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import ContactForm from "@/components/ContactForm";
 import JsonLd from "@/components/JsonLd";
-import { SITE_URL } from "@/lib/site";
+import { AU_ADDRESS, AU_MAPS_URL, AU_PHONE, AU_PHONE_TEL, PK_PHONE, PK_PHONE_TEL, SITE_URL } from "@/lib/site";
 
 const TITLE = "Hire Software Developers in Pakistan | Devarko";
 const DESCRIPTION =
-  "Talk to Devarko about your build. Email info@devarko.com or call +92 320 3271071 to scope a project with a Lahore team that answers to its founder.";
+  "Talk to Devarko about your build. Reach our Australian head office on +61 475 720 769 or our Lahore engineering office on +92 320 3271071.";
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -69,24 +69,27 @@ export default function ContactPage() {
               <div className="contact-info__item">
                 <span className="ico">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-                    <path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.1-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.4-1.2a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z" />
-                  </svg>
-                </span>
-                <div>
-                  <b>Phone / WhatsApp</b>
-                  <a href="tel:+923203271071">+92 320 3271071</a>
-                </div>
-              </div>
-              <div className="contact-info__item">
-                <span className="ico">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
                     <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z" />
                     <circle cx="12" cy="10" r="3" />
                   </svg>
                 </span>
                 <div>
-                  <b>Location</b>
-                  <span className="v">Lahore, Pakistan</span>
+                  <b>Head office · Australia</b>
+                  <a href={AU_MAPS_URL} target="_blank" rel="noopener">
+                    {AU_ADDRESS}
+                  </a>
+                  <a href={`tel:${AU_PHONE_TEL}`}>{AU_PHONE}</a>
+                </div>
+              </div>
+              <div className="contact-info__item">
+                <span className="ico">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.1-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.4-1.2a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z" />
+                  </svg>
+                </span>
+                <div>
+                  <b>Regional office · Lahore, Pakistan</b>
+                  <a href={`tel:${PK_PHONE_TEL}`}>{PK_PHONE} (Phone / WhatsApp)</a>
                 </div>
               </div>
               <div className="contact-info__item">

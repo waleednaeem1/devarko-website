@@ -1288,3 +1288,7 @@ section:has(> .page-hero__glow) h1[data-reveal], section:has(> .page-hero__glow)
 .post-body .faq { margin-top: 1.2rem; }
 .post-cta { margin-top: clamp(2.5rem, 5vw, 4rem); }
 .page-hero .case-back { display: flex; justify-content: center; margin-bottom: 1.2rem; }
+
+/* ===================== offices — footer address lines ===================== */
+.footer__addr { display: block; margin-top: 0.6rem; color: var(--muted); font-size: 0.82rem; line-height: 1.45; }
+.contact-info__item div a { display: block; }

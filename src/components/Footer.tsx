@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Year from "@/components/Year";
+import { AU_ADDRESS, AU_MAPS_URL, AU_PHONE, AU_PHONE_TEL, PK_PHONE, PK_PHONE_TEL } from "@/lib/site";
 
 const SERVICE_LINKS = [
   { href: "/edtech/", label: "EdTech Development" },
@@ -76,23 +77,24 @@ export default function Footer() {
           <div className="footer__col">
             <h4>Get in touch</h4>
             <a href="mailto:info@devarko.com">info@devarko.com</a>
-            <a href="tel:+923203271071">+92 320 3271071</a>
+            <a href={`tel:${AU_PHONE_TEL}`}>{AU_PHONE}</a>
+            <a href={`tel:${PK_PHONE_TEL}`}>{PK_PHONE}</a>
             <a href="https://www.linkedin.com/company/devarko" target="_blank" rel="noopener">
               LinkedIn
             </a>
             <a
               className="footer__map"
-              href="https://www.google.com/maps/search/?api=1&query=Lahore%2C+Pakistan"
+              href={AU_MAPS_URL}
               target="_blank"
               rel="noopener"
-              aria-label="Devarko in Lahore, Pakistan, on Google Maps"
+              aria-label={`Devarko head office, ${AU_ADDRESS}, on Google Maps`}
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/assets/img/map-lahore.jpg?v=1"
+                src="/assets/img/map-glenorchy.jpg?v=1"
                 width={720}
                 height={440}
-                alt="Map of Lahore, Pakistan, where the Devarko team is based"
+                alt="Map of Glenorchy, Tasmania, home of the Devarko head office"
                 loading="lazy"
               />
               <span className="footer__map-cap">
@@ -107,9 +109,41 @@ export default function Footer() {
                   <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 1 1 16 0z" />
                   <circle cx="12" cy="10" r="3" />
                 </svg>
-                Lahore, Pakistan
+                Head office · Tasmania
               </span>
             </a>
+            <span className="footer__addr">{AU_ADDRESS}</span>
+            <a
+              className="footer__map"
+              href="https://www.google.com/maps/search/?api=1&query=Lahore%2C+Pakistan"
+              target="_blank"
+              rel="noopener"
+              aria-label="Devarko regional office in Lahore, Pakistan, on Google Maps"
+            >
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/assets/img/map-lahore.jpg?v=1"
+                width={720}
+                height={440}
+                alt="Map of Lahore, Pakistan, home of the Devarko regional engineering office"
+                loading="lazy"
+              />
+              <span className="footer__map-cap">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 1 1 16 0z" />
+                  <circle cx="12" cy="10" r="3" />
+                </svg>
+                Regional office · Lahore
+              </span>
+            </a>
+            <span className="footer__addr">Lahore, Punjab, Pakistan</span>
           </div>
         </div>
         <div className="footer__bottom">

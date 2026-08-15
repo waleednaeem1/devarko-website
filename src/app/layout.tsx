@@ -10,9 +10,9 @@ import WaFab from "@/components/WaFab";
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   generator: "Next.js",
-  title: "Software House in Lahore | Custom Software Development",
+  title: "Software Development Company in Australia & Pakistan | Devarko",
   description:
-    "Devarko is a software house and development agency in Lahore building custom software, web and mobile apps, AI automation and EdTech platforms.",
+    "Devarko is a software house with its head office in Tasmania, Australia and engineering in Lahore, building custom software, web and mobile apps, AI automation and EdTech platforms.",
   authors: [{ name: SITE_NAME }],
   robots: { index: true, follow: true, "max-image-preview": "large" },
   verification: { google: GSC_TOKEN },
