@@ -28,10 +28,11 @@ AddType font/woff2 .woff2
   Header set X-Content-Type-Options "nosniff"
   Header set Referrer-Policy "strict-origin-when-cross-origin"
 
-  # Always serve fresh HTML. Static exports reference content-hashed JS/CSS,
-  # and a stale cached page points at filenames that were purged on deploy,
-  # which renders unstyled until a hard refresh. Never cache HTML.
-  <FilesMatch "\.html$">
+  # Always serve fresh HTML and RSC route data (.txt). Static exports reference
+  # content-hashed JS/CSS, and Next fetches .txt route files on client-side
+  # navigation, so a stale cached copy renders old content until a hard refresh.
+  # Never cache either.
+  <FilesMatch "\.(html|txt)$">
     Header set Cache-Control "no-cache, no-store, must-revalidate"
     Header set Pragma "no-cache"
     Header set Expires "0"
