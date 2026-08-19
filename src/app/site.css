@@ -1328,3 +1328,7 @@ section:has(> .page-hero__glow) h1[data-reveal], section:has(> .page-hero__glow)
   .office-card { flex-direction: column; align-items: flex-start; }
   .office-card__map { width: 100%; aspect-ratio: 16 / 7; }
 }
+
+/* force light native controls (dropdowns, scrollbars) */
+:root { color-scheme: light; }
+.field select { appearance: none; -webkit-appearance: none; cursor: pointer; padding-right: 2.6rem; background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%235b4dff' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M6 9l6 6 6-6'/></svg>"); background-repeat: no-repeat; background-position: right 0.95rem center; background-size: 16px; }

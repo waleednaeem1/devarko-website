@@ -1,5 +1,101 @@
 [
   {
+    "slug": "custom-website-vs-template",
+    "title": "Custom Website vs Template: What You Actually Give Up When You Outgrow One",
+    "metaTitle": "Custom Website vs Template: How to Choose | Devarko",
+    "metaDescription": "A template is often the right first move. Here's what it costs in speed, SEO, and control once you outgrow it, and how to tell when to go custom.",
+    "keywords": "custom website vs template, website builder vs custom, is a template website good enough, when to move off a template, custom coded website, template website SEO, Wix vs custom website, outgrowing a website template, Squarespace vs custom",
+    "category": "Business",
+    "readMinutes": 8,
+    "intro": [
+      "Most of the advice online is written by people selling one side or the other. This is not that. Templates and website builders are the right choice for a lot of businesses, and I will say exactly which ones. Custom is the right choice for others. The useful question is not which is better in the abstract. It is which one fits where your business sits right now, and what the wrong choice costs you later.",
+      "If you are a brand new business testing an idea, a template is usually the sensible first move. It is cheap, it is fast to stand up, and you can be taking orders this week. Spending a large custom budget to validate something you are not sure anyone wants is the wrong order to do things in. Start cheap, learn what people actually pay for, then decide.",
+      "The tension shows up later. A template that fit you at launch can quietly become the thing holding you back. The rest of this post is about that trade. What a template does well, where it starts to cost you, and the signals that tell you it is time to move."
+    ],
+    "sections": [
+      {
+        "h2": "Templates are the right choice more often than you think",
+        "paragraphs": [
+          "Let me be plain about this first, because the rest of the post is more critical. For a large number of businesses a template is the correct answer, and paying for custom would be a waste of money.",
+          "If you need a clean brochure site, a simple online store with standard checkout, or a landing page to test demand, a builder like Squarespace, Shopify, or a decent WordPress theme will do the job well. You get hosting, security patches, a payment integration, and a working design without hiring anyone. For a cafe, a solo consultant, or a new store selling a handful of products, that is often all you need for a year or two.",
+          "The people who should use a template are the ones whose website is fairly standard and whose real edge lives somewhere else. If your product is your coffee, your legal advice, or your handmade goods, your website just needs to be fast, clear, and easy to update. A template gets you there for the price of a monthly subscription. Do not let anyone talk you out of that when it genuinely fits."
+        ]
+      },
+      {
+        "h2": "Speed and Core Web Vitals: templates carry weight you don't use",
+        "paragraphs": [
+          "Here is the first real trade-off. Templates are built to cover thousands of use cases, so they ship a lot of code you will never use. A theme carries sliders, layout options, animation libraries, and scripts for features you are not running. The browser still has to download and process all of it.",
+          "That weight shows up in your Core Web Vitals, the loading and stability scores Google actually measures. Heavy templates tend to load slowly on mobile, especially on a mid-range phone over a normal connection. Slow pages cost you twice. They rank lower, and the visitors who do arrive leave before the page settles.",
+          "Custom code ships only what the page needs. That is most of the reason our own site scores 97 to 99 on Lighthouse performance while a plugin-heavy template often struggles to get near that. You can tune a template, and a good developer can claw back some of the loss, but you are fighting the platform. With custom, fast is the starting point, not a rescue job."
+        ]
+      },
+      {
+        "h2": "The SEO ceiling and how much technical control you get",
+        "paragraphs": [
+          "Template sites can rank. Plenty do. For straightforward content and local search, a well-run Squarespace or WordPress site competes fine. So this is not a claim that templates cannot do SEO.",
+          "The limit is the ceiling, not the floor. On a builder you control the words and the images, but not always the underlying markup, the way pages are structured, or how scripts load. When you need clean structured data, precise control over how URLs are formed, careful internal linking at scale, or a fix to one render-blocking script, you can hit a wall the platform will not let you past.",
+          "For a ten-page business site, that ceiling is high enough that you will never touch it. For a content-heavy site competing in a hard niche, or a store with thousands of products, the technical headroom of custom code becomes the difference between page one and page three.",
+          "If SEO is the main channel you are betting the business on, read our guide on [how to choose a web development company](/blog/how-to-choose-a-web-development-company/) before you commit to a platform you cannot fully control."
+        ]
+      },
+      {
+        "h2": "Where templates break as you grow",
+        "paragraphs": [
+          "Templates handle the common path well. They break at the edges, and growing businesses live at the edges.",
+          "The pattern is always the same. You want a booking flow that does not match the plugin's assumptions. You need your site to talk to your inventory system, your CRM, or an accounting tool the builder never planned for. You want a customer portal, a quoting tool, or a workflow specific to how you actually run the business. On a template, each of these means bolting on another plugin, paying for another subscription, or accepting a clumsy version of what you asked for.",
+          "We saw this across several of the platforms we built. Bright Future runs an e-learning system with course access rules, installment payments, and device limits that no off-the-shelf theme supports. Cargonio is a freight ERP with quoting and operations logic that simply does not exist as a plugin. Once your business logic gets specific, the template stops being a shortcut and becomes a cage. At that point you are looking at a [web application](/services/web-applications/), not a website, and the two need different foundations."
+        ]
+      },
+      {
+        "h2": "Who owns it, and what you keep paying",
+        "paragraphs": [
+          "This one is easy to miss when you are comparing a monthly fee to a one-time build cost.",
+          "On a builder you are renting. You pay every month, and you pay again for the premium theme, the booking plugin, the SEO add-on, the email tool. Stack up four or five of those and the real monthly cost is a lot higher than the sticker price. Stop paying and much of it stops working. You also do not own the platform. If the builder changes its pricing, drops a feature, or shuts a plugin down, that is your problem to absorb.",
+          "With custom code you own the code outright. There is a larger cost up front and you still pay for hosting, but there is no per-feature rent and no lock-in. You can move hosts, hire any competent developer, and change anything you want. That ownership is the whole point for us. Our write-up on [what custom software costs](/blog/custom-software-development-cost/) walks through where the money actually goes, so you can compare honestly rather than on the headline figure."
+        ]
+      },
+      {
+        "h2": "Design sameness and when it actually matters",
+        "paragraphs": [
+          "Templates are shared by design. That is the deal. Thousands of other businesses bought the same theme, so a visitor who has seen a few sites in your space will recognize the shape of yours.",
+          "For many businesses that does not matter. A clean, familiar layout can even help, because people know where to look. If your differentiation is your product or your service, a tidy template is fine and chasing a bespoke design is a vanity spend.",
+          "It starts to matter when the site itself is part of the pitch. If you are premium, or your brand is the reason people choose you, looking like everyone else undercuts the message. Custom lets the design follow your brand and your customers rather than the constraints of a theme. Be honest about which camp you are in. Do not pay for custom design to solve a problem you do not have, and do not ship a generic template if standing out is the actual job."
+        ]
+      },
+      {
+        "h2": "How to decide, and the signs you have outgrown a template",
+        "paragraphs": [
+          "Start with a plain question. Is your website a brochure, or is it part of how the business runs? A brochure can stay on a template for a long time. A site that takes bookings, runs a real store, or carries a custom workflow will eventually need more control than a builder gives.",
+          "Watch for a few specific signals. You are paying for a stack of plugins and still cannot get the feature you want. Your pages are slow and no amount of tweaking fixes it. You keep hearing that something is not possible on your platform. You are working around your own website instead of it working for you. Any one of those is a sign the template has become the ceiling.",
+          "The honest path is often to start on a template and move to custom when you outgrow it, which is a normal progression, not a failure. If you want to see what that looks like in practice, our [recent work](/work/) shows platforms we built for businesses that had outgrown the off-the-shelf version. Move when the template starts costing you more in workarounds, lost speed, and lost sales than a custom build would cost to run. Until then, the cheap option is the smart one."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is a template website bad for SEO?",
+        "a": "No, not by itself. A well-run template site can rank perfectly well for local searches and normal content. The issue is the ceiling. Templates limit how much control you have over page structure, script loading, and speed, and those things matter more the harder your niche is. For a simple local business, a template will not hold your SEO back. For a content-heavy site in a competitive space, the lack of technical control can cap how high you climb."
+      },
+      {
+        "q": "Can I move from a template to custom later?",
+        "a": "Yes, and it is a common path. Your content, your brand, and your domain all move with you. The build itself is a fresh one, since custom code does not reuse the template's internals, but nothing about starting on a builder locks you out of going custom later. Starting cheap and moving up when you outgrow the platform is a sensible way to do it."
+      },
+      {
+        "q": "Is a template cheaper in the long run?",
+        "a": "It depends on how much you push it. For a simple site that stays simple, a template is cheaper for years. The math changes once you start stacking premium plugins and subscriptions to force features the platform was not built for. Add several paid add-ons and the monthly cost climbs while you still do not fully own the result. Custom costs more up front and less per month, with no per-feature rent. The crossover depends on how demanding your site becomes."
+      },
+      {
+        "q": "Will Google penalize a template site?",
+        "a": "No. Google does not penalize a site for being built on a template or a builder. It judges the result: speed, mobile experience, useful content, and sound structure. A fast, well-organized template site is fine. The risk is not a penalty, it is that a heavy, slow template makes it harder to compete on the signals Google does weigh."
+      },
+      {
+        "q": "How do I know when I have outgrown my template?",
+        "a": "Watch for a few signs. You are paying for a pile of plugins and still cannot build the feature you need. Your pages are slow no matter what you try. You keep being told something is not possible on your platform. You are building workarounds for your own website. When the workarounds cost you more time and lost sales than a proper build would, you have outgrown it."
+      }
+    ],
+    "publishedAt": "2026-08-19"
+  },
+  {
     "slug": "how-to-choose-a-web-development-company",
     "title": "How to Choose a Web Development Company: The Questions That Matter",
     "metaTitle": "How to Choose a Web Development Company | Devarko",
@@ -18,7 +114,7 @@
         "paragraphs": [
           "The first fork is technical, but the consequence is not. Some shops hand-write your site in code. Others assemble it inside a page builder like Wix, Squarespace, or a pile of WordPress plugins. Both can look fine on launch day. They come apart at different speeds.",
           "Page builders carry weight. They ship code your site never uses, and that shows up as slow pages. Slow pages lose customers and rank worse on Google. Code written for your site stays lean. Our own site at devarko.com scores 97 to 99 on performance and 100 on SEO in Lighthouse, and that is a fair standard to hold any custom build to. A heavy template rarely gets close.",
-          "One honest point: WordPress is not automatically the problem. A hand-built theme is a different animal from thirty plugins stacked on a template. The question is not the brand name. It is whether real engineering went in, or whether someone dragged blocks around a screen and called it a build.",
+          "One honest point: WordPress is not automatically the problem. A hand-built theme is a different animal from thirty plugins stacked on a template. The question is not the brand name. It is whether real engineering went in, or whether someone dragged blocks around a screen and called it a build. We go deeper on that trade-off in [custom website vs template](/blog/custom-website-vs-template/).",
           "Questions to ask: Is this custom code or a page builder? If a builder, which one, and what happens if I want to leave it later? Can you show me a Lighthouse score from a site you actually built?"
         ]
       },

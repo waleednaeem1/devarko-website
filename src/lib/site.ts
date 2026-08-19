@@ -20,10 +20,10 @@ export const NAV_LINKS = [
   { href: "/services/", label: "Services" },
   { href: "/cargonio/", label: "Cargonio" },
   { href: "/work/", label: "Work" },
+  { href: "/blog/", label: "Insights" },
   { href: "/about/", label: "About" },
   { href: "/team/", label: "Team" },
   { href: "/contact/", label: "Contact" },
-  { href: "/careers/", label: "Careers" },
 ] as const;
 
 export function absoluteUrl(path: string): string {

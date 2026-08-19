@@ -1369,10 +1369,14 @@ section:has(> .page-hero__glow) h1[data-reveal], section:has(> .page-hero__glow)
 .chip-select:focus-within { outline: 2px solid var(--accent-ink); outline-offset: 2px; }
 
 /* ===================== AU — contact page layout ===================== */
-.page-hero--tight { padding-block: clamp(2.4rem, 5vw, 3.4rem) 0.5rem; }
+.page-hero--tight { padding-block: clamp(6rem, 9vw, 7.5rem) 0.5rem; }
 .section--flush { padding-top: clamp(1rem, 2vw, 1.5rem); }
 .contact-next { margin-top: 1.3rem; padding-top: 1.2rem; border-top: 1px solid var(--border); }
 .contact-next h4 { font-size: 0.76rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted-soft); margin-bottom: 0.75rem; }
 .contact-next ol { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.65rem; counter-reset: step; }
 .contact-next li { display: flex; gap: 0.65rem; align-items: flex-start; font-size: 0.9rem; color: var(--text); line-height: 1.45; }
 .contact-next li::before { counter-increment: step; content: counter(step); flex: none; width: 22px; height: 22px; border-radius: 50%; background: var(--grad-soft); color: var(--accent-ink); font-size: 0.74rem; font-weight: 700; display: grid; place-items: center; margin-top: 0.05rem; }
+
+/* force light native controls (dropdowns, scrollbars) */
+:root { color-scheme: light; }
+.field select { appearance: none; -webkit-appearance: none; cursor: pointer; padding-right: 2.6rem; background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%235b4dff' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'><path d='M6 9l6 6 6-6'/></svg>"); background-repeat: no-repeat; background-position: right 0.95rem center; background-size: 16px; }
