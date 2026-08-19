@@ -18,10 +18,14 @@ export const metadata: Metadata = {
   verification: { google: GSC_TOKEN },
   icons: {
     icon: [
-      { url: "/assets/img/logo.svg?v=4", type: "image/svg+xml" },
-      { url: "/assets/img/favicon-32.png?v=2", sizes: "32x32", type: "image/png" },
-      { url: "/assets/img/favicon-16.png?v=2", sizes: "16x16", type: "image/png" },
+      { url: "/favicon.ico?v=5", sizes: "any" },
+      { url: "/assets/img/logo.svg?v=5", type: "image/svg+xml" },
+      { url: "/assets/img/favicon-96.png?v=5", sizes: "96x96", type: "image/png" },
+      { url: "/assets/img/favicon-48.png?v=5", sizes: "48x48", type: "image/png" },
+      { url: "/assets/img/favicon-32.png?v=5", sizes: "32x32", type: "image/png" },
+      { url: "/assets/img/favicon-16.png?v=5", sizes: "16x16", type: "image/png" },
     ],
+    shortcut: [{ url: "/favicon.ico?v=5" }],
     apple: [{ url: "/assets/img/apple-touch-icon.png?v=2" }],
   },
   manifest: "/site.webmanifest",
