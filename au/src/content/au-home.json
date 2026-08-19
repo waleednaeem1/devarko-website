@@ -24,8 +24,8 @@
     },
     {
       "key": "webdev",
-      "title": "Website design and development",
-      "text": "Websites and web apps custom-coded in the right technology for the job. No page builders, no templates. Fast to load, easy to update, built to rank."
+      "title": "Web development",
+      "text": "Custom web applications and websites, coded in the right technology for the job. No page builders, no templates. Fast to load, easy to update, built to rank."
     },
     {
       "key": "webapps",
@@ -54,7 +54,7 @@
     "sub": "Every package is itemised so you can see exactly what you are paying for. Pay a fixed price for the build, then add an optional SEO plan you can cancel any month. Full breakdowns on the [packages page](/packages/).",
     "tiers": [
       {
-        "name": "Website builds",
+        "name": "Web development",
         "price": "Custom quote",
         "line": "Scoped in a short call, then a fixed written quote for your project, no lock-in."
       },

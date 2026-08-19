@@ -107,10 +107,10 @@ export default function ContactForm() {
             </label>
             <select id="package" name="Package" defaultValue="">
               <option value="">Not sure yet, help me choose</option>
-              <optgroup label="Website build (quoted to your project)">
-                <option>Website build · Launch</option>
-                <option>Website build · Business</option>
-                <option>Website build · Platform</option>
+              <optgroup label="Web development (quoted to your project)">
+                <option>Web development · Launch</option>
+                <option>Web development · Business</option>
+                <option>Web development · Platform</option>
               </optgroup>
               <optgroup label="SEO plans (monthly, no lock-in)">
                 <option>Local · AUD $990/month</option>

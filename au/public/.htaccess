@@ -27,4 +27,18 @@ AddType font/woff2 .woff2
 <IfModule mod_headers.c>
   Header set X-Content-Type-Options "nosniff"
   Header set Referrer-Policy "strict-origin-when-cross-origin"
+
+  # Always serve fresh HTML. Static exports reference content-hashed JS/CSS,
+  # and a stale cached page points at filenames that were purged on deploy,
+  # which renders unstyled until a hard refresh. Never cache HTML.
+  <FilesMatch "\.html$">
+    Header set Cache-Control "no-cache, no-store, must-revalidate"
+    Header set Pragma "no-cache"
+    Header set Expires "0"
+  </FilesMatch>
+
+  # Content-hashed build assets are safe to cache hard and immutable.
+  <FilesMatch "\.(js|css|woff2)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
 </IfModule>
