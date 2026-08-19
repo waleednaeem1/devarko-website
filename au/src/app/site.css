@@ -1414,17 +1414,18 @@ section:has(> .page-hero__glow) h1[data-reveal], section:has(> .page-hero__glow)
 @keyframes bm-blink { 50% { opacity: 0; } }
 .buildmock__body { padding: clamp(1.1rem, 3vw, 2rem); min-height: 320px; background: radial-gradient(120% 80% at 80% 0%, rgba(124, 108, 255, 0.06), transparent 60%); }
 
-/* elements start hidden, animate in when .is-in */
-.bm-nav, .bm-hero > *, .bm-card { opacity: 0; transform: translateY(14px); }
-.is-in .bm-nav { animation: bm-in 0.5s var(--ease) forwards 0.1s; }
-.is-in .bm-h--1 { animation: bm-in 0.5s var(--ease) forwards 0.45s; }
-.is-in .bm-h--2 { animation: bm-in 0.5s var(--ease) forwards 0.6s; }
-.is-in .bm-sub { animation: bm-in 0.5s var(--ease) forwards 0.78s; }
-.is-in .bm-cta { animation: bm-in 0.5s var(--ease) forwards 0.95s; }
-.is-in .bm-card:nth-child(1) { animation: bm-in 0.55s var(--ease) forwards 1.15s; }
-.is-in .bm-card:nth-child(2) { animation: bm-in 0.55s var(--ease) forwards 1.28s; }
-.is-in .bm-card:nth-child(3) { animation: bm-in 0.55s var(--ease) forwards 1.41s; }
-@keyframes bm-in { to { opacity: 1; transform: none; } }
+/* visible by default; the entrance only plays when scrolled into view.
+   backwards fill hides during the delay, then reveals; without JS it stays visible. */
+.bm-nav, .bm-hero > *, .bm-card { opacity: 1; }
+.is-in .bm-nav { animation: bm-in 0.5s var(--ease) backwards 0.1s; }
+.is-in .bm-h--1 { animation: bm-in 0.5s var(--ease) backwards 0.45s; }
+.is-in .bm-h--2 { animation: bm-in 0.5s var(--ease) backwards 0.6s; }
+.is-in .bm-sub { animation: bm-in 0.5s var(--ease) backwards 0.78s; }
+.is-in .bm-cta { animation: bm-in 0.5s var(--ease) backwards 0.95s; }
+.is-in .bm-card:nth-child(1) { animation: bm-in 0.55s var(--ease) backwards 1.15s; }
+.is-in .bm-card:nth-child(2) { animation: bm-in 0.55s var(--ease) backwards 1.28s; }
+.is-in .bm-card:nth-child(3) { animation: bm-in 0.55s var(--ease) backwards 1.41s; }
+@keyframes bm-in { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
 
 .bm-nav { display: flex; align-items: center; gap: 0.8rem; margin-bottom: 1.8rem; }
 .bm-logo { width: 34px; height: 34px; border-radius: 9px; background: var(--grad); }
@@ -1444,9 +1445,9 @@ section:has(> .page-hero__glow) h1[data-reveal], section:has(> .page-hero__glow)
 .bm-card { height: 92px; border-radius: 12px; background: #fff; border: 1px solid var(--border); box-shadow: 0 10px 26px -18px rgba(16, 24, 40, 0.4); position: relative; }
 .bm-card::before { content: ""; position: absolute; top: 14px; left: 14px; width: 30px; height: 30px; border-radius: 9px; background: var(--grad-soft); }
 .bm-card::after { content: ""; position: absolute; left: 14px; bottom: 16px; width: 62%; height: 8px; border-radius: 5px; background: #e5e8f0; }
-.buildmock__meter { position: absolute; right: clamp(0.8rem, 2vw, 1.4rem); bottom: clamp(0.8rem, 2vw, 1.4rem); display: flex; align-items: center; gap: 0.55rem; background: #fff; border: 1px solid var(--border); border-radius: 999px; padding: 0.5rem 0.95rem; box-shadow: 0 14px 34px -18px rgba(16, 24, 40, 0.5); opacity: 0; transform: translateY(10px) scale(0.9); }
-.is-in .buildmock__meter { animation: bm-pop 0.5s var(--ease) forwards 1.45s; }
-@keyframes bm-pop { to { opacity: 1; transform: none; } }
+.buildmock__meter { position: absolute; right: clamp(0.8rem, 2vw, 1.4rem); bottom: clamp(0.8rem, 2vw, 1.4rem); display: flex; align-items: center; gap: 0.55rem; background: #fff; border: 1px solid var(--border); border-radius: 999px; padding: 0.5rem 0.95rem; box-shadow: 0 14px 34px -18px rgba(16, 24, 40, 0.5); }
+.is-in .buildmock__meter { animation: bm-pop 0.5s var(--ease) backwards 1.45s; }
+@keyframes bm-pop { from { opacity: 0; transform: translateY(10px) scale(0.9); } to { opacity: 1; transform: none; } }
 .buildmock__meter-label { font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
 .buildmock__meter-score { font-family: var(--font-display); font-weight: 700; font-size: 1.15rem; color: #0d8f76; font-variant-numeric: tabular-nums; }
 @media (prefers-reduced-motion: reduce) {
@@ -1454,3 +1455,29 @@ section:has(> .page-hero__glow) h1[data-reveal], section:has(> .page-hero__glow)
   .buildmock__caret { animation: none; }
 }
 @media (max-width: 620px) { .bm-cards { grid-template-columns: 1fr; } .buildmock__meter { position: static; margin: 1rem auto 0; width: max-content; } }
+
+/* ===================== AU — home hero scroll parallax ===================== */
+@media (prefers-reduced-motion: no-preference) {
+  @supports (animation-timeline: scroll()) {
+    .hero__browser {
+      animation: heroParBrowser linear both;
+      animation-timeline: scroll(root block);
+      animation-range: 0 640px;
+      will-change: transform;
+    }
+    @keyframes heroParBrowser { from { transform: translateY(0); } to { transform: translateY(-54px); } }
+    .hero__phone {
+      animation: heroParPhone linear both;
+      animation-timeline: scroll(root block);
+      animation-range: 0 640px;
+      will-change: transform;
+    }
+    @keyframes heroParPhone { from { transform: translateY(0); } to { transform: translateY(-98px); } }
+    .hero__badge {
+      animation: heroParBadge linear both;
+      animation-timeline: scroll(root block);
+      animation-range: 0 640px;
+    }
+    @keyframes heroParBadge { from { transform: translateY(0); } to { transform: translateY(-40px); } }
+  }
+}

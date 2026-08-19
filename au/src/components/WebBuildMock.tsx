@@ -5,7 +5,6 @@ import { useEffect, useRef, useState } from "react";
 export default function WebBuildMock() {
   const ref = useRef<HTMLElement>(null);
   const [inView, setInView] = useState(false);
-  const [score, setScore] = useState(0);
 
   useEffect(() => {
     const el = ref.current;
@@ -17,30 +16,11 @@ export default function WebBuildMock() {
           io.disconnect();
         }
       },
-      { threshold: 0.3 }
+      { threshold: 0.25 }
     );
     io.observe(el);
     return () => io.disconnect();
   }, []);
-
-  useEffect(() => {
-    if (!inView) return;
-    let raf = 0;
-    let start = 0;
-    const tick = (t: number) => {
-      if (!start) start = t;
-      const p = Math.min(1, (t - start) / 900);
-      setScore(Math.round((1 - Math.pow(1 - p, 3)) * 99));
-      if (p < 1) raf = requestAnimationFrame(tick);
-    };
-    const to = setTimeout(() => {
-      raf = requestAnimationFrame(tick);
-    }, 1400);
-    return () => {
-      clearTimeout(to);
-      cancelAnimationFrame(raf);
-    };
-  }, [inView]);
 
   return (
     <section className="section section--tight webbuild" ref={ref} aria-label="How a build comes together">
@@ -54,7 +34,7 @@ export default function WebBuildMock() {
           </p>
         </div>
 
-        <div className={`buildmock${inView ? " is-in" : ""}`} data-reveal data-reveal-delay="1" aria-hidden="true">
+        <div className={`buildmock${inView ? " is-in" : ""}`} aria-hidden="true">
           <div className="buildmock__bar">
             <span className="buildmock__dot"></span>
             <span className="buildmock__dot"></span>
@@ -94,7 +74,7 @@ export default function WebBuildMock() {
 
           <div className="buildmock__meter">
             <span className="buildmock__meter-label">PageSpeed</span>
-            <span className="buildmock__meter-score">{score}</span>
+            <span className="buildmock__meter-score">99</span>
           </div>
         </div>
       </div>
