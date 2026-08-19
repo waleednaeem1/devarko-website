@@ -44,13 +44,21 @@ export default function AuHeader() {
             </span>
           </Link>
           <ul className="nav__links" id="nav-links">
-            {NAV_LINKS.map((l) => (
-              <li key={l.href}>
-                <Link href={l.href} className={isActive(l.href) ? "is-active" : undefined}>
-                  {l.label}
-                </Link>
-              </li>
-            ))}
+            {NAV_LINKS.map((l) =>
+              l.external ? (
+                <li key={l.href}>
+                  <a href={l.href} target="_blank" rel="noopener">
+                    {l.label}
+                  </a>
+                </li>
+              ) : (
+                <li key={l.href}>
+                  <Link href={l.href} className={isActive(l.href) ? "is-active" : undefined}>
+                    {l.label}
+                  </Link>
+                </li>
+              )
+            )}
             <li>
               <a href={MAIN_SITE} target="_blank" rel="noopener">
                 Full portfolio

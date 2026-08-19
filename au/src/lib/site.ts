@@ -15,9 +15,10 @@ export const AU_MAPS_URL =
   "https://www.google.com/maps/search/?api=1&query=" +
   encodeURIComponent("Hobart, Tasmania, Australia");
 
-export const NAV_LINKS = [
+export const NAV_LINKS: { href: string; label: string; external?: boolean }[] = [
   { href: "/web-development/", label: "Web Development" },
   { href: "/seo-services/", label: "SEO Services" },
   { href: "/packages/", label: "Packages" },
+  { href: `${MAIN_SITE}/cargonio/`, label: "Cargonio", external: true },
   { href: "/contact/", label: "Contact" },
-] as const;
+];
