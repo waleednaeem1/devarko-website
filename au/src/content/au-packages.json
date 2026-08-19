@@ -1,13 +1,13 @@
 {
   "metaTitle": "Web Design Packages & SEO Plans Australia | Devarko",
-  "metaDescription": "Fixed-price website builds from AUD $3,900 and SEO plans from AUD $990/month with no lock-in. Custom-coded by engineers in Tasmania, never outsourced.",
+  "metaDescription": "Fixed-price website builds from AUD $3,900 and SEO plans from AUD $990/month, no lock-in. Custom-coded by our senior engineering team in Tasmania.",
   "keywords": "web design packages Australia, SEO packages Tasmania, website packages Hobart, fixed price website Australia, monthly SEO plans no lock-in, custom coded website Tasmania",
   "h1": "Fixed-price websites. Month-to-month SEO.",
-  "lede": "Every package on this page has its price printed next to it. Builds are custom-coded by our in-house engineers, never a page builder, and every SEO plan runs month to month with no lock-in contract. If a tier does not fit your project, we will say so and quote it straight.",
+  "lede": "Every package on this page has its price printed next to it. Builds are custom-coded by our senior engineers, never a page builder, and every SEO plan runs month to month with no lock-in contract. If a tier does not fit your project, we will say so and quote it straight.",
   "webIntro": {
     "eyebrow": "Website builds",
     "title": "One team, one fixed price",
-    "sub": "Three tiers, all hand-coded in Next.js, React or Laravel, all built in-house by senior engineers. You get a fixed quote against a tier before any work starts."
+    "sub": "Three tiers, all hand-coded in Next.js, React or Laravel by senior engineers. You get a fixed quote against a tier before any work starts."
   },
   "webTiers": [
     {
@@ -44,7 +44,7 @@
         "Custom web application, scoped with you",
         "Portals, bookings, dashboards and logins",
         "Integrations with payment and business systems",
-        "Built by senior in-house engineers",
+        "Built by our senior engineering team",
         "Same stack behind our live platforms"
       ],
       "note": "Platform projects are scoped individually after a call. The from price covers a focused first release."
@@ -99,7 +99,7 @@
     "bullets": [
       {
         "title": "Engineers build it",
-        "desc": "No page builders, no white-label outsourcing. Every site is hand-coded in Next.js, React or Laravel by the same in-house team that ships production platforms like Cargonio, Bright Future and DVM Central. See the work at [devarko.com](https://devarko.com)."
+        "desc": "No page builders. Every site is hand-coded in Next.js, React or Laravel by the same senior team that ships production platforms like Cargonio, Bright Future and DVM Central. See the work at [devarko.com](https://devarko.com)."
       },
       {
         "title": "Performance you can measure",
