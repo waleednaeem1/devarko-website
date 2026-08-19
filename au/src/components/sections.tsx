@@ -4,25 +4,26 @@ import home from "@/content/au-home.json";
 import areas from "@/content/au-areas.json";
 
 const PRIMARY_AREAS = [
-  "Melbourne CBD",
-  "Geelong",
-  "Dandenong",
-  "Frankston",
-  "Ringwood",
-  "Werribee",
-  "Craigieburn",
-  "Mornington Peninsula",
-  "Ballarat",
-  "Bendigo",
+  "Sydney",
+  "Melbourne",
+  "Brisbane",
+  "Perth",
+  "Adelaide",
+  "Canberra",
+  "Gold Coast",
+  "Newcastle",
+  "Hobart",
 ];
 
 const WIDE_AREAS = [
-  "Sydney",
-  "Brisbane",
-  "Adelaide",
-  "Perth",
-  "Canberra",
-  "Australia-wide, remote",
+  "New South Wales",
+  "Victoria",
+  "Queensland",
+  "Western Australia",
+  "South Australia",
+  "Tasmania",
+  "ACT",
+  "Northern Territory",
 ];
 
 export function ServiceAreas({ alt }: { alt?: boolean }) {
@@ -102,14 +103,18 @@ const STEPS = [
 ];
 
 const STACK = [
-  "Next.js",
-  "React",
-  "Laravel",
-  "React Native",
+  "JavaScript",
   "TypeScript",
+  "PHP",
+  "Python",
+  "React",
+  "Next.js",
+  "Laravel",
+  "Node.js",
+  "React Native",
+  "WordPress",
+  "Shopify",
   "AWS",
-  "MySQL",
-  "Cloudflare",
 ];
 
 const TESTIMONIALS = [
@@ -160,7 +165,7 @@ export function TechStack() {
     <section className="stack-band" aria-label="Technology stack">
       <div className="container">
         <p className="logos__label" data-reveal>
-          Built on the stack big products trust
+          We build in whatever your project needs, across every major language
         </p>
         <ul className="stack-chips" data-reveal data-reveal-delay="1">
           {STACK.map((t) => (

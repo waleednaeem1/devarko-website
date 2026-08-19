@@ -9,10 +9,10 @@ import {
   GSC_TOKEN,
   GTM_ID,
   MAIN_SITE,
-  NAV_LINKS,
   SITE_URL,
 } from "@/lib/site";
 import Analytics from "@/components/Analytics";
+import AuHeader from "@/components/AuHeader";
 import NewsletterForm from "@/components/NewsletterForm";
 import RevealObserver from "@/components/RevealObserver";
 import Year from "@/components/Year";
@@ -67,41 +67,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             style={{ display: "none", visibility: "hidden" }}
           />
         </noscript>
-        <header className="site-header">
-          <div className="container">
-            <nav className="nav" aria-label="Primary">
-              <Link className="brand" href="/" aria-label="Devarko Australia home">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src="/assets/img/logo.svg?v=4" alt="" />
-                <span className="brand__name">
-                  Dev<b>arko</b>
-                </span>
-              </Link>
-              <ul className="nav__links">
-                {NAV_LINKS.map((l) => (
-                  <li key={l.href}>
-                    <Link href={l.href}>{l.label}</Link>
-                  </li>
-                ))}
-                <li>
-                  <a href={MAIN_SITE} target="_blank" rel="noopener">
-                    Full portfolio
-                  </a>
-                </li>
-                <li>
-                  <Link className="btn btn--primary" href="/contact/">
-                    Let&apos;s talk
-                  </Link>
-                </li>
-              </ul>
-              <div className="nav__right">
-                <Link className="btn btn--primary" href="/contact/">
-                  Let&apos;s talk
-                </Link>
-              </div>
-            </nav>
-          </div>
-        </header>
+        <AuHeader />
         {children}
         <footer className="site-footer">
           <div className="container">

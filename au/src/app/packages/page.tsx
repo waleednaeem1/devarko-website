@@ -30,9 +30,6 @@ export const metadata: Metadata = {
 };
 
 const OFFER_PRICES: Record<string, number> = {
-  Launch: 3900,
-  Business: 6900,
-  Platform: 14500,
   Local: 990,
   Growth: 1690,
   Authority: 2900,
@@ -95,13 +92,15 @@ export default function PackagesPage() {
           hasOfferCatalog: {
             "@type": "OfferCatalog",
             name: "Devarko packages",
-            itemListElement: [...pkg.webTiers, ...pkg.seoTiers].map((t) => ({
-              "@type": "Offer",
-              name: `${t.name} ${t.price.includes("/month") ? "SEO plan" : "website package"}`,
-              description: t.tagline,
-              price: OFFER_PRICES[t.name],
-              priceCurrency: "AUD",
-            })),
+            itemListElement: [...pkg.webTiers, ...pkg.seoTiers].map((t) => {
+              const priced = OFFER_PRICES[t.name] !== undefined;
+              return {
+                "@type": "Offer",
+                name: `${t.name} ${priced ? "SEO plan" : "website build"}`,
+                description: t.tagline,
+                ...(priced ? { price: OFFER_PRICES[t.name], priceCurrency: "AUD" } : {}),
+              };
+            }),
           },
         }}
       />
@@ -151,7 +150,7 @@ export default function PackagesPage() {
           </div>
           <TierGrid tiers={pkg.webTiers} featured="Business" ctaLabel={(t) => `Start with ${t.name}`} />
           <p className="price-fine" data-reveal>
-            All prices are in Australian dollars and exclude GST.
+            Book a short scoping call and we will send a fixed written quote for your project.
           </p>
         </div>
       </section>

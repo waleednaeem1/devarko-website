@@ -1,18 +1,18 @@
 {
   "metaTitle": "Web Design Packages & SEO Plans Australia | Devarko",
-  "metaDescription": "Fixed-price website builds from AUD $3,900 and SEO plans from AUD $990/month, no lock-in. Custom-coded by our senior engineering team in Tasmania.",
-  "keywords": "web design packages Australia, SEO packages Tasmania, website packages Hobart, fixed price website Australia, monthly SEO plans no lock-in, custom coded website Tasmania",
+  "metaDescription": "Website builds quoted to your project, month-to-month SEO from AUD $990, no lock-in. Custom-coded by our senior engineers in Hobart, Tasmania.",
+  "keywords": "web design packages Australia, SEO packages Tasmania, website packages Hobart, monthly SEO plans no lock-in, custom coded website Tasmania",
   "h1": "Fixed-price websites. Month-to-month SEO.",
-  "lede": "Every package on this page has its price printed next to it. Builds are custom-coded by our senior engineers, never a page builder, and every SEO plan runs month to month with no lock-in contract. If a tier does not fit your project, we will say so and quote it straight.",
+  "lede": "Every SEO plan on this page has its price printed next to it, month to month with no lock-in. Website builds are different: we scope what you need in a short call, then give you one fixed written quote for that project. Honest, transparent, and no surprises once the number is agreed.",
   "webIntro": {
     "eyebrow": "Website builds",
-    "title": "One team, one fixed price",
-    "sub": "Three tiers, all hand-coded in Next.js, React or Laravel by senior engineers. You get a fixed quote against a tier before any work starts."
+    "title": "Website builds, quoted to your project",
+    "sub": "We do not sell websites off a fixed menu, because every build is different. We scope exactly what you need, then give you one fixed written quote with no surprises."
   },
   "webTiers": [
     {
       "name": "Launch",
-      "price": "from AUD $3,900",
+      "price": "Quoted to you",
       "tagline": "For businesses that need a credible site, done properly.",
       "includes": [
         "Custom-coded site of 5 to 7 pages",
@@ -25,7 +25,7 @@
     },
     {
       "name": "Business",
-      "price": "from AUD $6,900",
+      "price": "Quoted to you",
       "tagline": "For businesses that want the site generating leads.",
       "includes": [
         "Everything in the Launch package",
@@ -38,14 +38,14 @@
     },
     {
       "name": "Platform",
-      "price": "from AUD $14,500",
+      "price": "Quoted to you",
       "tagline": "For custom web applications, not just websites.",
       "includes": [
         "Custom web application, scoped with you",
         "Portals, bookings, dashboards and logins",
         "Integrations with payment and business systems",
         "Built by our senior engineering team",
-        "Same stack behind our live platforms"
+        "Same engineering behind our live platforms"
       ],
       "note": "Platform projects are scoped individually after a call. The from price covers a focused first release."
     }
@@ -99,7 +99,7 @@
     "bullets": [
       {
         "title": "Engineers build it",
-        "desc": "No page builders. Every site is hand-coded in Next.js, React or Laravel by the same senior team that ships production platforms like Cargonio, Bright Future and DVM Central. See the work at [devarko.com](https://devarko.com)."
+        "desc": "No page builders. Every site is hand-coded by the same senior team that ships production platforms like Cargonio, Bright Future and DVM Central, in whatever language the job calls for. See the work at [devarko.com](https://devarko.com)."
       },
       {
         "title": "Performance you can measure",
@@ -121,8 +121,8 @@
       "a": "The build price covers design, development, SEO foundations, analytics setup and training, exactly as listed in each tier. Your domain name and hosting are billed at cost and registered in your name, so you always own them. Photography and videography are not included; we can work with your existing images, licensed stock, or a photographer you engage locally."
     },
     {
-      "q": "Why do you publish fixed prices when other agencies quote per project?",
-      "a": "Because after seven live client platforms and our own product, we know what a website costs to build properly. Publishing the price saves you a sales meeting and keeps us honest, since the scope of each tier is written down before you ever talk to us. If your project does not fit a tier, we say so and quote it individually."
+      "q": "How are website builds priced?",
+      "a": "We scope your build in a short call, then give you a fixed written quote for that exact scope. You see the number before you commit to anything, and it does not move unless the scope does. SEO is different: those plans have published monthly pricing, from AUD $990 a month, month to month with no lock-in."
     },
     {
       "q": "Is there a contract or lock-in?",

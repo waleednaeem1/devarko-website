@@ -25,7 +25,7 @@
     {
       "key": "webdev",
       "title": "Website design and development",
-      "text": "Business websites custom-coded in Next.js and React. No page builders, no templates. Fast to load, easy to update, built to rank."
+      "text": "Websites and web apps custom-coded in the right technology for the job. No page builders, no templates. Fast to load, easy to update, built to rank."
     },
     {
       "key": "webapps",
@@ -35,7 +35,7 @@
     {
       "key": "mobile",
       "title": "Mobile apps",
-      "text": "iOS and Android apps built in React Native. We already ship and maintain live production apps, so yours reaches the stores with fewer surprises."
+      "text": "Native-quality iOS and Android apps built in real code. We already ship and maintain live production apps, so yours reaches the stores with fewer surprises."
     },
     {
       "key": "ai",
@@ -54,19 +54,19 @@
     "sub": "Every package is itemised so you can see exactly what you are paying for. Pay a fixed price for the build, then add an optional SEO plan you can cancel any month. Full breakdowns on the [packages page](/packages/).",
     "tiers": [
       {
-        "name": "Launch",
-        "price": "from AUD $3,900",
-        "line": "A 5 to 7 page custom-coded site with SEO foundations, analytics and full handover."
+        "name": "Website builds",
+        "price": "Custom quote",
+        "line": "Scoped in a short call, then a fixed written quote for your project, no lock-in."
+      },
+      {
+        "name": "Local SEO",
+        "price": "AUD $990/month",
+        "line": "Google Business Profile, local landing pages and a plain-English report every month."
       },
       {
         "name": "Growth SEO",
         "price": "AUD $1,690/month",
         "line": "Content production, technical SEO sprints and link earning, cancel any month."
-      },
-      {
-        "name": "Platform",
-        "price": "from AUD $14,500",
-        "line": "Custom web applications: portals, booking, dashboards and integrations, scoped individually."
       }
     ]
   },
@@ -101,11 +101,11 @@
   "faqs": [
     {
       "q": "Is Devarko an Australian company, and where are you based?",
-      "a": "Yes. Devarko is an Australian software development studio based in Hobart, Tasmania. We are backed by the team that runs seven live client platforms plus Cargonio, our own freight ERP. Our main focus is Melbourne and Victoria, and we also serve businesses across Australia, from Sydney to Perth. All work is delivered remotely, so your location is never a barrier."
+      "a": "Yes. Devarko is an Australian software development studio based in Hobart, Tasmania. We are backed by the team that runs seven live client platforms plus Cargonio, our own freight ERP. We work with businesses right across Australia, from Sydney and Melbourne to Brisbane and Perth, and all work is delivered remotely, so your location is never a barrier."
     },
     {
       "q": "What does a website cost?",
-      "a": "Launch starts from AUD $3,900 for a 5 to 7 page custom-coded site with SEO foundations, local SEO setup, analytics and training. Business starts from AUD $6,900 and adds more pages, a blog engine, lead capture flows and copy support. Platform, for custom web applications, starts from AUD $14,500 and is scoped individually. Every package is itemised in full on the Packages page."
+      "a": "Every website is different, so we quote each one to its scope after a short call rather than pricing it off a menu. You get one fixed written quote for the project, so you know the number before you commit, and it does not change unless the scope does. SEO plans are separate and have published pricing, from AUD $990 a month, month to month with no lock-in."
     },
     {
       "q": "Can you fix or take over an existing website?",
@@ -117,7 +117,7 @@
     },
     {
       "q": "Do you use WordPress or page builders?",
-      "a": "No. Every site is custom-coded in Next.js, React or Laravel by our engineers, which is why our own site scores in the high 90s on PageSpeed. You still get a simple way to update your content, and we train you on it at handover."
+      "a": "No. We write real code rather than relying on drag-and-drop builders, and we work across all major languages and frameworks, so we pick the right technology for your project. That is why our own site scores in the high 90s on PageSpeed. You still get a simple way to update your content, and we train you on it at handover. And if you already run on WordPress or another platform, we can work with that too."
     }
   ],
   "cta": {
