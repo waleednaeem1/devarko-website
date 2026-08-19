@@ -104,6 +104,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <Link href="/web-development/">Web Development</Link>
                 <Link href="/seo-services/">SEO Services</Link>
                 <Link href="/packages/">Packages &amp; Pricing</Link>
+                <Link href="/blog/">Insights</Link>
                 <a href={`${MAIN_SITE}/services/`} target="_blank" rel="noopener">
                   All services
                 </a>
@@ -157,6 +158,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 </a>
                 <span className="footer__addr">Based in Hobart, Tasmania</span>
               </div>
+            </div>
+            <div className="footer__areas">
+              <span className="footer__areas-label">Areas we serve</span>
+              <Link href="/web-design-melbourne/">Web Design Melbourne</Link>
+              <Link href="/seo-melbourne/">SEO Melbourne</Link>
+              <Link href="/web-design-hobart/">Web Design Hobart</Link>
+              <Link href="/seo-hobart/">SEO Hobart</Link>
             </div>
             <div className="footer__bottom">
               <span>

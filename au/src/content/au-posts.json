@@ -1,0 +1,197 @@
+[
+  {
+    "slug": "how-much-does-a-website-cost-in-australia",
+    "title": "How Much Does a Website Cost in Australia?",
+    "metaTitle": "Website Cost in Australia (2026 Guide) | Devarko",
+    "metaDescription": "What does a website cost in Australia in 2026? An honest breakdown of brochure sites, lead-gen builds and web apps, plus the ongoing costs to plan for.",
+    "keywords": "website cost australia, how much does a website cost, website design cost australia, small business website cost, web development cost australia, wordpress vs custom website, website pricing australia, cost to build a website, hobart web design, seo services australia",
+    "category": "Business",
+    "readMinutes": 8,
+    "intro": [
+      "If you ask five Australian studios what a website costs, you will get five different answers, and all of them can be right. The honest reply is that price follows scope. A one-page site for a sole trader and a booking platform for a clinic are both 'websites', but they are not the same job.",
+      "So this is not a price list. It is a plain explanation of what actually moves the number in 2026, written from the point of view of a studio that quotes this work every week. We build custom sites and web apps, and we also work with WordPress when that is the sensible choice, so we have no reason to push you toward the most expensive option.",
+      "We are based in Hobart and work with businesses right across Australia, mostly remotely. Below is how we think about cost, with realistic ranges you can use to sanity-check any quote you receive."
+    ],
+    "sections": [
+      {
+        "h2": "Why there is no single price",
+        "paragraphs": [
+          "Scope is the whole story. The number of pages, the amount of custom design, whether anything connects to another system, whether someone writes the words for you, and how much of the build is bespoke rather than off the shelf. Change any of those and the price moves. Two quotes that look far apart are often just describing two different projects.",
+          "This is also why a fixed menu of packages can mislead you. A tidy list of Bronze, Silver and Gold looks reassuring, but real briefs rarely fit neatly into a tier. You either pay for things you do not need, or you find the one thing you do need sitting in the next tier up.",
+          "We quote per project because that is the honest way to price work that varies this much. We look at what you are trying to achieve, then scope it. If a simple build genuinely covers it, we say so. You can see the shape of how we structure ongoing work on our [packages page](/packages/), but the build itself is always quoted against your actual brief."
+        ]
+      },
+      {
+        "h2": "Brochure site, lead-gen site, or web app",
+        "paragraphs": [
+          "The single biggest driver of cost is what the site is for. Roughly, projects fall into three groups, and the gap between them is large.",
+          "A brochure site presents your business. A few pages, your services, some photos, a contact form. For a small Australian business this often sits somewhere between a few thousand and around ten thousand dollars, depending on page count, design and who writes the content. A capable freelancer can come in lower. A studio with designers and copywriters will sit higher, and you are paying for the extra hands.",
+          "A lead-generation site does a job. It is built to turn visitors into enquiries or bookings, with structured landing pages, considered copy, tracking, and sometimes a CRM or email tool wired in. That work commonly runs from around ten thousand into the mid twenties, because there is more thinking, more pages, and more moving parts than a brochure site.",
+          "A web application is software that happens to run in a browser. Portals, dashboards, booking systems, membership areas, anything with logins and data. This is a different category of build and usually starts in the tens of thousands and climbs from there, because you are commissioning a custom system, not a set of pages. Our own product Cargonio, a freight ERP, and the e-learning platforms we run for clients live in this bracket. If that is what you need, the [web development](/web-development/) work is closer to engineering than to design."
+        ]
+      },
+      {
+        "h2": "Custom code, WordPress, or a template builder",
+        "paragraphs": [
+          "How the site is built matters as much as what it does. There are three broad routes, and each suits a different situation.",
+          "A template or builder, such as Wix, Squarespace or a Shopify theme, is the cheapest way to get online. A subscription of maybe twenty to fifty dollars a month, and you do much of the work yourself. It is a fair choice for a very small business testing an idea. The trade-off is limited control, performance that is hard to tune, and a ceiling you eventually hit.",
+          "WordPress sits in the middle and still runs a large share of Australian small-business sites. It is flexible, there are people everywhere who can maintain it, and content is easy to update. The costs to watch are plugins, hosting, and the maintenance a WordPress site quietly needs to stay secure. We build on WordPress when it genuinely fits the brief, and we say so rather than upselling.",
+          "Custom code is the route when performance, a specific workflow, or a system that has to grow are the priority. It costs more up front because it is built for you, but you own it outright, it carries no plugin bloat, and it is fast. Our own site scores in the high nineties on Google Lighthouse, which is hard to reach on a stack of third-party plugins. The right answer depends on your goals, not on what any one studio prefers to sell."
+        ]
+      },
+      {
+        "h2": "What pushes the number up or down",
+        "paragraphs": [
+          "Within any of those categories, a handful of factors move the final figure. Knowing them helps you read a quote.",
+          "Pages and content. Ten pages cost more than four. And if you need someone to write the copy, that is real work with a real cost. Supplying your own text, photos and logos lowers the price. Asking the studio to produce all of it raises it.",
+          "Design and integrations. A bespoke design costs more than adapting a proven layout. Connecting the site to other systems, a payment gateway, a booking tool, an accounting package, a CRM, adds time for each connection. So does migrating content off an old site, especially when the old data is messy.",
+          "Timeline and revisions. A rushed deadline costs more, because it reshuffles other work. Open-ended rounds of changes also add up. A clear brief and prompt feedback are the two cheapest things a client can bring to a project, and they genuinely lower the total."
+        ]
+      },
+      {
+        "h2": "SEO foundations and being found",
+        "paragraphs": [
+          "A site that no one finds is an expensive brochure. Some search-engine basics belong in the build itself: clean markup, fast pages, a sensible page structure, titles and descriptions, a sitemap, and a mobile layout that works. Any competent build should include these, and you should ask whether yours does.",
+          "Ranking over time is separate work. Competing for search terms in a real Australian market, publishing content, earning links and improving pages month to month is an ongoing effort, not a one-off setting. It is worth separating the build cost from the marketing cost in your head, because they are two different budgets.",
+          "Our [SEO plans](/seo-services/) start at AUD $990 per month, month to month, with no lock-in contract. We keep it that way on purpose. If the work is not paying off, you should be free to stop, and that keeps the pressure on us to show results rather than trap you in a term."
+        ]
+      },
+      {
+        "h2": "The ongoing costs people forget",
+        "paragraphs": [
+          "The build is a one-off. Running the site is not, and the ongoing costs are where budgets quietly slip.",
+          "Expect a domain, roughly fifteen to forty dollars a year for a .com.au. Hosting, from a few dollars a month for a small static site up to more meaningful sums for an application under load. An SSL certificate, usually included with decent hosting now. These are small but constant.",
+          "Then maintenance. Software needs updates, backups need to run, security needs watching, and content needs refreshing. A static custom site needs very little. A WordPress site with plugins needs regular attention or it drifts into risk. Budget for this from the start rather than discovering it after launch, and be wary of any quote that pretends it does not exist."
+        ]
+      },
+      {
+        "h2": "How we quote, and what to send us",
+        "paragraphs": [
+          "We start with a short conversation about what the site is for and what success looks like, then we scope and quote against that. No fixed menu, because your project is not a menu item. If a lean build covers it, we will tell you, even when a bigger number would suit us better.",
+          "We work remotely from our Hobart base and take on projects across Australia. A lot of our clients are in Melbourne and Sydney, and we run those jobs the same way we run every job, over calls and shared documents, with a trip across when a project needs face-to-face time. Clients keep full ownership of everything we build, code and content, with nothing held hostage.",
+          "If you want a real figure for your specific site rather than a range, the fastest path is to tell us what you are trying to do. You can [get in touch](/contact/) with a rough brief, and we will come back with honest scope and a price, or a straight answer that a template would serve you better."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "How much does a small business website cost in Australia?",
+        "a": "As a guide, a simple brochure site for a small business often runs from a few thousand up to around ten thousand dollars, depending on the number of pages, how much custom design you want, and whether you supply the content or ask the studio to write it. Lead-generation sites and web applications cost considerably more. The only accurate number is one quoted against your actual brief."
+      },
+      {
+        "q": "Why won't you just give me a fixed build price?",
+        "a": "Because website work varies too much for a single figure to be honest. Scope drives cost, and two projects that both sound like a website can differ by a factor of ten. We quote per project so you pay for what you actually need, not for a tier that only half fits. What we do publish is our SEO pricing, which starts at AUD $990 a month with no lock-in."
+      },
+      {
+        "q": "Is WordPress cheaper than a custom-built website?",
+        "a": "Usually cheaper up front, yes. WordPress is a sensible choice for many small businesses. The trade-off is ongoing maintenance, plugin management and security, which carry their own cost over time. Custom code costs more initially but is faster, has no plugin bloat, and you own it fully. We build both and recommend whichever genuinely fits the job."
+      },
+      {
+        "q": "What ongoing costs should I budget for after launch?",
+        "a": "At minimum a domain (roughly fifteen to forty dollars a year for a .com.au), hosting, and an SSL certificate. Beyond that, budget for maintenance: updates, backups, security and content refreshes. A static custom site needs little attention. A plugin-heavy WordPress site needs regular care. Any quote that ignores ongoing costs is not telling the whole story."
+      },
+      {
+        "q": "Do you only work with businesses in Tasmania?",
+        "a": "No. We are based in Hobart and work with businesses right across Australia, mostly remotely, and we travel when a project needs in-person time. Being remote-first keeps our costs sensible, which is part of how we keep pricing fair. Clients keep full ownership of everything we build."
+      }
+    ],
+    "publishedAt": "2026-08-19"
+  },
+  {
+    "slug": "how-to-choose-a-web-designer-in-melbourne",
+    "title": "How to Choose a Web Designer in Melbourne",
+    "metaTitle": "How to Choose a Web Designer in Melbourne | Devarko",
+    "metaDescription": "A practical guide to hiring a web designer in Melbourne: what to ask, custom versus WordPress, who owns the code, local SEO, and whether being local matters.",
+    "keywords": "web designer melbourne, web design melbourne, hire a web designer melbourne, web development melbourne, melbourne web agency, custom website melbourne, wordpress developer melbourne, local seo melbourne, small business website melbourne, website cost melbourne",
+    "category": "Business",
+    "readMinutes": 8,
+    "intro": [
+      "Melbourne has one of the densest web design markets in the country. Fitzroy, Collingwood, Cremorne and Richmond are full of studios, and behind them sit thousands of freelancers and offshore shops bidding on the same jobs. Plenty of choice is good, but it makes the decision harder, not easier.",
+      "This is a practical guide for a Melbourne business owner who needs a website and wants to hire well. What to ask, how to read a quote, and the trade-offs most agencies do not explain until after you have paid.",
+      "A quick note on who is writing this. Devarko is a small, founder-led engineering studio based in Hobart. We work with Melbourne businesses remotely and fly up when a job genuinely needs it. So this comes from the supplier side, with the parts most sales pitches leave out."
+    ],
+    "sections": [
+      {
+        "h2": "Filter the Melbourne market before you shortlist",
+        "paragraphs": [
+          "Melbourne's size works against you here. Search \"web designer Melbourne\" and you get everyone from a student with a laptop in Brunswick to a forty-person agency in the CBD charging enterprise rates. Both can build a website. Neither is automatically the right fit for you.",
+          "Start by naming what you actually need. A five-page site for a plumber in Preston is a different job to a booking platform for a clinic in South Yarra. Write down the pages, the features, and the one outcome that matters most: more enquiries, online bookings, or fewer phone calls. That single paragraph filters out half the market straight away.",
+          "Then look at the work, not the pitch. Ask for three live sites the studio built in the last year and open them on your phone. If they load slowly, or the studio only shows design mockups instead of real URLs, that tells you something worth knowing before you pay."
+        ]
+      },
+      {
+        "h2": "Custom code, WordPress, or a template: the honest trade-off",
+        "paragraphs": [
+          "This is the decision that shapes cost, speed, and what you can do later. There is no single right answer, and anyone who says otherwise is selling their own preference.",
+          "A template site (Squarespace, Wix, or a bought theme) is cheap and quick. For a simple brochure site with no unusual features, it can be enough. The trade-off is that you are renting someone else's structure, and you hit a wall the moment you need something the template did not plan for.",
+          "WordPress sits in the middle. It runs a large share of the web, plugins cover most needs, and plenty of Melbourne businesses run on it happily for years. The risks are plugin bloat, security patching, and builds that turn into a pile of add-ons nobody wants to maintain. We build on WordPress when it suits the job, and we say so plainly.",
+          "[Custom-coded sites](/web-development/) cost more up front and take longer. You choose that path when performance matters, when you have a workflow no template models well, or when the site is closer to an app than a brochure. It is what we do most, and it is still not the right answer for every project. A good studio will tell you when a cheaper option would serve you better."
+        ]
+      },
+      {
+        "h2": "Ask who owns the code, the content, and the accounts",
+        "paragraphs": [
+          "Ownership is where a lot of Melbourne business owners get caught, and they usually only find out when they try to leave.",
+          "Ask three plain questions before you sign. Who owns the code once the invoice is paid? Whose name is on the domain and hosting accounts? Can you export your content and move on if the relationship ends? The answers should all point back to you.",
+          "Some studios keep you on a proprietary platform you cannot take elsewhere, or register the domain under their own account. That is not always done in bad faith, but it turns a normal parting into a hostage negotiation. We hand over full ownership as standard, and you should expect the same from anyone you hire."
+        ]
+      },
+      {
+        "h2": "Performance and local SEO in a crowded market",
+        "paragraphs": [
+          "Melbourne is competitive on search. If you are a dentist in Carlton or a cafe fit-out firm in Cremorne, you are fighting dozens of local rivals for the same terms. A good-looking site that ranks nowhere does not pay for itself.",
+          "Two things decide most of this. First, page speed. Google measures real load performance, and slow sites lose both rankings and the visitors who leave before the page even appears. Ask any studio what its own site scores on Google Lighthouse. Ours sits in the high 90s, and we think that is a fair bar to hold a supplier to.",
+          "Second, the local basics. A clean Google Business Profile, consistent name and address details, suburb-level pages that are genuinely useful rather than the same text with the suburb swapped, and real reviews. None of it is exotic, but it is the difference between showing up for \"near me\" searches and not. If search is where your customers are, [treat SEO as ongoing work](/seo-services/), not a one-off task."
+        ]
+      },
+      {
+        "h2": "Questions to ask before you sign",
+        "paragraphs": [
+          "A short list of questions separates people who have done this before from people who will learn on your budget.",
+          "Ask what the total cost includes and what counts as an extra. Revisions, stock images, content writing, and post-launch changes are common places where a low quote quietly grows. Get the scope in writing.",
+          "Ask who does the actual work. In some agencies the person who charms you in the meeting is not the person who builds the site, and the build is handed to a subcontractor you never meet. That is not wrong on its own, but you should know before you commit.",
+          "Ask what happens after launch. Who fixes a bug the night before a sale? What does support cost? Is there a lock-in contract, or can you leave month to month? We keep our [plans month-to-month with no lock-in](/packages/), because we would rather earn the next month with good work than hold you to a contract."
+        ]
+      },
+      {
+        "h2": "Red flags worth walking away from",
+        "paragraphs": [
+          "Some warning signs are worth more than any polished sales pitch. A quote with no scope, where a studio names a price before it understands what you need, is a guess, and the variations will follow. A refusal to show live work. Guarantees of \"page one on Google\" in a set number of weeks, which no honest supplier can promise. Pressure to sign today for a discount that vanishes tomorrow.",
+          "The quieter red flag is communication. If replies are slow and vague before you have paid a cent, they will not improve afterwards. How a studio treats you as a prospect is the best preview of how it will treat you as a client."
+        ]
+      },
+      {
+        "h2": "Does being local to Melbourne actually matter?",
+        "paragraphs": [
+          "Honest answer: less than you would think, and we will say that even though we are not a Melbourne firm.",
+          "We are based in Hobart. We work with Melbourne businesses remotely, and Melbourne is a short flight from our base when a job genuinely needs a face in the room. Most of a website project is discovery, writing, design review, and testing, and all of that happens over calls, shared documents, and screen shares. We are on the same time zone as Melbourne, which removes the one real friction of remote work.",
+          "Where local can help is the first workshop, a photo shoot, or an industry you need to see in person. Those are worth travelling for, and we do. But paying a premium purely for a CBD address, on a project that runs online anyway, is spending money on postcode rather than outcome.",
+          "Judge a studio on its work, its ownership terms, its communication, and how its own site performs. If those hold up, a supplier one state away can serve you better than an average agency ten minutes down the road. If you want to talk through a specific project, [our contact page](/contact/) is the place to start."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "How much does a website cost in Melbourne?",
+        "a": "It depends entirely on scope, so treat any fixed headline number with caution until the work is defined. A simple template site is cheap. A custom build costs more and takes longer. We quote websites per project once we understand the pages and features you need, rather than quoting a price we would later have to walk back. SEO is separate and ongoing, and our plans start at AUD $990 per month, month to month with no lock-in."
+      },
+      {
+        "q": "Do I need a web designer based in Melbourne?",
+        "a": "Not for most projects. Nearly all of a build happens over calls, shared documents, and screen shares, so being on the same time zone matters more than being in the same suburb. We are based in Hobart, work with Melbourne businesses remotely, and travel up when a workshop or photo shoot genuinely needs it. Judge a studio on its work and its terms, not its postcode."
+      },
+      {
+        "q": "Should I choose custom code or WordPress?",
+        "a": "Both are valid. WordPress suits many small and mid-sized sites and is cheaper to start. Custom code is worth it when performance matters, when you have an unusual workflow, or when the site behaves more like an app than a brochure. We build both and tell you honestly which one fits your job. Be wary of any studio that only ever recommends the single thing it happens to sell."
+      },
+      {
+        "q": "Who owns my website after it is built?",
+        "a": "You should, fully. That means the code, the content, and the domain and hosting accounts, all in your name. Ask this before you sign, because some studios keep you on a platform or under accounts you cannot take with you if you leave. We hand over complete ownership as standard, and you should expect the same from anyone you hire."
+      },
+      {
+        "q": "How long does a website take to build?",
+        "a": "A simple site can be ready in a few weeks. A larger custom build runs longer, often a couple of months, depending on content and features. The honest variable is usually content, not code: sites stall waiting on copy and photos. A good studio gives you a schedule with clear milestones and tells you exactly what it needs from you and when."
+      }
+    ],
+    "publishedAt": "2026-08-19"
+  }
+]

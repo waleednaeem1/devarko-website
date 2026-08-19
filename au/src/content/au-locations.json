@@ -1,0 +1,267 @@
+[
+  {
+    "slug": "web-design-melbourne",
+    "metaTitle": "Web Design Melbourne, Remote-First | Devarko",
+    "metaDescription": "Hobart-based studio building fast websites for Melbourne businesses, custom code or WordPress. You keep full ownership. SEO from AUD $990/month, no lock-in.",
+    "keywords": "web design Melbourne, Melbourne web designer, web design agency Melbourne, website design Melbourne, custom web design Melbourne, WordPress web design Melbourne, small business web design Melbourne, web developer Melbourne",
+    "h1": "Web Design for Melbourne Businesses",
+    "lede": "We are Devarko, a software studio based in Hobart, and we build websites for businesses across Melbourne. We work remote-first, which keeps the work quick and keeps your costs sensible. Melbourne is a short flight across Bass Strait when a meeting in person earns its place.",
+    "sections": [
+      {
+        "h2": "Melbourne is a crowded market, so the work has to be good",
+        "paragraphs": [
+          "Melbourne is one of the most crowded web design markets in the country. That is good news for you as a buyer. The standard is high, prices get compared, and a cheap template site with slow load times stands out for the wrong reasons.",
+          "Most of the Melbourne businesses we talk to are in cafes, retail, trades, or professional services. The common thread is that their customers are searching on a phone, comparing three options in a minute, and judging the business by the site in front of them. We build for that moment: quick to load, easy to read, and clear about what you do and how to book or buy."
+        ]
+      },
+      {
+        "h2": "What a Melbourne business gets from us",
+        "paragraphs": [
+          "We build in whatever fits the job. For a marketing site that needs to be quick and cheap to maintain, WordPress is often the right call. For a booking system, a portal, or anything with custom logic, we write the code ourselves. Our own site scores in the high 90s on Google Lighthouse, and that is the bar we aim for on yours.",
+          "You keep full ownership of everything: the code, the hosting accounts, the domain, and the content. If you decide to work with someone else next year, you take it all with you and nothing is tied to us. We think that is the only honest way to build for a client. You can read more about how we approach builds on our [web development page](/web-development/)."
+        ]
+      },
+      {
+        "h2": "Remote-first, and why it works for Melbourne",
+        "paragraphs": [
+          "We are based in Hobart, not Melbourne, and we are upfront about that. In practice it means most of our work happens over video calls, shared documents, and a project board you can check any time. You see progress as it happens rather than waiting for a big reveal at the end.",
+          "Melbourne is a short flight across Bass Strait, so if a kickoff or a strategy session is better done in a room together, we can be there. For the day-to-day build, remote keeps things moving and keeps your budget going into the work rather than into an agency office in the CBD. Plenty of our clients have never needed us to fly over, and their sites shipped fine."
+        ]
+      },
+      {
+        "h2": "Proof from real products",
+        "paragraphs": [
+          "We would rather show you working software than talk in adjectives. We run our own freight ERP, Cargonio, in production. We built Bright Future, an e-learning platform used in Kuwait, and Ilmversity, a school LMS. In the United States we work on veterinary platforms including DVM Central, VetPet Central, and VetandTech. We also build for freight operators including Skyline Cargo and Kare Cargo.",
+          "None of those are landing-page mock-ups. They are live systems with real users, billing, and data behind them. When we say we can build something more involved than a brochure site, that is the evidence."
+        ]
+      },
+      {
+        "h2": "How pricing works",
+        "paragraphs": [
+          "Website builds are quoted per project. A five-page site for a cafe is not the same job as a booking platform, so we do not pretend there is one number. We have a short call, look at what you need, and send a fixed quote before any work starts. If that suits you, [start a conversation](/contact/) and we will set up a time.",
+          "SEO is separate and runs month to month from AUD $990, with no lock-in contract, so you can stop when you like. If you want to see how the ongoing plans are structured, our [packages page](/packages/) lays it out in plain numbers."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "You are in Hobart. Do you actually work with Melbourne businesses?",
+        "a": "Yes, most of our clients are not in Hobart. We work remote-first, so the city you are in does not change how we build. Melbourne is a short flight across Bass Strait if we need to meet in person, and for the day-to-day work we run everything over video calls and a shared project board."
+      },
+      {
+        "q": "How do meetings work if you are not local?",
+        "a": "We do kickoffs, reviews, and check-ins over video. You get a project board you can look at any time, so you are never left waiting for an update. If a session genuinely needs to happen in a room, we can fly over for it, but on most projects that has not been necessary."
+      },
+      {
+        "q": "Can you take over our existing Melbourne website?",
+        "a": "Usually, yes. We start by looking at what you have, whether that is WordPress, a page builder, or custom code. If it is worth keeping, we improve it. If it is holding you back, we tell you plainly and quote a rebuild. Either way you keep full ownership of the site and its accounts."
+      },
+      {
+        "q": "What does a website cost?",
+        "a": "Builds are quoted per project, because a small marketing site and a booking platform are different jobs. We give you a fixed quote after a short call, before any work starts. SEO is separate and starts at AUD $990 a month with no lock-in, so you can stop whenever you want."
+      }
+    ],
+    "ctaTitle": "Let us talk about your Melbourne site",
+    "ctaSub": "A short call, an honest quote, and no pressure. We will tell you what your project needs and what it will cost."
+  },
+  {
+    "slug": "seo-melbourne",
+    "metaTitle": "Melbourne SEO, No Lock-In Plans | Devarko",
+    "metaDescription": "Devarko is a Hobart studio doing SEO for Melbourne businesses remotely. Suburb-level local search and Google Business Profile, from $990/month, no lock-in.",
+    "keywords": "seo melbourne, melbourne seo agency, seo services melbourne, local seo melbourne, google business profile melbourne, small business seo melbourne, no lock-in seo melbourne, suburb seo melbourne",
+    "h1": "SEO for Melbourne businesses, without the lock-in",
+    "lede": "Devarko is a small software and SEO studio based in Hobart. We work with Melbourne businesses remotely, and fly up when a project genuinely needs a room and a whiteboard. No Melbourne office, no account manager you never speak to, just the people doing the work.",
+    "sections": [
+      {
+        "h2": "Melbourne search is a crowded market",
+        "paragraphs": [
+          "Melbourne is one of the hardest local search markets in the country. A plumber in Brunswick, a dentist in Camberwell and a fit-out firm in Richmond are all fighting different competitors, and the business two suburbs over ranks for terms you will never touch. Suburb-level intent is the whole game here.",
+          "Most of that fight happens on the map. Google Business Profile, reviews, service-area pages and consistent listings decide who shows up when someone searches on their phone in Fitzroy. We spend as much time on local signals as on the website itself, because in Melbourne that is where the calls come from.",
+          "We also meet a lot of owners who have been burnt. A twelve-month contract, a monthly report full of graphs, and no new enquiries to show for it. We work month to month partly because of that. If we are not earning the next invoice, you should be free to stop."
+        ]
+      },
+      {
+        "h2": "What we do for a Melbourne business",
+        "paragraphs": [
+          "The starting point is usually a technical and local audit. We look at how your site is built, how fast it loads, how Google reads it, and how your Business Profile and citations compare to the firms already ranking in your suburbs.",
+          "From there the work is specific: fixing the technical issues that hold a site back, building or tidying suburb and service pages that match how people actually search, sorting out Google Business Profile, and writing content that answers real buyer questions instead of padding word counts. You can see the shape of it on our [SEO services](/seo-services/) page.",
+          "We build custom-coded sites and we also work with WordPress and other CMS platforms when that is the right fit. The point is not the tool. It is a site that loads fast, reads clearly to Google, and is easy for you to run once we hand it over."
+        ]
+      },
+      {
+        "h2": "Remote-first, and straight about it",
+        "paragraphs": [
+          "We are based in Hobart, not Melbourne. We are not going to pretend otherwise with a virtual office address and a local number that rings through to Tasmania. We work with Melbourne businesses remotely, on calls and shared docs, and Melbourne is a short flight away when a project genuinely needs us in the room.",
+          "In practice, SEO suits remote work well. The audits, the technical fixes, the content, the reporting and the monthly calls all happen the same way whether we are one suburb away or across Bass Strait. What matters is that you talk to the person doing the work, not a sales rep who hands you off after signing.",
+          "You get a scheduled call each month, plain-language reporting, and a direct line when something needs attention. No time zone gap, no offshore night shift editing your site while you sleep."
+        ]
+      },
+      {
+        "h2": "The work behind the pitch",
+        "paragraphs": [
+          "Devarko is founder-led with a senior engineering team, and we would rather show you real work than talk in adjectives. We run our own freight ERP product, Cargonio, so we live with the same SEO and performance problems we fix for clients.",
+          "Our client platforms include Bright Future, an e-learning system used in Kuwait, Ilmversity, a school LMS, and three veterinary platforms in the United States: DVM Central, VetPet Central and VetandTech. In freight we have built for Skyline Cargo and Kare Cargo. Different industries, same engineering standard.",
+          "Our own site scores in the high 90s on Google Lighthouse, and we build client sites to the same bar. Speed and clean code are not extras in Melbourne search. They are part of how you rank."
+        ]
+      },
+      {
+        "h2": "What it costs, and what you keep",
+        "paragraphs": [
+          "SEO plans start at AUD $990 per month, month to month, with no lock-in contract. You can pause or stop with notice, and we would rather keep earning your business than trap it. Website builds are quoted per project, because a five-page local site and a booking platform are not the same job.",
+          "Whatever we build or manage, you keep full ownership. The site, the hosting, the Google accounts, the content. If we ever part ways, you walk away with everything and nothing stops working. You can see how plans are structured on our [packages](/packages/) page."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "You are in Hobart. Do you actually work with Melbourne businesses?",
+        "a": "Yes, that is a large part of what we do. We are based in Hobart and work with Melbourne clients remotely, over calls, email and shared documents. Melbourne is about an hour and a half by plane, so we can be there in person when a project needs it, but most SEO work does not require it. We are upfront about this rather than renting a Melbourne address to look local."
+      },
+      {
+        "q": "How do you handle meetings and reporting if you are not local?",
+        "a": "We set a regular monthly call and you get a direct line to the person doing your work, not a call centre. Reporting is in plain language, focused on the enquiries and rankings that matter to your business, not a wall of vanity graphs. Most of our clients find they speak to us more than they did with their previous local agency."
+      },
+      {
+        "q": "How long until we rank in Melbourne?",
+        "a": "It depends on your suburbs and how competitive your industry is. Local map results and Google Business Profile can move within a couple of months. Competitive suburb terms in fields like trades, health and legal usually take six months or more of steady work. Anyone promising page one in Melbourne in a few weeks is either guessing or misleading you."
+      },
+      {
+        "q": "What does SEO cost, and am I locked in?",
+        "a": "Plans start at AUD $990 per month, billed month to month with no lock-in contract. You can stop with notice if it is not working. Website builds are quoted separately per project. Whatever we do, you keep full ownership of your site and accounts."
+      }
+    ],
+    "ctaTitle": "Talk to the people who would do the work",
+    "ctaSub": "Book a call and we will look at your Melbourne search results honestly, then tell you whether we can help before you spend anything."
+  },
+  {
+    "slug": "web-design-hobart",
+    "metaTitle": "Web Design Hobart, Local Studio | Devarko",
+    "metaDescription": "Devarko is a Hobart-based web design studio building fast, custom websites for Tasmanian businesses. Local, senior team. SEO from AUD $990/month, no lock-in.",
+    "keywords": "web design Hobart, Hobart web designer, website design Hobart, web design Tasmania, web developer Hobart, Hobart web agency, custom website Hobart, WordPress Hobart, small business website Hobart",
+    "h1": "Web Design in Hobart, Built by a Local Studio",
+    "lede": "We are a web design studio based in Hobart. We work with businesses across Tasmania and the rest of Australia, and most of that work happens remotely, which suits a small city where everyone is busy. If you want to sit down for a coffee in town first, that is easy too, because we are actually here.",
+    "sections": [
+      {
+        "h2": "Being local in a small market",
+        "paragraphs": [
+          "Hobart is a small market, and that changes how web work should be done here. Plenty of Tasmanian businesses get sold a website by a mainland agency that has never set foot on the island, then spend months chasing replies once the job is finished. We are based here. When your trade lifts during the tourism peak or slows over the quiet winter months, we already understand the pattern your site needs to handle.",
+          "The Hobart business community is tight. Word travels, and a bad website or a job left half finished follows you around. We take that seriously. Most of our reputation comes from work that keeps running long after launch, not from a big sales pitch."
+        ]
+      },
+      {
+        "h2": "What you actually get",
+        "paragraphs": [
+          "We build two ways, depending on what fits. Some clients need a custom-coded website or web app, and we write that from scratch. Others are better served by WordPress or another CMS they can edit themselves, and we are happy to build on that too. We do not push one just because it is easier for us. You can read more about how we approach builds on our [web development](/web-development/) page.",
+          "Whichever way we go, the site loads fast. Our own site scores in the high 90s on Google Lighthouse, and we hold client work to a similar standard. Speed matters more in Hobart than people expect, because a good share of your traffic is on mobile, sometimes on patchy connections once people head out of the city.",
+          "You keep full ownership of everything. The code, the hosting accounts, the domain, the content. If you ever want to move on, you take it all with you. No holding your site hostage."
+        ]
+      },
+      {
+        "h2": "How remote delivery works",
+        "paragraphs": [
+          "Most of the day-to-day happens over email, video calls and a shared board where you can see progress. That is true whether a client is ten minutes away in Sandy Bay or over on the mainland. In practice it means you are not waiting on someone to drive across town for a meeting that could have been a fifteen-minute call.",
+          "Because we are in Hobart, an in-person meeting is a real option when it helps, whether that is a kickoff, a planning session or a handover. We are not pretending to have an office in every city we work with. We have one base, and it is here."
+        ]
+      },
+      {
+        "h2": "Real work, not a folder of mockups",
+        "paragraphs": [
+          "We would rather show you things that are live and earning than a set of concepts. We build and run Cargonio, our own freight ERP, so we carry the cost and upkeep of a real product ourselves. That shapes how carefully we build for clients.",
+          "Client platforms include Bright Future, an e-learning system used in Kuwait, Ilmversity, a school LMS, and a set of United States veterinary platforms in DVM Central, VetPet Central and VetandTech. We also built freight software for Skyline Cargo and Kare Cargo. Different industries, same standard of engineering."
+        ]
+      },
+      {
+        "h2": "What it costs",
+        "paragraphs": [
+          "Website builds are quoted per project. The honest reason is that a five-page site for a Hobart cafe and a booking platform for a tour operator are not the same job, and a fixed sticker price would be wrong for one of them. After a short call about what you need, you get a clear quote with no surprises. You can see the shape of our plans on the [packages](/packages/) page.",
+          "Ongoing SEO starts at AUD $990 a month, month-to-month, with no lock-in contract. If it is not working for you, you leave. We think that keeps us honest, because we have to earn the next month every month."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Are you actually based in Hobart, or just claiming to be local?",
+        "a": "We are genuinely based in Hobart, not a mainland agency with a local phone number. We work with businesses across Tasmania, and being here means we understand the local market, the seasons and the community. We are happy to meet in person when it helps."
+      },
+      {
+        "q": "How do meetings work if most of the delivery is remote?",
+        "a": "Most communication is by video call, email and a shared project board where you can watch progress. Because we are in Hobart, we can also meet face to face for a kickoff or a handover when that is useful. Remote is the default because it is faster for both sides, not because we are far away."
+      },
+      {
+        "q": "Can you take over our existing Hobart website?",
+        "a": "Usually yes. We start by reviewing what you already have, whether it is WordPress or something custom, then tell you honestly whether it is worth improving or rebuilding. If we take it over, you keep full ownership of the site, hosting and domain throughout."
+      },
+      {
+        "q": "What does a website cost in Hobart?",
+        "a": "Builds are quoted per project, because a small brochure site and a booking platform are very different jobs. After a short call we give you a clear quote. Ongoing SEO is separate and starts at AUD $990 a month, month-to-month with no lock-in."
+      }
+    ],
+    "ctaTitle": "Talk to a Hobart web studio that is actually in Hobart",
+    "ctaSub": "Book a short call and tell us what you are trying to build. We will give you an honest read on whether we are the right fit and what it would take."
+  },
+  {
+    "slug": "seo-hobart",
+    "metaTitle": "SEO Hobart, From a Hobart Studio | Devarko",
+    "metaDescription": "Devarko is a Hobart-based studio doing technical SEO and Google Business Profile work for Tasmanian businesses. Plans from AUD $990/month, no lock-in.",
+    "keywords": "seo hobart, hobart seo, seo services hobart, seo agency hobart, local seo hobart, google business profile hobart, seo tasmania, seo company hobart",
+    "h1": "SEO for Hobart businesses, run from a Hobart studio",
+    "lede": "We are Devarko, a software and SEO studio based in Hobart. We work with Tasmanian businesses on local search, mostly remotely, with the occasional coffee when it helps. No mainland head office, no reseller in the middle.",
+    "sections": [
+      {
+        "h2": "Hobart is an easier map to win than Sydney",
+        "paragraphs": [
+          "Search competition in Hobart is thinner than on the mainland. In a Sydney or Melbourne category you might be fighting fifty agencies for the same three map spots. In Hobart the same category often has a handful of serious competitors, and half of them have never properly touched their Google Business Profile. That gap is where the quick wins live.",
+          "This matters because local search is winner-takes-most. The businesses in the map pack get the calls. Getting there in Hobart is usually a matter of solid technical SEO, a properly filled out Business Profile, and content that actually names the suburbs you serve, from Sandy Bay to Glenorchy to Kingston. It is work, but it is not a war of attrition against a hundred well-funded competitors."
+        ]
+      },
+      {
+        "h2": "What you get, in plain terms",
+        "paragraphs": [
+          "We start by fixing the technical layer: page speed, crawlability, titles and headings, schema, and how the site behaves on a phone. Our own site sits in the high 90s on Google Lighthouse, and we hold client sites to the same standard. Fast, clean sites are easier for Google to rank and nicer for the person deciding whether to call you.",
+          "Then the local layer: your Google Business Profile, consistent name, address and phone details across directories, reviews, and pages that name real Tasmanian places rather than a generic list of areas served. Add ongoing content that answers what Hobart customers actually search for and you have a plan rather than a one-off audit. That is the core of our [SEO services](/seo-services/)."
+        ]
+      },
+      {
+        "h2": "Remote-first, and why that is not a downside",
+        "paragraphs": [
+          "We are in Hobart, so a site visit is genuinely possible when it earns its place. Most of the work does not need one. SEO is reporting, calls, shared documents, and changes shipped to your site. We run it the same way whether you are in Sandy Bay or a suburb we have never driven through.",
+          "Being remote-first keeps your costs down and our attention on the work instead of the commute. You get a named person who knows your account, a monthly call, and a report you can actually read. If you would rather meet in person now and then, we are local enough to do that too."
+        ]
+      },
+      {
+        "h2": "We build the things we optimise",
+        "paragraphs": [
+          "Devarko runs seven live client platforms plus our own freight ERP, Cargonio. That includes Bright Future, an e-learning platform in Kuwait, Ilmversity, a school LMS, and a set of United States veterinary platforms: DVM Central, VetPet Central and VetandTech. On the freight side we work on Skyline Cargo and Kare Cargo.",
+          "The point is that we are engineers who do SEO, not an SEO shop that outsources the technical fixes. When a Hobart client's ranking problem turns out to be a slow template or a broken canonical, we open the code and fix it. Most agencies file a ticket and wait."
+        ]
+      },
+      {
+        "h2": "What it costs, and the terms",
+        "paragraphs": [
+          "SEO plans start at AUD $990 a month, month to month, with no lock-in contract. If it is not working, you can leave. We would rather keep clients because the results hold up than because a contract traps them. You can see how the [plans](/packages/) are put together before you commit to anything.",
+          "Website builds are quoted per project, because a five-page local site and a booking platform are not the same job. You own everything we build and write, on your own hosting and accounts. If we part ways, nothing gets held hostage."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Do you actually work with Hobart businesses, or are you just targeting the keyword?",
+        "a": "We are based in Hobart, so yes. Devarko is a Tasmanian studio, not a mainland agency running a Hobart landing page. We can meet for a coffee if that suits you, though most of the work happens over calls and email."
+      },
+      {
+        "q": "How do meetings work if the work is remote?",
+        "a": "A kickoff call to set goals, then a monthly call to walk through the report and the next month's plan. Between those we are reachable by email or phone. Because we are in Hobart, an in-person meeting is possible when it is worth the time for both of us."
+      },
+      {
+        "q": "How long until we rank in Hobart?",
+        "a": "It depends on your starting point and how competitive your category is, but Hobart is generally quicker than the mainland because there are fewer serious competitors. Google Business Profile improvements can show in weeks. Broader organic ranking usually takes a few months of consistent work. Anyone promising page one in a fortnight is guessing."
+      },
+      {
+        "q": "What does it cost?",
+        "a": "SEO plans start at AUD $990 a month, month to month, with no lock-in. Website builds are quoted per project because they vary too much for a fixed price. We will give you a clear number before anything starts."
+      }
+    ],
+    "ctaTitle": "Find out where you stand in Hobart search",
+    "ctaSub": "Book a call and we will tell you honestly what it would take to reach the Hobart map pack, and whether it is worth doing."
+  }
+]

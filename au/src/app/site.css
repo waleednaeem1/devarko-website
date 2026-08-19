@@ -1481,3 +1481,9 @@ section:has(> .page-hero__glow) h1[data-reveal], section:has(> .page-hero__glow)
     @keyframes heroParBadge { from { transform: translateY(0); } to { transform: translateY(-40px); } }
   }
 }
+
+/* ===================== AU — footer areas strip ===================== */
+.footer__areas { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem 1.1rem; padding: 1.3rem 0; margin-top: 0.5rem; border-top: 1px solid var(--border); }
+.footer__areas-label { font-size: 0.74rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted-soft); }
+.footer__areas a { color: var(--muted); font-size: 0.88rem; transition: color 0.2s var(--ease); }
+.footer__areas a:hover { color: var(--text); }
