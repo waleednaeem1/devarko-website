@@ -200,7 +200,7 @@ export default function PackagesPage() {
           </div>
           <div className="faq" data-reveal>
             {pkg.faqs.map((f, i) => (
-              <details key={f.q} open={i === 0}>
+              <details name="faq" key={f.q} open={i === 0}>
                 <summary>{f.q}</summary>
                 <div className="faq__a">{f.a}</div>
               </details>

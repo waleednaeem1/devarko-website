@@ -25,10 +25,12 @@ export default function AuPage({
   page,
   path,
   children,
+  afterHero,
 }: {
   page: AuPageContent;
   path: string;
   children?: React.ReactNode;
+  afterHero?: React.ReactNode;
 }) {
   const url = `${SITE_URL}${path}`;
   return (
@@ -72,36 +74,54 @@ export default function AuPage({
         </div>
       </section>
 
-      {page.sections.map((s, si) => (
-        <section
-          className={`section section--tight${si % 2 ? " section--alt" : ""}`}
-          key={s.h2}
-        >
-          <div className="container">
-            <div className="section__head" data-reveal>
-              <h2 className="section__title">{s.h2}</h2>
+      {afterHero}
+
+      {page.sections.map((s, si) => {
+        const hasBullets = !!(s.bullets && s.bullets.length > 0);
+        return (
+          <section
+            className={`section section--tight${si % 2 ? " section--alt" : ""}`}
+            key={s.h2}
+          >
+            <div className="container">
+              {hasBullets ? (
+                <div className={`au-split${si % 2 ? " au-split--rev" : ""}`}>
+                  <div className="au-split__text" data-reveal>
+                    <h2 className="section__title">{s.h2}</h2>
+                    <div className="post-body">
+                      {s.paragraphs.map((p, i) => (
+                        <p key={i}>{rich(p)}</p>
+                      ))}
+                    </div>
+                  </div>
+                  <ul className="feature-list au-split__list" data-reveal data-reveal-delay="1" data-stagger>
+                    {s.bullets!.map((b) => (
+                      <li key={b.title}>
+                        <Tick />
+                        <span className="feature-list__copy">
+                          <b>{b.title}</b>
+                          <em>{b.desc}</em>
+                        </span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ) : (
+                <>
+                  <div className="section__head" data-reveal>
+                    <h2 className="section__title">{s.h2}</h2>
+                  </div>
+                  <div className="post-body" style={{ maxWidth: "780px", marginInline: "0" }}>
+                    {s.paragraphs.map((p, i) => (
+                      <p key={i}>{rich(p)}</p>
+                    ))}
+                  </div>
+                </>
+              )}
             </div>
-            <div className="post-body" style={{ maxWidth: "780px", marginInline: "0" }}>
-              {s.paragraphs.map((p, i) => (
-                <p key={i}>{rich(p)}</p>
-              ))}
-            </div>
-            {s.bullets && s.bullets.length > 0 && (
-              <ul className="feature-list" data-reveal data-stagger style={{ marginTop: "1.4rem", maxWidth: "780px" }}>
-                {s.bullets.map((b) => (
-                  <li key={b.title}>
-                    <Tick />
-                    <span className="feature-list__copy">
-                      <b>{b.title}</b>
-                      <em>{b.desc}</em>
-                    </span>
-                  </li>
-                ))}
-              </ul>
-            )}
-          </div>
-        </section>
-      ))}
+          </section>
+        );
+      })}
 
       {children}
 
@@ -113,7 +133,7 @@ export default function AuPage({
           </div>
           <div className="faq" data-reveal>
             {page.faqs.map((f, i) => (
-              <details key={f.q} open={i === 0}>
+              <details name="faq" key={f.q} open={i === 0}>
                 <summary>{f.q}</summary>
                 <div className="faq__a">{f.a}</div>
               </details>

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import AuPage from "@/components/AuPage";
+import SeoScoreRings from "@/components/SeoScoreRings";
 import { PackagesTeaser, ProcessSteps, ServiceAreas } from "@/components/sections";
 import { getPage } from "@/lib/pages";
 import { SITE_URL } from "@/lib/site";
@@ -30,7 +31,7 @@ export const metadata: Metadata = {
 
 export default function Page() {
   return (
-    <AuPage page={page} path="/seo-services/">
+    <AuPage page={page} path="/seo-services/" afterHero={<SeoScoreRings />}>
       <ProcessSteps alt />
       <ServiceAreas />
       <PackagesTeaser />

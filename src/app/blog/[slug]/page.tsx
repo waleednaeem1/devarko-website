@@ -158,7 +158,7 @@ export default async function PostPage({ params }: Props) {
             <h2>Common questions</h2>
             <div className="faq">
               {p.faqs.map((f, i) => (
-                <details key={f.q} open={i === 0}>
+                <details name="faq" key={f.q} open={i === 0}>
                   <summary>{f.q}</summary>
                   <div className="faq__a">{f.a}</div>
                 </details>

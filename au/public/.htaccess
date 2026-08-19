@@ -41,4 +41,10 @@ AddType font/woff2 .woff2
   <FilesMatch "\.(js|css|woff2)$">
     Header set Cache-Control "public, max-age=31536000, immutable"
   </FilesMatch>
+
+  # Build manifests keep a stable name but change content per deploy,
+  # so they must always revalidate rather than be cached immutable.
+  <FilesMatch "_(build|ssg)Manifest\.js$">
+    Header set Cache-Control "no-cache, must-revalidate"
+  </FilesMatch>
 </IfModule>
