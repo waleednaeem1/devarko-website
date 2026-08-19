@@ -222,10 +222,7 @@ export default function HomePage() {
         <div className="container">
           <div className="hero__grid">
             <div className="hero__inner">
-              <span className="pill" data-reveal>
-                <span className="pill__dot"></span> <b>{home.hero.pill}</b>
-              </span>
-              <h1 className="hero__title" data-reveal data-reveal-delay="1">
+              <h1 className="hero__title" data-reveal>
                 {home.hero.h1Pre} <span className="grad">{home.hero.h1Grad}</span> {home.hero.h1Post}
               </h1>
               <p className="hero__sub" data-reveal data-reveal-delay="2">
