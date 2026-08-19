@@ -4,10 +4,24 @@ import { useRef, useState } from "react";
 
 const WEB3FORMS_KEY = "475ac28f-251c-49f6-8d5d-be6a8468b9c5";
 
+const SERVICES = [
+  "Web Development",
+  "SEO Services",
+  "Web Applications",
+  "Mobile Apps",
+  "AI & Automation",
+  "Hosting & Care Plans",
+];
+
 export default function ContactForm() {
   const [sent, setSent] = useState(false);
   const [sending, setSending] = useState(false);
+  const [services, setServices] = useState<string[]>([]);
   const successRef = useRef<HTMLDivElement>(null);
+
+  function toggle(s: string) {
+    setServices((prev) => (prev.includes(s) ? prev.filter((x) => x !== s) : [...prev, s]));
+  }
 
   async function onSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -40,8 +54,9 @@ export default function ContactForm() {
     <>
       <form className={`form${sent ? " hide" : ""}`} onSubmit={onSubmit} noValidate>
         <input type="hidden" name="access_key" value={WEB3FORMS_KEY} />
-        <input type="hidden" name="subject" value="New enquiry from devarko.com" />
-        <input type="hidden" name="from_name" value="Devarko Website" />
+        <input type="hidden" name="subject" value="New enquiry from devarko.com.au" />
+        <input type="hidden" name="from_name" value="Devarko Australia" />
+        <input type="hidden" name="Services" value={services.join(", ")} />
         <input
           type="checkbox"
           name="botcheck"
@@ -66,27 +81,70 @@ export default function ContactForm() {
           <input id="company" name="company" type="text" placeholder="Company or project name" />
         </div>
         <div className="field">
-          <label htmlFor="budget">Estimated budget</label>
-          <select id="budget" name="budget" defaultValue="">
-            <option value="">Not sure yet</option>
-            <option value="lt5k">Under $5,000</option>
-            <option value="5-15k">$5,000 – $15,000</option>
-            <option value="15-50k">$15,000 – $50,000</option>
-            <option value="gt50k">$50,000+</option>
-          </select>
+          <label>
+            What can we help with?
+            <span className="field__hint">pick any that apply</span>
+          </label>
+          <div className="chipset" role="group" aria-label="Services you are interested in">
+            {SERVICES.map((s) => {
+              const on = services.includes(s);
+              return (
+                <label key={s} className={`chip-select${on ? " is-on" : ""}`}>
+                  <input type="checkbox" checked={on} onChange={() => toggle(s)} />
+                  <span className="chip-select__tick" aria-hidden="true">
+                    ✓
+                  </span>
+                  {s}
+                </label>
+              );
+            })}
+          </div>
+        </div>
+        <div className="form__row">
+          <div className="field">
+            <label htmlFor="package">
+              Package <span style={{ color: "var(--muted-2)" }}>(optional)</span>
+            </label>
+            <select id="package" name="Package" defaultValue="">
+              <option value="">Not sure yet, help me choose</option>
+              <optgroup label="Website builds (fixed price)">
+                <option>Launch · from AUD $3,900</option>
+                <option>Business · from AUD $6,900</option>
+                <option>Platform · from AUD $14,500</option>
+              </optgroup>
+              <optgroup label="SEO plans (monthly, no lock-in)">
+                <option>Local · AUD $990/month</option>
+                <option>Growth · AUD $1,690/month</option>
+                <option>Authority · AUD $2,900/month</option>
+              </optgroup>
+            </select>
+          </div>
+          <div className="field">
+            <label htmlFor="budget">
+              Budget <span style={{ color: "var(--muted-2)" }}>(optional)</span>
+            </label>
+            <select id="budget" name="Budget" defaultValue="">
+              <option value="">Not sure yet</option>
+              <option>Under AUD $5,000</option>
+              <option>AUD $5,000 to $15,000</option>
+              <option>AUD $15,000 to $50,000</option>
+              <option>AUD $50,000 and up</option>
+              <option>Ongoing monthly (SEO or care plan)</option>
+            </select>
+          </div>
         </div>
         <div className="field">
-          <label htmlFor="message">What are you building?</label>
+          <label htmlFor="message">Tell us about your project</label>
           <textarea
             id="message"
             name="message"
-            placeholder="A few sentences about your project, goals, and timeline."
+            placeholder="A few sentences about your business, what you need, and any timeline."
             required
           ></textarea>
         </div>
         <div className="form__actions">
           <button type="submit" className="btn btn--primary btn--lg" disabled={sending}>
-            {sending ? "Sending…" : "Send message"}
+            {sending ? "Sending…" : "Send enquiry"}
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
               <path d="M5 12h14M13 6l6 6-6 6" />
             </svg>
@@ -101,10 +159,10 @@ export default function ContactForm() {
       </form>
 
       <div className={`form__success${sent ? " show" : ""}`} ref={successRef}>
-        <h3 className="grad">Thanks: message received!</h3>
+        <h3 className="grad">Thanks, your enquiry is in.</h3>
         <p>
-          We'll get back to you within one business day at the email you provided. In the meantime,
-          feel free to reach us directly at{" "}
+          We reply within one business day at the email you gave us. If it is urgent, reach us
+          directly at{" "}
           <a href="mailto:info@devarko.com" style={{ color: "var(--text)" }}>
             info@devarko.com
           </a>

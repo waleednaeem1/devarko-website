@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import AuPage from "@/components/AuPage";
-import { PackagesTeaser, ProcessSteps, TechStack } from "@/components/sections";
+import { PackagesTeaser, ProcessSteps, ServiceAreas, TechStack } from "@/components/sections";
 import { getPage } from "@/lib/pages";
 import { SITE_URL } from "@/lib/site";
 
@@ -33,6 +33,7 @@ export default function Page() {
     <AuPage page={page} path="/web-development/">
       <TechStack />
       <ProcessSteps alt />
+      <ServiceAreas />
       <PackagesTeaser />
     </AuPage>
   );

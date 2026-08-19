@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import JsonLd from "@/components/JsonLd";
 import { rich } from "@/components/AuPage";
-import { ProcessSteps, TechStack } from "@/components/sections";
+import { ProcessSteps, ServiceAreas, TechStack } from "@/components/sections";
 import { ArrowIcon } from "@/components/icons";
 import home from "@/content/au-home.json";
 import { getPage } from "@/lib/pages";
@@ -184,14 +184,17 @@ export default function HomePage() {
           email: "info@devarko.com",
           address: {
             "@type": "PostalAddress",
-            streetAddress: "Pitcairn Street",
-            addressLocality: "Glenorchy",
+            addressLocality: "Hobart",
             addressRegion: "TAS",
-            postalCode: "7010",
             addressCountry: "AU",
           },
-          geo: { "@type": "GeoCoordinates", latitude: -42.8352444, longitude: 147.2656223 },
-          areaServed: { "@type": "Country", name: "Australia" },
+          geo: { "@type": "GeoCoordinates", latitude: -42.8821, longitude: 147.3272 },
+          areaServed: [
+            { "@type": "City", name: "Melbourne" },
+            { "@type": "State", name: "Victoria" },
+            { "@type": "City", name: "Sydney" },
+            { "@type": "Country", name: "Australia" },
+          ],
           image: `${SITE_URL}/assets/img/og-image.png`,
           logo: `${SITE_URL}/assets/img/logo.svg`,
           sameAs: ["https://www.linkedin.com/company/devarko", MAIN_SITE],
@@ -348,6 +351,8 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      <ServiceAreas />
 
       {/* Selected work */}
       <section className="section" id="work">

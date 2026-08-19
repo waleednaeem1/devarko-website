@@ -26,13 +26,13 @@ const COMPANY_LINKS = [
 const OFFICES = [
   {
     label: "Head office",
-    place: "Glenorchy, Tasmania",
+    place: "Hobart, Tasmania",
     addr: AU_ADDRESS,
     phone: AU_PHONE,
     tel: AU_PHONE_TEL,
     mapsUrl: AU_MAPS_URL,
-    img: "/assets/img/map-glenorchy.jpg?v=1",
-    alt: "Map of Glenorchy, Tasmania, home of the Devarko head office",
+    img: "/assets/img/map-hobart.jpg?v=1",
+    alt: "Map of Hobart, Tasmania, home of the Devarko head office",
   },
   {
     label: "Regional office",

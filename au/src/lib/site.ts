@@ -10,10 +10,10 @@ export const WHATSAPP_URL =
 
 export const AU_PHONE = "+61 475 720 769";
 export const AU_PHONE_TEL = "+61475720769";
-export const AU_ADDRESS = "Pitcairn Street, Glenorchy TAS 7010";
+export const AU_ADDRESS = "Hobart, Tasmania, Australia";
 export const AU_MAPS_URL =
   "https://www.google.com/maps/search/?api=1&query=" +
-  encodeURIComponent("Pitcairn Street, Glenorchy TAS 7010, Australia");
+  encodeURIComponent("Hobart, Tasmania, Australia");
 
 export const NAV_LINKS = [
   { href: "/web-development/", label: "Web Development" },

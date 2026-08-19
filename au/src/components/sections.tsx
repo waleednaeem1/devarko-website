@@ -1,6 +1,82 @@
 import Link from "next/link";
 import { ArrowIcon } from "@/components/icons";
 import home from "@/content/au-home.json";
+import areas from "@/content/au-areas.json";
+
+const PRIMARY_AREAS = [
+  "Melbourne CBD",
+  "Geelong",
+  "Dandenong",
+  "Frankston",
+  "Ringwood",
+  "Werribee",
+  "Craigieburn",
+  "Mornington Peninsula",
+  "Ballarat",
+  "Bendigo",
+];
+
+const WIDE_AREAS = [
+  "Sydney",
+  "Brisbane",
+  "Adelaide",
+  "Perth",
+  "Canberra",
+  "Australia-wide, remote",
+];
+
+export function ServiceAreas({ alt }: { alt?: boolean }) {
+  return (
+    <section className={`section section--tight areas${alt ? " section--alt" : ""}`} id="areas">
+      <div className="container">
+        <div className="section__head" data-reveal>
+          <span className="eyebrow">{areas.eyebrow}</span>
+          <h2 className="section__title">{areas.title}</h2>
+          <p className="section__sub">{areas.sub}</p>
+        </div>
+        <div className="areas__grid">
+          <figure className="areas__map" data-reveal>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/assets/img/service-areas.jpg"
+              width={1200}
+              height={900}
+              alt="Map of eastern Australia showing Devarko based in Hobart, focused on Melbourne, and serving Sydney and Brisbane"
+              loading="lazy"
+            />
+          </figure>
+          <div className="areas__lists" data-reveal data-reveal-delay="1">
+            <div className="areas__group areas__group--primary">
+              <h3 className="areas__gh">
+                <span className="areas__dot areas__dot--primary"></span>
+                {areas.primaryHeading}
+              </h3>
+              <p>{areas.primaryDesc}</p>
+              <ul className="area-chips">
+                {PRIMARY_AREAS.map((a) => (
+                  <li key={a}>{a}</li>
+                ))}
+              </ul>
+            </div>
+            <div className="areas__group">
+              <h3 className="areas__gh">
+                <span className="areas__dot"></span>
+                {areas.wideHeading}
+              </h3>
+              <p>{areas.wideDesc}</p>
+              <ul className="area-chips area-chips--muted">
+                {WIDE_AREAS.map((a) => (
+                  <li key={a}>{a}</li>
+                ))}
+              </ul>
+            </div>
+            <p className="areas__foot">{areas.footnote}</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
 
 const STEPS = [
   {

@@ -28,10 +28,8 @@
    "address": [
     {
      "@type": "PostalAddress",
-     "streetAddress": "Pitcairn Street",
-     "addressLocality": "Glenorchy",
+     "addressLocality": "Hobart",
      "addressRegion": "TAS",
-     "postalCode": "7010",
      "addressCountry": "AU"
     },
     {

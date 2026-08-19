@@ -164,10 +164,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 >
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src="/assets/img/map-glenorchy.jpg?v=1"
+                    src="/assets/img/map-hobart.jpg?v=1"
                     width={720}
                     height={440}
-                    alt="Map of Glenorchy, Tasmania, where Devarko is based"
+                    alt="Map of Hobart, Tasmania, where Devarko is based"
                     loading="lazy"
                   />
                   <span className="footer__map-cap">
@@ -182,10 +182,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                       <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 1 1 16 0z" />
                       <circle cx="12" cy="10" r="3" />
                     </svg>
-                    Glenorchy, Tasmania
+                    Hobart, Tasmania
                   </span>
                 </a>
-                <span className="footer__addr">{AU_ADDRESS}</span>
+                <span className="footer__addr">Based in Hobart, Tasmania</span>
               </div>
             </div>
             <div className="footer__bottom">

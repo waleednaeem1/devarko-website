@@ -1339,3 +1339,39 @@ section:has(> .page-hero__glow) h1[data-reveal], section:has(> .page-hero__glow)
 .stack-band .logos__label { margin-bottom: 1.1rem; }
 .stack-chips { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 0.6rem; }
 .stack-chips li { padding: 0.5rem 1.05rem; border-radius: 999px; border: 1px solid var(--border-strong); background: var(--surface); font-size: 0.88rem; font-weight: 600; color: var(--text); box-shadow: 0 1px 2px rgba(16, 24, 40, 0.05); }
+
+/* ===================== AU — service areas ===================== */
+.areas__grid { display: grid; grid-template-columns: 1.05fr 1fr; gap: clamp(1.5rem, 3.5vw, 3rem); align-items: center; margin-top: 2rem; }
+.areas__map { margin: 0; border-radius: var(--radius); overflow: hidden; border: 1px solid var(--border); box-shadow: var(--shadow-card); background: #eef1f6; }
+.areas__map img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.areas__lists { display: grid; gap: 1.4rem; }
+.areas__group--primary { padding: 1.3rem 1.4rem; border: 1px solid var(--accent-ink); border-radius: var(--radius); background: var(--grad-soft); }
+.areas__gh { display: flex; align-items: center; gap: 0.55rem; font-family: var(--font-display); font-size: 1.1rem; font-weight: 700; letter-spacing: -0.01em; }
+.areas__group > p { color: var(--muted); font-size: 0.95rem; margin: 0.5rem 0 0.9rem; line-height: 1.55; }
+.areas__dot { width: 12px; height: 12px; border-radius: 50%; background: var(--muted-soft); flex: none; }
+.areas__dot--primary { background: var(--accent-ink); box-shadow: 0 0 0 4px var(--grad-soft); }
+.area-chips { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0.45rem; }
+.area-chips li { font-size: 0.82rem; font-weight: 600; padding: 0.34rem 0.72rem; border-radius: 999px; background: var(--surface); border: 1px solid var(--border-strong); color: var(--text); }
+.area-chips--muted li { font-weight: 500; color: var(--muted); }
+.areas__foot { color: var(--muted); font-size: 0.9rem; margin-top: 0.2rem; }
+@media (max-width: 880px) { .areas__grid { grid-template-columns: 1fr; } }
+
+/* ===================== AU — contact form: services + package ===================== */
+.field__hint { color: var(--muted); font-size: 0.82rem; font-weight: 400; margin-left: 0.35rem; }
+.chipset { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.chip-select { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.5rem 0.9rem; border: 1px solid var(--border-strong); border-radius: 999px; font-size: 0.9rem; font-weight: 500; cursor: pointer; user-select: none; background: var(--surface); color: var(--text); transition: border-color 0.2s var(--ease), background 0.2s var(--ease), color 0.2s var(--ease); }
+.chip-select input { position: absolute; opacity: 0; width: 1px; height: 1px; }
+.chip-select:hover { border-color: var(--accent-ink); }
+.chip-select.is-on { background: var(--grad-soft); border-color: var(--accent-ink); color: var(--accent-ink); font-weight: 600; }
+.chip-select__tick { width: 15px; height: 15px; display: inline-grid; place-items: center; border-radius: 50%; border: 1.5px solid var(--border-strong); font-size: 10px; line-height: 1; color: transparent; transition: all 0.2s var(--ease); }
+.chip-select.is-on .chip-select__tick { background: var(--accent-ink); border-color: var(--accent-ink); color: #fff; }
+.chip-select:focus-within { outline: 2px solid var(--accent-ink); outline-offset: 2px; }
+
+/* ===================== AU — contact page layout ===================== */
+.page-hero--tight { padding-block: clamp(2.4rem, 5vw, 3.4rem) 0.5rem; }
+.section--flush { padding-top: clamp(1rem, 2vw, 1.5rem); }
+.contact-next { margin-top: 1.3rem; padding-top: 1.2rem; border-top: 1px solid var(--border); }
+.contact-next h4 { font-size: 0.76rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted-soft); margin-bottom: 0.75rem; }
+.contact-next ol { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.65rem; counter-reset: step; }
+.contact-next li { display: flex; gap: 0.65rem; align-items: flex-start; font-size: 0.9rem; color: var(--text); line-height: 1.45; }
+.contact-next li::before { counter-increment: step; content: counter(step); flex: none; width: 22px; height: 22px; border-radius: 50%; background: var(--grad-soft); color: var(--accent-ink); font-size: 0.74rem; font-weight: 700; display: grid; place-items: center; margin-top: 0.05rem; }
