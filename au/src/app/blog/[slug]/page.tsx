@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const p = getPost(slug);
   if (!p) return {};
   const url = `${SITE_URL}/blog/${p.slug}/`;
-  const og = `${SITE_URL}/assets/img/og-image.png`;
+  const og = `${SITE_URL}/assets/og/blog-${p.slug}.jpg`;
   return {
     title: p.metaTitle,
     description: p.metaDescription,
@@ -69,7 +69,7 @@ export default async function PostPage({ params }: Props) {
           "@type": "Article",
           headline: p.title,
           description: p.metaDescription,
-          image: `${SITE_URL}/assets/img/og-image.png`,
+          image: `${SITE_URL}/assets/og/blog-${p.slug}.jpg`,
           datePublished: p.publishedAt,
           dateModified: p.publishedAt,
           mainEntityOfPage: url,

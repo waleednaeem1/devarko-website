@@ -20,5 +20,6 @@ export const NAV_LINKS: { href: string; label: string; external?: boolean }[] = 
   { href: "/seo-services/", label: "SEO Services" },
   { href: "/packages/", label: "Packages" },
   { href: `${MAIN_SITE}/cargonio/`, label: "Cargonio", external: true },
+  { href: "/about/", label: "About" },
   { href: "/contact/", label: "Contact" },
 ];

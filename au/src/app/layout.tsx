@@ -111,6 +111,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               </div>
               <div className="footer__col">
                 <h4>Devarko</h4>
+                <Link href="/about/">About</Link>
                 <a href={`${MAIN_SITE}/work/`} target="_blank" rel="noopener">
                   Our work
                 </a>
@@ -171,6 +172,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 &copy; <Year /> Devarko. All rights reserved.
               </span>
               <span>
+                <Link href="/privacy/" style={{ color: "var(--muted)" }}>
+                  Privacy
+                </Link>
+                {"  ·  "}
                 <a href={MAIN_SITE} style={{ color: "var(--muted)" }}>
                   devarko.com
                 </a>

@@ -15,6 +15,7 @@ interface Entry {
 
 const CORE: Entry[] = [
   { path: "/", priority: 1.0, changeFrequency: "weekly" },
+  { path: "/privacy/", priority: 0.3, changeFrequency: "yearly" },
   { path: "/services/", priority: 0.9, changeFrequency: "monthly" },
   { path: "/cargonio/", priority: 0.9, changeFrequency: "monthly" },
   { path: "/edtech/", priority: 0.9, changeFrequency: "monthly" },

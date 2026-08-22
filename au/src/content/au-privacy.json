@@ -1,0 +1,72 @@
+{
+  "metaTitle": "Privacy Policy | Devarko",
+  "metaDescription": "How Devarko's Australian site collects and uses personal information under the Privacy Act 1988, what our forms and analytics record, and how to contact us.",
+  "h1": "Privacy Policy",
+  "lede": "This page explains what personal information devarko.com.au collects, what we do with it, and how to ask us to change or delete it. It is written in plain English on purpose. Last updated 22 August 2026.",
+  "sections": [
+    {
+      "h2": "Who we are",
+      "paragraphs": [
+        "devarko.com.au is operated by Yousaf Chuhdhry, trading as Devarko, ABN 92 563 189 609. Devarko is a software development studio based in Hobart, Tasmania, with an engineering office in Lahore, Pakistan. Our global site is devarko.com; this policy covers the Australian site.",
+        "The easiest way to reach us about anything on this page is info@devarko.com. You can also call +61 475 720 769."
+      ]
+    },
+    {
+      "h2": "What we collect through our forms",
+      "paragraphs": [
+        "If you send us an enquiry through the contact form, we collect your name, your email address, your company name if you choose to give it, the services or package you selected, your budget range, and whatever you write in the message field.",
+        "If you join the newsletter, we collect one thing: your email address.",
+        "That is the full list. There are no user accounts on this site and we take no payments through it, so we never ask for passwords or card details."
+      ]
+    },
+    {
+      "h2": "Cookies, analytics and server logs",
+      "paragraphs": [
+        "We use Google Analytics 4 and Google Tag Manager to understand how the site is used. They set cookies and record things like the pages you view, your approximate location, and the kind of device and browser you are on. None of it identifies you by name.",
+        "Our hosting provider, Hostinger, also keeps standard server logs, which record technical details such as IP addresses and the time of each request. Nearly every website does the same.",
+        "If you would rather not be measured, you can block cookies in your browser or install Google's Analytics opt-out extension. The site works fine either way."
+      ]
+    },
+    {
+      "h2": "How we use your information",
+      "paragraphs": [
+        "We use it to reply to your enquiry, to deliver work you have asked us to do, to send the newsletter to the people who signed up for it, and to see how the site is used so we can improve it.",
+        "We do not sell personal information. Not to advertisers, not to data brokers, not to anyone. The newsletter only goes to people who asked for it."
+      ]
+    },
+    {
+      "h2": "Who else handles it",
+      "paragraphs": [
+        "Form submissions travel through Web3Forms, a relay service that takes what you typed and delivers it to our inbox at info@devarko.com. It is the delivery mechanism, not the destination.",
+        "Google provides the analytics described above, and Hostinger hosts the site. Web3Forms, Google and Hostinger each store data on their own servers, some of which sit outside Australia. Our team works from Hobart and Lahore, so an email to info@devarko.com may be read in either office."
+      ]
+    },
+    {
+      "h2": "The Privacy Act and the Australian Privacy Principles",
+      "paragraphs": [
+        "We handle personal information in line with the Privacy Act 1988 (Cth) and the Australian Privacy Principles. In practice that means we collect only what we need, use it for the purpose we collected it, take reasonable steps to keep it secure, and let you see and correct what we hold.",
+        "Given how little this site collects, most of that comes down to keeping our inbox and mailing list tidy and never doing anything with your details that would surprise you."
+      ]
+    },
+    {
+      "h2": "Access, correction, deletion and complaints",
+      "paragraphs": [
+        "Email info@devarko.com and we will show you what we hold about you, correct it, or delete it. The same address works for unsubscribing from the newsletter; ask and we will remove you.",
+        "If you think we have mishandled your information, tell us first and we will look into it properly. If we cannot resolve your complaint, you can take it to the Office of the Australian Information Commissioner at oaic.gov.au."
+      ]
+    },
+    {
+      "h2": "Client project data",
+      "paragraphs": [
+        "If you become a client, the data inside your project (your codebase, your users' information, your business records) is governed by the contract we sign with you, not by this policy. This page only covers what the website itself collects."
+      ]
+    },
+    {
+      "h2": "Changes to this policy",
+      "paragraphs": [
+        "If we change how the site collects or uses information, we will update this page and change the date at the top. We will not quietly expand what we collect and hope nobody notices.",
+        "Questions about any of this are welcome at info@devarko.com."
+      ]
+    }
+  ]
+}

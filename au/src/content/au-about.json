@@ -1,0 +1,39 @@
+{
+  "metaTitle": "About Us: Software Development Studio | Devarko",
+  "metaDescription": "Devarko is a founder-led software studio based in Hobart, building custom platforms and WordPress sites for Australian businesses. The story behind the work.",
+  "keywords": "about Devarko, software development studio Hobart, web development company Tasmania, custom software developers Australia, app developers Melbourne, who is Devarko",
+  "h1": "About the studio behind the software",
+  "lede": "Devarko is a founder-led software studio based in Hobart, with senior engineers who have spent years building and running production platforms. The work listed on this page is not a borrowed portfolio. We built these systems, and companies and schools use them.",
+  "sections": [
+    {
+      "h2": "Where we came from",
+      "paragraphs": [
+        "Devarko did not start as an agency chasing clients. It started with products. We built freight software, e-learning platforms and veterinary marketplaces, ran them in production, and fixed them at 2am when something broke. The studio grew out of that work, and the habits it teaches tend to stick.",
+        "Today the business runs across two places. Yousaf Chuhdhry operates Devarko from Hobart, Tasmania, and our engineering team works from Lahore, Pakistan. We are upfront about that because it is a strength, not a footnote. You deal with one accountable person in Australia, your code is written by senior engineers who have shipped real systems, and the pricing stays sensible because we are not paying for a Collins Street office."
+      ]
+    },
+    {
+      "h2": "What we have actually shipped",
+      "paragraphs": [
+        "Cargonio is our own freight ERP, a SaaS product with two freight companies running their daily operations on it. Bright Future is an e-learning platform in Kuwait that we build and maintain across web, iOS and Android. Ilmversity is a learning management system used by schools in Pakistan.",
+        "For the US veterinary market we built DVM Central, VetPet Central and VetandTech. For freight clients we delivered Skyline Cargo and Kare Cargo. None of these are mockups or portfolio pieces dressed up for a pitch. They are working systems with real users, and that is the record we would ask you to judge us on."
+      ]
+    },
+    {
+      "h2": "How we work with Australian businesses",
+      "paragraphs": [
+        "We work remotely from Hobart and serve clients across the country, with Melbourne as our main mainland market. Most projects are either custom code or WordPress, and we will tell you plainly which one yours needs. If WordPress does the job, we will not sell you a custom build.",
+        "SEO runs month to month with no lock-in. If the numbers stop making sense, you stop, and nobody chases you about a contract. We keep it that simple because we would rather earn next month's work than hold you to a piece of paper."
+      ]
+    },
+    {
+      "h2": "Why small and senior beats big and layered",
+      "paragraphs": [
+        "Big agencies put account managers between you and the people writing your code. Your brief passes through three hands before a developer sees it, and something gets lost each time. At Devarko you talk to the founder, and the person who quotes your project is the person responsible for delivering it.",
+        "Senior engineers also change the economics. They solve in days what a junior team circles for weeks, and they build things that do not fall over the first time real traffic arrives. Our own site scores in the high 90s on Lighthouse because we hold our work to the standard we sell. A small team cannot take on everything, and we do not try to. What we take on, we finish."
+      ]
+    }
+  ],
+  "ctaTitle": "Tell us what you are building",
+  "ctaSub": "Send a short note about your project and a real person will read it and reply. No sales pitch, just a straight answer."
+}

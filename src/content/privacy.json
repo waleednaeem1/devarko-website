@@ -1,0 +1,74 @@
+{
+  "metaTitle": "Privacy Policy | Devarko",
+  "metaDescription": "How Devarko collects and uses information on devarko.com: contact and newsletter forms, Google Analytics cookies, and how to reach us about your data.",
+  "h1": "Privacy Policy",
+  "lede": "Devarko is a software development studio based in Hobart, Tasmania, with engineering in Lahore, Pakistan. This site collects very little about you, and this page explains exactly what, why, and how to have it removed.",
+  "sections": [
+    {
+      "h2": "Who we are and how to reach us",
+      "paragraphs": [
+        "Devarko is a software development studio. Our head office is in Hobart, Tasmania, and our engineering team works from Lahore, Pakistan. devarko.com is our global site. Australian visitors may also land on devarko.com.au, which is operated by Yousaf Chuhdhry trading as Devarko (ABN 92 563 189 609) and has its own privacy policy.",
+        "For anything about your data, email info@devarko.com or call +61 475 720 769 (Australia) or +92 320 3271071 (Pakistan). A real person reads that inbox."
+      ]
+    },
+    {
+      "h2": "What we collect",
+      "paragraphs": [
+        "If you use the contact form, we receive your name, your email address, your company name if you choose to give it, the services, package or budget you selected, and whatever you write about your project.",
+        "If you join the newsletter, we receive your email address and nothing else.",
+        "Beyond the forms, our analytics tools record how the site is used (pages viewed, approximate location, device type), and our hosting provider keeps standard server logs. There are no user accounts on this site and we take no payments through it."
+      ]
+    },
+    {
+      "h2": "How we use it",
+      "paragraphs": [
+        "We use your information for four things: answering your enquiry, delivering work you hire us for, sending the newsletter you signed up for, and understanding how people use the site so we can improve it.",
+        "That is the whole list. We do not use it for anything else, and we never sell it.",
+        "If you become a client, the data inside your project is governed by our contract with you, not by this policy."
+      ]
+    },
+    {
+      "h2": "Cookies and analytics",
+      "paragraphs": [
+        "We use Google Analytics 4 and Google Tag Manager. They set cookies and collect usage data such as pages viewed, approximate location and device type. This tells us things like which services people read about most. It does not tell us who you are.",
+        "You can block or delete cookies in your browser settings at any time. The site works fine without them."
+      ]
+    },
+    {
+      "h2": "Who else handles your data",
+      "paragraphs": [
+        "Form submissions pass through Web3Forms, a relay service that delivers them to info@devarko.com by email. Web3Forms processes them on our behalf, and it is the only stop your form data makes before it reaches our inbox.",
+        "Google receives the analytics data described above. Hostinger, our hosting provider, keeps server logs as part of running the site.",
+        "Nobody buys your data from us. We have never sold it and we never will."
+      ]
+    },
+    {
+      "h2": "How long we keep it",
+      "paragraphs": [
+        "Enquiry emails stay in our inbox while there is a realistic chance we will work together, or while we are actually working together. If you ask us to delete them, we will.",
+        "Your newsletter address stays on the list until you unsubscribe. Analytics data is kept for the retention period set in Google Analytics. Server logs sit with Hostinger and are kept on its schedule, not ours."
+      ]
+    },
+    {
+      "h2": "Your choices and rights",
+      "paragraphs": [
+        "Email info@devarko.com and we will show you what we hold about you, correct it, or delete it. There is no form to fill in and no waiting period beyond the time it takes us to do it.",
+        "Every newsletter includes an unsubscribe link, and emailing us works just as well."
+      ]
+    },
+    {
+      "h2": "Security",
+      "paragraphs": [
+        "The site runs over HTTPS, the services we rely on are established providers, and access to our inbox and analytics is limited to the people who need it.",
+        "We will be honest with you: no system is perfectly secure, and email itself is not encrypted end to end. Please do not put passwords, financial details or anything sensitive in the contact form. A project description is all we need."
+      ]
+    },
+    {
+      "h2": "Changes to this policy",
+      "paragraphs": [
+        "When our tools or practices change, we will update this page and change the date below. If a change matters, we will say so plainly rather than bury it.",
+        "Last updated 22 August 2026."
+      ]
+    }
+  ]
+}

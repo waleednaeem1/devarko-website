@@ -19,13 +19,13 @@ export const metadata: Metadata = {
     type: "website",
     siteName: "Devarko",
     locale: "en_AU",
-    images: [{ url: `${SITE_URL}/assets/img/og-image.png`, width: 1200, height: 630 }],
+    images: [{ url: `${SITE_URL}/assets/og/packages.jpg`, width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",
     title: pkg.metaTitle,
     description: pkg.metaDescription,
-    images: [`${SITE_URL}/assets/img/og-image.png`],
+    images: [`${SITE_URL}/assets/og/packages.jpg`],
   },
 };
 

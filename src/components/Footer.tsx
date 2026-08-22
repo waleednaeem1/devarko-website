@@ -148,7 +148,12 @@ export default function Footer() {
           <span>
             &copy; <Year /> Devarko. All rights reserved.
           </span>
-          <span>Designed &amp; built by Devarko.</span>
+          <span>
+            <Link href="/privacy/" style={{ color: "var(--muted)" }}>
+              Privacy
+            </Link>
+            {"  ·  Designed & built by Devarko."}
+          </span>
         </div>
       </div>
     </footer>

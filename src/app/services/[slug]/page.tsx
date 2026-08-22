@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import JsonLd from "@/components/JsonLd";
+import SeoScoreRings from "@/components/SeoScoreRings";
+import WebBuildMock from "@/components/WebBuildMock";
 import { ArrowIcon, BackIcon, Tick } from "@/components/icons";
 import { getService, otherServices, services } from "@/lib/services";
 import { SITE_URL } from "@/lib/site";
@@ -197,6 +199,9 @@ export default async function ServicePage({ params }: Props) {
           </div>
         </div>
       </section>
+
+      {s.slug === "seo-marketing" && <SeoScoreRings />}
+      {s.slug === "web-applications" && <WebBuildMock />}
 
       <section className="section section--tight">
         <div className="container">
